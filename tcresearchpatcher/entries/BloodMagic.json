@@ -1,0 +1,501 @@
+{
+    "entries" :[
+        {
+        "key": "BLOODMAGIC",    
+        "name": "Blood Magic",
+        "icons": [ "guideapi:bloodmagic-guide" ],
+        "category": "CATEGORY_KEY", "location": [ 6,4 ], 
+        "parents": [ "!CrimsonCultist" ],        
+        "meta": ["ROUND", "HIDDEN"],        
+        "stages": [
+                {
+                    "text": "Although their main concerns were with Apertis Oculus, The crimson cultists also devote several chapters of their rights to 'Sanguine Scientiem' or §l'Blood Magic'§r.<BR>Sounds dangerous. Nay, treasonous! But my thirst for knowledge knows no bounds.<BR>I shall mark down further developments in this category in my 'Dark Arts' tab."
+                }
+            ]
+        },
+        {
+            "key": "HELLFIREFORGE",    
+            "name": "Hellfire Forge",
+            "icons": [ "bloodmagic:soul_forge" ],
+            "category": "CATEGORY_KEY", "location": [ 0,0 ], 
+            "parents": [ "DEMONICWILL" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "My journey into blood magic begins with a device called the §lHellfire Forge§r.<BR>This device is a simple furnace, but instead of using conventional fuel, it uses demonic will. Up to four items can be placed into the forge. When a valid recipe is detected, the forge will automatically create the item."
+                    }
+                ]
+        },
+        {
+            "key": "ARCANEASHES",    
+            "name": "Arcane Ashes",
+            "icons": [ "bloodmagic:arcane_ashes" ],
+            "category": "CATEGORY_KEY", "location": [ 0,-2 ], 
+            "parents": [ "HELLFIREFORGE", "PETTYGEM" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Now that I have a hellfire forge, I can begin to make alchemy ashes. I place these ashes on the ground, then place items in them to form an alchemy array. Each array has a unique effect.<BR>§lFurnace: Coal, Redstone§r<DIV>Place next to a furnace to provide it fuel. Takes nearby health as fuel.<PAGE>§lMovement: Feather, Redstone§r<DIV>Throws entities forward<PAGE>§l§lFast miner array: Mining Reagent, Iron Pickaxe§r<DIV>Applies haste III to those nearby. Takes nearby health as fuel.<PAGE>§l§lUpdraft: Feather, Glowstone Dust§r<DIV>Sends entities upward.<PAGE>§lBouncing: Slimeball, Redstone§r<DIV>Acts as a cushion for your fall.<PAGE>§l§lTeleportation: Ender Pearl, Redstone§r<DIV>Will teleport in the direction the array is pointing. You can chain these together if you like.<PAGE>§l§lTurret: Bow, Arrow§r<DIV>Place on top of an inventory, fill it with arrows, and it will shoot nearby creatures.<PAGE>§l§lShard of Laputa: Redstone, Lapis Block§r<DIV>Lifts up the earth near it into the air."
+                    }
+                ]
+        },
+        {
+            "key": "BLOODSIGILS",    
+            "name": "Sigils",
+            "icons": [ "bloodmagic:sigil_divination" ],
+            "category": "CATEGORY_KEY", "location": [ 2,-2 ], 
+            "parents": [ "BLANKSLATE", "ARCANEASHES" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Although the alchemy arrays with arcane ashes have proven quite useful, I desire to be able to carry them on my person in a reusable form.",
+                        "required_knowledge":["THEORY;ELDRITCH;1"]
+                    },
+                    {
+                        "text": "The slates I made earlier, when combined with the reagents I can make in the forge, provide for a portable version of my alchemy arrays. I will need life essence (LP) to use each one. Right Now, the following sigils are available to me:<PAGE>§lDivination§r<DIV>View my LP<PAGE>§l§lWater§r<DIV>Conjure a water source<PAGE>§l§lLava§r<DIV>Conjure a lava source."
+                    }
+                ],
+                "addenda": [    
+                    {
+                        "text": "§lAir§r<DIV>Launch me in the direction I am looking.<PAGE>§lElasticity§r<DIV>Allows me to bounce instead of hitting the ground and taking fall damage.<PAGE>§lGreen Grove§r<DIV>Increases the growth speed of nearby plants.<PAGE>§lSeer's Sigil§r<DIV>An upgrade to the divination sigil, which provides additional stats about your blood altar, and your soul network.<PAGE>§lVoid Sigil§r<DIV>Absorbs nearby fluids", 
+                        "required_research":["BLOODALTARTWO"]
+                    },
+                    {
+                        "text": "§lHolding§r<DIV>Can hold and use other sigils.<PAGE>§lBlood Lamp§r<DIV>Create a light source made of blood.<PAGE>§lClaw§r<DIV>Allows you to cling to walls.<PAGE>§lMagnetism§r<DIV>Draws in nearby items<PAGE>§lElemental Affinity§r<DIV>Grants me fire resistance and the ability to breathe underwater.", 
+                        "required_research":["BLOODALTARTHREE"]
+                    },
+                    {
+                        "text": "§lCompression§r<DIV>Automatically compresses all materials in my inventory.<PAGE>§lSuppression§r<DIV> Absorbs nearby fluids, and returns them when deactivated<PAGE>§lTransposition§r<DIV>Allows me to pick up and store a block (sneak right click) and then place it back down.<PAGE>§lHaste§r<DIV>Improve your movement significantly.<PAGE>§lPhantom Bridge§r<DIV>Allows me to walk on air by summoning spectral blocks beneath my feet.<PAGE>§lEnder Severance§r<DIV>Prevent nearby endermen from teleporting.", 
+                        "required_research":["BLOODALTARFOUR"]
+                    }
+                ]
+        },
+        {
+            "key": "MODIFYINGLIVINGARMOR",    
+            "name": "Modifying Living Armor",
+            "icons": [ "bloodmagic:upgrade_tome" ],
+            "category": "CATEGORY_KEY", "location": [ 3,-3 ], 
+            "parents": [ "BLANKSLATE", "LIVINGEQUIPMENT" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "If I don't like an upgrade that my living armor has granted me, I can remove all upgrades with the ritual 'Sound of the Cleansing Soul' or 'Penance of the Leadened Soul'.<BR>I will receive the upgrades that were on it in the form of tomes, which I can then apply at my leisure."
+                    }
+                ]
+        },
+        {
+            "key": "BMSNARE",    
+            "name": "Rudimentary Snare",
+            "icons": [ "bloodmagic:soul_snare" ],
+            "category": "CATEGORY_KEY", "location": [ 6,2 ], 
+            "parents": [ "BLOODMAGIC" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Blood Magic seems to be based two things, the first of which is the spirits of monsters. They can be captured with a §lRudimentary Snare§r infused with spiritus and vinculum essentia.<BR>If I throw enough of these at a monster, their demonic will starts to 'leak' in the form of a white smoke around it. <BR>If I kill the monster while this smoke is visible, I can obtain its demonic will. ",
+                        "recipes":["thaumcraft:bmSnare"]
+                    }
+                ]
+        },
+        {
+            "key": "DEMONICWILL",    
+            "name": "Demonic Will",
+            "icons": [ "bloodmagic:monster_soul" ],
+            "category": "CATEGORY_KEY", "location": [ 6,0 ], 
+            "parents": [ "BMSNARE" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Now that I have some snares, I'd like to actually get my hands on a monster's spirit so I can study it further.",
+                        "required_item":["bloodmagic:monster_soul"]
+                    },
+                    {
+                        "text": "Just like the Aura has good and bad magics (vis and flux) it seems that Gola (the life force) also has a good and bad side, with the good one resulting in most creatures, and this one, demonic will, resulting in the monsters.<BR>...Or at least, it has two sides §lnow§r. These monsters are a recent phenomenon. It's as if someone rewrote reality to make it this way...<PAGE>I will dwell on these thoughts while furthering my knowledge in this subject.",
+                        "recipes":["thaumcraft:demonicWill"]
+                    }
+                ]
+        },
+        {
+            "key": "WILLTYPES",    
+            "name": "Demonic Will Types",
+            "icons": [ "bloodmagic:monster_soul;1;1", "bloodmagic:monster_soul;1;2", "bloodmagic:monster_soul;1;3", "bloodmagic:monster_soul;1;4" ],
+            "category": "CATEGORY_KEY", "location": [ 22,-10 ], 
+            "parents": [ "RITUALLISTTWO", "~WILLCRYSTALS" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Much like vis has subtypes called the aspects of essentia, demonic will also has subtypes: Corrosive, Destructive, Vengeful, and Steadfast.<BR>These wills can be obtained by the 'faceted crystal' ritual.<PAGE>Once obtained, we can attune our tartartic gems, and sentient equipment to these wills. <BR>From there, we can use the demon crucible to disperse these specialized wills into the aura, which can augment and change rituals."
+                    }
+                ]
+        },
+        {
+            "key": "BLOODALTAR",    
+            "name": "Blood Altar",
+            "icons": [ "bloodmagic:altar" ],
+            "category": "CATEGORY_KEY", "location": [ 6,-2 ], 
+            "parents": [ "DEMONICWILL" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "The other main aspect of blood magic is, well, blood.<BR>I will need quite a lot of blood, and a way to store it, and a way to use it.",
+                        "required_knowledge":["THEORY;ELDRITCH;1"]
+                    },
+                    {
+                        "text": "I have created a recipe for a device I will call the §lBlood Altar§r, which will allow me to store large amounts of blood.<BR>I can also use this altar as a means to infuse items with blood. This should allow me to create quite a few new useful items.<BR>For now, I can use some of my own blood, gathered from a §lSacrificial Dagger§r.",
+                        "recipes":["thaumcraft:bloodaltar"]
+                    }
+                ]
+        },
+        {
+            "key": "BLOODALTARTWO",    
+            "name": "Blood Altar: Tier 2",
+            "icons": [ "bloodmagic:altar" ],
+            "category": "CATEGORY_KEY", "location": [ 6,-4 ], 
+            "parents": [ "BLOODALTAR" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "After using my blood altar, I am left wanting more.<BR>Unfortunately, the blood altar in its current form can only hold so much. I will need to devise a way to upgrade the altar.",
+                        "required_knowledge":["OBSERVATION;ELDRITCH;1"]
+                    },
+                    {
+                        "text": "I've found a way to upgrade my altar. I can use the builder's wand to apply this upgrade. These new blocks must be centered around the altar. Once everything is placed, the capacity of the altar will increase.<BR>With each upgrade, I also get access to more powerful slates and sigils, and access to a stronger blood orb.<BR>I can also replace the blank runes with other runes that can change the attributes of the altar.<PAGE>§lSpeed:§r Speeds up altar crafting. \n \n§lEfficiency:§r Reduces LP costs of crafting. \n \n§lSacrifice:§r Increases yield of LP-harvesting activities. \n \n§lSelf Sacrifice:§r Increases the yield of LP from the player. \n \n§lDisplacement:§r Increases transfer rate of LP. \n \n§lCapacity:§r Increases max LP of the altar. \n \n§lAugmented Capacity:§r The same as capacity, except the more of these you have, the more of a bonus you get from each. \n \n§lOrb:§r Increases the capacity of your blood orb. \n \n§lAcceleration rune:§r reduces the operation time of displacement and charging runes by one tick each (with the default time being 20 ticks). \n \n§lCharging:§r Imbues the blood altar with an internal charge value. If the blood altar has enough charge when getting something to craft, it will instantly craft the item. Charge is accumulated by using blood from the blood altar.",
+                        "recipes": [
+                            "thaumcraft:bmBlankRune",
+                            "thaumcraft:rune1",
+                            "thaumcraft:rune2",
+                            "thaumcraft:rune3",
+                            "thaumcraft:rune4",
+                            "thaumcraft:rune5",
+                            "thaumcraft:rune6",
+                            "thaumcraft:rune7",
+                            "thaumcraft:rune8",
+                            "thaumcraft:rune9",
+                            "thaumcraft:rune10"
+                        ]
+                    }
+                ]
+        },
+        {
+            "key": "BLANKSLATE",    
+            "name": "Blank Slate",
+            "icons": [ "bloodmagic:slate" ],
+            "category": "CATEGORY_KEY", "location": [ 4,-2 ], 
+            "parents": [ "BLOODALTAR" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "By using some stone in the blood altar, I have created a crafting material called §lSlates§r, these should prove quite useful for a lot of things in blood magic."
+                    }
+                ],
+                "addenda": [    
+                    {
+                        "text": "It turns out that for each upgrade to my altar, I can make a new slate, which will allow me to make new, more powerful artifacts and sigils.", 
+                        "required_research":["BLOODALTARTWO"]
+                    }
+                ]
+        },
+        {
+            "key": "WEAKBLOODORB",    
+            "name": "Blood Orbs",
+            "icons": [ "bloodmagic:textures/items/weakbloodorb.png" ],
+            "category": "CATEGORY_KEY", "location": [ 8,-2 ], 
+            "parents": [ "BLOODALTAR" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Although my container for blood has proven quite useful, there is one main problem: I cannot take it with me! <BR> There should be some method to use life essence on the go.",
+                        "required_knowledge":["OBSERVATION;ARTIFICE;1"]
+                    },
+                    {
+                        "text": "I have created a device called the §lBlood Orb§r.<BR>I first use the ender pearl as a base, for its teleportation qualities. Then, I tune it to life and spiritus essentia. The resulting artifact is a 'container' for life essence. I simply place it upon my blood altar to fill it.<BR>However, the life essence does not get put into the orb itself; the orb is a conduit to send the blood to the ender realm, then retrieve it as I need it. Like an ender chest, but for blood.<BR>Like ender chests, each person has their own 'ender blood tank' which I will call their §lSoul Network§r."
+                    }
+                ],
+                "addenda": [    
+                    {
+                        "text": "It turns out that for each upgrade to my altar, I can also apply an upgrade to my orb. Each upgrade will allow me to store more LP than the last.", 
+                        "required_research":["BLOODALTARTWO"]
+                    }
+                ]
+        },
+        {
+            "key": "LAVACRYSTAL",    
+            "name": "Lava Crystal",
+            "icons": [ "bloodmagic:lava_crystal" ],
+            "category": "CATEGORY_KEY", "location": [ 12,-4], 
+            "parents": [ "WEAKBLOODORB"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This simple trinket, so long as there is LP in my network, will smelt items in a furnace when placed in the fuel slot."
+                    }
+                ]
+        },
+        {
+            "key": "BLOODRITUALS",    
+            "name": "Dark Rituals",
+            "icons": [ "bloodmagic:activation_crystal" ,"bloodmagic:ritual_stone"],
+            "category": "CATEGORY_KEY", "location": [ 14,-6], 
+            "parents": [ "LAVACRYSTAL", "BLOODALTARTHREE"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Now that I have an altar, blood, a blood orb, and a soul network, what can I do with all of it?",
+                        "required_knowledge": ["THEORY;ELDRITCH;1"]
+                    },
+                    {
+                        "text": "It turns out that LP is very good for creating certain rituals. These rituals will, using the LP in my soul network, carry out various tasks. I first need two devices: \n \n Master Ritual Stone: This is used as a controller for a ritual \n \n The second is a ritual diviner. This device is made from several inscription tools, which can be made from dropping various items into my blood altar. I then sneak+right click the air to change the ritual. Then, I right click the master stone with the diviner to begin placing the stones. \n \n I can activate a ritual using an activation crystal, which can be made by putting a lava crystal in the blood altar. For descriptions of each ritual, I should consult the crimson cult's book 'sanguine scientiem'.",
+                        "recipes" : ["thaumcraft:ritualDiviner", "thaumcraft:masterRitualStone", "thaumcraft:ritualstone"]
+                    }
+                ]
+        },
+        {
+            "key": "RITUALLISTONE",    
+            "name": "Encyclopedia Ritualica: Vol 1",
+            "icons": [ "bloodmagic:activation_crystal" ,"bloodmagic:ritual_stone"],
+            "category": "CATEGORY_KEY", "location": [ 16,-6], 
+            "parents": [ "BLOODRITUALS"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "§lSerenade of the Nether<DIV>Creates Lava<PAGE>§lRitual of the Full Spring§r<DIV>Creates water<PAGE>§lLe Vulcanos Frigius§r<DIV>Generates Cobblestone<PAGE>§lCrash of the Timberman§r<DIV>Harvests all trees within a 10 block horizontal radius, and a 30 block vertical radius. Places blocks in the chest connected to the ritual.<PAGE>§lRitual of the Green Grove§r<DIV>Increases plant growth speed.<PAGE>§lRitual of Interdiction§r<DIV>Forces all nearby mobs away from the ritual.<PAGE>§lRitual of the High Jump§r<DIV>Launches nearby entities upwards.<PAGE>§lLaying of the Filler§r<DIV>Takes items or blocks from the chest atop the master ritual stone, and places the blocks within the ritual.<PAGE>§lRitual of Suppression§r<DIV>Forces away all nearby liquids to create an air bubble.<PAGE>§lCall of the Zephyr§r<DIV>Collects nearby items and places them into the chest atop the master stone.<PAGE>§lRitual of Containment§r<DIV>Pulls all nearby entities towards it.<PAGE>§lRitual of Magnetism§r<DIV>This ritual pulls up rich ores from the ground underneath it, and places them near the ritual. By default, the ritual radius is 7x7, but you can increase it by placing certain blocks underneath the master stone. <BR>Iron block: 15x15,<BR>Gold Block: 31x31<BR>Diamond Block: 63x63<PAGE>§lRitual of the Satiated Stomach§r<DIV>Feeds nearby mages with food from the chest above the master stone."
+                    }
+                ]
+        },
+        {
+            "key": "RITUALLISTTWO",    
+            "name": "Encyclopedia Ritualica: Vol 2",
+            "icons": [ "bloodmagic:activation_crystal" ,"bloodmagic:ritual_stone"],
+            "category": "CATEGORY_KEY", "location": [ 20,-10], 
+            "parents": [ "BLOODRITUALSTWO"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "§lHymn of Syphoning§r<DIV>Syphons nearby liquids below the ritual into a fluid container atop the master stone.<PAGE>§lRitual of Speed§r<DIV>Nearby entities will be launched in the direction the ritual is pointing (indicated by the side the dusk ritual stone is on).<BR>The radius can be expanded or contracted with the ritual tinkerer mode in the wand of commanding.<BR>The speed of the ritual is increased dramatically based on the will that is in the aura.<BR>Vengeful will: prevents ritual from moving adult mobs<BR>Destructive: prevents moving child mobs<BR>Both: The ritual will move only players<PAGE>§lRitual of Grounding§r<DIV>Drags mobs to the ground and prevents them from jumping.<BR>Raw Will: makes the ritual also affect players<BR>Corrosive: Disable gravity<BR>Destructive: Vastly increase fall damage of affected entities.<BR>Steadfast: Allows the ritual to affect bosses.<BR>Vengeful will and no others: Amplifies the grounding effect.<BR>Vengeful + Corrosive: Makes the ritual provide levitation.<BR>Vengeful: Increases fall damage even more.<PAGE>§lRitual of the High Jump§r<DIV>Propels those who walk atop it into the sky. If you land close enough to the ritual, you will not take fall damage.<PAGE>§lThe Gate of the Fold§r<DIV>Made for interdimensional teleportation without the need of additional interaction.<BR>Upon activation all blocks that touch its ritual stones are used as a key to link portals together.<BR>If another ritual with the same key exists, they will be linked.<BR>Only two portals can be linked to the same key.<PAGE>§lRitual of the Shephard§r<DIV>Increases nearby animal growth speed.<BR>Vengeful Will: Increases rate of breeding<BR>Destructive Will: Makes the animals capable of searching hostile mobs and explode on them.<BR>Steadfast: will automatically feed the animals with food from an inventory above the master stone.<PAGE>§lRitual of the Crusher§r<DIV>Breaks blocks in the 3x3x3 area below the ritual, and places them into the chest atop the master stone.<BR>Raw Will: Ritual works at a faster rate based on the amount of it in the aura.<BR>Destructive Will: Blocks broken have the fortune effect applied.<BR>Steadfast: Blocks broken have the silk touch effect.<BR>Vengeful: When a block is broken, the inventory has its contents compressed.<PAGE>§lRitual of the Faceted Crystal§r<DIV>Separates will crystal clusters into their aspects by using the different aspected ritual stones.<BR> To use the ritual, place a crystal two blocks above the master stone. Next, make sure there are no blocks above the ritual stones.<BR>Once a crystal has grown, the ritual will split the crystal into smaller ones of each aspect.<PAGE>§lReap of the Harvest Moon§r<DIV> Seeks any harvestable plant within its range (9x9x5 area above the master stone) and harvests it, replanting any seeds.<PAGE>§lWard of Sacrosanctity§r<DIV>Prevents mobs from forming.<PAGE>§lFocus of the Ellipsoid§r<DIV>Creates a hollow sphere from materials in an inventory atop the master stone.<PAGE>§lWell of Suffering§r<DIV>The well of suffering damages all living non-human entities in a 10 block radius, and places the life essence in a nearby blood altar. The amount of LP gained can be augmented by using Sacrifice runes in your blood altar.<PAGE>§lRitual of the Feathered Earth§r<DIV>Eliminates fall damage.<PAGE>§lRitual of the Feathered Knife§r<DIV>Drains nearby human health, and places it into a nearby blood altar. Will not harm people below 30% health. <BR>Raw will: damages players at a faster rate.<BR>Steadfast: Increases safety threshold to 70% health.<BR>Vengeful: Reduces safety to 10% health.<BR>Destructive: HP to LP conversion becomes more efficient.<PAGE>§lCrack of the Fractured Crystal§r<DIV>Breaks off all but one spire of all demon will crystal clusters in range, and drops them on the ground.<PAGE>§lGathering of the Forsaken Souls§r<DIV>Speeds up nearby demon will crystal growth. The more different mobs die, the better the crystal growth will be.<BR>You will need to suply it by either feeding back crystals or putting a tartaric gem into a demon crucible.<PAGE>§lRitual of Regeneration<DIV>Heals entities within the ritual's range.<BR>Corrosive Will: Adds a second range called the 'vampiric range'. Entities within this range will be randomly damaged to directly heal humans within the regular range.<PAGE>§lRitual of Living Evolution§r<DIV>Increases the maximum amount of upgrade points for the living armor to 300. After activating the ritual, Simply step on the master stone while wearing living armor.<PAGE>§lAura of Expulsion<DIV>If a human attemps to get near this ritual, they will be teleported randomly within a 100 block radius.<BR>If you place a chest atop the master stone, then place someone's bound item inside, that person will be exempted.<PAGE>§lSound of the Cleansing Soul§r<DIV>Removes all upgrades and downgrades from a set of living armor. After activation, step on the master stone while wearing living armor.<PAGE>§lPenance of the Leadened Soul§r<DIV>By sacrificing some items, you may reduce the effectiveness of some aspect of your living armor to get an increase in the number of upgrade points as compensation.<BR>Place an item frame atop the top most blank ritual stone facing towards the master ritual stone. Place a chest atop the dusk stone.<BR>Next, place the key item in the item frame and the consumables in the chest.<BR>Example: Quenched downgrade requires a water bottle in the item frame, and dragon's breath in the chest. To view the rest of the recipes, check JEI for downgrade tomes.<BR>To acquire the downgrade tome, simply sneak when atop the master stone.<PAGE>§lVeil of Evil§r<DIV>Allows mobs to form where they usually wouldn't.<PAGE>§lCry of the Eternal Soul§r<DIV>Feeds LP from the soul network back into an altar. You will lose some LP as a cost.<PAGE>§lReverence of the Condor§r<DIV>Grants flight to nearby mages.<PAGE>§lThe Assembly of the High Altar§r<DIV>Quickly construct a new altar ziggurat from the blocks in the attached inventory.<PAGE>§lMark of the Falling Tower§r<DIV>Once either a gold, iron, or diamond block is sacrificed, the ritual summons a meteor from outer space."
+                    }
+                ]
+        },
+        {
+            "key": "BLOODRITUALSTWO",    
+            "name": "Dark Rituals: Tier 2",
+            "icons": [ "bloodmagic:activation_crystal;1;1"],
+            "category": "CATEGORY_KEY", "location": [ 14,-10], 
+            "parents": [ "BLOODRITUALS", "BLOODALTARFIVE"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "With my altar upgraded, I can now activate stronger rituals. I will need a new diviner to assist.",
+                        "recipes": ["thaumcraft:ritualDivinerDusk"]
+                    }
+                ]
+        },
+        {
+            "key": "BLOODALTARTHREE",    
+            "name": "Blood Altar: Tier 3",
+            "icons": [ "bloodmagic:altar" ],
+            "category": "CATEGORY_KEY", "location": [ 6,-6 ], 
+            "parents": [ "BLOODALTARTWO" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I have upgraded my altar to the next tier, allowing for more blood to be stored."
+                    }
+                ]
+        },
+        {
+            "key": "BLOODALTARFOUR",    
+            "name": "Blood Altar: Tier 4",
+            "icons": [ "bloodmagic:altar" ],
+            "category": "CATEGORY_KEY", "location": [ 6,-8 ], 
+            "parents": [ "BLOODALTARTHREE", "BLOODSTONETILE" ], 
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I have upgraded my altar to the next tier, allowing for more blood to be stored."
+                    }
+                ]
+        },
+        {
+            "key": "BLOODALTARFIVE",    
+            "name": "Blood Altar: Tier 5",
+            "icons": [ "bloodmagic:altar" ],
+            "category": "CATEGORY_KEY", "location": [ 6,-10 ], 
+            "parents": [ "BLOODALTARFOUR" ], 
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I have upgraded my altar to the final tier, allowing for the maximum amount of blood to be stored."
+                    }
+                ]
+        },
+        {
+            "key": "PETTYGEM",    
+            "name": "Petty Tartaric Gem",
+            "icons": [ "bloodmagic:soul_gem" ],
+            "category": "CATEGORY_KEY", "location": [ -6,-2 ], 
+            "parents": [ "HELLFIREFORGE" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Using the hellfire forge, I have created a material called a §lTartaric Gem§r.<BR>When I have this gem on my person, demonic will goes into the gem instead of leaking out into the world. I can then use this tartaric gem as fuel source for the hellfire forge, among other things.<BR>Like the blood altar and the blood orb, this can be upgraded."
+                    }
+                ]
+        },
+        {
+            "key": "LESSERGEM",    
+            "name": "Lesser Tartaric Gem",
+            "icons": [ "bloodmagic:soul_gem;1;1" ],
+            "category": "CATEGORY_KEY", "location": [ -6,-4 ], 
+            "parents": [ "PETTYGEM" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I have upgraded my gem and can now store more demonic will than before."
+                    }
+
+                ]
+        },
+        {
+            "key": "SENTIENTEQUIPMENT",    
+            "name": "Sentient Equipment",
+            "icons": [ "bloodmagic:sentient_armour_gem" ],
+            "category": "CATEGORY_KEY", "location": [ -8,-2 ], 
+            "parents": [ "LESSERGEM" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Using the Hellfire Forge, I have designed a set of §l'Sentient' equipment§r.<PAGE>§lArmor§r<DIV>The armor can be summoned by activating the sentient armor gem. The amount of protection it provides is based on the amount of demon will in the mage's inventory.<PAGE>The §lSword§r will automatically add demonic will to my tartaric gem instead of into my inventory.<PAGE>I am currently unsure what benefit the bow and the tools might give me."
+                    }
+                ],
+                "addenda": [    
+                    {
+                        "text": "I have figured the use for sentient tools.<PAGE>The §lBow§r will change its effects depending on which will type I have the most of.<PAGE>The §ltools§r will also change their effects and stats depending on what will I have, and how much of it.<PAGE>It also turns out that, like the tools, the sword can be agumented by demonic will in my inventory.", 
+                        "required_research":["WILLTYPES"]
+                    }
+                ]
+        },
+        {
+            "key": "COMMONGEM",    
+            "name": "Common Tartaric Gem",
+            "icons": [ "bloodmagic:soul_gem;1;2" ],
+            "category": "CATEGORY_KEY", "location": [ -6,-6 ], 
+            "parents": [ "LESSERGEM" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I have upgraded my gem and can now store more demonic will than before."
+                    }
+                ]
+        },
+        {
+            "key": "WILLCRYSTALS",    
+            "name": "Will Crystallization",
+            "icons": [ "bloodmagic:demon_crystallizer", "bloodmagic:demon_pylon", "bloodmagic:demon_crucible"],
+            "category": "CATEGORY_KEY", "location": [ -9,-8 ], 
+            "parents": [ "COMMONGEM" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "§lDissipating Will§r<DIV>I can take demonic will from my tartaric gems and disperse it back into the chunk's aura by placing the gem in a §lDemon Crucible§r.<BR>I am currently unsure what benefit this mgiht give me.<PAGE>§lCrystallizing Will§r<DIV>When there is demonic will in the aura, I can use it to grow crystals by using a §lDemon Crystallizer§r. The crystals have several uses: repairing sentient tools, crafting ingredients, and to convert the will type of tartartic gems (place it and the crystal in a crafting grid).<BR>If the crystal has multiple segments, you can harvest them by right clicking with a tartaric gem.<PAGE>§lEqualizing Demon Will§r<DIV>The §lDemon Pylon§r will draw demon will from the four adjacent chunks, if their demon will is greater, effectively equalizing them."
+                    }
+                ],
+                "addenda": [    
+                    {
+                        "text": "I have figured out a use for dispersing will into the aura. It turns out that having certain amounts of each type of demonic will in the aura can augment or change nearby rituals.", 
+                        "required_research":["WILLTYPES"]
+                    }
+                ]
+        },
+        {
+            "key": "GREATERGEM",    
+            "name": "Greater Tartaric Gem",
+            "icons": [ "bloodmagic:soul_gem;1;3" ],
+            "category": "CATEGORY_KEY", "location": [ -6,-8 ], 
+            "parents": [ "COMMONGEM", "BLOODSHARD" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I have upgraded my gem and can now store more demonic will than before."
+                    }
+                ]
+        },
+        {
+            "key": "BLOODITEMROUTING",    
+            "name": "Item Routing",
+            "icons": [ "bloodmagic:node_router" ],
+            "category": "CATEGORY_KEY", "location": [ -12,-5 ], 
+            "parents": [ "COMMONGEM"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text" : "I have created routing nodes. I first need to create a routing tool, and a master routing node. I can then create other nodes which can be linked by sneak right clicking with the router. Input nodes pull items into a network from an adjacent inventory, and output nodes do the opposite. Regular nodes serve as a relay if the input and output are too far apart. I also need a master node to be connected somewhere to the network. Lastly, I can apply filters using the item 'frame parts' as a base, then modifying it in a crafting table. This filter can be applied to either the output or input. "
+                    }
+                ]
+        },
+        {
+            "key": "LIVINGEQUIPMENT",    
+            "name": "Living Equipment",
+            "icons": [ "bloodmagic:component;1;8" ],
+            "category": "CATEGORY_KEY", "location": [ -4,-3 ], 
+            "parents": [ "COMMONGEM" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I think I have found a way to make §lLiving Equipment§r.<BR>First, I make something called a binding reagent in my inferno forge, which I then combine with diamond tools or iron armor in an alchemy array.<BR>With the 'sentience' this equipment has, it will take notice of how I use it, and adapt accordingly by giving me various upgrades.<BR>For example, if I run a lot, the armor might eventually grant me with a speed boost."
+                    }
+                ]
+        },
+        {
+            "key": "DARKEPIPHANY",    
+            "name": "Dark Epiphany",
+            "icons": [ "thaumcraft:brain" ],
+            "category": "CATEGORY_KEY", "location": [ 0,-6 ], 
+            "parents": [ "LIVINGEQUIPMENT", "BLOODALTARTHREE", "COMMONGEM" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I'm unsure how to progress my altar, orb, and gem past tier 3.<BR>Maybe some adventuring will eventually yield some kind of epiphany, as it sometimes does."
+                    }
+                ]
+        },
+        {
+            "key": "BLOODSHARD",    
+            "name": "Blood Shards",
+            "icons": [ "bloodmagic:blood_shard" ],
+            "category": "CATEGORY_KEY", "location": [ 0,-8 ], 
+            "parents": [ "!BloodShard" ],        
+            "meta": ["ROUND", "HIDDEN"],        
+            "stages": [
+                    {
+                        "text": "Upon using the bound blade on a monster, they dropped this curious shard of what appears to be crystallized blood.<BR>It appears the living equipment has granted me the strange ability of being able to steal life essence from others' soul network; This is the first time I have seen theft through the ender realm.<BR>It will, however, prove very useful for the upgrading of my altar, orb, and tartaric gems."
+                    }
+                ]
+        },
+        {
+            "key": "BLOODSTONETILE",    
+            "name": "Bloodstone Tile",
+            "icons": [ "bloodmagic:decorative_brick" ],
+            "category": "CATEGORY_KEY", "location": [ 2,-8 ], 
+            "parents": [ "BLOODSHARD" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Using blood shards can get me a nice set of red decorative blocks."
+                    }
+                ]
+        },
+        {
+            "key": "GRANDGEM",    
+            "name": "Grand Tartaric Gem",
+            "icons": [ "bloodmagic:soul_gem;1;4" ],
+            "category": "CATEGORY_KEY", "location": [ -6,-10 ], 
+            "parents": [ "GREATERGEM" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I have upgraded my gem and can now store the maximum amount of demonic will."
+                    }
+                ]
+        }
+    ]
+}

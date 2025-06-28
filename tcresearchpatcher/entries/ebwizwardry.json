@@ -1,0 +1,324 @@
+{
+    "entries" :[
+        {
+        "key": "FOCUSEDAUROMANCY",    
+        "name": "Continuing Auromancy",
+        "icons": [ "ebwizardry:spell_book" ],
+        "category": "AUROMANCYEXPANSION", "location": [ -6,0 ], 
+        "parents": [ "BASEAUROMANCY", "UNLOCKALCHEMY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "required_knowledge":["THEORY;AUROMANCY;2"],
+                    "text": "Throughout my journeys in auromancy, I have hypothesized many spell combinations that ended up not working the way I had pictured, or they simply do nothing. \n \n You would think ward + cloud would make some kind of forcefield! You would think bolt + terra would make a vine! \n \n ...No, surely mother nature cannot be this picky. It must be I who is doing something wrong."
+                },
+                {
+                    "text": "How could I have not thought of this before? The traditional storage medium for enchantments and other incantations is a book. If I take my focus, and rewrite its contents onto a book, that should yield much more satisfactory results.",
+                    "required_knowledge":["THEORY;AUROMANCY;1"]
+                },
+                {
+                    "text": "I have created a blueprint for a device that will translate a focus to a spell book. It accomplishes this by using some lenses to shine an immense amount of light through the focus, and burn it into the book. \n \n If I try a combination of focus medium and effects that I think will work, chances are it will!"
+                }
+            ]
+        },
+        {
+            "key": "IMBUEMENTALTAR",    
+            "name": "Ruined Library",
+            "icons": [ "ebwizardry:imbuement_altar" ],
+            "category": "AUROMANCYEXPANSION", "location": [ 0,-2 ], 
+            "parents": [ "!ImbuementAltar" ],        
+            "meta": ["ROUND", "HIDDEN"],        
+            "stages": [
+                    {
+                        "text": "What a cute little library this must have been! In the middle, there seems to be something used to imbue magical equipment. Perhaps I can restore it.",
+                        "required_knowledge": ["OBSERVATION;AUROMANCY;1"]
+                    },
+                    {
+                        "text": "I think I have a way to restore it. I first need receptacles, which can be made by sprinkling salis mundus on a flower pot. I then attach these to the sides of the altar. There's just one problem. I'm not sure what to put in the receptacles, and atop the altar! Perhaps some more exploration is in order."
+                    }
+                ]
+        },
+        {
+            "key": "SPELLRULES",    
+            "name": "Rules to follow for spell creation",
+            "icons": [ "ebwizardry:spell_book;1;1" ],
+            "category": "AUROMANCYEXPANSION", "location": [ 1,0 ], 
+            "parents": [ "FOCUSEDAUROMANCY" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "To have the best success in discovering spells, I should remember that they seem to obey the following rules: \n \n The first portion of the spell is the medium. This is based on the spell's mode of travel. \n BOLT: used by beams/bolts \n TOUCH: Used by things you can place in your vicinity \n PROJECTILE: Spells involving throwing an object \n SPELLBAT: Used for summoning \n PLAN: Used for any sort of conjuration (note this one will remove other mediums as expected) \n Lastly, for spells that are continuous beams or rays, use bolt AND projectile in that order. \n \n The second portion of the spell is the modifier medium. This is placed in addition to the primary medium. \n If a spell involves placing a trap, place the ARCANE MINE medium. \n If a spell involves AOE, use the CLOUD medium. \n Traps that cause AOE's when triggered use both mediums, with cloud being placed second. \n \n The last portion of the spell are the effects it uses. This will determine what the spell actually ends up doing. \n \n When using aspects, in addition to being used as an effect, they can also be used to simply represent their aspect. EXCHANGE is the exception, representing both ordo and permutatio. \n \n Compound aspects not found as an effect can be represented with the SPLIT modifier, with each branch being the aspects that comprise it. If a branch is also a compound aspect, place another split in that spot, and so forth. Remember to use existing compound aspect effects when you can (like using heal instead of split terra aqua, for example). Compound aspects should be placed in the same left to right order that they are written in, in the 'aspects of essentia' bookmark. \n \n Some spells require complex solutions, including aspect splits that don't have a compound aspect, but are instead a combination of two aspects, such as ward + gelum making a frost barrier, for example. \n \n Spells that could be considered difficult to discover are written down under the 'PECULIAR' portion of the Encyclopedia Aurica entries. \n \n Lastly, I should not touch trait modifiers like power, unless told otherwise by the Encyclopedia Aurica. \n \n To sum it all up, the spell consists of the following parts, in this order: \n \n Main medium \n Aux Mediums (optional) \n Aspects"
+                    }
+                ]
+        },
+        {
+            "key": "EBARCANEWORKBENCH",    
+            "name": "Arcane Workbench",
+            "icons": [ "ebwizardry:arcane_workbench" ],
+            "category": "AUROMANCYEXPANSION", "location": [ 5,0 ], 
+            "parents": [ "SPELLRULES" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Now that I can create spell books, I need a device to implant them into my gauntlet.",
+                        "required_knowledge": ["THEORY;AUROMANCY;1"]
+                    },
+                    {
+                        "text": "I have created a device called the arcane workbench, not to be confused with the other one! Though it appears functional, my gauntlet cannot acceppt a book. Perhaps, just like I needed a new device for storing spells, I will also need a new device for casting them.",
+                        "recipes": ["thaumcraft:ebarcanebench"],
+                        "required_knowledge": ["THEORY;AUROMANCY;1"]
+                    },
+                    {
+                        "text": "I have created a magic wand which should almost certainly be successful at casting my new spells.",
+                        "recipes": ["thaumcraft:ebarcanebench", "thaumcraft:ieb1"]
+                    }
+                ]
+        },
+        {
+            "key": "EBCRYSTALS",    
+            "name": "Crystal Replication",
+            "icons": [ "ebwizardry:magic_crystal" ],
+            "category": "AUROMANCYEXPANSION", "location": [ 5,-2 ], 
+            "parents": [ "EBARCANEWORKBENCH" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "required_knowledge":["THEORY;AUROMANCY;1"],
+                        "text": "A side effect of creating new spell devices is that vis can seemingly no longer be channeled into them! Perhaps I can create solid form of vis to store on my person."
+                    },
+                    {
+                        "text": "AURAM essentia proved to be a good tangible variant of vis. If I apply some to a piece of quartz, I can store it on my person. The wands are able to respond to such fuel.",
+                        "recipes": ["thaumcraft:crystal", "thaumcraft:bigcrystal"]
+                    }
+                ]
+        },
+        {
+            "key": "SPECTRALDUST",    
+            "name": "Remnants",
+            "icons": [ "ebwizardry:spectral_dust;1;1", "ebwizardry:spectral_dust;1;2", "ebwizardry:spectral_dust;1;3", "ebwizardry:spectral_dust;1;4", "ebwizardry:spectral_dust;1;5", "ebwizardry:spectral_dust;1;6", "ebwizardry:spectral_dust;1;7" ],
+            "category": "AUROMANCYEXPANSION", "location": [ 2,-4 ], 
+            "parents": ["!Remnant"],        
+            "meta": ["ROUND", "HIDDEN"],        
+            "stages": [
+                    {
+                        "text": "In my travels, I have come across an obelisk which will spawn crude creatures I will call remnants. These beings will drop something called 'spectral dust'. Perhaps I could use these dusts in the imbuement altar! I have also created several recipes to replicate spectral dust. It turns out that they are simply a bit of salis mundus combined with some essentia.",
+                        "recipes": [
+                            "thaumcraft:eb1",
+                            "thaumcraft:eb2",
+                            "thaumcraft:eb3",
+                            "thaumcraft:eb4",
+                            "thaumcraft:eb5",
+                            "thaumcraft:eb6",
+                            "thaumcraft:eb7"
+                        ]
+                    }
+                ]
+        },
+        {
+            "key": "RUINEDBOOK",    
+            "name": "Ruined Book",
+            "icons": [ "ebwizardry:ruined_spell_book" ],
+            "category": "AUROMANCYEXPANSION", "location": [ -2,-4 ], 
+            "parents": ["!RuinedBook" ],        
+            "meta": ["ROUND", "HIDDEN"],        
+            "stages": [
+                    {
+                        "required_knowledge":["THEORY;AUROMANCY;1"],
+                        "required_item":["ebwizardry:ruined_spell_book"],
+                        "text": "Oh? What's this? This spell book appears to be too damaged to read. Perhaps I can restore it somehow?"
+                    }
+                ]
+        },
+        {
+            "key": "BOOKRESTORATION",    
+            "name": "Book Restoration",
+            "icons": [ "ebwizardry:spell_book" ],
+            "category": "AUROMANCYEXPANSION", "location": [ 0,-4 ], 
+            "parents": ["RUINEDBOOK", "SPECTRALDUST", "IMBUEMENTALTAR" ],        
+            "meta": ["ROUND", "HIDDEN"],        
+            "stages": [
+                    {
+                        "text": "After some theorycrafting, I have created a device called the receptacle. If I place four of these, one for each side of the altar, it should be restored. Then I can place the book on the top, and 1 of any dust in each receptacle."
+                    }
+                ]
+        },
+        {
+            "key": "ELEMENTALCRYSTALS",    
+            "name": "Elemental Modifiers",
+            "icons": [ "ebwizardry:magic_crystal;1;1", "ebwizardry:magic_crystal;1;2", "ebwizardry:magic_crystal;1;3", "ebwizardry:magic_crystal;1;4", "ebwizardry:magic_crystal;1;5", "ebwizardry:magic_crystal;1;6", "ebwizardry:magic_crystal;1;7"],
+            "category": "AUROMANCYEXPANSION", "location": [2,-2 ], 
+            "parents": [ "EBCRYSTALS", "SPECTRALDUST", "IMBUEMENTALTAR"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "If I place recepticles along each side of the imbuement altar, Then place spectral dust all of the same type within each recepticle, I can imbue my robes to attune to that element. These attuned robes will provide discounts and buffs when casting spells of said element. \n \n I can also imbue mana crystals, which can let me make elemental wands. \n \n Lastly, if I happen upon a ruined spell book, I can imbue unique combinations of spectral dust into it to get a spell book.",
+                        "recipes":["thaumcraft:ieb2","thaumcraft:ieb3","thaumcraft:ieb4","thaumcraft:ieb5","thaumcraft:ieb6","thaumcraft:ieb7","thaumcraft:ieb8"]
+                    }
+                ]
+        },
+        {
+            "key": "WANDUPGRADES",    
+            "name": "Wand Upgrades",
+            "icons": ["ebwizardry:condenser_upgrade"],
+            "category": "AUROMANCYEXPANSION", "location": [5,-4 ], 
+            "parents": [ "EBCRYSTALS"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Throughout my travels, I have come across various scrolls which will upgrade my wand. I can apply up to 9 upgrades to a wand, and at most 3 of the same type of upgrade. \n \n I apply the upgrades in an arcane workbench."
+                    }
+                ]
+        },
+        {
+            "key": "NOVICESPELLS",    
+            "name": "Encyclopedia Aurica: Novice Spells",
+            "icons": ["ebwizardry:magic_wand"],
+            "category": "AUROMANCYEXPANSION", "location": [7,0], 
+            "parents": [ "EBARCANEWORKBENCH"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "SPELLS AVAILABLE: \n \n Fire: 2 \n Ice: 2 \n Storm: 2 \n Necromancy: 2 \n Earth: 4 \n Sorcery: 4 \n Healing: 1 \n \n ASPECTS USED: \n Ignis \n Tenebrae \n Gelum \n Potentia \n Exanimis \n Cognitio \n Herba \n Aer \n Perditio \n Lux \n Desiderium \n Ordo \n Motus \n \n PECULIAR: \n Smoke Bomb"
+                    }
+                ]
+        },
+        {
+            "key": "APPRENTICESPELLS",    
+            "name": "Encyclopedia Aurica: Apprentice Spells",
+            "icons": ["ebwizardry:apprentice_wand"],
+            "category": "AUROMANCYEXPANSION", "location": [7,2], 
+            "parents": [ "NOVICESPELLS", "TOMEAPPRENTICE"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "SPELLS AVAILABLE: \n \n Fire: 6 \n Ice: 7 \n Storm: 7 \n Necromancy: 8 \n Earth: 8 \n Sorcery: 7 \n Healing: 4 \n \n ASPECTS USED: \n Ignis \n Gelum \n Vinculum \n Praemunio \n Potentia \n Lux \n Motus \n Mortuus \n Alienis \n Permutatio \n Bestia \n Victus \n Aversio \n Vitium \n Exanimis \n Aqua \n Herba \n Sensus \n Aer \n Praecantatio"
+                    }
+                ]
+        },
+        {
+            "key": "ADVANCEDSPELLS",    
+            "name": "Encyclopedia Aurica: Advanced Spells",
+            "icons": ["ebwizardry:apprentice_wand"],
+            "category": "AUROMANCYEXPANSION", "location": [7,4], 
+            "parents": [ "APPRENTICESPELLS"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "."
+                    }
+                ]
+        },
+        {
+            "key": "MASTERSPELLS",    
+            "name": "Encyclopedia Aurica: Master Spells",
+            "icons": ["ebwizardry:apprentice_wand"],
+            "category": "AUROMANCYEXPANSION", "location": [7,6], 
+            "parents": [ "ADVANCEDSPELLS"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "."
+                    }
+                ]
+        },
+        {
+            "key": "TOMEAPPRENTICE",    
+            "name": "Upgrading Spells",
+            "icons": ["ebwizardry:arcane_tome;1;1"],
+            "category": "AUROMANCYEXPANSION", "location": [5,2 ], 
+            "parents": [ "!TomeArcana"],        
+            "meta": ["ROUND", "HIDDEN"],        
+            "stages": [
+                    {
+                        "text": "In making spells, I have noticed that some are too complex to be used in my current wand. I will need something to upgrade my wand. Conveniently, I have also come across something called 'tomes of arcana' which seem to do exactly that, given I have progressed my wand enough. I then put the wand and the tome in the arcane workbench. There also appear to be two other tomes, one for advanced spells, and one for spells reserved for the arcane masters."
+                    }
+                ]
+        },
+        {
+            "key": "TELESTONES",    
+            "name": "Teleporting With Spells",
+            "icons": ["ebwizardry:transportation_stone"],
+            "category": "AUROMANCYEXPANSION", "location": [7,-2 ], 
+            "parents": [ "EBCRYSTALS"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "In my journey into spell creation, I have come across a spell that seems to allow me to teleport to various places, provided I have the equipment to do so. But I don't, so I'll need to create a device. Given it's activated by a spell, some mundane stone with a magic crystal in the middle should do the trick. Using 8 of these new stones, I create a circle, then right click the circle with my wand."
+                    }
+                ]
+        },
+        {
+            "key": "MAGICALSILK",    
+            "name": "Magical Silk",
+            "icons": [ "ebwizardry:magic_silk"],
+            "category": "AUROMANCYEXPANSION", "location": [ -6,-2 ], 
+            "parents": [ "FOCUSEDAUROMANCY" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "required_knowledge":["THEORY;AUROMANCY;1"],
+                        "text": "The armor I have been wearing up to this point does not have a natural affinity for magic. I should create a new material that does."
+                    },
+                    {
+                        "text": "I have created a new material I will call magical silk. This silk will be great for creating robes that will increase the power of my spells.",
+                        "recipes":["thaumcraft:fabric"]
+                    }
+                ]
+        },
+        {
+            "key": "ELEMENTALROBES",    
+            "name": "Wizard Robes",
+            "icons": [ "ebwizardry:wizard_hat_fire"],
+            "category": "AUROMANCYEXPANSION", "location": [ -6,-4 ], 
+            "parents": [ "MAGICALSILK" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "The armor I have been wearing up to this point does not have a natural affinity for spells. However, If I simply make some robes out of the magical silk, that should really help."
+                    }
+                ]
+        },
+        {
+            "key": "ROBECLASSES",    
+            "name": "Wizard Classes",
+            "icons": [ "ebwizardry:sage_hat", "ebwizardry:battlemage_helmet", "ebwizardry:warlock_hood"],
+            "category": "AUROMANCYEXPANSION", "location": [ -4,-2 ], 
+            "parents": [ "ELEMENTALROBES"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "While the robes I created are good, I can't help but think there is something missing. Perhaps I can create variants of this equipment, each with their own benefits and drawbacks.",
+                        "required_knowledge" : ["THEORY;AUROMANCY;1"]
+                    },
+                    {
+                        "text": "Using Several Ingredients, I can change magical robe sets to various classes, each with their own benefits. I apply these to a robe in an arcane workbench. \n \n The SAGE class of robes offer the highest magic attunement, granting a 20% cost reduction to every element if the full set is worn. Sage robes are around the same as iron in terms of armor, but they have extra enchantability. \n \n The BATTLEMAGE class of robes offers the most protection, being only slightly weaker than diamond. It grants 5% cooldown reduction and a permanent ward effect when the full set is worn. \n \n The WARLOCK class of robes is the fastest. It is slightly weaker than iron, but grants 10% reductions in cost and a 20% increase to movement speed when the full set is worn. ",
+                        "recipes": [
+                            "thaumcraft:resplendentthread",
+                            "thaumcraft:crystalplating",
+                            "thaumcraft:crystalweave"
+                        ]
+                    }
+                ]
+        },
+        {
+            "key": "ASTRALDIAMOND",    
+            "name": "Astral Diamonds",
+            "icons": [ "ebwizardry:astral_diamond"],
+            "category": "AUROMANCYEXPANSION", "location": [ -6,2 ], 
+            "parents": [ "FOCUSEDAUROMANCY" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Legends tell of a diamond that wizards will reveal their greatest knowledge for. If I find one, I could learn their composition.",
+                        "required_item":["ebwizardry:astral_diamond"]
+                    },
+                    {
+                        "text": "I have done it! I have obtained a diamond. It appears to be a normal diamond infused with desiderium essentia. Now I can replicate them for eternity...",
+                        "recipes": ["thaumcraft:astralDiamond"]
+                    }
+                ]
+        }
+    ]
+}
+
+

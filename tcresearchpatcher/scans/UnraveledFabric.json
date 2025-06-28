@@ -1,0 +1,9 @@
+[
+    {
+	"key": "!UnraveledFabric",
+	"type": "thaumcraft:block",
+	"object": {
+	    "name": "dimdoors:unravelled_fabric"
+		}
+	}
+]

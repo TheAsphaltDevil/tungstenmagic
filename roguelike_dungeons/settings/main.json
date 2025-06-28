@@ -1,0 +1,11 @@
+{
+	"name" : "tungsten:main",
+	"criteria" : {
+		"dimensionWL" : 0,
+		"weight" : 30
+	},
+	"inherit" : [
+		"tungsten:loot_treasure",
+		"tungsten:rooms"
+	]
+}

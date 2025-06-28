@@ -1,0 +1,56 @@
+{
+	"name" : "tungsten:loot_treasure",
+	"loot_rules" : [
+		{	 
+			"loot" : [
+				{"data" : {"name" : "thaumcraft:loot_bag"}, "weight" : 100}
+			],
+			"level" : 2,
+			"each" : false,
+			"quantity" : 5
+		},
+		{	 
+			"loot" : [
+				{"data" : {"name" : "thaumcraft:loot_bag", "meta" : 1 }, "weight" : 100}
+			],
+			"level" : 3,
+			"each" : false,
+			"quantity" : 4
+		},
+		{	 
+			"loot" : [
+				{"data" : {"name" : "thaumcraft:loot_bag", "meta" : 2 }, "weight" : 100}
+			],
+			"level" : 4,
+			"each" : false,
+			"quantity" : 3
+		},
+		{	
+			"type" : "REWARD",
+			"loot" : [
+				{"data" : {"name" : "thaumcraft:loot_bag"}, "weight" : 100}
+			],
+			"level" : 2,
+			"each" : true,
+			"quantity" : 3
+		},
+		{	
+			"type" : "REWARD",
+			"loot" : [
+				{"data" : {"name" : "thaumcraft:loot_bag", "meta" : 1 }, "weight" : 100}
+			],
+			"level" : 3,
+			"each" : true,
+			"quantity" : 2
+		},
+		{	
+			"type" : "REWARD",
+			"loot" : [
+				{"data" : {"name" : "thaumcraft:loot_bag", "meta" : 2 }, "weight" : 100}
+			],
+			"level" : 4,
+			"each" : true,
+			"quantity" : 1
+		}
+	]
+}

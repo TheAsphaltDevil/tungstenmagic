@@ -1,0 +1,238 @@
+{
+    "entries" :[
+        {
+        "key": "MAKINGNEWPOTIONS",    
+        "name": "Making Potions",
+        "icons": [ "thaumcraft:crucible"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 0,0 ], 
+        "parents": [ "UNLOCKALCHEMY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Since the aspects of essentia react with each other to form new items and phenomena, I will most likely be able to capture these reactions in their raw form if I simply dip a glass bottle in the crucible to capture some of the water. I should be able to make a wide variety of potions this way. \n \n To view all potions and their recipes, type 'potion' in JEI."
+                }
+            ]
+        },
+        {
+        "key": "BOTANAIAPOTIONVIALS",    
+        "name": "Multi-use Potions",
+        "icons": [ "botania:vial"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 2,2 ], 
+        "parents": [ "MAKINGNEWPOTIONS", "MANAPOOL" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Though my potion making has gone swimmingly so far, It would be nice if I could have a bottle large enough to store multiple doses. With managlass, I have done just that. A side effect however, is that due to the bottle's increased size, more elaborate brews tend to become diluted to the point of not being useful. I will only be able to make more simple brews in these bottles. \n \n These bottles allow for four doses of a potion instead of the usual one."
+                }
+            ]
+        },
+        {
+        "key": "UPGRADINGPOTIONS",    
+        "name": "Upgrading Potions",
+        "icons": [ "minecraft:brewing_stand"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 4,2 ], 
+        "parents": [ "MAKINGNEWPOTIONS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "To augment potions, I shall use the usual brewing stand. \n \n AUGMENTING POTIONS <DIV> I can increase a potion's duration with redstone. \n \n I can increase a potion's potency with glowstone. \n \n \n \n CHANGING POTION TYPE <DIV> I can convert a potion to splash with gunpowder. \n \n I can convert a potion to lingering with dragon's breath."
+                }
+            ]
+        },
+        {
+        "key": "BOTANAIAPOTIONFLASKS",    
+        "name": "More Multi-use Potions",
+        "icons": [ "botania:vial;1;1"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 2,4 ], 
+        "parents": [ "BOTANAIAPOTIONVIALS", "ALFHEIMPORTAL" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Engaging in trade with alfheim has yielded a glass of theirs which has proven more beneficial than my managlass. With these flasks, I can now store 6 doses of a potion. They cover the same set of brews as vials."
+                }
+            ]
+        },
+        {
+        "key": "BEEHIVES",    
+        "name": "Bees",
+        "icons": [ "rustic:bee"],
+        "category": "ALCHEMY_EXPANSION", "location": [ -2,0 ], 
+        "parents": [ "UNLOCKALCHEMY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Bees can be found on trees throughout the world. To get bees, simply break the hive block. \n \n APIARY <DIV> Right click on the apiary to insert bees. The more bees you have, the faster they will produce honeycombs. They will also speed up growth of crops within four blocks of the apiary horizontally, and one block vertically. \n \n HONEYCOMBS <DIV> Honeycombs can be used for candles, and are a good source of desiderium and ordo essentia."
+                }
+            ]
+        },
+        {
+        "key": "TALLCROPS",    
+        "name": "Tall Crops",
+        "icons": [ "rustic:crop_stake", "rustic:tomato", "rustic:chili_pepper"],
+        "category": "ALCHEMY_EXPANSION", "location": [ -3,0], 
+        "parents": [ "UNLOCKALCHEMY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "CROP STAKES <DIV> Crop stakes will be needed to support plants that like to grow upwards, namely chili peppers and tomatoes. Their seeds can be found in tall grass. \n \n TOMATOES <DIV> These fruits can grow up to three blocks tall. Tomatoes can be eaten or thrown. They are also a good source of aqua essentia. \n \n CHILI PEPPERS <DIV> This plant can grow up to two blocks tall. Chili Peppers can be eaten for an increase in speed, but they are really hot! They are also a good source of ignis essentia."
+                }
+            ]
+        },
+        {
+        "key": "RUSTICBERRIES",    
+        "name": "Berries",
+        "icons": [ "rustic:wildberries", "rustic:grapes", "rustic:ironberries"],
+        "category": "ALCHEMY_EXPANSION", "location": [ -3,1 ], 
+        "parents": [ "UNLOCKALCHEMY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "WILDBERRIES <DIV> These berries come from wildberry bushes, which spawn naturally throughout the overworld in warm climates. They arent very filling, but they grow quickly and can be eaten quicker than other foods. They are also a good source of sensus essentia. \n \n GRAPES <DIV> Grape seeds can be found by breaking vines. They need horizontal ropes above them to grow. The vines will spread one block outward along the rope, so long as there is rope to grow onto. Grapes can be eaten quickly. They also have a smidge of permutatio essentia. \n \n IRONBERRIES <DIV> These berries drop from the leaves of Ironwood trees. They also have a smidge of metallum essentia."
+                }
+            ]
+        },
+        {
+        "key": "NEWPOTIONSLIST",    
+        "name": "Encyclopedia Alchemica",
+        "icons": [ "minecraft:potion"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 8,-1 ], 
+        "parents": [ "MAKINGNEWPOTIONS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": " "
+                }
+            ]
+        },
+        {
+        "key": "POTIONSLISTONE",    
+        "name": "Encyclopedia Alchemica, Vol I",
+        "icons": [ "minecraft:potion"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 11,-1 ], 
+        "parents": [ "NEWPOTIONSLIST" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": ""
+                }
+            ]
+        },
+        {
+        "key": "POTIONSLISTTWO",    
+        "name": "Encyclopedia Alchemica, Vol II",
+        "icons": [ "minecraft:potion"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 12,-1 ], 
+        "parents": [ "~NEWPOTIONSLIST" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": ""
+                }
+            ]
+        },
+        {
+        "key": "POTIONSLISTTHREE",    
+        "name": "Encyclopedia Alchemica, Vol III",
+        "icons": [ "minecraft:potion"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 13,-1 ], 
+        "parents": [ "~NEWPOTIONSLIST" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": " "
+                }
+            ]
+        },
+        {
+        "key": "POTIONSLISTFOUR",    
+        "name": "Encyclopedia Alchemica, Vol IV",
+        "icons": [ "minecraft:potion"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 14,-1 ], 
+        "parents": [ "~NEWPOTIONSLIST" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": " "
+                }
+            ]
+        },
+        {
+        "key": "POTIONSLISTFIVE",    
+        "name": "Encyclopedia Alchemica, Vol V",
+        "icons": [ "minecraft:potion"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 15,-1 ], 
+        "parents": [ "~NEWPOTIONSLIST" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": " "
+                }
+            ]
+        },
+        {
+        "key": "POTIONSLISTSIX",    
+        "name": "Encyclopedia Alchemica, Vol VI",
+        "icons": [ "minecraft:potion"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 11,0 ], 
+        "parents": [ "~NEWPOTIONSLIST" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": " "
+                }
+            ]
+        },
+        {
+        "key": "POTIONSLISTSEVEN",    
+        "name": "Encyclopedia Alchemica, Vol VII",
+        "icons": [ "minecraft:potion"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 12,0 ], 
+        "parents": [ "~NEWPOTIONSLIST" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": " "
+                }
+            ]
+        },
+        {
+        "key": "POTIONSLISTEIGHT",    
+        "name": "Encyclopedia Alchemica, Vol VIII",
+        "icons": [ "minecraft:potion"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 13,0 ], 
+        "parents": [ "~NEWPOTIONSLIST" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": " "
+                }
+            ]
+        },
+        {
+        "key": "POTIONSLISTNINE",    
+        "name": "Encyclopedia Alchemica, Vol IX",
+        "icons": [ "minecraft:potion"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 14,0 ], 
+        "parents": [ "~NEWPOTIONSLIST" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": " "
+                }
+            ]
+        },
+        {
+        "key": "POTIONSLISTTEN",    
+        "name": "Encyclopedia Alchemica, Vol X",
+        "icons": [ "minecraft:potion"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 15,0 ], 
+        "parents": [ "~NEWPOTIONSLIST" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": " "
+                }
+            ]
+        }
+    ]
+}

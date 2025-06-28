@@ -1,0 +1,8 @@
+[
+    {
+        "key": "BASEELDRITCH",
+        "op": "remove",
+        "path": "stages/2/recipes/1",
+        "value": "thaumcraft:newvoidmetal"
+    }
+]

@@ -1,0 +1,153 @@
+{
+    "entries" :[
+        {
+        "key": "FIRSTTICON",    
+        "name": "Arcane Smithing",
+        "icons": [ "tconstruct:book"],
+        "category": "TICONSTRUCT", "location": [ 0,0 ], 
+        "parents": [ "UNLOCKARTIFICE" ],        
+        "meta": ["ROUND", "AUTOUNLOCK"],
+        "reward_item": [ "tconstruct:book" ],       
+        "stages": [
+                {
+                    "text": "Arcane smithing is the art of making tools that possess properties that mundane tools would not. These tools are created piece by piece, with each piece granting a different perk. To start, I should use the book 'materials and you'. This book is a comprehensive list of every material you can use, the effects they grant, and their stats.",
+                    "required_item": ["tconstruct:book"]
+                },
+                {
+                    "text": "Arcane smithing is the art of making tools that possess properties that mundane tools would not. These tools are created piece by piece, with each piece granting a different perk. To start, I should use the book 'materials and you'. This book is a comprehensive list of every material you can use, the effects they grant, and their stats."
+                }
+            ]
+        },
+        {
+        "key": "CRAFTINGPATTERN",    
+        "name": "Patterns",
+        "icons": [ "tconstruct:pattern"],
+        "category": "TICONSTRUCT", "location": [ 2,0 ], 
+        "parents": [ "FIRSTTICON" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Not only is the pattern a common crafting ingredient, but it is also used for creating tool parts."
+                }
+            ]
+        },
+        {
+        "key": "PARTBUILDER",    
+        "name": "Making the Tool Parts",
+        "icons": [ "tconstruct:tooltables;1;2"],
+        "category": "TICONSTRUCT", "location": [ 6,0 ], 
+        "parents": [ "STENCILTABLE" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Now that you have the patterns for the required pieces, head on over to the part builder, crafted with a pattern above a log. First, insert your pattern. Then the material you want to make it out of. Upon inserting enough material, the part should be produced."
+                }
+            ]
+        },
+        {
+        "key": "STENCILTABLE",    
+        "name": "Changing the Patterns",
+        "icons": [ "tconstruct:tooltables;1;1", "tconstruct:tooltables;1;3"],
+        "category": "TICONSTRUCT", "location": [ 4,0 ], 
+        "parents": [ "CRAFTINGPATTERN" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The first phase of making tools is choosing what kind of parts you want for the tool. \n \n Firstly, take a look at the tool station, crafted with a pattern above a crafting table. This will give you descriptions of each tool, as well as the pieces that are needed to make it. \n \n Next, go to the Stencil Table, crafted with a pattern above a plank. Here, you can turn patterns into the ones needed for the tool you want to make."
+                }
+            ]
+        },
+        {
+        "key": "TINKERSTATIONS",    
+        "name": "Putting the Pieces Together",
+        "icons": [ "tconstruct:tooltables;1;3"],
+        "category": "TICONSTRUCT", "location": [ 8,0 ], 
+        "parents": [ "PARTBUILDER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Now that you have all the pieces, it's time to put them together! Head on back to the tool station, select the desired tool, and insert the pieces to create the tool! \n \n MODIFYING <DIV> To increase various stats of the tool, or to repair the tool, click on the 'repair and modify' tab."
+                }
+            ]
+        },
+        {
+        "key": "SEAREDBRICK",    
+        "name": "Advanced Tinkering",
+        "icons": [ "tconstruct:materials"],
+        "category": "TICONSTRUCT", "location": [ 10,0 ], 
+        "parents": [ "TINKERSTATIONS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "If you want to make stuff out of more advanced materials, you are going to need a forge, created from bricks infused with chaos essentia to imbue the tools with their quirks.",
+                    "recipes" : ["thaumcraft:searedbrick"]
+                }
+            ]
+        },
+        {
+        "key": "TSMELTERY",    
+        "name": "Creating More Advanced Parts",
+        "icons": [ "tconstruct:smeltery_controller"],
+        "category": "TICONSTRUCT", "location": [ 12,2 ], 
+        "parents": [ "SEAREDBRICK" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "To make more advanced tools, I need to first melt the materials down to their molten form, and for that I need a smeltery. The blueprint for the smeltery can be found in materials and you. I will need a seared smeltery controller, a seared drain, at least one seared tank, and a seared faucet."
+                }
+            ]
+        },
+        {
+        "key": "TFURNACE",    
+        "name": "Bulk Smelting",
+        "icons": [ "tconstruct:seared_furnace_controller"],
+        "category": "TICONSTRUCT", "location": [ 14,2 ], 
+        "parents": [ "SEAREDBRICK" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The seared furnace is a way to smelt items using seared bricks. The blueprint can be found in materials and you."
+                }
+            ]
+        },
+        {
+        "key": "TTANK",    
+        "name": "Storing Fluids Safely",
+        "icons": [ "tconstruct:tinker_tank_controller"],
+        "category": "TICONSTRUCT", "location": [ 12,4 ], 
+        "parents": [ "TSMELTERY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "When several fluids are in the smeltery, they will combine to create alloys. To prevent this, they can be stored in a tinker tank. The blueprint can be found in materials and you."
+                }
+            ]
+        },
+        {
+        "key": "TCASTING",    
+        "name": "Casting Parts",
+        "icons": [ "tconstruct:casting"],
+        "category": "TICONSTRUCT", "location": [ 10,2 ], 
+        "parents": [ "TSMELTERY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Parts made using the smeltery use casting instead of the part builder. \n \n To make a cast, I first need to make a part I am okay with losing in the part builder. Then, I place it in the casting table. Lastly, I pour molten gold on it by right clicking the faucet, or by giving it a redstone signal. The cast should now be created. \n \n To make parts with this cast, I can use this same process, except with the desired cast placed in the table before pouring the molten material."
+                }
+            ]
+        },
+        {
+        "key": "TFORGES",    
+        "name": "Forging the Tools",
+        "icons": [ "tconstruct:toolforge"],
+        "category": "TICONSTRUCT", "location": [ 8,2 ], 
+        "parents": [ "TCASTING", "TINKERSTATIONS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "To assemble these higher tier tools, I need to use a forge instead of the tool station."
+                }
+            ]
+        }
+    ]
+}

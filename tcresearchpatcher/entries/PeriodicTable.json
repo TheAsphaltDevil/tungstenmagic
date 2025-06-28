@@ -1,0 +1,501 @@
+{
+    "entries" :[
+        {
+        "key": "PAER",    
+        "name": "Aer",
+        "icons": [ "thaumcraft:textures/aspects/aer.png"],
+        "category": "PERIODICTABLE", "location": [ 0,0 ], 
+        "parents": [ "UNLOCKALCHEMY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Found in <LINE> plant life \n books\n arrows\n feathers\n chickens\n cakes\n potions\n aluminium\n paper"
+                }
+            ]
+        },
+        {
+        "key": "PTERRA",    
+        "name": "Terra",
+        "icons": [ "thaumcraft:textures/aspects/terra.png"],
+        "category": "PERIODICTABLE", "location": [ 0,6 ], 
+        "parents": [ "" ],        
+        "meta": ["ROUND", "AUTOUNLOCK"],        
+        "stages": [
+                {
+                    "text": "Found in <LINE> Just about anything whose materials are from the earth!"
+                }
+            ]
+        },
+        {
+        "key": "PPERDITIO",    
+        "name": "Perditio",
+        "icons": [ "thaumcraft:textures/aspects/perditio.png"],
+        "category": "PERIODICTABLE", "location": [ 0,12 ], 
+        "parents": [ "" ],        
+        "meta": ["ROUND", "AUTOUNLOCK"],        
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things made of cobblestone. \n \n  Things that cause chaos or destruction, or were a result of it. \n \n Gunpowder"
+                }
+            ]
+        },
+        {
+        "key": "PIGNIS",    
+        "name": "Ignis",
+        "icons": [ "thaumcraft:textures/aspects/ignis.png"],
+        "category": "PERIODICTABLE", "location": [ 0,18 ], 
+        "parents": [ "" ],        
+        "meta": ["ROUND", "AUTOUNLOCK"],        
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things that are hot, things that result from heat, things that cause heat, or things that simply have a feiry air to them. \n \n Things from the nether."
+                }
+            ]
+        },
+        {
+        "key": "PORDO",    
+        "name": "Ordo",
+        "icons": [ "thaumcraft:textures/aspects/ordo.png"],
+        "category": "PERIODICTABLE", "location": [ 0,24 ], 
+        "parents": [ "" ],        
+        "meta": ["ROUND", "AUTOUNLOCK"],        
+        "stages": [
+                {
+                    "text": "Found in <LINE> Stone formed into bricks or carvings \n \n bricks, \nconcrete, \nlead, \nfoci"
+                }
+            ]
+        },
+        {
+        "key": "PAQUA",    
+        "name": "Aqua",
+        "icons": [ "thaumcraft:textures/aspects/aqua.png"],
+        "category": "PERIODICTABLE", "location": [ 0,30 ], 
+        "parents": [ "" ],        
+        "meta": ["ROUND", "AUTOUNLOCK"],        
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things that contain water, or things related to the water.\n \n books\n potions"
+                }
+            ]
+        },
+        {
+        "key": "PVACUOS",    
+        "name": "Vacuos",
+        "icons": [ "thaumcraft:textures/aspects/vacuos.png"],
+        "category": "PERIODICTABLE", "location": [ 4, 8 ], 
+        "parents": [ "PAER" ,"PPERDITIO" ],               
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things that can contain other things. Things that consist primarily of empty space."
+                }
+            ]
+        },
+        {
+        "key": "PLUX",    
+        "name": "Lux",
+        "icons": [ "thaumcraft:textures/aspects/lux.png"],
+        "category": "PERIODICTABLE", "location": [ 5, 20 ], 
+        "parents": [ "PAER" ,"PIGNIS" ],        
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things that produce light."
+                }
+            ]
+        },
+        {
+        "key": "PMOTUS",    
+        "name": "Motus",
+        "icons": [ "thaumcraft:textures/aspects/motus.png"],
+        "category": "PERIODICTABLE", "location": [ 6, 25 ], 
+        "parents": [ "PAER" ,"PORDO" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things that invoke mobility or movement. \n \n ender pearls, \nsparks, \nsaddles, \nklein bottles"
+                }
+            ]
+        },
+        {
+        "key": "PGELUM",    
+        "name": "Gelum",
+        "icons": [ "thaumcraft:textures/aspects/gelum.png"],
+        "category": "PERIODICTABLE", "location": [ 4, 15 ], 
+        "parents": [ "PPERDITIO" ,"PIGNIS" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things that are icy or snowy."
+                }
+            ]
+        },
+        {
+        "key": "PVITREUS",    
+        "name": "Vitreus",
+        "icons": [ "thaumcraft:textures/aspects/vitreus.png"],
+        "category": "PERIODICTABLE", "location": [ 3, 3 ], 
+        "parents": [ "PAER" ,"PTERRA" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Crystalline substances or objects, \n \n precious gemstones, \ntin"
+                }
+            ]
+        },
+        {
+        "key": "PMETALLUM",    
+        "name": "Metallum",
+        "icons": [ "thaumcraft:textures/aspects/metallum.png"],
+        "category": "PERIODICTABLE", "location": [ 7, 27 ], 
+        "parents": [ "PORDO" ,"PTERRA" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things containing metal."
+                }
+            ]
+        },
+        {
+        "key": "PVICTUS",    
+        "name": "Victus",
+        "icons": [ "thaumcraft:textures/aspects/victus.png"],
+        "category": "PERIODICTABLE", "location": [ 3, 32 ], 
+        "parents": [ "PAQUA" ,"PTERRA" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Anything whose ingredients were from lifeforms. \n \n  Anything that invokes life or good health."
+                }
+            ]
+        },
+        {
+        "key": "PMORTUUS",    
+        "name": "Mortuus",
+        "icons": [ "thaumcraft:textures/aspects/mortuus.png"],
+        "category": "PERIODICTABLE", "location": [ 8, 29 ], 
+        "parents": [ "PAQUA" ,"PPERDITIO" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Anything obtained after a death. \n \n Bones, \nHeads, \ncinnabar, \neyeballs"
+                }
+            ]
+        },
+        {
+        "key": "PPOTENTIA",    
+        "name": "Potentia",
+        "icons": [ "thaumcraft:textures/aspects/potentia.png"],
+        "category": "PERIODICTABLE", "location": [ 4, 21 ], 
+        "parents": [ "PIGNIS" ,"PORDO" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Anything that contains or is used for energy. \n \n Redstone, \ncoal, \nelectrum"
+                }
+            ]
+        },
+        {
+        "key": "PPERMUTATIO",    
+        "name": "Permutatio",
+        "icons": [ "thaumcraft:textures/aspects/permutatio.png"],
+        "category": "PERIODICTABLE", "location": [ 9, 22 ], 
+        "parents": [ "PIGNIS" ,"PORDO" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Item transferring devices"
+                }
+            ]
+        },
+        {
+        "key": "PPRAECANTATIO",    
+        "name": "Praecantatio",
+        "icons": [ "thaumcraft:textures/aspects/praecantatio.png"],
+        "category": "PERIODICTABLE", "location": [ 10, 20 ],
+        "meta": ["ROUND", "SPIKY"],
+        "parents": [ "PAER" ,"PPOTENTIA" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Magical items, \nRunes, \ndruidic materials, \npotions, \nenchanted items, \nsalis mundus, \nfoci"
+                }
+            ]
+        },
+        {
+        "key": "PAURAM",    
+        "name": "Auram",
+        "icons": [ "thaumcraft:textures/aspects/auram.png"],
+        "category": "PERIODICTABLE", "location": [ 12, 18 ],
+        "meta": ["SPIKY"], 
+        "parents": [ "PAER" ,"PPRAECANTATIO" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Silverwood, \nrune of mana, \ncinderpearl, \nshimmerleaf"
+                }
+            ]
+        },
+        {
+        "key": "PALKIMIA",    
+        "name": "Alkimia",
+        "icons": [ "thaumcraft:textures/aspects/alkimia.png"],
+        "category": "PERIODICTABLE", "location": [ 11, 26 ], 
+        "meta": ["SPIKY"],
+        "parents": [ "PAQUA" ,"PPRAECANTATIO" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things used in potions, \npotions themselves, \nquicksilver, \ngunpowder"
+                }
+            ]
+        },
+        {
+        "key": "PVITIUM",    
+        "name": "Vitium",
+        "icons": [ "thaumcraft:textures/aspects/vitium.png"],
+        "category": "PERIODICTABLE", "location": [ 9, 15 ],
+        "meta": ["SPIKY"], 
+        "parents": [ "PPERDITIO" ,"PPRAECANTATIO" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Tainted or corrupted items, \n \n twisted curiosities"
+                }
+            ]
+        },
+        {
+        "key": "PTENEBRAE",    
+        "name": "Tenebrae",
+        "icons": [ "thaumcraft:textures/aspects/tenebrae.png"],
+        "category": "PERIODICTABLE", "location": [ -1, 20 ],
+        "meta": ["ROUND", "SPIKY"], 
+        "parents": [ "PLUX" ,"PVACUOS" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things native to the end"
+                }
+            ]
+        },
+        {
+        "key": "PALIENIS",    
+        "name": "Alienis",
+        "icons": [ "thaumcraft:textures/aspects/alienis.png"],
+        "category": "PERIODICTABLE", "location": [ 1, 22 ],
+        "meta": ["SPIKY"], 
+        "parents": [ "PTENEBRAE" ,"PVACUOS" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things from another realm, \n \nthings used for teleportation"
+                }
+            ]
+        },
+        {
+        "key": "PVOLATUS",    
+        "name": "Volatus",
+        "icons": [ "thaumcraft:textures/aspects/volatus.png"],
+        "category": "PERIODICTABLE", "location": [ -2, 26 ],
+        "meta": ["ROUND", "SPIKY"], 
+        "parents": [ "PAER" ,"PMOTUS" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things that fly or invoke flight, \n \n parts of flying creatures \n \nfloating flowers"
+                }
+            ]
+        },
+        {
+        "key": "PHERBA",    
+        "name": "Herba",
+        "icons": [ "thaumcraft:textures/aspects/herba.png"],
+        "category": "PERIODICTABLE", "location": [ -3, 32 ],
+        "meta": ["ROUND", "SPIKY"], 
+        "parents": [ "PTERRA" ,"PVICTUS" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Vegetation, \nwood"
+                }
+            ]
+        },
+        {
+        "key": "PINSTRUMENTUM",    
+        "name": "Instrumentum",
+        "icons": [ "thaumcraft:textures/aspects/instrumentum.png"],
+        "category": "PERIODICTABLE", "location": [ 5, 28 ],
+        "meta": ["ROUND", "SPIKY"], 
+        "parents": [ "PPOTENTIA" ,"PMETALLUM" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Tools"
+                }
+            ]
+        },
+        {
+        "key": "PFABRICO",    
+        "name": "Fabrico",
+        "icons": [ "thaumcraft:textures/aspects/fabrico.png"],
+        "category": "PERIODICTABLE", "location": [ 9, 31 ],
+        "meta": ["SPIKY"], 
+        "parents": [ "PPERMUTATIO" ,"PINSTRUMENTUM" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Cooked food, \n \n things containing fabric."
+                }
+            ]
+        },
+        {
+        "key": "PMACHINA",    
+        "name": "Machina",
+        "icons": [ "thaumcraft:textures/aspects/machina.png"],
+        "category": "PERIODICTABLE", "location": [ 4, 27 ],
+        "meta": ["SPIKY"], 
+        "parents": [ "PMOTUS" ,"PINSTRUMENTUM" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Devices used in redstone or automation."
+                }
+            ]
+        },
+        {
+        "key": "PVINCULUM",    
+        "name": "Vinculum",
+        "icons": [ "thaumcraft:textures/aspects/vinculum.png"],
+        "category": "PERIODICTABLE", "location": [ -4, 24 ],
+        "meta": ["ROUND", "SPIKY"], 
+        "parents": [ "PMOTUS" ,"PPERDITIO" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Doors, \nfences, \n \nthings that trap or slow down"
+                }
+            ]
+        },
+        {
+        "key": "PSPIRITUS",    
+        "name": "Spiritus",
+        "icons": [ "thaumcraft:textures/aspects/spiritus.png"],
+        "category": "PERIODICTABLE", "location": [ 5, 38 ],
+        "meta": ["ROUND", "SPIKY"], 
+        "parents": [ "PVICTUS" ,"PMORTUUS" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things born of souls, or things that contain souls."
+                }
+            ]
+        },
+        {
+        "key": "PCOGNITIO",    
+        "name": "Cognitio",
+        "icons": [ "thaumcraft:textures/aspects/cognitio.png"],
+        "category": "PERIODICTABLE", "location": [ -5, 33 ],
+        "meta": ["SPIKY"], 
+        "parents": [ "PSPIRITUS" ,"PIGNIS" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Books, \nbrains, \npaper"
+                }
+            ]
+        },
+        {
+        "key": "PSENSUS",    
+        "name": "Sensus",
+        "icons": [ "thaumcraft:textures/aspects/sensus.png"],
+        "category": "PERIODICTABLE", "location": [ -6, 34 ], 
+        "meta": ["SPIKY"],
+        "parents": [ "PSPIRITUS" ,"PAER" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things that look good, smell good, or sound good."
+                }
+            ]
+        },
+        {
+        "key": "PAVERSIO",    
+        "name": "Aversio",
+        "icons": [ "thaumcraft:textures/aspects/aversio.png"],
+        "category": "PERIODICTABLE", "location": [ -7, 35 ], 
+        "meta": ["SPIKY"],
+        "parents": [ "PSPIRITUS" ,"PPERDITIO" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Pointy things, \nweapons."
+                }
+            ]
+        },
+        {
+        "key": "PPRAEMUNIO",    
+        "name": "Praemunio",
+        "icons": [ "thaumcraft:textures/aspects/praemunio.png"],
+        "category": "PERIODICTABLE", "location": [ -8, 36 ], 
+        "meta": ["SPIKY"],
+        "parents": [ "PSPIRITUS" ,"PTERRA" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Tough things, \nArmor"
+                }
+            ]
+        },
+        {
+        "key": "PDESIDERIUM",    
+        "name": "Desiderium",
+        "icons": [ "thaumcraft:textures/aspects/desiderium.png"],
+        "category": "PERIODICTABLE", "location": [ -9, 37 ], 
+        "meta": ["SPIKY"],
+        "parents": [ "PSPIRITUS" ,"PVACUOS" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Things made of rare materials. \n \n Things that make you want more of it."
+                }
+            ]
+        },
+        {
+        "key": "PEXANIMIS",    
+        "name": "Exanimis",
+        "icons": [ "thaumcraft:textures/aspects/exanimis.png"],
+        "category": "PERIODICTABLE", "location": [ 10, 25 ], 
+        "meta": ["ROUND", "SPIKY"],
+        "parents": [ "PMOTUS" ,"PMORTUUS" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Remnants of the undead."
+                }
+            ]
+        },
+        {
+        "key": "PBESTIA",    
+        "name": "Bestia",
+        "icons": [ "thaumcraft:textures/aspects/bestia.png"],
+        "category": "PERIODICTABLE", "location": [ 6, 32 ], 
+        "meta": ["ROUND", "SPIKY"],
+        "parents": [ "PMOTUS" ,"PVICTUS" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Animal flesh, \nwool items."
+                }
+            ]
+        },
+        {
+        "key": "PHUMANUS",    
+        "name": "Humanus",
+        "icons": [ "thaumcraft:textures/aspects/humanus.png"],
+        "category": "PERIODICTABLE", "location": [ 3, 35 ], 
+        "meta": ["SPIKY"],
+        "parents": [ "PSPIRITUS" ,"PVICTUS" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> People, alive or dead."
+                }
+            ]
+        },
+        {
+        "key": "PMYTHUS",    
+        "name": "Mythus",
+        "icons": [ "iceandfire:textures/thaumcraft/mythical.png"],
+        "category": "PERIODICTABLE", "location": [ 12, 32 ], 
+        "meta": ["SPIKY"],
+        "parents": [ "PPRAECANTATIO" ,"PBESTIA" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Items from or relating to mythical creatures."
+                }
+            ]
+        },
+        {
+        "key": "PDRACO",    
+        "name": "Draco",
+        "icons": [ "iceandfire:textures/thaumcraft/dragon.png"],
+        "category": "PERIODICTABLE", "location": [ 12, 37 ], 
+        "meta": ["SPIKY"],
+        "parents": [ "PMYTHUS" ,"PDESIDERIUM" ],              
+        "stages": [
+                {
+                    "text": "Found in <LINE> Items from or relating to dragons."
+                }
+            ]
+        }
+    ]
+}

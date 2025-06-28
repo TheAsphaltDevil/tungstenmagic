@@ -1,0 +1,284 @@
+{
+    "entries" :[
+        {
+        "key": "HIPPOCAMPUS",    
+        "name": "Hippocampus",
+        "icons": [ "iceandfire:hippocampus_fin"],
+        "category": "BESTIARY", "location": [ 0,0 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;3"]
+            },
+            {
+                "text": "<IMG>devmenu:hippocampus.png:0:0:255:255:0.25</IMG> \n \n The hippocampus is a rare, fast, and beautiful creature which can be found occasionally in oceans. It is a mixture of a fish and a horse, and are extremely fast in the water. \n \n They are very passive creatures, and will never attack, even when in grave danger. \n \n They can be tamed with a good amount of sponges, and are bred with prismarine crystals. \n \n When tamed, the rider can equip it with a saddle and horse armor. Legends tell they can grant their riders to ability to breathe underwater! \n \n They can be made to sit with a stick. When killed, they drop shiny scales."
+            }
+            ]
+        },
+        {
+        "key": "IAFPIXIES",    
+        "name": "Pixies",
+        "icons": [ "iceandfire:pixie_wings"],
+        "category": "BESTIARY", "location": [ 2,0 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;3"]
+            },
+            {
+                "text": "<IMG>devmenu:pixie.png:0:0:255:255:0.25</IMG> \n \n Pixies are small and mystical beings that were originally from the alfheim realm. However, some migrated to earth, livng in small hovels in dark and magical forests. \n \n They usually do not attack, however, they will try to steal items from people who are not looking directly at them. A pixie who stole an item should drop it if attacked. \n \n Pixies naturally produce pixie dust, a popular substance in bibliomancy. It can be harvested by killing pixies or trapping them in special jars. \n \n If you eat pixie dust, it will grant levitation and glowing. However, it can be crafted into ambrosia, a powerful healing stew. \n \n Pixies can also be befreinded by throwing some cake near them. Befriended pixies can either follow or wait for their friend. If the pixie is following, it will give its a friend a potion effect, depending on its color."
+            }
+            ]
+        },
+        {
+        "key": "AMPHITHERE",    
+        "name": "Amphithere",
+        "icons": [ "iceandfire:amphithere_skull"],
+        "category": "BESTIARY", "location": [ 4,0 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;5"]
+            },
+            {
+                "text": "<IMG>devmenu:amphithere.png:0:0:255:255:0.25</IMG> \n \n A strange cross between a bird and a snake, Amphitheres are mythical birds found in jungles. \n \n Though usually docile, they will attack anything that attacks other occupants of the jungle. \n \n They utilize the wind and never seem to need rest. Because of this, they are vulnerable to projectiles. Shooting one will fell the creature. \n \n If you manage to chase it down and mount it, the beast will try to rid itself of its rider. However, the amphithere will eventually break and submit if the rider survives its attacks for long enough. Once this occurs, they are completely tame to their master. \n \n They can be flown like many other flying creatures, and are one of the weakest but also one of the fastest mounts. \n \n They can be bred with cookies. \n \n On death, the amphitheres drop their beautiful feathers, which can be used to craft special arrows which knock back any mob with a powerful wind gust."
+            }
+            ]
+        },
+        {
+        "key": "HIPPOGRYPH",    
+        "name": "Hippogryph",
+        "icons": [ "iceandfire:hippogryph_skull"],
+        "category": "BESTIARY", "location": [ 6,0 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;5"]
+            },
+            {
+                "text": "<IMG>devmenu:hippogryph.png:0:0:255:255:0.25</IMG> \n \n A strange cross between a bird and a horse. Found all across the world, but moreso in hilly areas. \n \n Most hippogryphs are predators and will attack anything smaller than it. \n \n Despite that, people have found a way to tame these creatures. By dropping many rabbit's feet near the beast, it may show it's trust. When it has feasted, it will lay down, giving the tamer the opportunity to sneak+interact with the animal, and then apply a saddle. \n \n A simple stick can be used to command the hippogrpyh to either sit or wander. \n \n They can be bred with rabbit stew."
+            }
+            ]
+        },
+                {
+        "key": "COCKATRICE",    
+        "name": "Cockatrice",
+        "icons": [ "iceandfire:cockatrice_skull"],
+        "category": "BESTIARY", "location": [ 0,2 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;5"]
+            },
+            {
+                "text": "<IMG>devmenu:cockatrice.png:0:0:255:255:0.25</IMG> \n \n Don't let their unassuming appearance fool you, these beasts are deadly and relentless. \n \n They are found in savannas, and despite being a bird with a sharp beak and talons, they prefer to attack with their eyes. Those who look into the eyes of the cockatrice will have their soul withered away and become gravely nauseous. \n \n If you want protection from this, you will have to wear a blindfold. \n \n Very rarely, chickens will drop a rotten egg. These eggs, when thrown, will very rarely spawn a baby cockatrice. These babies imprint on their owner. Tamed cockatrices can be made to sit, follow, or patrol by interacting with an open arm. Feeding seeds will heal it. \n \n They also eat rotten flesh. \n \n They will fight to the death to protect their owner. \n \n Adult cockatrices can also be tamed, by beating them in a staring contest."
+            }
+            ]
+        },
+        {
+        "key": "CAVETROLLS",    
+        "name": "Cave Trolls",
+        "icons": [ "iceandfire:troll_skull"],
+        "category": "BESTIARY", "location": [ 2,2 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;5"]
+            },
+            {
+                "text": "<IMG>devmenu:troll.png:0:0:255:255:0.25</IMG> \n \n Trolls are gigantic beasts that live deep underground in caves. \n \n They each wield a massive weapon they use to crush their prey. These weapons can sometimes be dropped by the troll upon their death. They pack quite a punch, but are quite heavy. \n \n They also drop several other items, the most important being their tusks and hides. These can be crafted into armor that is very resistant to projectile damage. \n \n Trolls will instantly turn to stone when exposed to sunlight."
+            }
+            ]
+        },
+        {
+        "key": "STYMPHALIANBIRDS",    
+        "name": "Stymphalian Birds",
+        "icons": [ "iceandfire:stymphalian_skull"],
+        "category": "BESTIARY", "location": [ 4,2 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;4"]
+            },
+            {
+                "text": "<IMG>devmenu:stymphalian.png:0:0:255:255:0.25</IMG> \n \n These terrifying metal birds are found in the swamps of the overworld, and will ruthlessly hunt down any explorer in their territory. \n \n They travel in flocks of 3 to 20, and will endlessly spew sharpened feathers at their prey, or will peck with their metal beak up close. \n \n When killed, the beasts will drop metals and a few of their feathers. The other members of the flock will flee if one is killed. \n \n The feathers, if picked up, can craft extemely powerful arrows. They seem undaunted by gravity."
+            }
+            ]
+        },
+        {
+        "key": "IAFSIRENS",    
+        "name": "Sirens",
+        "icons": [ "iceandfire:shiny_scales"],
+        "category": "BESTIARY", "location": [ 6,2 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;4"]
+            },
+            {
+                "text": "<IMG>devmenu:siren.png:0:0:255:255:0.25</IMG> \n \n Sirens are mermaids who rest on rocks in the ocean, luring in any nearby sailors with their charms. \n \n They first appear to be half woman, and half fish. At this stage, it is known as a mermaid. \n \n As soon as a sailor is near, they will begin to sing. The song is extremely powerful. It is capable of wooing any nearby humanoid being to become uncontrollably infatuated with the mermaid, even forcing some to swim towards the mermaid; their fatal mistake. \n \n When the person gets close, the mermaid will transform into their true form, the siren, and dive into the water to attack. \n \n They often come in groups, which will most likely be certain death for the sailor. \n \n There is a way to protect yourself, however. By wearing earplugs, you can ignore the siren's call. \n \n If you manage to slay a siren, you can obtain prismarine and shiny scales."
+            }
+            ]
+        },
+                {
+        "key": "GORGONS",    
+        "name": "Gorgon",
+        "icons": [ "iceandfire:gorgon_head"],
+        "category": "BESTIARY", "location": [ 0,4 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;6"]
+            },
+            {
+                "text": "Gorgons are hideous mythical creatures that appear to be half woman, half snake. \n \n They are incredibly dangerous, capable of turning anything who looks into her eyes into stone. \n \n These days, they are thankfully locked away within ancient stone temples. \n \n The best way to handle this monster is with a blindfold. The stone-turning ability is thus denied. But of course, you cannot see! \n \n The gorgon also packs a powerful and venomous bite. \n \n When killed, the head can be harvested from the body and used as a single use weapon to instantly petrify anything. You can use a silk touch tool to collect the statue."
+            }
+            ]
+        },
+        {
+        "key": "MYRMEX",    
+        "name": "Myrmex",
+        "icons": [ "iceandfire:myrmex_desert_helmet"],
+        "category": "BESTIARY", "location": [ 2,4 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;7"]
+            },
+            {
+                "text": "Legends tell that long ago, a woman who stole from the gods, and claimed their possessions as her own inventions. As punishment, the gods turned her into a foul creature: the first Myrmex Queen. <BR> The Myrmex are a colony of hideous, giant ants with a powerful stinger and mandibles. Their society is separated into castes. Workers are the smallest of the colony, and frequently leave the hive to gather resources and food. They then bring these resources back to the colony. They also are tasked with moving around larva and pupae to the nursery rooms within the nest. <BR> Soldiers are the colony's first line of defense. They follow around other inidividuals to protect them from threats. <BR> Royals are the only caste capable of flight, though mostly spend their time within the colony, as they are the main means of reproduction. When two royals mate, the male dies and the female becomes a queen. <BR> Sentinels are the covert operations caste. They hide in wait along popular foraging routes, ambushing any possible prey and predators of the hive. <BR> The queen is the key to the entire colony, as the leader and only member capable of reproduction for the colony. Though, on rare occasions there can be two queens. If you kill the queen, you effectively are killing the colony. Despite the queen mainly being used for reproduction, she is also the strongest, equipped with a powerful stinger that can launch attackers, and bone-crushing mandibles. <PAGE> Myrmex drop an assortment of unqiue items useful for crafting weapons and armor. Their stingers can be used to create venomous swords. They will also drop resin chunks, but still will seek it out. By throwing these chunks near the workers, one can raise their reputation with the hive. The more you offer this resin, the more they will allow you to interact with the colony. They will eventually become neutral, then allow trading, then allow the use of myrmex staffs on the colony as a whole. The items you receive depends on which caste you trade with. <BR> Staffs can be used to modify the structure of myrmex colonies. Interacting with a myrmex with one hand will bind it to their colony. Using it can delete certain rooms in the colony or disable the queen's reproduction. Using it while sneaking can add rooms. You can only use this staff with a high enough reputation. Eggs can only be hatched underground. When a queen egg hatches near a tamer underground. The queen will bind to them, and the following colony that will form will have a permanent max reputation with the tamer."
+            }
+            ]
+        },
+        {
+        "key": "ICYUNDEAD",    
+        "name": "The Icy Undead",
+        "icons": [ "iceandfire:dread_stone_face"],
+        "category": "BESTIARY", "location": [ 4,4 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;8"]
+            },
+            {
+                "text": "In cold areas of the overworld, a nefarious force was sealed away in indestructible mausoleums made of dreadstone. their power has been failing. beings from another time and place have been seen emerging from these structures and scouting the frozen wastes. <BR> The most common is the dread lich, who will summon other undead. The lich will drop a key to the mausoleum. <BR> The necromancer will fire frozen souls or summon dread thralls; slow, weak skeletons. <BR> Dread ghouls are fast moving zombies with extremely sharp claws. <BR> Dread beasts are the mangled remains of animals converted by the dread lich. they are fast and bite any livng thing they can get their teeth on. <BR> Dread scuttlers are monstrous undead arthropods, ready to sink their fangs into anything their master commands them to."
+            }
+            ]
+        },
+        {
+        "key": "CYCLOPS",    
+        "name": "Cyclops",
+        "icons": [ "iceandfire:cyclops_skull"],
+        "category": "BESTIARY", "location": [ 6,4 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;8"]
+            },
+            {
+                "text": "The cyclops is a monstrous beast found near beaches, and has a single eye. They surprisingly make good shepherds. Cyclops are very vigilant creatures, and can see prey from very far away. However, if you manage to hit the monster's eye with a projectile, you can blind it. Alternatively, you could also disguise yourself as a sheep with sheep disguise armor. Take precaution, as the cyclops could decapitate you in one bite!"
+            }
+            ]
+        },
+        {
+        "key": "IAFDRAGONS",    
+        "name": "Dragons",
+        "icons": [ "iceandfire:dragon_skull"],
+        "category": "BESTIARY", "location": [ 0,6 ], 
+        "parents": [ "UNLOCKGOLEMANCY" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this beast.",
+                "required_item": ["iceandfire:manuscript;10"]
+            },
+            {
+                "text": "For the longest time, these beasts were thought to be simply a legend, until one unlucky tribe was ambushed. From there, word quickly spread across the land that these terrifying creatures really do exist. <BR> Male dragons have patterened wings and females have curved horns. The dragons these days are gigantic, and have a wide variety of attacks for dispatching its nuisances. Dragons are born rather small, but grow to be incomprehensibly large, getting stronger as they grow older. They are categorized into 5 stages of growth, with 4 and 5 being truly terrifying creatures. It is unknown if anyone has ever defeated a stage 5 dragon. <BR> After killing dragons, you can loot the corpse for scales, which can make armor. You can get the bones which can make tools and weapons. <BR> You can eat the flesh which has different effects. Fire flesh will smite the eater, ice flesh will slow them down. Dragons hearts do not have any known purpose."
+            }
+            ]
+        },
+                {
+        "key": "DRAGONEGGS",    
+        "name": "Dragon Eggs",
+        "icons": [ "iceandfire:dragonegg_bronze"],
+        "category": "BESTIARY", "location": [ 2,6 ], 
+        "parents": [ "IAFDRAGONS" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this egg.",
+                "required_item": ["iceandfire:manuscript;10"]
+            },
+            {
+                "text": "After taking down a dragon, I noticed the beast was guarding its eggs. It is a truly beautiful egg, and if it hatches near me, it should imprint on me, allowing me to raise my very own dragon. The egg will probably not hatch with conventional means of incubation, so I will need to think of my own method.",
+                "required_knowledge":["THEORY;BASICS;1"]
+            },
+            {
+                "text": "After theorizing some more on dragons, I have deduced a method of incubation that should work. If my dragon egg is a fire type, I should light the block underneath the egg on fire. If it is an ice dragon egg, I should submerge the egg in a pond. I should be very patient in waiting for this egg to hatch. I will also need a food that is rich in nutrients to improve the dragon's growth.",
+                "required_knowledge":["THEORY;BASICS;1"]
+            },
+            {
+                "text": "I have created a recipe I shall call dragon meal. This should help improve the dragon's growth. I can use the wand of commanding on the dragon to make it either stay or wander. Adult dragons can be bred with stews consisting of exotic lilies and other ingredients. dragon horns can be used to (de)summon dragons. I can also make armor for the dragon, and a flute which can calm my dragon down. I wonder if it can calm down other creatures... <BR> I have found that putting a skull on a stick makes for an effective dragon command staff. I can also use the dragon skulls for banners. <BR> Dragon blood can be used to make a summoning crystal, or to infuse a sword of dragonbone."
+            }
+            ]
+        },
+        {
+        "key": "DRAGONFORGE",    
+        "name": "Dragon Forge",
+        "icons": [ "iceandfire:dragonforge_fire_input", "iceandfire:dragonforge_ice_input"],
+        "category": "BESTIARY", "location": [ 4,6 ], 
+        "parents": [ "DRAGONEGGS" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this device.",
+                "required_item": ["iceandfire:manuscript;10"]
+            },
+            {
+                "text": "Once I Have a tamed dragon large enough to breathe fire or frost, I can use it to make the legendary substance known as dragonsteel, but I will first need to make a forge. I shall make it out of an alloy between stone and dragon scales, which should prove completely immune to the dragon's breath. <PAGE> The recipe for the dragonforge is as follows: \nLAYERS 1 AND 3: \n121 \n222 \n121 \n \n 1:Dragon Bone Block \n \n 2: Dragon Bricks <PAGE> LAYER 2: \n222 \n232 \n242 \n 3: Dragonforge Core \n 4: Dragonforge Aperture"
+            }
+            ]
+        },
+        {
+        "key": "DRAGONSTEEL",    
+        "name": "Dragonsteel",
+        "icons": [ "iceandfire:dragonsteel_fire_ingot", "iceandfire:dragonsteel_ice_ingot"],
+        "category": "BESTIARY", "location": [ 6,6 ], 
+        "parents": [ "DRAGONFORGE" ],        
+        "meta": ["ROUND" ],        
+        "stages": [
+            {
+                "text": "Turn in some manuscripts to learn more about this material.",
+                "required_item": ["iceandfire:manuscript;10"]
+            },
+            {
+                "text": "Upon placing iron and dragon blood in the forge, my dragon, if nearby, will activate the forge with their breath, turning the two ingredients into dragonsteel. To ensure my dragon doesn't wander away while forging, I can tie it down with chains to a dragon bone wall. <PAGE> The recipe for the dragonforge is as follows: \nLAYERS 1 AND 3: \n121 \n222 \n121 \n \n 1:Dragon Bone Block \n \n 2: Dragon Bricks <PAGE> LAYER 2: \n222 \n232 \n242 \n 3: Dragonforge Core \n 4: Dragonforge Aperture"
+            }
+            ]
+        }
+    ]
+}

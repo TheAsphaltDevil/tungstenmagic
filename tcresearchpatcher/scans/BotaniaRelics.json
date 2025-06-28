@@ -1,0 +1,44 @@
+[
+    {
+	"key": "!RingOfOdin",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "botania:odinring"
+		}
+	},
+	{
+	"key": "!RingOfLoki",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "botania:lokiring"
+		}
+	},
+	{
+	"key": "!RingOfThor",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "botania:thorring"
+		}
+	},
+	{
+	"key": "!KingKey",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "botania:kingkey"
+		}
+	},
+	{
+	"key": "!FruitOfGrisaia",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "botania:infinitefruit"
+		}
+	},
+	{
+	"key": "!FlugelEye",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "botania:flugeleye"
+		}
+	}
+]
