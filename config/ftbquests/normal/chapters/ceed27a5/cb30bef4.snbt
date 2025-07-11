@@ -1,0 +1,108 @@
+{
+	x: 35.0d,
+	y: -8.0d,
+	description: "You only need one to continue",
+	text: [
+		"With scribing tools and paper in your inventory, scan the sky with your thaumometer to create celestial notes.",
+		"",
+		"These papers can be used for research, but are primarily used in the other main magic: §lAstrology§r, sometimes also called Astral Sorcery.",
+		"",
+		"Astrology is the art of becoming stronger by attuning yourself to the constellations."
+	],
+	dependencies: [
+		"2b7dc709"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "f87846da",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes"
+		}]
+	},
+	{
+		uid: "6d8b3639",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 1"
+		}]
+	},
+	{
+		uid: "2e65a61d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 2"
+		}]
+	},
+	{
+		uid: "d2020983",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 3"
+		}]
+	},
+	{
+		uid: "0ab1ea01",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 4"
+		}]
+	},
+	{
+		uid: "6b4e67f5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 5"
+		}]
+	},
+	{
+		uid: "a33c3618",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 6"
+		}]
+	},
+	{
+		uid: "6400c24f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 7"
+		}]
+	},
+	{
+		uid: "07d26c64",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 8"
+		}]
+	},
+	{
+		uid: "603dcdef",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 9"
+		}]
+	},
+	{
+		uid: "02669a83",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 10"
+		}]
+	},
+	{
+		uid: "e599f1eb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 11"
+		}]
+	},
+	{
+		uid: "574826bb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 12"
+		}]
+	}]
+}

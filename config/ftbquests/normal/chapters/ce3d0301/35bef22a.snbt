@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: -13.5d,
+	dependencies: [
+		"2fb85b92"
+	],
+	tasks: [{
+		uid: "f3a584fd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "aether_legacy:dungeon_key"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 13.5d,
+	shape: "square",
+	tasks: [{
+		uid: "d99486ab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:hag_dance"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

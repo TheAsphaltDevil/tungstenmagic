@@ -1,0 +1,7 @@
+{
+	title: "Senior Thesis",
+	icon: "arcanearchives:letter_resignation",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

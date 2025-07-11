@@ -1,0 +1,20 @@
+{
+	title: "I: Tinkers Helmet",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:iron_helmet"
+	},
+	x: 7.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "deb82a1a",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: 5.0d,
+	y: -8.0d,
+	dependencies: [
+		"46e53c72"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "74f4e9e3",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 6"
+		}]
+	},
+	{
+		uid: "4b6df51a",
+		type: "item",
+		items: [{
+			item: "twilightforest:raw_meef"
+		}]
+	},
+	{
+		uid: "038bab6a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:meef_stroganoff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

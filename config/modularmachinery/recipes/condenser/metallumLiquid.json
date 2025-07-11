@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_metallum",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "metallum",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_metallum",
+            "amount": 10
+        }
+    ]
+}

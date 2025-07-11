@@ -1,0 +1,28 @@
+{
+	title: "Astrology",
+	x: 39.0d,
+	y: -9.5d,
+	text: [
+		"To get the luminous crafting table, you will first need to find an ancient marble shrine. You'll know when you find one.",
+		"",
+		"Crystals are hidden underneath the shrine. Your task is to give sky access to the crystal, by removing anything directly above it. When successful, the crystal should become much brighter!",
+		"",
+		"Next, place a mundane crafting table near the crystal. The crystal should begin shining its light onto the table.",
+		"",
+		"Using this table, you can now craft the luminous crafting table to begin astrology."
+	],
+	dependencies: [
+		"b93f5ec8"
+	],
+	tasks: [{
+		uid: "0b20ef4d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		}],
+		ignore_nbt: 1b
+	}]
+}

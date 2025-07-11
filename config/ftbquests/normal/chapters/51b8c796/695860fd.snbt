@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	tasks: [{
+		uid: "358e3113",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "ebwizardry:ring_full_moon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Void Tamer",
+	icon: "thaumcraft:seal 1 1",
+	x: -4.5d,
+	y: -6.0d,
+	shape: "pentagon",
+	description: "Dark Arts",
+	text: [
+		"What is this and how do I keep it?",
+		"---",
+		"",
+		"Keep a flux rift alive for more than 3 In-Real-Life days, in total.",
+		"You do not have to do this in one sitting."
+	],
+	hide: true,
+	tasks: [{
+		uid: "8e867485",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:rift_feeder"
+		}]
+	},
+	{
+		uid: "db4239ae",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:rift_monitor"
+		}]
+	},
+	{
+		uid: "544c10e6",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:stability_field_generator"
+		}]
+	},
+	{
+		uid: "35212025",
+		type: "checkmark",
+		title: "Keep a rift alive for 3 IRL days."
+	}]
+}

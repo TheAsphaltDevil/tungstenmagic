@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_terra",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "terra",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_terra",
+            "amount": 10
+        }
+    ]
+}

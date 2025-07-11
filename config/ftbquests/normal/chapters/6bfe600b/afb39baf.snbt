@@ -1,0 +1,102 @@
+{
+	title: "Right Click",
+	icon: "minecraft:stained_glass_pane 1 8",
+	x: 13.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "33e7ede2",
+		type: "checkmark"
+	},
+	{
+		uid: "a6e81e4c",
+		type: "item",
+		title: "RMB: Cast Spell, adjust tubes",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aaf6f76d",
+		type: "item",
+		title: "RMB: Place Light Source",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemilluminationwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9438c582",
+		type: "item",
+		title: "RMB: Link two items",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e116cc8",
+		type: "item",
+		title: "RMB: Exchange Blocks",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemexchangewand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aca8909d",
+		type: "item",
+		title: "RMB: Activate Altar",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

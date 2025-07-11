@@ -1,0 +1,31 @@
+{
+	title: "Alfheim",
+	icon: "botania:pylon 1 1",
+	x: -15.75d,
+	y: -0.35d,
+	shape: "hexagon",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b27f646a",
+		"0732c529"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "5e288b9e",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "13a1a08c",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	}]
+}

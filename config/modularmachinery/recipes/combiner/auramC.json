@@ -1,0 +1,25 @@
+{
+    "machine": "combiner",
+    "registryName": "auramC",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "praecantatio",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "aer",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "auram",
+            "amount": 2
+        }
+    ]
+}

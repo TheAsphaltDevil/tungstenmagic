@@ -1,0 +1,593 @@
+{
+    "entries" :[
+        {
+        "key": "ASORCERY",    
+        "name": "Astral Sorcery",
+        "icons": [ "astralsorcery:itemjournal" ],
+        "category": "ASTRALSORCERY", "location": [ 0,1 ], 
+        "parents": [ "CELESTIALSCANNING" ],        
+        "meta": ["ROUND", "AUTOUNLOCK"],        
+        "stages": [
+                {
+                    "text": "§lAstralogy§r, Otherwise known as §lAstral Sorcery§r, is capable of doing two main things: <BR>First, the art of attuning yourself or items to constellations to yield different effects.<BR>Second, it offers magical versions of the crafting table, to craft items that mundane tables cannot. Your magical crafting table, known as an §lAltar§r, will get more powerful with each academic year."
+                }
+            ]
+        },
+        {
+            "key": "RESONATINGWAND",    
+            "name": "Resonating Wand",
+            "icons": [ "astralsorcery:itemwand" ],
+            "category": "ASTRALSORCERY", "location": [ -3,-2 ], 
+            "parents": [ "LUMINOUSCRAFTINGTABLE" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "My wand of commanding, set to the mode 'resonating wand' will allow me to activate my crafting altars. When the altar has a valid recipe and has enough energy, simply activate it with this wand to craft the item."
+                    }
+                ]
+        },
+        {
+            "key": "LUMINOUSCRAFTINGTABLE",    
+            "name": "Freshman Year",
+            "icons": [ "astralsorcery:blockaltar" ],
+            "category": "ASTRALSORCERY", "location": [ -6,-2 ], 
+            "parents": [ "ASORCERY" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "In addition to the Arcane Workbench, there is the §lLuminous Crafting Table§r.<BR>For now, they serve the same purpose as a magical crafting table. However, for each academic year, your luminous crafting table will upgrade with more slots, to handle more advanced recipes."
+                    }
+    
+                ]
+        },
+        {
+            "key": "GETTINGSTARLIGHT",    
+            "name": "Acquiring Starlight",
+            "icons": [ "thaumcraft:enchanted_placeholder" ],
+            "category": "ASTRALSORCERY", "location": [ -5,-3 ], 
+            "parents": [ "LUMINOUSCRAFTINGTABLE" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "There are various means of collecting starlight. Most methods can stack with each other to get even more. I have the current methods at my disposal:<PAGE>§lAncient Shrines§r<DIV>If you place a Luminous crafting table near the crstal from an ancient shrine, the crystal will provide starlight. This is intended to be quick starter method rather than a long term one. <PAGE>§lAltar Height§r<DIV>The higher in the world I place my altar, the more starlight I will get. Caps at Y:120."
+                    }
+    
+                ],
+                "addenda": [    
+                    {
+                        "text": "§lSpectral Relay§r<DIV>Place the spectral relay atop the appropriate structure, whose blueprint can be acquired from the shop. Then, place a Glass Lens in the relay.", 
+                        "required_research":["SPECTRALRELAY"]
+                    }
+                ]
+        },
+        {
+            "key": "ROCKCRYSTAL",    
+            "name": "Rock Crystals",
+            "icons": [ "astralsorcery:itemrockcrystalsimple" ],
+            "category": "ASTRALSORCERY", "location": [ 0,-2 ], 
+            "parents": [ "RESONATINGWAND" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "§lRock Crystals§r Are a rare ore, located at the bottom of the world. They are used all throughout Astrology. <BR>I can use resonating wand to locate rock crystals, which are an essential ingredient for astral sorcery. I just need to hold it in my hand, and pillars of light will appear at night time. If I dig down at these spots, I should eventually find rock crystals."
+                    }
+                ]
+        },
+        {
+            "key": "CELESTIALCRYSTAL",    
+            "name": "Celestial Crystals",
+            "icons": [ "astralsorcery:itemcelestialcrystal" ],
+            "category": "ASTRALSORCERY", "location": [ 4,-10 ], 
+            "parents": [ "ROCKCRYSTAL", "STARMETAL" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This variant of the rock crystal can provide more potent versions of several pieces of equipment, especially rituals. These crystals cannot be found naturally and must instead be grown. \n \n To do so, I must place some stardust and a rock crystal into a source of liquid starlight. They will react and coat the crystal will be coated in the stardust. Over time, the crystal will eventually grow to full size, indicated by a shimmer."
+                    }
+                ]
+        },
+        {
+            "key": "ASTRALSEXTANT",    
+            "name": "Sextant",
+            "icons": [ "astralsorcery:itemsextant" ],
+            "category": "ASTRALSORCERY", "location": [ -8,0 ], 
+            "parents": [ "LUMINOUSCRAFTINGTABLE"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This device will allow me to locate several structures throughout the world. <BR>Look around in the sky for a big star. Mousing over it will reveal what kind of structure it is. Drag the corresponding icon to the star, and the star will appear in your sky for you to follow."
+                    }
+                ]
+        },
+        {
+            "key": "SPECTRALRELAY",    
+            "name": "Spectral Relay",
+            "icons": [ "astralsorcery:blockattunementrelay" ],
+            "category": "ASTRALSORCERY", "location": [ -10,0 ], 
+            "parents": [ "LUMINOUSCRAFTINGTABLE"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This device has multiple uses. \n \n DISPLAY <DIV> Right click on the relay with an item to use it as a display. \n \n POWER SOURCE <DIV> Place the relay in the middle, atop a 3x3 square, with chiseled marble on the corners, marble arch on the side, and sooty marble in the middle. Then, put a lens in the relay. It will now power nearby altars. \n \n Placing relays too close to each other will result in their effects cancelling each other out."
+                    }
+                ]
+        },
+        {
+            "key": "LOOKINGGLASS",    
+            "name": "Discovering Constellations",
+            "icons": [ "astralsorcery:itemhandtelescope" ],
+            "category": "ASTRALSORCERY", "location": [ -12,-3 ], 
+            "parents": [ "LUMINOUSCRAFTINGTABLE"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Since astral sorcery deals with the stars, it is essential that I use energy from the constellations to gather various forms of energy. Each constellation provides a unique energy, and therefore a unique effect for rituals and enchanting (More on these later). \n \n FINDING CONSTELLATIONS <DIV> I will first need to find constellation paper left behind in various astral structures located throughout the world. \n \n LOGGING CONSTELLATIONS <DIV> In order to use a constellation for attunement, I will need to log it. There are three tiers of constellations: Bright, Dim, and Faint. \n \n Each tier will need a more powerful device, starting with the looking glass. \n \n USING THE LOOKING GLASS <DIV> To log constellations with the looking glass, I first need to look through the device at night (right click). I then need to look around for large, shining stars. These stars form the constellations. To log the constellation, hold sneak and draw lines between the stars as shown on the constellation paper. \n <LINE> \n DISCIDIA <DIV> Enchanting: Sharpness, Power \n \n Ritual: Harms nearby hostile mobs. \n \n ARMARA <DIV> Enchanting: Protection \n \n Ritual: Pushes away incoming hostiles and projectiles. \n \n VICIO <DIV> Enchanting: Feather Falling \n \n Ritual: Grants flight within a certain radius of the ritual. \n \n AEVITAS <DIV> Enchanting: Mending \n \n Ritual: Grants regen to nearby entities, and nearby crops grow much faster. \n \n EVORSIO <DIV> Enchanting: Efficiency \n \n Ritual: Breaks nearby blocks."
+                    }
+                ]
+        },
+        {
+            "key": "ASTRALTELESCOPE",    
+            "name": "Telescope",
+            "icons": [ "astralsorcery:blockmachine" ],
+            "category": "ASTRALSORCERY", "location": [ -10,-4 ], 
+            "parents": [ "LOOKINGGLASS", "STARLIGHTCRAFTINGALTAR"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "The telescope will allow me to view the second tier of constellations: dim. \n \n LUCERNA <DIV> Enchanting: Night Vision \n Ritual: Prevents hostile spawns in a large radius. \n \n MINERALIS <DIV> Enchanting: Fortune \n Ritual: Turns nearby stone into ores. \n \n HOROLOGIUM <DIV> Enchanting: Looting \n Ritual: Increases the ticking rate of nearby machines. \n \n OCTANS <DIV> Enchanting: Respiration \n Ritual: Increases fishing rate in blocks near the pedestal. \n \n OCTANS <DIV> Enchanting: Silk Touch \n Ritual: Nearby animals will replicate their drops without having to kill them. \n \n FORNAX <DIV> Enchanting: Fire Aspect/Autosmelt \n Ritual: Nearby blocks will become molten or burn. \n \n PELOTRIO <DIV> Enchanting: Infinity \n Ritual: Increases the spawn rate of all entities for nearby blocks."
+                    }
+                ]
+        },
+        {
+            "key": "CELESTIALGATEWAY",    
+            "name": "Teleportation",
+            "icons": [ "astralsorcery:blockcelestialgateway" ],
+            "category": "ASTRALSORCERY", "location": [ -7,-3 ], 
+            "parents": [ "STARLIGHTCRAFTINGALTAR"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "The celestial gateway, can be used to teleport to other celestial gateways. Simply stand on the platform, look at a star, and sneak to teleport. <BR>To name a celestial gateway, rename the gateway block in an anvil."
+                    }
+                ]
+        },
+        {
+            "key": "ILLUMINATIONPOWDER",    
+            "name": "Illumination Powder",
+            "icons": [ "astralsorcery:itemusabledust" ],
+            "category": "ASTRALSORCERY", "location": [ -14,2 ], 
+            "parents": [ "LUMINOUSCRAFTINGTABLE"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I can throw this powder, and it will conjure a light source wherever it lands."
+                    }
+                ]
+        },
+        {
+            "key": "NOCTURNALPOWDER",    
+            "name": "Nocturnal Powder",
+            "icons": [ "astralsorcery:itemusabledust;1;1" ],
+            "category": "ASTRALSORCERY", "location": [ -12,4 ], 
+            "parents": [ "ILLUMINATIONPOWDER"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Nocturnal powder is the opposite of illumination powder. It will shroud the area in darkness, and call forth hostile creatures."
+                    }
+                ]
+        },
+        {
+            "key": "CAVEILLUMINATOR",    
+            "name": "Cave Illuminator",
+            "icons": [ "astralsorcery:blockworldilluminator" ],
+            "category": "ASTRALSORCERY", "location": [ -10,4 ], 
+            "parents": [ "ILLUMINATIONPOWDER"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This device, if placed below the night sky without any obstructions, will conjure light sources below it. They will fill the room it is in."
+                    }
+                ]
+        },
+        {
+            "key": "GRINDSTONE",    
+            "name": "Grindstone",
+            "icons": [ "astralsorcery:blockmachine;1;1" ],
+            "category": "ASTRALSORCERY", "location": [ 5,-4 ], 
+            "parents": [ "ROCKCRYSTAL"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "The grindstone is used for several things: \n \n Grinding starmetal into stardust \n \n Grinding crystals to increase their cutting stat \n \n Sharpening crystal tools."
+                    }
+                ]
+        },
+        {
+            "key": "STARLIGHTCRAFTINGALTAR",    
+            "name": "Sophomore Year",
+            "icons": [ "astralsorcery:blockaltar;1;1" ],
+            "category": "ASTRALSORCERY", "location": [ -6,-4 ], 
+            "parents": [ "LUMINOUSCRAFTINGTABLE", "LIGHTWELL"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This altar will allow me to craft the next tier of astral sorcery devices. I will need a structure around it, which can be built with the wand of building."
+                    }
+                ]
+        },
+        {
+            "key": "LINKINGTOOL",    
+            "name": "Linking Tool",
+            "icons": [ "astralsorcery:itemlinkingtool" ],
+            "category": "ASTRALSORCERY", "location": [ -6,-8 ], 
+            "parents": [ "STARLIGHTCRAFTINGALTAR"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This tool will allow me manually assign points to direct starlight. <BR>Right click a source, then a destination. Sneak right click to unlink all links to/from a block. Unequip the tool to stop linking."
+                    }
+                ]
+        },
+        {
+            "key": "ASTRALLENS",    
+            "name": "Redirecting Starlight",
+            "icons": [ "astralsorcery:blocklens" ],
+            "category": "ASTRALSORCERY", "location": [ -8,-8 ], 
+            "parents": [ "LINKINGTOOL"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "In addition to the passive starlight astral sorcery devices receive from being exposed to the night sky, they can also be powered through other starlight collecting devices, namely crystals. To do this, the light from the crystals will need to be redirected. \n \n To redirect starlight, right click on a block with a linking tool. Then, right click on the block you want the starlight to go to. \n \n <PAGE>LENSES<DIV> You can also use lenses to act as a relay for starlight. Prismlenses can be linked to multiple destinations."
+                    }
+                ]
+        },
+        {
+            "key": "ASTRALTRANSMUTATION",    
+            "name": "Block Transmutation",
+            "icons": [ "minecraft:cake" ],
+            "category": "ASTRALSORCERY", "location": [ -10,-8 ], 
+            "parents": [ "ASTRALLENS"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Some blocks, when powered via starlight, will transmute into other blocks. \n \n To view these transmutations, press U on a lens in JEI."
+                    }
+                ]
+        },
+        {
+            "key": "STARMETAL",    
+            "name": "Starmetal",
+            "icons": [ "astralsorcery:itemcraftingcomponent;1;1" ],
+            "category": "ASTRALSORCERY", "location": [ -6,-10 ], 
+            "parents": [ "LINKINGTOOL"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Starmetal is a common ingredient in astral sorcery. It can be made by performing starlight transmutation on iron ore, or through alchemy."
+                    }
+                ]
+        },
+        {
+            "key": "ATTUNEMENTALTAR",    
+            "name": "Attunement Altar",
+            "icons": [ "astralsorcery:blockattunementaltar" ],
+            "category": "ASTRALSORCERY", "location": [ -12,-10 ], 
+            "parents": [ "STARMETAL"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "The attunement altar will attune rock crystals to various constellations, which allows them to be used for rituals. \n \n The blueprint for the attunement altar can be found in the astral tome. \n \n To attune rock crystals, first hold the paper of the desired constellation in your hand. The altar should then emit dust particles at various locations. These locations are designed to mimic the constellation's arrangement of stars. Place spectral relays at these locations. If the constellation is in the sky that night, and everything was placed right, the altar will activate."
+                    }
+                ]
+        },
+        {
+            "key": "ASTRALRITUALS",    
+            "name": "Rituals",
+            "icons": [ "astralsorcery:blockritualpedestal" ],
+            "category": "ASTRALSORCERY", "location": [ -16,-14 ], 
+            "parents": [ "ATTUNEMENTALTAR"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Rituals allow me to perform various tasks using the power of starlight. \n \n SETUP <DIV> I will first need to make a ritual pedestal. Then, I will need to make the structure for the pedestal as found in the astral tome. \n \n PERFORMING A RITUAL <DIV> To perform a ritual, I simply place an attuned rock crystal or celestial crystal into the pedestal. The ritual will then begin. To view what each constellation does for each ritual, I can examine the entries for the looking glass, telescope, and observatory."
+                    }
+                ]
+        },
+        {
+            "key": "CELESTIALALTAR",    
+            "name": "Junior Year",
+            "icons": [ "astralsorcery:blockaltar;1;2" ],
+            "category": "ASTRALSORCERY", "location": [ -6,-12 ], 
+            "parents": [ "STARMETAL"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This altar will allow me to craft the next tier of astral sorcery devices."
+                    }
+                ]
+        },
+        {
+            "key": "STARLIGHTINFUSER",    
+            "name": "Starlight Infusion",
+            "icons": [ "astralsorcery:blockstarlightinfuser" ],
+            "category": "ASTRALSORCERY", "location": [ -6,-14 ], 
+            "parents": [ "CELESTIALALTAR"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Some items can be upgraded or purified using liquid starlight. This device allows me to infuse liquid starlight into items. I simply need to build the structure for it, fill the reservoirs with liquid starlight, place the item atop the infuser, then activate it with my wand of activation."
+                    }
+                ],
+            "addenda": [    
+                {
+                    "text": "If a containment chalice with starlight is placed near the starlight infuser, it will pull from the chalice instead of from the reservoirs in the floor of the structure.", 
+                    "required_research":["CONTAINMENTCHALICE"]
+                }
+            ]
+        },
+        {
+            "key": "IRIDESCENTALTAR",    
+            "name": "Senior Year",
+            "icons": [ "astralsorcery:blockaltar;1;3" ],
+            "category": "ASTRALSORCERY", "location": [ -6,-18 ], 
+            "parents": [ "STARLIGHTINFUSER"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This final altar will allow me to craft the final tier of astral sorcery devices."
+                    }
+                ]
+        },
+        {
+            "key": "ASTRALOBSERVATORY",    
+            "name": "Observatory",
+            "icons": [ "astralsorcery:blockobservatory" ],
+            "category": "ASTRALSORCERY", "location": [ -16,-18 ], 
+            "parents": [ "IRIDESCENTALTAR", "ASTRALRITUALS"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "The telescope will allow me to view the final tier of constellations: faint. These constellations are applied as an addition to the main constellation, to provide additional buffs.\n \n GELU <DIV> Enchanting: Unbreaking/Feather Falling \n Ritual: Increases ritual range, but lowers the potency. \n \n ULTERIA <DIV> Enchanting: Unbreaking, Fire Protection, Blast Protection, Projectile Protection \n Ritual: Increases potency, but decreases radius. \n \n ALCARA <DIV> Enchanting: Div "
+                    }
+                ]
+        },
+        {
+            "key": "CONTAINMENTCHALICE",    
+            "name": "Containment Chalice",
+            "icons": [ "astralsorcery:blockchalice" ],
+            "category": "ASTRALSORCERY", "location": [ -6,-20], 
+            "parents": [ "IRIDESCENTALTAR"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This is a container for fluid with a special property.<BR>Instead of storing the fluid inside of it. It gets put in a containment field above the chalice. This enables them to have fluid inertactions, but from within the chalices.<BR>For example, if you have a chalice with water and a chalice with lava near each other, they will make stone.<BR>This container accepts fluid pipe transfer from the bottom."
+                    }
+                ]
+        },
+        {
+            "key": "EVERSHIFTINGFOUNTAIN",    
+            "name": "Siphoning Essentia From the Void",
+            "icons": [ "astralsorcery:blockbore" ],
+            "category": "ASTRALSORCERY", "location": [ -8,-20], 
+            "parents": [ "CONTAINMENTCHALICE"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "It turns out that there is lots of primal essentia lingering in the void beneath the bedrock. The §lEvershifting fountain§r is a multiblock device that can drill through the bedrock and harvest the essentia at the cost of liquid starlight. <BR>Simply build the structure, then place a containment chalice on top of the center fountain block. An additional piece, called the §lNeromantic Prime§r, goes underneath the center fountain block. <BR>Finally, place a containment chalice somewhere nearby the structure, at the same height of the starlight chalice. The extracted fluid will end up in this chalice."
+                    }
+                ]
+        },
+        {
+            "key": "COLLECTORCRYSTALS",    
+            "name": "Collecting Starlight",
+            "icons": [ "astralsorcery:blockcollectorcrystal" ],
+            "category": "ASTRALSORCERY", "location": [ -8,-16 ], 
+            "parents": [ "STARLIGHTINFUSER"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "In addition to relays and exposure to the night sky, another method to collect starlight is through collector crystals. Simply place this crystal somewhere, then use the wand of linking to link it to starlight consuming equipment."
+                    }
+                ]
+        },
+        {
+            "key": "RITUALACCELERATION",    
+            "name": "Ritual Acceleration",
+            "icons": [ "astralsorcery:blocklens" ],
+            "category": "ASTRALSORCERY", "location": [ -14,-16 ], 
+            "parents": [ "COLLECTORCRYSTALS", "ASTRALRITUALS"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "To make a ritual more effective, I can direct starlight into the ritual pedestal. Doing this may cause starlight to shoot back out. <BR>You can also redirect this spilled starlight back into the pedestal as well, using a lens. This may once again cause some starlight to leak out, and then you redirect back in, and so forth. There will be at most 5 offshoots of starlight, for maximum acceleration.<BR>The stats of the lenses used for redirection can also have slight impacts on the effectiveness of the acceleration."
+                    }
+                ]
+        },
+        {
+            "key": "RITUALANCHOR",    
+            "name": "Relocating Rituals",
+            "icons": [ "astralsorcery:blockrituallink" ],
+            "category": "ASTRALSORCERY", "location": [ -12,-14 ], 
+            "parents": [ "STARLIGHTINFUSER", "ASTRALRITUALS"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "If for whatever reason I cannot directly place the ritual pedestal in the location I want the ritual to be, I can use the §lRitual Anchor§r to relocate the effects of a ritual."
+                    }
+                ]
+        },
+        {
+            "key": "TREEBEACON",    
+            "name": "Tree Beacon",
+            "icons": [ "astralsorcery:blocktreebeacon" ],
+            "category": "ASTRALSORCERY", "location": [ -4,-13 ], 
+            "parents": [ "STARLIGHTINFUSER"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "The tree beacon allows you to materialize wood. Bigger trees drop more materials.<BR>Plant a sapling near the beacon, then wait for the tree to grow. It will turn ethereal. This ethereal tree will start dropping wood, but will degrade over time."
+                    }
+                ],
+                "addenda": [    
+                {
+                    "text": "Collector crystals can amplify the effects of the tree beacon.", 
+                    "required_research":["COLLECTORCRYSTALS"]
+                }
+            ]
+        },
+        {
+            "key": "ADVANCEDSEXTANT",    
+            "name": "Augmented Sextant",
+            "icons": [ "astralsorcery:itemsextant" ],
+            "category": "ASTRALSORCERY", "location": [ -3,-13 ], 
+            "parents": [ "STARLIGHTINFUSER"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This upgraded version of the sextant can find additional structures."
+                    }
+                ]
+        },
+        {
+            "key": "COLOREDLENSES",    
+            "name": "Colored Lenses",
+            "icons": [ "astralsorcery:itemcoloredlens" ],
+            "category": "ASTRALSORCERY", "location": [ -7,-6 ], 
+            "parents": [ "ASTRALLENS"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I noticed that starlight seems to sometimes effect things it shines on. I wonder if infusing essentia into these lenses would change what happens.",
+                        "required_knowledge" : ["THEORY;ALCHEMY;1"]
+                    },
+                    {
+                        "text": "It turns out I can in fact imbue these lenses with essentia! The effects each lens gives are pretty self explanitory, with the exception of the spectral lens. This lens allows starlight to pierce through blocks at a slight cost to the potency of the starlight."
+                    }
+                ]
+        },
+        {
+            "key": "STELLARREFRACTION",    
+            "name": "Enchanting With Starlight",
+            "icons": [ "astralsorcery:blockmapdrawingtable" ],
+            "category": "ASTRALSORCERY", "location": [ 3,-13 ], 
+            "parents": [ "CELESTIALALTAR", "STARLIGHTINFUSER"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This table can harness the power of constellations to create supremely powerful enchantments for your gear."
+                    }
+                ]
+        },
+        {
+            "key": "ILLUMINATIONWAND",    
+            "name": "Illumination Wand",
+            "icons": [ "astralsorcery:itemilluminationwand" ],
+            "category": "ASTRALSORCERY", "location": [ -2,-13 ], 
+            "parents": [ "STARLIGHTINFUSER"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "right click: place/delete light source. Sneak right click block to ward it. <BR>Place in some infused glass and parchment. Then, drag your desired constellations onto the parchment to get their corresponding enchantments (more info in the looking glass, telescope, and observatory entries).<BR>If successful, the infused glass will become engraved.<BR>Next, put an enchantable item beneath the engraved glass to enchant it."
+                    }
+                ]
+        },
+        {
+            "key": "ASTRALPRISM",    
+            "name": "Splitting Starlight",
+            "icons": [ "astralsorcery:blockprism" ],
+            "category": "ASTRALSORCERY", "location": [ -1,-13 ], 
+            "parents": [ "STARLIGHTINFUSER"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This item functions the same as a typical lens. However, it can split its outgoing starlight in three directions."
+                    }
+                ]
+        },
+        {
+            "key": "FOSICRESONATOR",    
+            "name": "Fosic Resonator",
+            "icons": [ "astralsorcery:itemskyresonator" ],
+            "category": "ASTRALSORCERY", "location": [ 2,-6 ], 
+            "parents": ["LIGHTWELL"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This device, when held in my hand at night, will display starlight fields. Altars within these fields will have increased energy available to them."
+                    }
+                ]
+        },
+        {
+            "key": "DOMICRESONATOR",    
+            "name": "Domic Resonator",
+            "icons": [ "astralsorcery:itemskyresonator" ],
+            "category": "ASTRALSORCERY", "location": [ -2,-6 ], 
+            "parents": ["FOSICRESONATOR", "STARMETAL"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This resonator allows me to see the area of effect of starlight devices, especially rituals. To change mode to the starlight field display, I can sneak right click."
+                    }
+                ]
+        },
+        {
+            "key": "INFUSEDWOOD",    
+            "name": "Infused Wood",
+            "icons": [ "astralsorcery:blockinfusedwood" ],
+            "category": "ASTRALSORCERY", "location": [ 3,-6 ], 
+            "parents": ["LIGHTWELL"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Dropping wood into a pool of liquid starlight will yield this wood type."
+                    }
+                ]
+        },
+        {
+            "key": "LIGHTWELL",    
+            "name": "Lightwell",
+            "icons": [ "astralsorcery:blockwell" ],
+            "category": "ASTRALSORCERY", "location": [ 0,-4 ], 
+            "parents": [ "ROCKCRYSTAL"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Many devices in astral sorcery require the use of liquid starlight. In order to collect starlight, a lightwell is needed. \n \n To collect starlight, I simply place one of the following ingredients in the lightwell, each being more beneficial than the last: \n \n Aquamarine, \n Resonating Gem, \n Rock Crystal, \n Celestial Crystal. \n \n Alternatively, they can collect lava with a Mountaintear, or water with a Rivertear."
+                    }
+                ]
+        },
+        {
+            "key": "CONSTELLATIONPAPER",    
+            "name": "Constellation Paper",
+            "icons": [ "astralsorcery:itemconstellationpaper" ],
+            "category": "ASTRALSORCERY", "location": [ 8,-2 ], 
+            "parents": [ "ASORCERY"],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This paper displays a constellation, which I can then look for using a looking glass, telescope, or observatory."
+                    }
+                ]
+        },
+        {
+            "key": "ASTRALINGREDIENTS",    
+            "name": "Basic Ingredients",
+            "icons": [ "astralsorcery:blockblackmarble","astralsorcery:itemcraftingcomponent","astralsorcery:itemcraftingcomponent;1;5" ],
+            "category": "ASTRALSORCERY", "location": [ -4,2 ], 
+            "parents": [ "ASORCERY" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "A lot of the ingredients for astral sorcery are surprisingly simple, essence-wise. They should be easily replicable.",
+                        "recipes": ["thaumcraft:astralParchment", "thaumcraft:aquamarine", "thaumcraft:sootyMarble"]
+                    }
+    
+                ]
+        }
+
+    ]
+}
+
+
+

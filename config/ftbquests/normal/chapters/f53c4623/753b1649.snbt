@@ -1,0 +1,57 @@
+{
+	title: "Junior Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "embers:tyrfing",
+		tag: {
+			"Quark:RuneColor": 14,
+			ench: [{
+				lvl: 32767s,
+				id: 34L
+			}],
+			RepairCost: 1L,
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 7.0d,
+	y: -7.5d,
+	description: "Armor-Bypassing Sword",
+	text: [
+		"This sword will deal damage based on the target's armor. Even the most well-equipped foes will come down with ease.",
+		"",
+		"---",
+		"So this is why greed is a deadly sin."
+	],
+	dependencies: [
+		"a51d1336"
+	],
+	tasks: [{
+		uid: "d4545a43",
+		type: "gamestage",
+		stage: "musJunior"
+	}],
+	rewards: [{
+		uid: "84d800f4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "embers:tyrfing",
+			tag: {
+				"Quark:RuneColor": 14,
+				ench: [{
+					lvl: 32767s,
+					id: 34L
+				}],
+				RepairCost: 1L,
+				"Quark:RuneAttached": 1b
+			}
+		}
+	}]
+}

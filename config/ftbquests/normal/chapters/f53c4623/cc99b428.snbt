@@ -1,0 +1,24 @@
+{
+	title: "ALCHEMY",
+	x: -17.6d,
+	y: 13.2d,
+	shape: "octagon",
+	description: "Elemental Manipulation",
+	text: [
+		"With alchemy, you can decompose items into their elements, and then manipulate those elements into other materials.",
+		"",
+		"Alchemy is also used for making potions."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9fbbe405"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0a351a04",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}]
+}

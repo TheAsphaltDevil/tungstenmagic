@@ -1,0 +1,38 @@
+{
+	title: "Junior Year",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar",
+		Damage: 2s
+	},
+	x: -12.5d,
+	y: -1.5d,
+	description: "Ascending to Greatness",
+	text: [
+		""
+	],
+	dependencies: [
+		"bb4694c4"
+	],
+	tasks: [{
+		uid: "6732e88a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82673746",
+		type: "gamestage",
+		title: "Junior Year",
+		auto: "no_toast",
+		stage: "junior"
+	}]
+}

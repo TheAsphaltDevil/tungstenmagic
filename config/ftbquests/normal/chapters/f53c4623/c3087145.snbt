@@ -1,0 +1,33 @@
+{
+	title: "Bulk Essentia",
+	x: -14.7d,
+	y: 7.8d,
+	shape: "octagon",
+	text: [
+		"Conventional containers for essentia can only store 250 of a certain essentia. Bulk storage allows for much more than that."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"893018e7",
+		"3897b09c"
+	],
+	tasks: [{
+		uid: "c7bbc9df",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquid_terra",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

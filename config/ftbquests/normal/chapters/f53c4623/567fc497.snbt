@@ -1,0 +1,53 @@
+{
+	title: "BEAST TAMING",
+	x: -21.9d,
+	y: 8.049999999999999d,
+	shape: "heart",
+	description: "Bond with mythical creatures",
+	text: [
+		"Beast taming is the art of, well, taming beasts. The more powerful a creature is, the harder it will be to tame.",
+		"",
+		"We start students off with taming artificial creatures known as golems, to get familiar with the art of taming."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9fbbe405"
+	],
+	hide: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "b3ea61f0",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	},
+	{
+		uid: "b5f09e09",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	},
+	{
+		uid: "66e640b8",
+		type: "item",
+		items: [{
+			item: "minecraft:anvil"
+		}]
+	},
+	{
+		uid: "fff98667",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_bars"
+		}]
+	},
+	{
+		uid: "041e8be9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_stone"
+		}]
+	}]
+}

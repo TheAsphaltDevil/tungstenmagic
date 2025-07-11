@@ -1,0 +1,23 @@
+{
+	x: -13.0d,
+	y: 5.0d,
+	dependencies: [
+		"bc165b0f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a26af076",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lokiring",
+			tag: {
+				soulbindUUID: "c0cc23b1-b56a-495b-a456-aedcef3696ad"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

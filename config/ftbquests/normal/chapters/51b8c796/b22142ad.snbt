@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "d807c21b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfspellpack:charm_goblin"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

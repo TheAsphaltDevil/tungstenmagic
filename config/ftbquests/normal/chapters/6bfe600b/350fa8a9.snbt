@@ -1,0 +1,87 @@
+{
+	title: "H: Use Primary Ring",
+	x: 5.5d,
+	y: 1.5d,
+	text: [
+		"This keybind is only for betweenlands rings. Other rings' abilities are almost always passive."
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "f13267bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_gathering",
+			tag: {
+				LastUserUuidMost: -4554225877018588837L,
+				LastUserUuidLeast: -6604899539562883411L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "22ea1e22",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_power"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "38b0240c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_flight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "222ac29b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_recruitment"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cb5a6628",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_summoning"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "25c01f72",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_dispersion"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

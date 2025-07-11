@@ -1,0 +1,49 @@
+{
+	title: "Tier II Blood Altar",
+	x: 16.0d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "ffda881f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "2f001c4a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Tier II Blood Altar",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 806,
+					Y: 12,
+					Z: 153
+				},
+				itemcountmap: [{
+					item: 5522,
+					meta: 0,
+					count: 8
+				}],
+				endPos: {
+					X: 804,
+					Y: 12,
+					Z: 151
+				}
+			}
+		}
+	}]
+}

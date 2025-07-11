@@ -1,0 +1,32 @@
+{
+	title: "Click here to deplete permanent warp",
+	x: 16.5d,
+	y: -5.5d,
+	text: [
+		"With mastery over gaia, I can banish the eldritch from my mind.",
+		"",
+		"Requires 4 gaia spirits per cleansing."
+	],
+	can_repeat: true,
+	dependencies: [
+		"bc165b0f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d6c3fa9b",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 5"
+		}],
+		count: 4L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "24e9141f",
+		type: "command",
+		team_reward: false,
+		auto: "enabled",
+		command: "/tc warp @s set 1 PERM",
+		player_command: true
+	}]
+}

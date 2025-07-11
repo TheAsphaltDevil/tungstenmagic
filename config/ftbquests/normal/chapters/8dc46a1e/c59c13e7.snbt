@@ -1,0 +1,25 @@
+{
+	title: "Complete Exam III: House Frigidus",
+	x: 8.5d,
+	y: -3.5d,
+	dependencies: [
+		"0964ad65"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5b763e72",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "4d732d3d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "juniorFinished"
+	},
+	{
+		uid: "3bed20d3",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "frigidusJunior"
+	}]
+}

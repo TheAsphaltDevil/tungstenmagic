@@ -1,0 +1,12 @@
+{
+	x: -4.5d,
+	y: -10.5d,
+	description: "Astrology",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9be65b79",
+		type: "checkmark"
+	}]
+}

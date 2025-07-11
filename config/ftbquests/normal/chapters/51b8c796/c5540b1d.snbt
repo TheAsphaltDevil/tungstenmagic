@@ -1,0 +1,51 @@
+{
+	title: "Robes of the Adept",
+	x: 11.0d,
+	y: -1.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "395afdbf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:thaumium_robes_hood",
+			tag: {
+				color: 11360678
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "613f123a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:thaumium_robes_chestplate",
+			tag: {
+				color: 11360678
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0673c06b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:thaumium_robes_leggings",
+			tag: {
+				color: 11360678
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

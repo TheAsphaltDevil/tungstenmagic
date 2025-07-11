@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "6cd770e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfspellpack:ring_hydra_kaboom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

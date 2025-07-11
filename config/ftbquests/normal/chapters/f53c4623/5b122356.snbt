@@ -1,0 +1,36 @@
+{
+	title: "Freshman Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumicperiphery:caster_ember"
+	},
+	x: 10.5d,
+	y: -10.8d,
+	description: "Ember Gauntlet",
+	text: [
+		"This gauntlet is tuned to cast your spells using ember instead of vis.",
+		"",
+		"---",
+		"I don't think this is what they meant by 'take the heat'."
+	],
+	dependencies: [
+		"16eb0dda"
+	],
+	tasks: [{
+		uid: "0d8ea9de",
+		type: "gamestage",
+		stage: "imperiaFreshman"
+	}],
+	rewards: [{
+		uid: "795640f1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicperiphery:caster_ember"
+		}
+	}]
+}

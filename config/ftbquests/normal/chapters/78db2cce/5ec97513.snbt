@@ -1,0 +1,42 @@
+{
+	x: 7.5d,
+	y: -8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a8b426fe"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d4dd21f4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					augments: {
+						slots: 1
+					},
+					energy: {
+						energy: 0L
+					}
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:impulse_cannon"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dd4d36e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:impulse_cannon_augment"
+		}],
+		ignore_nbt: 1b
+	}]
+}

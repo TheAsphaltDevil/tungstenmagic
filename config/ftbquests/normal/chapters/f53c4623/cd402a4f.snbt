@@ -1,0 +1,107 @@
+{
+	title: "Dragon Taming",
+	x: -16.3d,
+	y: 5.95d,
+	shape: "heart",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"683ff618",
+		"3897b09c"
+	],
+	size: 0.7d,
+	or_tasks: true,
+	tasks: [{
+		uid: "9990dc69",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_silver"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a0f8b70",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "iceandfire:dragonegg_sapphire"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ea837e7a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_red"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "99f3089e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_green"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8d60a1cc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_bronze"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a752d0b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_gray"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ac35f597",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_blue"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0addc9cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_white"
+		}],
+		ignore_nbt: 1b
+	}]
+}

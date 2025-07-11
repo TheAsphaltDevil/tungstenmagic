@@ -1,0 +1,29 @@
+{
+	title: "Complete Exam I: House Vita",
+	x: 9.0d,
+	y: -0.5d,
+	text: [
+		"Well done!"
+	],
+	dependencies: [
+		"99e9f4fe",
+		"ca7b25fc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "83a9cd82",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "2676f6b8",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "freshmanFinished"
+	},
+	{
+		uid: "9dabc54d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "vitaFreshman"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "spiritus",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "spiritus",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_spiritus",
+            "amount": 10
+        }
+    ]
+}

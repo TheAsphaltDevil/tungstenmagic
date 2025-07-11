@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_motus",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "motus",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_motus",
+            "amount": 10
+        }
+    ]
+}

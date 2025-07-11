@@ -1,0 +1,47 @@
+{
+	title: "Sohpomore Year",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar",
+		Damage: 1s
+	},
+	x: -12.5d,
+	y: -3.5d,
+	description: "Making Strides",
+	text: [
+		"With devices getting more complex as you go along, you will need more complex crafting tables. We will grant access to a new one with each academic year that you finish.",
+		"",
+		"In freshman year, you could choose to craft with either vis (the arcane workbench) or starlight (the luminous crafting table).",
+		"",
+		"From now on, crafting will require starlight exclusively, as it is less potent than vis: an imperative detail when making such intricate gadgets.",
+		"",
+		"Each new altar is able to craft the recipes of the previous year, too."
+	],
+	dependencies: [
+		"54c469f2"
+	],
+	tasks: [{
+		uid: "fc1caaae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c932d8f1",
+		type: "gamestage",
+		title: "Sophomore Year",
+		auto: "no_toast",
+		stage: "sophomore"
+	}]
+}

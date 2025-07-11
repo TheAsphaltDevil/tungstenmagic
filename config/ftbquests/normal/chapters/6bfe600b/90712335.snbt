@@ -1,0 +1,19 @@
+{
+	title: "U: Show Uses in JEI",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "bibliocraft:biblioglasses"
+	},
+	x: 6.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c8de79fa",
+		type: "checkmark",
+		title: "U: Show uses in JEI"
+	}]
+}

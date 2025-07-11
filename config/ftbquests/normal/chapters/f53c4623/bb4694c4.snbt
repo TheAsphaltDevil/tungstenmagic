@@ -1,0 +1,46 @@
+{
+	title: "Exam II",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemknowledgeshare",
+		tag: {
+			astralsorcery: {
+				creativeKnowledge: 1b
+			}
+		}
+	},
+	x: -12.5d,
+	y: -2.5d,
+	text: [
+		"Exam II will have you conquering two alternate dimensions:",
+		"",
+		"",
+		"The Aether: Commonly regarded as a hostile paradise. Although pretty and wondrous on the outside, it is full of creatures that won't hesitate to kill you.",
+		"",
+		"The Twilight Forest: An eternal, unending forest overcome by strange forces. These forces are tied to several higher beings scattered throughout the forest. Killing one grants you access to the next."
+	],
+	dependencies: [
+		"744b7352"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "f30553ca",
+		type: "checkmark",
+		title: "Begin Exam II"
+	}],
+	rewards: [{
+		uid: "5a3abcf8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "contenttweaker:twilight_activator"
+		}
+	}]
+}

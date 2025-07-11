@@ -1,0 +1,101 @@
+{
+	title: "Graduate Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "mana_wizardry:wand_terra",
+		tag: {}
+	},
+	x: 4.5d,
+	y: -9.5d,
+	description: "Liquid Mana Wands",
+	text: [
+		"Congratulations on graduating!",
+		"",
+		"Your final gift is one of great power.",
+		"",
+		"Most wizards can only power their wands with crystalline mana, and must be recharged manually, limiting them to a finite amount of spells. Your devotion to nature has proven worth it.  With this wand attuned to liquid mana instead of crystalline, you can cast to your heart's content.",
+		"",
+		"---",
+		"You treated the earth well, and it is time for it to return the favor."
+	],
+	dependencies: [
+		"0aa9b49f"
+	],
+	tasks: [{
+		uid: "42dcc6e9",
+		type: "gamestage",
+		stage: "vitaGrad"
+	}],
+	rewards: [{
+		uid: "3bf9234c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "botania:manasteelhelmreveal",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 1s,
+					id: 74
+				}],
+				RepairCost: 1,
+				phantomInk: 1b,
+				display: {
+					Name: "Celestian Graduate Halo: Vita"
+				},
+				mahoujin_projector: {
+					IMAGE_LOAD: 10,
+					CIRCLE_PITCH: 350.0f,
+					CIRCLE_SHOW_R: 0b,
+					ForgeData: {},
+					CIRCLE_A: 200,
+					CIRCLE_B: 0,
+					CIRCLE_SHOW_C: 1b,
+					CIRCLE_G: 255,
+					CIRCLE_SIZE: 1.2f,
+					id: "mahoutsukai:mahoujin_projector",
+					RUNES_LOAD: -1,
+					CIRCLE_SPEED: 0.6f,
+					CIRCLE_YAW: 30.0f,
+					CIRCLE_RING_ANGLE: 0.0f,
+					RING_HEIGHT: 0.125f,
+					CIRCLE_SPEED_YAW: 0.0f,
+					CIRCLE_R: 0,
+					ROTATION_OFFSET: 0.0f,
+					x: 322,
+					y: 4,
+					CIRCLE_SPEED_PITCH: 0.0f,
+					z: 707,
+					CIRCLE_ROTATION: 18.198462f,
+					CIRCLE_Y: 2.0f,
+					CIRCLE_Z: -0.03f,
+					CIRCLE_X: -0.085f
+				}
+			}
+		}
+	},
+	{
+		uid: "8d957857",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "mana_wizardry:wand_terra",
+			tag: {}
+		}
+	}]
+}

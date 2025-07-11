@@ -1,0 +1,57 @@
+{
+	title: "Terrasteel",
+	x: 11.0d,
+	y: 3.5d,
+	shape: "hexagon",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "74d420cb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:terrasteelhelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0f1e3a09",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:terrasteelchest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7032c2e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:terrasteellegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bff62731",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:terrasteelboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

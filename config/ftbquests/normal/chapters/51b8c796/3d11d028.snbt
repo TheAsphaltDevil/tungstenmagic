@@ -1,0 +1,22 @@
+{
+	x: -11.5d,
+	y: 2.5d,
+	shape: "octagon",
+	text: [
+		"Grants flight at the cost of vis."
+	],
+	tasks: [{
+		uid: "84b954eb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					slots: 1
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:thaumostatic_harness"
+		}],
+		ignore_nbt: 1b
+	}]
+}

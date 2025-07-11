@@ -1,0 +1,87 @@
+{
+	title: "J: Use Secondary Ring",
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		"This keybind is only for betweenlands rings. Other rings' abilities are almost always passive."
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "764d2848",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_gathering",
+			tag: {
+				LastUserUuidMost: -4554225877018588837L,
+				LastUserUuidLeast: -6604899539562883411L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3622798d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_power"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "00ffabfc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_flight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8891b6a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_recruitment"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cc085a5c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_summoning"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "872e9b7f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_dispersion"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

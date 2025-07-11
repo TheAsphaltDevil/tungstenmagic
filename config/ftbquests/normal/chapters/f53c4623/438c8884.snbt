@@ -1,0 +1,25 @@
+{
+	title: "Arcane Archives",
+	x: -4.8999999999999995d,
+	y: 7.37d,
+	shape: "diamond",
+	description: "Magical Storage",
+	text: [
+		"Arcane archives is a form of bibliomancy centered around storage. ",
+		"",
+		"Write books and scrolls to relay an item's location in your storage system."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7373f7a2",
+		"744b7352"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "2c9c46d1",
+		type: "item",
+		items: [{
+			item: "arcanearchives:gemcutters_table"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 11.0d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "54eae38f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:recordgaia2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

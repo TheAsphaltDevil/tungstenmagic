@@ -1,0 +1,137 @@
+{
+	x: -0.5d,
+	y: -14.5d,
+	text: [
+		"This cute little snow globe can be found in treasure bags. Take it on a journey to several biomes!"
+	],
+	tasks: [{
+		uid: "3ee30476",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "extrautils2:snowglobe",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd93d8ff",
+		type: "item",
+		item: "thaumcraft:loot_bag 1 2",
+		count: 3
+	},
+	{
+		uid: "bd4b0a90",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "botania:manasteellegs",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 74
+				},
+				{
+					lvl: 3s,
+					id: 34
+				}],
+				RepairCost: 1,
+				phantomInk: 1b,
+				display: {
+					Name: "Compass..."
+				},
+				mahoujin_projector: {
+					IMAGE_LOAD: 8,
+					CIRCLE_PITCH: 0.0f,
+					CIRCLE_SHOW_R: 0b,
+					ForgeData: {},
+					CIRCLE_A: 200,
+					CIRCLE_B: 255,
+					CIRCLE_SHOW_C: 1b,
+					CIRCLE_G: 255,
+					CIRCLE_SIZE: 1.0f,
+					id: "mahoutsukai:mahoujin_projector",
+					RUNES_LOAD: -1,
+					CIRCLE_SPEED: 2.0f,
+					CIRCLE_YAW: 0.0f,
+					CIRCLE_RING_ANGLE: 0.0f,
+					RING_HEIGHT: 0.125f,
+					CIRCLE_SPEED_YAW: 0.0f,
+					CIRCLE_R: 255,
+					ROTATION_OFFSET: 0.0f,
+					x: -609,
+					y: 5,
+					CIRCLE_SPEED_PITCH: 0.0f,
+					z: -314,
+					CIRCLE_ROTATION: 321.0f,
+					CIRCLE_Y: 0.2f,
+					CIRCLE_Z: 0.65f,
+					CIRCLE_X: 0.7f
+				}
+			}
+		}
+	},
+	{
+		uid: "ae4ac289",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manasteelboots",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 74
+				},
+				{
+					lvl: 3s,
+					id: 34
+				}],
+				RepairCost: 1,
+				phantomInk: 1b,
+				display: {
+					Name: "Mark of the Journeyman"
+				},
+				mahoujin_projector: {
+					IMAGE_LOAD: 4,
+					CIRCLE_PITCH: 0.0f,
+					CIRCLE_SHOW_R: 0b,
+					ForgeData: {},
+					CIRCLE_A: 200,
+					CIRCLE_B: 255,
+					CIRCLE_SHOW_C: 1b,
+					CIRCLE_G: 255,
+					CIRCLE_SIZE: 1.8f,
+					id: "mahoutsukai:mahoujin_projector",
+					RUNES_LOAD: -1,
+					CIRCLE_SPEED: 0.0f,
+					CIRCLE_YAW: 0.0f,
+					CIRCLE_RING_ANGLE: 0.0f,
+					RING_HEIGHT: 0.125f,
+					CIRCLE_SPEED_YAW: 0.0f,
+					CIRCLE_R: 255,
+					ROTATION_OFFSET: -90.0f,
+					x: -609,
+					y: 4,
+					CIRCLE_SPEED_PITCH: 0.0f,
+					z: -314,
+					CIRCLE_ROTATION: 0.0f,
+					CIRCLE_Y: 0.2f,
+					CIRCLE_Z: 0.0f,
+					CIRCLE_X: 0.0f
+				}
+			}
+		}
+	}]
+}

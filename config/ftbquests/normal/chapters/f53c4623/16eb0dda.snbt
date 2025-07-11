@@ -1,0 +1,81 @@
+{
+	title: "House Imperia",
+	x: 11.5d,
+	y: -11.2d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a7dde72e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b52d6f4e",
+		type: "gamestage",
+		title: "Join House Imperia",
+		stage: "evorsio"
+	}],
+	rewards: [{
+		uid: "ae219971",
+		type: "command",
+		auto: "enabled",
+		command: "/astralsorcery attune @s astralsorcery.constellation.evorsio"
+	},
+	{
+		uid: "ca6b06a4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemcape",
+			tag: {
+				"Quark:RuneColor": 9,
+				ench: [{
+					lvl: 32767s,
+					id: 34
+				},
+				{
+					lvl: 1s,
+					id: 74
+				}],
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.mineralis"
+				},
+				"Quark:RuneAttached": 1b,
+				mahoujin_projector: {
+					IMAGE_LOAD: 1,
+					CIRCLE_PITCH: 90.0f,
+					CIRCLE_SHOW_R: 0b,
+					ForgeData: {},
+					CIRCLE_A: 200,
+					CIRCLE_B: 255,
+					CIRCLE_SHOW_C: 1b,
+					CIRCLE_G: 255,
+					CIRCLE_SIZE: 1.3f,
+					id: "mahoutsukai:mahoujin_projector",
+					RUNES_LOAD: -1,
+					CIRCLE_SPEED: 1.0f,
+					CIRCLE_YAW: 0.0f,
+					CIRCLE_RING_ANGLE: 0.0f,
+					RING_HEIGHT: 0.125f,
+					CIRCLE_SPEED_YAW: 0.0f,
+					CIRCLE_R: 0,
+					ROTATION_OFFSET: 0.0f,
+					x: -603,
+					y: 4,
+					CIRCLE_SPEED_PITCH: 0.0f,
+					z: -308,
+					CIRCLE_ROTATION: 268.0f,
+					CIRCLE_Y: 1.0f,
+					CIRCLE_Z: -0.6f,
+					CIRCLE_X: 0.0f
+				}
+			}
+		}
+	}]
+}

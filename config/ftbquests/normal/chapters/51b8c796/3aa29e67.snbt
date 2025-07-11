@@ -1,0 +1,25 @@
+{
+	x: -14.0d,
+	y: 4.0d,
+	dependencies: [
+		"bc165b0f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0462d55e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:kingkey",
+			tag: {
+				weaponsSpawned: 0,
+				charging: 0b,
+				soulbindUUID: "c0cc23b1-b56a-495b-a456-aedcef3696ad"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

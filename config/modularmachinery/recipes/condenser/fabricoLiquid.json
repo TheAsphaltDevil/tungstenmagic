@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_fabrico",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "fabrico",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_fabrico",
+            "amount": 10
+        }
+    ]
+}

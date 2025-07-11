@@ -1,0 +1,9 @@
+[
+    {
+	"key": "!BloodShard",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "bloodmagic:blood_shard"
+		}
+	}
+]

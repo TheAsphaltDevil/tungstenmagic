@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: 13.5d,
+	shape: "square",
+	tasks: [{
+		uid: "591f1653",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:wandering_wisps"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

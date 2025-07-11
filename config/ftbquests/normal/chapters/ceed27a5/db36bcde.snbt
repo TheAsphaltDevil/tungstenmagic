@@ -1,0 +1,36 @@
+{
+	title: "New recipe book",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "bibliocraft:biblioglasses"
+	},
+	x: 11.5d,
+	y: -6.0d,
+	description: "Do not use vanilla recipe book.",
+	text: [
+		"With lots of mods comes lots of different mechanics for creating items, and with that comes a revamped 'recipe book' called JEI",
+		"(the Just Enough Items mod).",
+		"",
+		"The inventory screen now has a search bar in the bottom right corner. Click it, or press Ctrl+F to begin searching.",
+		"",
+		"To view an item's recipe(s), click on it.",
+		"",
+		"The tabs at the top show the different methods one can use to obtain an item.",
+		"",
+		"The items on the left are alternative items that provide the same creation method (like different flavors of crafting table, for example).",
+		"",
+		"Alternatively, you can also right click an item to view the recipe(s) it is used in.",
+		"",
+		"Using these menus can allow you to figure out how to get almost any item."
+	],
+	dependencies: [
+		"6661f72a"
+	],
+	tasks: [{
+		uid: "5ce60311",
+		type: "checkmark",
+		title: "ok"
+	}]
+}

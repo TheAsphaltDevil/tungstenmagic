@@ -1,0 +1,19 @@
+{
+	title: "Making Terrasteel",
+	x: -14.8d,
+	y: 1.05d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"9f1a9d8a",
+		"3897b09c"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "82d638ba",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}]
+}

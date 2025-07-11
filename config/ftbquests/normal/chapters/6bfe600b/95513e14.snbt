@@ -1,0 +1,17 @@
+{
+	title: "READ ME",
+	x: 0.0d,
+	y: -6.5d,
+	text: [
+		"Please §lDO NOT CLICK§r any checkmarks in these \"quests\". This will insure the automatic keybind messages will work properly.",
+		"",
+		"Click a keybind to see other uses for the key.",
+		"",
+		"If you cannot seem to figure out what an item does, check the keybinds, or try all combinations of sneaking and clicking."
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "5d6e0671",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Upgrades",
+	x: -16.9d,
+	y: -2.1d,
+	shape: "hexagon",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"51971bf6",
+		"744b7352"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "074b2c2b",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "orechid"
+			}
+		}]
+	},
+	{
+		uid: "12e2870f",
+		type: "item",
+		items: [{
+			item: "botania:alchemycatalyst"
+		}]
+	}]
+}

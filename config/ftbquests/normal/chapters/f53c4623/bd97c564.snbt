@@ -1,0 +1,26 @@
+{
+	title: "Runic Shielding",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:enchanted_placeholder"
+	},
+	x: -16.5d,
+	y: 3.5d,
+	text: [
+		"Runic shielding are additional points of health for the wearer.",
+		"",
+		"It is applied to armor and baubles, and takes the form of a magic shield surrounding the wearer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3c854cdc",
+		"3897b09c"
+	],
+	tasks: [{
+		uid: "e3663e4f",
+		type: "checkmark",
+		title: "Runic Shielding"
+	}]
+}

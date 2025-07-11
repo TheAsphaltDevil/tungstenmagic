@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_bestia",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "bestia",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_bestia",
+            "amount": 10
+        }
+    ]
+}

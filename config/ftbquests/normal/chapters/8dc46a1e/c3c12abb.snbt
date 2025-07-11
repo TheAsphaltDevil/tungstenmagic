@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: -7.0d,
+	text: [
+		"Although you'll only need a handful of eyes to find the stronghold, the portal will need 12 eyes, some of which might already be placed for you, but we recommend bringing 12, just in case you're unlucky."
+	],
+	dependencies: [
+		"dc4e78a8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "662721e6",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}],
+		count: 5L
+	}]
+}

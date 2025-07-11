@@ -1,0 +1,37 @@
+{
+	title: "Freshman Year",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar"
+	},
+	x: -12.5d,
+	y: -5.5d,
+	description: "Getting Familiar",
+	text: [
+		"In the academy, there are four academic years: Freshman, Sophomore, Junior, and Senior, as indicated by the rings on the compass.",
+		"You have 10 different fields of study:",
+		"",
+		"The 5 core studies as mentioned in orientation, and the 5 elective studies:",
+		"---------------------",
+		"Arcane Smithing",
+		"Bibliomancy",
+		"Dark Arts",
+		"Druidic Arts",
+		"Beast Taming",
+		"",
+		"Each study is available to you at freshman year, unlike other schools which have more linear curricula. You will unlock more and more powerful",
+		"equipment for each field of study as your academic year increases, as indicated by the converging lines."
+	],
+	dependencies: [
+		"dc8a4f2b"
+	],
+	hide: true,
+	size: 1.4d,
+	tasks: [{
+		uid: "fa1606dd",
+		type: "checkmark",
+		title: "Begin Freshman Year"
+	}]
+}

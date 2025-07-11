@@ -1,0 +1,61 @@
+{
+	title: "Celestial Gateway",
+	x: 14.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "a9410cbc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "f9081394",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Celestial Gateway",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 874,
+					Y: 15,
+					Z: 87
+				},
+				itemcountmap: [{
+					item: 8067,
+					meta: 3,
+					count: 20
+				},
+				{
+					item: 8068,
+					meta: 0,
+					count: 25
+				},
+				{
+					item: 8067,
+					meta: 6,
+					count: 4
+				},
+				{
+					item: 8067,
+					meta: 5,
+					count: 4
+				}],
+				endPos: {
+					X: 868,
+					Y: 14,
+					Z: 93
+				}
+			}
+		}
+	}]
+}

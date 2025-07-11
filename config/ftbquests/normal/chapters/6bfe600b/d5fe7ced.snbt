@@ -1,0 +1,21 @@
+{
+	title: "R: Show Recipe in JEI",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "bibliocraft:biblioglasses"
+	},
+	x: 3.0d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "a958853e",
+		type: "checkmark"
+	}]
+}

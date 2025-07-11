@@ -1,0 +1,21 @@
+{
+	title: "I am not familiar with modded minecraft, or I am somewhat familiar.",
+	icon: "embers:gear_dawnstone",
+	x: 7.5d,
+	y: -6.0d,
+	text: [
+		"Choose this tutorial if:",
+		"",
+		"-You have not played with mods before, have played with only a few, or have only played with mods for a short time.",
+		"-You most likely would not know how to find information about something or what something is used for.",
+		"-You are feeling a bit overwhelmed by this modpack."
+	],
+	dependencies: [
+		"d054b718"
+	],
+	tasks: [{
+		uid: "a03ed222",
+		type: "checkmark",
+		title: "I am not familiar with modded minecraft, or I am somewhat familiar."
+	}]
+}

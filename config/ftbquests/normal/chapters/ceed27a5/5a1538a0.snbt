@@ -1,0 +1,28 @@
+{
+	title: "Jolly Cooperation",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:crimson_plate_helm"
+	},
+	x: 13.5d,
+	y: -6.0d,
+	text: [
+		"If you would like to progress with others, click the FTB teams menu.",
+		"",
+		"It's located in the inventory menu, in the top left corner.",
+		"",
+		"In this menu, you may adjust settings, as well as who your allies and members are.",
+		"",
+		"All players in the same team will have their quests synced, but NOT their researches."
+	],
+	dependencies: [
+		"db36bcde"
+	],
+	tasks: [{
+		uid: "fe8404c4",
+		type: "checkmark",
+		title: "ok"
+	}]
+}

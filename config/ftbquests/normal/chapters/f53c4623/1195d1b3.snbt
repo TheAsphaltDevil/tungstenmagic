@@ -1,0 +1,22 @@
+{
+	title: "Tier II Tools",
+	x: -7.3d,
+	y: -1.6d,
+	shape: "square",
+	text: [
+		"You can now build forges to create more powerful tools."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"24b51524",
+		"744b7352"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "c9db05a2",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	}]
+}

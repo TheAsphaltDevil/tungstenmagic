@@ -1,0 +1,45 @@
+{
+	title: "Crimson Cleric",
+	x: 10.0d,
+	y: 2.0d,
+	shape: "octagon",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "39e6f656",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_robe_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d8a9893f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_robe_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "322c1ebc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_robe_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

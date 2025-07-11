@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_humanus",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "humanus",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_humanus",
+            "amount": 10
+        }
+    ]
+}

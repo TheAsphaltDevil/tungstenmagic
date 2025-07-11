@@ -1,0 +1,57 @@
+{
+	title: "Ashen",
+	x: 10.0d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "25e30692",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:ashen_cloak_head"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7aa23deb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:ashen_cloak_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "38326ee5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:ashen_cloak_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c1055eea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:ashen_cloak_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

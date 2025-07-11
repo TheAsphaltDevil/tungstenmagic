@@ -1,0 +1,17 @@
+{
+	x: -12.5d,
+	y: 6.7d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"13d4d258"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "e6be9862",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal"
+		}]
+	}]
+}

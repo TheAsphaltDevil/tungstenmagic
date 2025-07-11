@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: -0.5d,
+	text: [
+		"In the Twilight Forest, give this ram 1 of every dye."
+	],
+	tasks: [{
+		uid: "08434001",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 8"
+		}]
+	}]
+}

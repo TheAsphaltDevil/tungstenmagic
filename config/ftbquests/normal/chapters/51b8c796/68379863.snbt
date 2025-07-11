@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: 8.0d,
+	shape: "square",
+	tasks: [{
+		uid: "1d136f4f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:record_13"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Middle Click: Sort Inventory",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		},
+		Damage: 4s
+	},
+	x: 12.5d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "bd184b5e",
+		type: "item",
+		items: [{
+			item: "minecraft:stained_glass_pane 1 8"
+		}]
+	}]
+}

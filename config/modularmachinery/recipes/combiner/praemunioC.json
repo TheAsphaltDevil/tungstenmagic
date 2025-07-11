@@ -1,0 +1,25 @@
+{
+    "machine": "combiner",
+    "registryName": "praemunioC",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "spiritus",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "terra",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "praemunio",
+            "amount": 2
+        }
+    ]
+}

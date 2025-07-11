@@ -1,0 +1,63 @@
+{
+	title: "Collector Pylon",
+	x: 18.0d,
+	y: 2.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "1fd14569",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "3a78f996",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Celestial Collector Fountain",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 795,
+					Y: 20,
+					Z: 130
+				},
+				itemcountmap: [{
+					item: 8067,
+					meta: 4,
+					count: 5
+				},
+				{
+					item: 8067,
+					meta: 2,
+					count: 1
+				},
+				{
+					item: 8067,
+					meta: 0,
+					count: 9
+				},
+				{
+					item: 8067,
+					meta: 6,
+					count: 12
+				},
+				{
+					item: 8067,
+					meta: 5,
+					count: 5
+				}],
+				endPos: {
+					X: 799,
+					Y: 17,
+					Z: 126
+				}
+			}
+		}
+	}]
+}

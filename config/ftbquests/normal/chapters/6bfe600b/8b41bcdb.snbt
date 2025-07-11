@@ -1,0 +1,16 @@
+{
+	title: "L: Quests",
+	icon: "astralsorcery:blockchalice",
+	x: 8.5d,
+	y: 1.5d,
+	shape: "square",
+	text: [
+		"Shift + L: Advancements"
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "2fb8f768",
+		type: "checkmark"
+	}]
+}

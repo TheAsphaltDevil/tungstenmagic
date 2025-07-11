@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 12.5d,
+	shape: "square",
+	tasks: [{
+		uid: "2168e695",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:beneath_a_green_sky"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

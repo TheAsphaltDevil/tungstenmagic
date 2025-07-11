@@ -1,0 +1,19 @@
+{
+	x: 31.0d,
+	y: -6.5d,
+	text: [
+		"This is an automated version of the arcane workbench.",
+		"",
+		"It will automatically craft a recipe as soon as one is available. To disable this feature, provide it a redstone signal."
+	],
+	dependencies: [
+		"652112a8"
+	],
+	tasks: [{
+		uid: "277e4548",
+		type: "item",
+		items: [{
+			item: "thaumtweaks:crafter"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+    "machine": "combiner",
+    "registryName": "mythusC",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "bestia",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "praecantatio",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "mythus",
+            "amount": 2
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Semicolon: Disable Magnetism",
+	x: 9.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5b374ac7",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extraalchemy:magnetism_normal"
+			}
+		}],
+		ignore_damage: true
+	}]
+}

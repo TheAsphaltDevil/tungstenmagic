@@ -1,0 +1,940 @@
+{
+    "entries" :[
+        {
+        "key": "LIVINGROCKANDLIVINGWOOD",    
+        "name": "The Druidic Arts",
+        "icons": [ "botania:livingrock", "botania:livingwood"],
+        "category": "DRUIDIC_ARTS", "location": [ 8,4 ], 
+        "parents": [ "UNLOCKALCHEMY", "PLANTS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Throughout my time as an Auromancer, I have routinely run out of Vis. The amount of it in the air is rather limiting. <BR> However, it has to come from somewhere, given that over time, it very slowly regenerates. <BR> I have heard from my fellow wizards that magical forests have much higher concentrations of vis than other biomes, which is hypothesized to be caused by Silverwood trees. I should return with a sample of these trees to investigate further...",
+                    "required_item": ["thaumcraft:log_silverwood"],
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text": "After examining the specimen and conducting some experiments, I have determined the silverwood trees must be getting vis from within the earth! They act as a natural fountain, siphoning the energy from the earth and dispersing it into the aura. <BR>Given that the earth is much larger and denser than its atmosphere, I presume there is much more vis trapped in the earth than there is in the aura; enough to not worry about ever exhausting it. I should be able to artificially recreate this vis-siphoning ability, and when I do, I could repay the earth for all of the flux that I inflicted upon it, and I could cast spells and use mystical machinery to my heart's content. Oh, the possibilities! <BR>Given that this ability was found within a plant, chances are my artificial replica will be through a plant. I shall study more plant life; maybe one will yield interesting findings. <BR> I shall dub this process of vis restoration the '§lDruidic Arts§r'. <PAGE> For future devices that pertain to the druidic arts, I have created two new materials: §lLivingrock§r, and §lLivingwood§r. These should respond well to all things druidic.",
+                    "recipes": ["thaumcraft:livingrock", "thaumcraft:livingwood"]
+                }
+            ]
+        },
+        {
+            "key": "MYSTICALFLOWERS",    
+            "name": "Mystical Flowers",
+            "icons": [ "botania:flower"],
+            "category": "DRUIDIC_ARTS", "location": [ 6,4 ], 
+            "parents": [ "LIVINGROCKANDLIVINGWOOD" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I have seen these flowers many times now, but upon closer inspection, they seem to be emitting very small amounts of vis! It is too small to make much of a difference, but it's there. I need to study this further...",
+                        "required_item": ["thaumcraft:log_silverwood"]
+                    }
+                ]
+            },
+        {
+        "key": "MANACRYSTALEXCHANCE",    
+        "name": "Crystal Exchange",
+        "icons": [ "ebwizardry:magic_crystal"],
+        "category": "DRUIDIC_ARTS", "location": [ -2,8 ], 
+        "parents": [ "MANASPREADER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The mana pool is capable of storing liquified mana. Therefore, dropping a crystal into the pool should have the mana sucked off of it, leaving the quartz base behind. I should also be able to turn the liquid into crystals if I drop in a quartz base."
+                }
+            ]
+        },
+        {
+        "key": "APOTHECARY",    
+        "name": "Making New Flowers",
+        "icons": [ "botania:altar"],
+        "category": "DRUIDIC_ARTS", "location": [ 4,4 ], 
+        "parents": [ "MYSTICALFLOWERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "When §lPassive§r (constantly, with no input), the ability of flowers to secrete energy is rather limited. My hypothesis is that artificially creating my own §lActive§r flowers (requires some kind of input or automation), will make stronger reactions to the magic energy, and thus have much higher yield.",
+                    "required_knowledge":["THEORY;AUROMANCY;1"]
+                },
+                {
+                    "text": "I have created a device called the §lPetal Apothecary§r. <BR>I first put some water inside, then toss in all the ingredients for the flower. <BR>When that is done, I toss in some seeds to create the flower. <BR>It's worth noting how coincidentally symbolic the flowers are. The flower that consumes fuel is orange. The flower that consumes water is blue. It all seems so... perfect...",
+                    "recipes": ["thaumcraft:bwb11"]
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "The everfull urn can fill the petal apothecary if it is close enough.", 
+                    "required_research":["EVERFULLURN"]
+                }
+            ]
+        },
+        {
+        "key": "GENERATINGFLORA",    
+        "name": "Generating Flora",
+        "icons": [ "botania:textures/blocks/flower_gen_endoflame.png"],
+        "category": "DRUIDIC_ARTS", "location": [ 4,6 ], 
+        "parents": [ "APOTHECARY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "ENDOFLAME<DIV> This flower accepts most furnace fuels, with the exception being fuels with 'byproducts' such as lava buckets. <BR> The flower can only consume up to four coal block's worth of fuel at a time. If the next piece of fuel breaches that cap, the remaining fuel is discarded.<PAGE>HYDROANGEAS<DIV> Creates vis when there is water adjacent to it. Functions faster when raining. <BR> Unfortunately, it will decay after a short time."
+                }
+            ],
+            "addenda": [   
+                {
+                    "text": "Now that I have a runic altar, I can create some more advanced generating flora. <BR>ENTROPINNYUM<DIV>This flower will absorb all nearby TNT blasts, and convert the energy into mana.<BR>If the flower already has mana during an explosion, the process will fail.<BR>GOURMARYLLIS<DIV>Eats nearby food and turns it to mana. <BR>It can only digest one food at a time, and the mana is created when it's done. Food eaten during this time will not generate mana. The time it takes and the mana created depends on nutritional value. <BR>Feeding this flower the same food again results in less mana each time.<BR>MUNCHDEW<DIV>Converts nearby leaves into mana. <BR>If the flower is ever left with no leaves nearby, it will take a break from eating for around a minute.<BR>NARSLIMMUS<DIV>This flower must be placed in a slime-producing area. If a slime materializes near the flower, the flower will absorb it and create mana.<BR>The flower might leave a bunch of slime everywhere in the process.<BR>ROSA ARCANA<DIV>This flower absorbs exerperience from nearby mages. <BR>It can also absorb loose experience orbs, but will be less productive than from mages.<BR>THERMALILY<DIV>Generates mana from nearby lava. <BR>After it consumes the lava, it will generate lots of mana for a short time.<BR>When it finishes this process, it needs to cool down for about 5 minutes. If it consumes more lava during this time, it will generate no mana, and the 5 minute 'timer' will be reset.", 
+                    "required_research":["RUNICALTAR"]
+                },
+                {
+                    "text": "Now that I have access to alfheim, I have the ability to create some new generating flora. <BR>KEKIMURUS<DIV>This flower converts nearby cakes into a solid amount of mana. <BR>RAFFLOWSIA<DIV>Converts nearby manmade flowers into mana. <BR>For the most effective production, you should not give it the same flower multiple times in a row. <BR>SPECTROLUS<DIV>This flower is a bit complicated, but worth the setup. <BR> It consumes all the colors of wool, but it must consume them in a specific order. If a wool it does not want is given, it will not produce any mana. Its desired color can be seen by looking at it with a wand of linking set to wand of the forest.",
+                    "required_research":["ALFHEIMPORTAL"]
+                },
+                {
+                    "text": "With the power of gaiamancy in my hands, I can create some absurd flowers. <BR>SHULK ME NOT<DIV>If a shulker deliberately hits a nearby monster, this flower will generate insane amounts of mana. The shulker and the monster will be vaporized instantly if successful.<PAGE>§lDANDELIFEON§r<LINE> The ultimate flower. \n \n The flower makes use of something people call 'conways game of life'. The area for this is a 25x25 square cenetered around the flower. \n \n While the flower has a redstone signal, it will step the game twice per second. \n \n The game is executed with cells. Cells may be live or dead. \n \n Any live cell with fewer than two or more than three live neighbors dies on the next step. \n \n Any live cell with exactly two or three alive neighbors lives on. \n \n Any dead cell with exactly three live neighbors becomes a live cell. \n \n All cells have an age, starting at zero. When a cell lives on, its age increased by one. Whenever a dead cell becomes a live cell, the age of the new live cell is equal to the age of the oldest neighbor, plus one. \n \n The 3x3 area surrounding the flower is not habitable. \n \n Any live cells that touch this are converted to mana. The older they are when this happens, the more mana the flower will produce. \n \n All cells in the board will die if a cell reaches this 3x3 area. \n \n To make cells, I should use the 'cellular block' recipe. ",
+                    "required_research":["GAIAMANCY"]
+                }
+            ]
+        },
+        {
+        "key": "FUNCTIONALFLORA",    
+        "name": "Functional Flora",
+        "icons": [ "botania:textures/blocks/flower_func_hopperhock.png"],
+        "category": "DRUIDIC_ARTS", "location": [ 4,8 ], 
+        "parents": [ "GENERATINGFLORA"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "It turns out that flowers, in addition to being good devices to DRAW mana, they are also quite good at USING mana to perform various tasks. I simply place these flowers near a mana source to supply them with mana. If it seems to not be working, I can try binding them with a wand of the forest.<BR>AGRICARNATION<DIV>This flower will speed up nearby plant growth.<PAGE>BELLETHORNE<DIV>Slowly harms nearby non-player beings.<BR>BERGAMUTE<DIV>Muffles nearby animal sounds. Does not need mana.<BR>CLAYCONIA<DIV>Turns nearby sand into clay.<BR>DAFFOMILL<DIV>Pushes items in front of it. Sneak+right click to change orientation.<PAGE>DREADTHORNE<DIV>Hurts adult animals in particular.<BR>EXOFLAME<DIV>Fuels nearby furnaces.<BR>FALLEN KANADE<DIV>Applies regen to nearby players.<BR>GEARANIUM<DIV>Generates mechanical energy.<PAGE>HOPPERHOCK<DIV>Pick up items around it and put them in adjacent inventories. <BR>Mana for this flower is optional. If supplied, the pickup radius will increase.<BR>You can put item frames on the chests, then put items in the frames to act as filters. You then sneak right click the flower with wand of the forest on function mode, to specify how the filter will act.<BR>HYACIDUS<DIV>Brings nearby creatures to one HP.<BR>JADED AMARANTHUS<DIV>Grows more mystical flowers!<BR>MARIMORPHOSIS<DIV>Turns nearby stoneblocks into a more colorful variant. This color depends on the biome the flower is in.<BR>JIYUULIA<DIV>Prevents nearby mobs from getting too close.<PAGE>MEDUMONE<DIV>Completely halts a creature's movement.<BR>POLLIDISIAC<DIV>Automatically breeds animals given a supply of the appropriate food.<BR>RANNUNCARPUS<DIV>Will pick up nearby dropped blocks and place them down in its vicinity. It will only place blocks thrown at it on top of a specific block. To specify this block, place it right below the soil the flower is resting on. Mana is not needed for this flower.<BR>SOLEGNOLIA<DIV>Disables rings of magnetization, and the pickup of items from the players who wear them. Does not require mana.<BR>TANGLEBERRIE<DIV>Keeps nearby creatures within a certain radius of it.<BR>TIGERSEYE<DIV>Scares away creepers by emitting a feline aura. Also makes them run away from nearby players.<PAGE>VINCULOTUS<DIV>Whenever a nearby enderman teleports, they are instead teleported to the location of this flower."
+                }
+            ],
+            "addenda": [   
+                {
+                    "text": "Interestingly, blood magic altars, with certain setups, can inhibit the function of the Fallen Kanade flower.",
+                    "required_research": ["BLOODALTAR"]
+                }, 
+                {
+                    "text": "Now that I have access to alfheim, I have the ability to create some new functional flora.<PAGE>BUBBELL<DIV>Placing down this flower underwater will have it create a dome of air which will keep water at bay.<BR>HEISEI DREAM<DIV>Will turn nearby mobs against each other.<BR>LOONIUM<DIV>Can materialize dungeon loot for huge mana costs. Will also spawn monsters to protect said loot.<BR>ORECHID<DIV>Generates ores in nearby stone blocks.<PAGE>ORECHID IGNEM<DIV>The nether counterpart to the orechid.<BR>SPECTRANTHEMUM<DIV>At the cost of mana, teleports items near it somewhere else in the world. To specify where the items go, use a wand of the forest in bind mode and bind the flower to a block somewhere, similarly to binding it to a pool. only works within 12 blocks, and you cannot chain these flowers together for item transport.",
+                    "required_research":["ALFHEIMPORTAL"]
+                }
+            ]
+        },
+        {
+        "key": "OVERGROWTHSEED",    
+        "name": "Overgrowth Seed",
+        "icons": [ "botania:overgrowthseed"],
+        "category": "DRUIDIC_ARTS", "location": [ 8,-8 ], 
+        "parents": [ ""],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I found this seed while dungeoneering. Upon placing it on grass, it will transform into enchanted soil, which lets flowers atop it function at double their normal speed. Once placed, it cannot be reharvested. I cannot seem to replicate it, either."
+                }
+            ]
+        },
+        {
+        "key": "WANDOFTHEFOREST",    
+        "name": "Wand of the Forest",
+        "icons": [ "botania:twigwand"],
+        "category": "DRUIDIC_ARTS", "location": [ 4,10 ], 
+        "parents": [ "MANASPREADER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Throughout this section, a tool called the 'Wand of the forest' will be mentioned. Your wand of linking contains this tool. This tool has multiple uses. Sneak + right click to change modes. <BR>BIND MODE<DIV>Sneak right click a compatible block to select it. Sneak right clicking elsewhere binds the two blocks. This is commonly used to direct mana to certain spreaders or flowers, and to point spreaders at blocks. <BR>FUNCTION MODE<DIV>Function mode simply disables this binding feature. If the wand is not bound to anything, it can rotate various blocks by shift right clicking."
+                }
+            ]
+        },
+        {
+        "key": "RUNICALTAR",    
+        "name": "Runic Altar",
+        "icons": [ "botania:runealtar"],
+        "category": "DRUIDIC_ARTS", "location": [ -6,10 ], 
+        "parents": [ "MANASPREADER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Basic petals and ingredients have proven rather limiting in terms of what I can tell a flower to react to. I will need to create items that can allow me to 'program' (for lack of a better term) the flower moreso than I can now.",
+                    "required_knowledge" : ["THEORY;AUROMANCY;1"]
+                },
+                {
+                    "text":  "I have created a device called the §lRunic Altar§r.<BR>I can right click on it with items to insert them. If a recipe is valid, it will ignite. I then fuel it with mana from a spreader. <BR>Once this is done, I place livingrock on the table, to act as a base for the rune. I then activate the altar with the wand of the forest to create the rune. <BR>These runes will allow me to imbue flowers with lots of traits.",
+                    "recipes": ["thaumcraft:bi3"]
+                }
+            ]
+        },
+        {
+        "key": "MANASPREADER",    
+        "name": "Transferring Mana",
+        "icons": [ "botania:spreader"],
+        "category": "DRUIDIC_ARTS", "location": [ 2,10 ], 
+        "parents": [ "GENERATINGFLORA" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Although the flowers are generating magical energy, upon closer inspection, it's not vis. But it does seem to be the liquid state of vis, which I will henceforth dub §lMana§r. It seems to be extremely volatile; attempting to collect it by hand just annihilates it. I will need a device to carefully harvest and move mana.",
+                    "required_knowledge" :  ["THEORY;AUROMANCY;1"]
+                },
+                {
+                    "text" : "I have created a device called the §lMana Spreader§r. I simply place it near a generating flower, and it will carefully siphon the mana off of the flower. From there, it can be aimed with my wand of linking. <BR>When aimed at a device that stores and/or consumes mana, it will send the mana through the air to that device. <PAGE>The only such device I have at the moment is the aptly named §lMana Pool§r. It's simply a container made of the Livingrock material I devised earlier, which, unsurprisingly, made a good container for mana. <BR>Mana Spreaders can also siphon mana from pools they are on top of, to send it somewhere else.",
+                    "recipes": ["thaumcraft:bwb4"]
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "With dreamwood, I can create an §lElven Mana Spreader§r. This spreader is quite the imrpovement over the previous!", 
+                    "required_research":["ALFHEIMPORTAL"],
+                    "recipes": ["thaumcraft:bwb4"]
+                },
+                {
+                    "text": "With gaiamancy, I have created the §lGaia Mana Spreader§r. This device will allow me to transfer mana at incredible rates.",
+                    "required_research":["GAIAMANCY"],
+                    "recipes": ["thaumcraft:bwb4"]
+                }
+            ]
+        },
+        {
+        "key": "MANAFLUXFIELD",    
+        "name": "Converting Mana to Ember",
+        "icons": [ "botania:rfgenerator"],
+        "category": "DRUIDIC_ARTS", "location": [ -2,12 ], 
+        "parents": [ "MANASPREADER", "EMBERACTIVATOR"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Perhaps I can create a device which can superheat mana to convert it to its more volatile form: ember.",
+                    "required_knowledge" : ["THEORY;AUROMANCY;1"]
+                },
+                {
+                    "text" : "I have created a device called the mana fluxfield. When given a mana burst from a spreader, it will convert the mana to ember, which can then be drawn with the ember emitting devices.",
+                    "recipes": ["thaumcraft:bc3"]
+                }
+            ]
+        },
+        {
+        "key": "MANAMANIPULATION",    
+        "name": "Further Mana Manipulation",
+        "icons": [ "botania:distributor", "botania:manavoid"],
+        "category": "DRUIDIC_ARTS", "location": [ -3,12 ], 
+        "parents": [ "MANASPREADER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created several simple devices to manipulate mana.<BR>MANA SPLITTER<DIV>Place pools on its sides. Upon being hit with a mana burst, It will disperse the mana evenly amongst each pool.<BR>MANA VOID<DIV>Simply voids mana bursts that collide with it. Placing one under a mana pool will allow it to always collect mana, but void excess.",
+                    "recipes": ["thaumcraft:bc1","thaumcraft:bwb7"]
+                }
+            ]
+        },
+        {
+        "key": "MANALENSES",    
+        "name": "Upgrading Mana Spreaders",
+        "icons": [ "botania:lens"],
+        "category": "DRUIDIC_ARTS", "location": [ 0,11 ], 
+        "parents": [ "MANASPREADER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created several §lMana Lenses§r which, when applied to a spreader, will change the properties of its bursts, either to upgrade them or to make useful in ways other than transferring mana. I can also dye lenses with dyes or a mana pearl for rainbow. <BR>I can also combine the functions of two lenses with a slimeball in a mundane workbench.<PAGE>VELOCITY<DIV>Increase speed, but decrease mana per burst, and increase decay rate.<BR>POTENCY<DIV>Double amount of mana per burst, but slow the beam, and increase decay rate.<BR>RESISTANCE<DIV>Increase time before decay begins, but slows the beam.<PAGE>EFFICIENCY<DIV>Decrease time before decay begins, but decrease decay rate altogether.<BR>MESSENGER<DIV>Decrease amount of mana per burst, but drastically increase speed and max distance.<BR>BOUNCE<DIV>Allows mana bursts to bounce off walls.<BR>GRAVITY<DIV>Makes mana bursts be affected by gravity.<PAGE>BORE<DIV>Breaks blocks that the bursts collides with.<BR>DAMAGING<DIV>Damages creatures it hits.<BR>PHANTOM<DIV>Allows mana to pass through blocks, but decreases time before decay begins.<BR>MAGNETIZING<DIV>Allows bursts to magnetize towards nearby blocks that can receive mana, but decrease burst speed.<PAGE>ENTROPIC<DIV>Causes explosions when colliding with non-mana blocks.<BR>INFLUENCE<DIV>Pushes XP orbs and items<BR>WEIGHT<DIV>Makes blocks fall like sand.<BR>KINDLE<DIV>Sets blocks on fire. Ignites and closes nether portals, but to close it must be aimed at the frame.<PAGE>FORCE<DIV>Pushes a block.<BR>FLASH<DIV>Creates purely decorative flames in the same color as the mana burst.",
+                    "recipes": ["thaumcraft:manalens"]
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "PAINTSLINGER<DIV>Needs to be dyed first. When a burst hits a block that can be dyed, the block will be dyed that color. It will also autoamtically convert all adjacent blocks of the same type. Sheep seem to work, too!<BR>WARP<DIV>When a burst collides with a force relay, it will teleport to the end position of said force relay. When used in composite with a bore lens, the bursts will not break force relays or pistons, and it well teleport any blocks to the spot where the burst was fired.<BR>REDIRECTIVE<DIV> Any burst that collides with a mana spreader, aside from normal mana transfer interaction, also makes the spreader point towards the one that fired the burst.<BR>CELEBRATORY<DIV>Creates fireworks!<BR>FLARE<DIV>Takes over a spreader's functionality, preventing it from firing. Makes the spreader become a continuous particle burst of the lens' color. Should be good for decoration!<BR>TRIPWIRE<DIV>A spreader with this lens will only fire if there is one or more mobs/players in its path.", 
+                    "required_research":["ALFHEIMPORTAL"],
+                    "recipes": ["thaumcraft:bwb4"]
+                }
+            ]
+        },
+        {
+        "key": "SPARKS",    
+        "name": "Bulk Mana Transfer",
+        "icons": [ "botania:spark"],
+        "category": "DRUIDIC_ARTS", "location": [ -1,12 ], 
+        "parents": [ "MANASPREADER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Although mana spreaders have served their purpose well, When it comes to bulk mana transfer, there currently aren't any options. I should fix that.",
+                    "required_knowledge":  ["THEORY;AUROMANCY;1"]
+                },
+                {
+                    "text": "I have created an item called a spark. Which can be placed on top of a mana-holding block by sneak+right clicking it with the spark. When this block needs mana, it will pull from nearby mana pools that also have sparks. This is by far the fastest mana transfer that I can have.",
+                    "recipes": ["thaumcraft:bc8"]
+                }
+            ]
+        },
+        {
+        "key": "MANAMINECART",    
+        "name": "Mana on Rails",
+        "icons": [ "botania:poolminecart", "botania:pump"],
+        "category": "DRUIDIC_ARTS", "location": [ -4,12 ], 
+        "parents": [ "MANASPREADER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "While the sparks are good for bulk mana transfer, they aren't good for long distance transfer. Thankfully, the solution is absurdly simple. I just put a mana pool in a minecart via a crafting grid. <BR>To get mana to and from this carted pool, I have created the §lMana Pump§r. Place down a mana pool, then place the pump between the carted and uncarted pools. <BR>The arrow indicates the direction of mana transfer.",
+                    "recipes": ["thaumcraft:bwb8"]
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "The §lSpectral Rail§r will grant interesting properties. When a minecart passes over it, it will float for a bit, as well as be able to pass through walls.<BR>This effect stops if the cart lands on a rail or collides with dreamwood.", 
+                    "required_research":["ALFHEIMINGEDIENTS"]
+                }
+            ]
+        },
+        {
+        "key": "BOTANICINGREDIENTS",    
+        "name": "Basic Botanic Materials",
+        "icons": [ "botania:manaresource", "botania:manaresource;1;1", "botania:manaresource;1;2", "botania:manaresource;1;23"],
+        "category": "DRUIDIC_ARTS", "location": [ 0,7 ], 
+        "parents": [ "MANASPREADER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Certain ingredients, namely iron, diamonds, ender pearls, and various dusts or powders seem to react well to mana, and will transform into their mana counterparts when dropped in a mana pool, given there is enough mana. <BR>These ingredients will be used all throughout the druidic arts."
+                }
+            ]
+        },
+        {
+        "key": "MANASTAR",    
+        "name": "Manastar",
+        "icons": [ "botania:textures/blocks/flower_misc_manastar.png"],
+        "category": "DRUIDIC_ARTS", "location": [ -1,8 ], 
+        "parents": [ "MANASPREADER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "This flower, when placed next to a mana pool, will tell me whether I am consuming more mana than I produce, or vice versa.<BR>If the flower is red, I am operating at a loss. If blue, a profit."
+                }
+            ]
+        },
+        {
+        "key": "MANATABLET",    
+        "name": "Personal Mana Storage",
+        "icons": [ "botania:manatablet"],
+        "category": "DRUIDIC_ARTS", "location": [ -8,11 ], 
+        "parents": [ "BOTANICINGREDIENTS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created a simple, smaller variant of a mana pool which will allow me to carry mana on my person. <BR>Sneak right clicking a mana pool will change whether the pool gives to the tablet or takes from it."
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "The §lMana Mirror§r can be bound to a mana pool. I simply sneak right click a mana pool, and this mirror will pull mana from this pool automatically, no matter where I am from. <BR>This mirror requires that the pool is in a loaded chunk.", 
+                    "required_research":["MIRROR"]
+                }
+            ]
+        },
+        {
+        "key": "NATURALAPPARATUS",    
+        "name": "Natural Apparatus",
+        "icons": [ "botania:hourglass"],
+        "category": "DRUIDIC_ARTS", "location": [ -10,14 ], 
+        "parents": [ "BOTANICINGREDIENTS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "It turns out that flowers aren't the only things that can be created with mana. I will devote this section to such things."
+                }
+            ]
+        },
+        {
+        "key": "HOVERINGHOURGLASS",    
+        "name": "Hovering Hourglass",
+        "icons": [ "botania:hourglass"],
+        "category": "DRUIDIC_ARTS", "location": [ -6,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The §lHovering Hourglass§r will emit a redstone pulse every time it flips over. The amount of time before flipping can be changed by adding various amounts of sand.<BR>Sand: One second per block added.<BR>Red Sand: Ten seconds per block added.<BR>Soul Sand: One minute per block added.<BR>Sand can be inserted automatically with item transferring devices such as hoppers. Right clicking it with a wand of the forest disables the removal of sand. Hitting it with a mana burst will stop the flow of sand until another mana burst hits it.<BR>Mana powder can also be used to change its function to a counter, where it drops one piece of powder down for each mana burst.",
+                    "recipes": ["thaumcraft:bwb9"]
+                }
+            ]
+        },
+        {
+        "key": "OPENCRATE",    
+        "name": "Open Crate",
+        "icons": [ "botania:opencrate"],
+        "category": "DRUIDIC_ARTS", "location": [ -5,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Drops items below it when items are inserted.<BR>When given a redstone signal, any items it drops are prevented from being caught by flowers like the Hopperhock, Rannuncarpus, or Pollidisiac for ten more seconds than usual.",
+                    "recipes": ["thaumcraft:bwb5"]
+                }
+            ]
+        },
+        {
+        "key": "ABSTRUSEPLATFORM",    
+        "name": "Abstruse Platform",
+        "icons": [ "botania:platform"],
+        "category": "DRUIDIC_ARTS", "location": [ -4,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "A simple platform which can be fallen through when sneaking.<BR>Can be camouflaged by clicking on it with another block. By clicking it with a wand of the forest, all adjacent platforms will adopt the same appearance."
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "The §lSpectral Platform§r is simply a block with no collision. It can be camouflaged to look like other blocks if you right click on it with a block.", 
+                    "required_research":["ALFHEIMINGEDIENTS"]
+                }
+            ]
+        },
+        {
+        "key": "ALCHEMYCATALYST",    
+        "name": "Alchemy Catalyst",
+        "icons": [ "botania:alchemycatalyst"],
+        "category": "DRUIDIC_ARTS", "location": [ -3,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Perhaps mana can be used for various forms of alchemy..",
+                    "required_knowledge" : ["THEORY;ALCHEMY;1"]
+                },
+                {
+                    "text" : "Indeed it can! I have created a device called the §lAlchemy Catalyst§r, which, when placed under a mana pool, will enable the pool to perform some crude forms of alchemy.<BR>(Press U on the alchemy catalyst in JEI to view recipes)",
+                    "recipes": ["thaumcraft:bi4"]
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "The §lConjuration Catalyst§r, when placed underneath a mana pool just like the alchemy catalyst, will duplicate various items at the cost of mana.", 
+                    "required_research":["ALFHEIMINGEDIENTS"]
+                }
+            ]
+        },
+        {
+        "key": "ANIMATEDTORCH",    
+        "name": "Animated Torch",
+        "icons": [ "botania:animatedtorch"],
+        "category": "DRUIDIC_ARTS", "location": [ -4,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The §lAnimated Torch§r is a floating redstone torch which will provide redstone signals in the direction it's pointing.<BR>Whenever the torch is triggered by a mana burst, or an adjacent hourglass that flips, it will spin 180 degrees. With a wand of the forest, it can also have its mode changed to 90 degree rotation, or a random rotation amount.",
+                    "recipes": ["thaumcraft:bc2"]
+                }
+            ]
+        },
+        {
+        "key": "BOTANIADRUMS",    
+        "name": "Drums",
+        "icons": [ "botania:forestdrum", "botania:forestdrum;1;2"],
+        "category": "DRUIDIC_ARTS", "location": [ -3,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "These are the in-world counterparts to the horns, which are discussed in the mystical items section.",
+                    "recipes": ["thaumcraft:bwb1","thaumcraft:bwb2"]
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "When §lThe Drum of the Gathering§r is hit with a mana burst, any nearby sheep will be sheared, and any cows with empty buckets underneath them will have their milk transferred to the buckets.", 
+                    "required_research":["ALFHEIMINGEDIENTS"]
+                }
+            ]
+        },
+        {
+        "key": "BOTANIAEYE",    
+        "name": "Eye of the ancients",
+        "icons": [ "botania:foresteye"],
+        "category": "DRUIDIC_ARTS", "location": [ -2,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Adjacent comparators will send a signal whose strength is equal to the amount of animals the eye can find.",
+                    "recipes": ["thaumcraft:bc5"]
+
+                }
+            ]
+        },
+        {
+        "key": "MANAPYLON",    
+        "name": "Mana Pylon",
+        "icons": [ "botania:pylon"],
+        "category": "DRUIDIC_ARTS", "location": [ -1,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "When placed near an enchanting table, the §lMana Pylon§r will provide buffs like bookshelves. Just two are enough to reach max enchantment level.",
+                    "recipes": ["thaumcraft:bi6"]
+                }
+            ]
+        },
+        {
+        "key": "FELPUMPKIN",    
+        "name": "Fel Pumpkin",
+        "icons": [ "botania:felpumpkin"],
+        "category": "DRUIDIC_ARTS", "location": [ 0,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Similar to snow golems, When placed atop two iron bars, this pumpkin can spawn a blaze.",
+                    "recipes": ["thaumcraft:bc7"]
+                }
+            ]
+        },
+        {
+        "key": "LIVINGWOODAVATAR",    
+        "name": "Livingwood Avatar",
+        "icons": [ "botania:avatar"],
+        "category": "DRUIDIC_ARTS", "location": [ 1,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Can be used to automate the use of various rods with a nearby mana pool, which can be read about in the mystical items section.",
+                    "recipes": ["thaumcraft:bwbd"]
+                }
+            ]
+        },
+        {
+        "key": "SPREADERTURNTABLE",    
+        "name": "Spreader Turntable",
+        "icons": [ "botania:turntable"],
+        "category": "DRUIDIC_ARTS", "location": [ 2,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "When this device does NOT have a redstone signal, it will spin the mana spreader ontop of it.",
+                    "recipes": ["thaumcraft:bwbc"]
+                }
+            ]
+        },
+        {
+        "key": "TERUTERUBOZU",    
+        "name": "Teru Teru Bozu",
+        "icons": [ "botania:teruterubozu"],
+        "category": "DRUIDIC_ARTS", "location": [ 3,16 ], 
+        "parents": [ "NATURALAPPARATUS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Will end a rainstorm or thunderstorm if given a sunflower, either manually or by dropping the flower near it.<BR>Attaching a redstone comparator to it allows it to detect rain and storms.",
+                    "recipes": ["thaumcraft:bwbb"]
+                }
+            ]
+        },
+        {
+        "key": "BOTANIAITEMS",    
+        "name": "Mystical Items",
+        "icons": [ "botania:sextant"],
+        "category": "DRUIDIC_ARTS", "location": [ -12,18 ], 
+        "parents": [ "BOTANICINGREDIENTS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "This section will go over the mystical items that druidic arts has to offer."
+                }
+            ]
+        },
+        {
+        "key": "FLORALSTICK",    
+        "name": "Floral obedience stick",
+        "icons": [ "botania:obediencestick"],
+        "category": "DRUIDIC_ARTS", "location": [ -7,20 ], 
+        "parents": [ "BOTANIAITEMS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Right clicking a mana spreader or pool with this item will instantly bind all nearby flowers to it. Dispensers can also use it.",
+                    "recipes": ["thaumcraft:bwb11"]
+                }
+            ]
+        },
+        {
+        "key": "WORLDSHAPERSEXTANT",    
+        "name": "Worldshaper's sextant",
+        "icons": [ "botania:sextant"],
+        "category": "DRUIDIC_ARTS", "location": [ -6,20 ], 
+        "parents": [ "BOTANIAITEMS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Can be used to draw holographic circles to trace out for round builds. Hold right click, then direct your gaze away from the origin to expand the radius. Sneak + right click to clear the hologram.",
+                    "recipes": ["thaumcraft:bwb10"]
+                }
+            ]
+        },
+        {
+        "key": "BOTANIARODS",    
+        "name": "Rods",
+        "icons": [ "botania:smeltrod"],
+        "category": "DRUIDIC_ARTS", "location": [ -5,20 ], 
+        "parents": [ "BOTANIAITEMS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Given that the other states of matter for magic can be used to cast spells, it stands to reason that mana can, too.",
+                    "required_knowledge" :  ["THEORY;AUROMANCY;1"]
+                },
+                {
+                    "text": "It turns out that directly using mana for spells is possible, but with the caveat of spells being quite difficult to make. For now, I will simply make some rods that each can cast one spell. These rods, given some mana in my inventory, can be used to perform various tasks.<BR>DEPTHS<DIV>Conjures cobblestone, also provides cobble to the rod of the shifting crust.<BR>HELLS<DIV>Creates a circle of fire which damages entities. Can be given to the livingwood avatar.<BR>LANDS<DIV>Conjures dirt. Provides dirt for rod of the shifting crust.<BR>MOLTEN CORE<DIV>Smelts blocks.<BR>PLENTIFUL MANTLE<DIV>Gives you the ability to see nearby ores. Can be given to a livingwood avatar, and disabled with redstone signals.<BR>SEAS<DIV> Conjures water, and can refill the apothecary.<BR>SHIFTING CRUST<DIV>Grants the ability to swap blocks. First, select a block by sneak right clicking it. Then, left clicking on any other block will swap it for the selected block, given there is at least one of it in the user's inventory. Right clicking on a block will instead swap all highlighted blocks for the one selected.<BR>SKIES<DIV>Launches you upward.",
+                    "recipes": ["thaumcraft:bi8","thaumcraft:bia","thaumcraft:bi12","thaumcraft:bi13","thaumcraft:bi14","thaumcraft:bi16","thaumcraft:bi17","thaumcraft:bi18"]
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "With alfheim ingredients, I can create some new rods.<BR>ROD OF THE HIGHLANDS<DIV>Will allow me to materialize dirt in the air.<BR>ROD OF THE SHADED MESA<DIV>Will allow me to perform various forms of telekinesis on the world and its creatures.<BR>ROD OF THE BIFROST<DIV>Will allow me to summon bridges.", 
+                    "required_research":["ALFHEIMINGEDIENTS"]
+                },
+                {
+                    "text": "With terrasteel, I can make a really powerful rod known as the §lRod of the Terra Firma§r.<BR>When charged like a bow, will flatten nearby land to the level at which I am standing, either by placing dirt or removing blocks.<BR>The rod cannot function below sea level.",
+                    "required_research":["TERRASTEEL"]
+                }
+            ]
+        },
+        {
+        "key": "VITREOUSPICKAXE",    
+        "name": "Vitreous Pickaxe",
+        "icons": [ "botania:glasspick"],
+        "category": "DRUIDIC_ARTS", "location": [ -4,20 ], 
+        "parents": [ "BOTANIAITEMS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "This pickaxe will enable me to safely mine glass.",
+                    "recipes": ["thaumcraft:bwbf"]
+                }
+            ]
+        },
+        {
+        "key": "VINEBALL",    
+        "name": "Vine Ball",
+        "icons": [ "botania:vineball"],
+        "category": "DRUIDIC_ARTS", "location": [ -3,20 ], 
+        "parents": [ "BOTANIAITEMS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "These are simply big clumps of vines, which, when tossed at a block, will form a vine that grows downward until it hits a block."
+                }
+            ]
+        },
+        {
+        "key": "MANAWEAVE",    
+        "name": "Manaweave Robes",
+        "icons": [ "botania:manaresource;1;22"],
+        "category": "DRUIDIC_ARTS", "location": [ -2,20 ], 
+        "parents": [ "BOTANIAITEMS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text" : "I have created a set of robes which, when the full set is worn, provide me with massive mana discounts. I have also created a spellbinding cloth, which can wipe away an item's enchantments."
+                }
+            ]
+        },
+        {
+        "key": "ASSEMBLYHALO",    
+        "name": "Crafting Halos",
+        "icons": [ "botania:craftinghalo"],
+        "category": "DRUIDIC_ARTS", "location": [ -1,20 ], 
+        "parents": [ "BOTANIAITEMS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text" : "The §lAssembly Halo§r can allow me to craft larger items without the need for a workbench. <BR> It can save recipes by mousing over a slot in the ring and right clicking. It will save the most recently used recipe. I can sneak left click a recipe to remove it.<BR>I can also create a variant of the device called the manufactory halo. This variant will automatically craft as many items as it can when I unequip it."
+                }
+            ]
+        },
+        {
+        "key": "MANASTEELEQUIPMENT",    
+        "name": "Manasteel equipment",
+        "icons": [ "botania:manasteelpick"],
+        "category": "DRUIDIC_ARTS", "location": [ 0,20 ], 
+        "parents": [ "BOTANIAITEMS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "It turns out that manasteel can make for a good set of armor and tools. They will use mana instead of durability, and the helmet can be combined with goggles of revealing. <BR> The armor provides a mana discount when the full set is worn."
+                }
+            ]
+        },
+        {
+        "key": "LIVINGWOODBOW",    
+        "name": "Livingwood bow",
+        "icons": [ "botania:livingwoodbow"],
+        "category": "DRUIDIC_ARTS", "location": [ 1,20 ], 
+        "parents": [ "BOTANIAITEMS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The livingwood bow can repair itself using mana, just like manasteel equipment."
+                }
+            ]
+        },
+        {
+        "key": "MANABLASTER",    
+        "name": "Mana blaster",
+        "icons": [ "botania:managun"],
+        "category": "DRUIDIC_ARTS", "location": [ 2,20 ], 
+        "parents": [ "BOTANIAITEMS", "~MANATABLET" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Given that I can carry mana on my person, I wonder if there is a way to portabilize the mana spreader as well.",
+                    "required_knowledge" : ["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text": "I have created a device called the mana blaster. This device lets me shoot mana bursts. <BR>Like the spreader, a lens can be applied (in a crafting grid) to change the effect of the burst.",
+                    "recipes": ["thaumcraft:bib"]
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "The lens clip allows me to store more than one mana lens for my mana blaster. Attach it to the blaster in a crafting grid. Add or remove lenses using the crafting grid. <BR>Sneak + right click to change lens.", 
+                    "required_research":["ALFHEIMINGEDIENTS"]
+                }
+            ]
+        },
+        {
+        "key": "BOTANIAHORNS",    
+        "name": "Horns",
+        "icons": [ "botania:grasshorn"],
+        "category": "DRUIDIC_ARTS", "location": [ 3,20 ], 
+        "parents": [ "BOTANIAITEMS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Clearing out plants from my lawn manually has grown tiresome!",
+                    "required_knowledge" : ["OBSERVATION;ARTIFICE;1"]
+                },
+                {
+                    "text": " I have created a horn which will automatically clear out nearby plants when using it. I can then modify it to clear either leaves or snow, when crafting it with leaves or a snowball respectively.",
+                    "recipes": ["thaumcraft:bic"]
+                }
+            ]
+        },
+        {
+        "key": "PASTURESEEDS",    
+        "name": "Pasture seeds",
+        "icons": [ "botania:grassseeds"],
+        "category": "DRUIDIC_ARTS", "location": [ 4,20 ], 
+        "parents": [ "BOTANIAITEMS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text" : "I have created an item called the §lPasture Seed§r, which will plant grass when placed into dirt. I can also combine the seed with other items so that it will conjure other types of 'grass': <BR>BOREAL: Podzol<BR>DRY: Dry grass<BR>GOLDEN: Golden grass<BR>VIVID: Vivid grass<BR>MUTATED: Mutated Grass<BR>SCORCHED: Scorched Grass<BR>INFUSED: Infused Grass"
+                }
+            ]
+        },
+        {
+        "key": "ALFHEIMPORTAL",    
+        "name": "Alfheim",
+        "icons": [ "botania:alfheimportal", "botania:pylon;1;1"],
+        "category": "DRUIDIC_ARTS", "location": [ 7,10 ], 
+        "parents": [ "FUNCTIONALFLORA"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "They say that the druidic arts were pioneered by the elves, but they were banished back to their homeworld long ago. Perhaps I can create a link back to them.",
+                    "required_knowledge": ["THEORY;AUROMANCY;2"]
+                },
+                {
+                    "text" : "I have created several items which should be able to create a portal to alfheim.<BR>STRUCTURE<LINE><IMG>devmenu:portalalfheim.png:0:0:255:255:0.25</IMG><BR>Build the portal as shown, with the elven gateway core on the middle of the bottom side, and glimmerwood on the middle of the other 3 sides. <BR>It will need two mana pools, each at least half full, preferably more. The pylon pool pairs can be placed anywhere near the portal.<BR>The portal can then be ignited opened by using a wand of the forest on the gateway core.<BR>The link will most likely not be strong enough to transport myself, but it will be strong enough to transport items for trade. They should have a particular interest in my mana infused items, and return back their counterparts. If I send anything else, they will consider it a gift.",
+                    "recipes": ["thaumcraft:bi1", "thaumcraft:bi2"]
+                }
+            ]
+        },
+        {
+        "key": "ALFHEIMINGEDIENTS",    
+        "name": "Basic Elven Ingredients",
+        "icons": [ "botania:manaresource;1;9", "botania:manaresource;1;7", "botania:manaresource;1;8"],
+        "category": "DRUIDIC_ARTS", "location": [ 7,14 ], 
+        "parents": [ "ALFHEIMPORTAL"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Tossing a mana pearl into the portal gets pixie dust. Mana diamonds will give me dragonstones, and two manasteel ingots will get me one elementium ingot. These elven ingredients can be used to make a lot more druidic items, apparatus, and flora."
+                }
+            ]
+        },
+        {
+        "key": "TERRASTEEL",    
+        "name": "Terrasteel",
+        "icons": [ "botania:manaresource;1;4"],
+        "category": "DRUIDIC_ARTS", "location": [ 7,18 ], 
+        "parents": [ "ALFHEIMINGEDIENTS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Although existing materials from both myself and the elves have been good, I have desired something more. Something stronger.<BR> I have noticed that each of the main mana ingredients has its own pros and cons. Perhaps if I combine them, ",
+                    "required_knowledge": ["THEORY;AUROMANCY;1"]
+                },
+                {
+                    "text" : "I think I have done it. I have created a material called terrasteel; a combination of all the previous druidic materials. <BR>I will first need a device called a §lTerrestrial Agglomeration Plate§r. I then place a mansteel ingot, a mana pearl, and a mana diamond onto the plate.<BR>Mana is needed to induce the reaction; about half a pool per ingot. The plate uses a spark. The more pools on the spark network there are, the faster this infusion will be.<BR>This material should prove stronger than all other druidic materials."
+                }
+            ]
+        },
+        {
+        "key": "TERRASTEELEQUIPMENT",    
+        "name": "Terrasteel Equipment",
+        "icons": [ "botania:terrasword"],
+        "category": "DRUIDIC_ARTS", "location": [ 9,20 ], 
+        "parents": [ "TERRASTEEL"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created a set of terrasteel armor, which is a very strong armor. The helmet can be combined with goggles of revealing, just like the other sets.<BR>I have also created two tools:<BR>§lThe Terra Blade§r can summon mana bursts.<BR>The §lTerra Truncator§r can instantly chop entire trees."
+                }
+            ]
+        },
+        {
+        "key": "THORNCHAKRAM",    
+        "name": "Thorn Chakrams",
+        "icons": [ "botania:thornchakram"],
+        "category": "DRUIDIC_ARTS", "location": [ 10,20 ], 
+        "parents": [ "TERRASTEEL"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Terrasteel, as it turns out, is quite effective at making a 'boomerang' of sorts. These chakrams will bounce off of walls, dealing damage to anything in their path. They will return to me after a bit.<BR>I can stack up to six.<BR>I can also craft flare chakrams, which will deal fire damage to enemies."
+                }
+            ]
+        },
+        {
+        "key": "TERRAPICK",    
+        "name": "Terra Shatterer",
+        "icons": [ "botania:terrapick"],
+        "category": "DRUIDIC_ARTS", "location": [ 11,20 ], 
+        "parents": [ "TERRASTEEL"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The §lTerra Shatterer§r pickaxe, if left to soak in mana in a mana pool, will absorb the mana into itself. Once enough mana is accumulated, the 'rank' of the pickaxe will advance. This rank affects how large the AOE is, which can be toggled by right clicking.<BR>The ranks are: D, C, B, A, S, SS, with each one requiring exponentially more mana than the last."
+                }
+            ]
+        },
+        {
+        "key": "MANAPRISM",    
+        "name": "Mana Prism",
+        "icons": [ "botania:prism"],
+        "category": "DRUIDIC_ARTS", "location": [ 3,11 ], 
+        "parents": [ "MANALENSES"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "This block allows mana bursts to be switched on the fly.<BR>Right click it with a mana lens to have the prism adopt its properties and color. Any mana bursts that pass through will adopt the new properties of the prism.<BR>Using any of the four basic lenses also increases the time the burst can go before losing mana, allowing it to go further.<BR>Turn off the prism with a redstone signal."
+                }
+            ]
+        },
+        {
+        "key": "SPARKAUGMENTATION",    
+        "name": "Spark Augmentation",
+        "icons": [ "botania:sparkupgrade"],
+        "category": "DRUIDIC_ARTS", "location": [ 5,13 ], 
+        "parents": [ "ALFHEIMPORTAL", "SPARKS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "§lSpark Augments§r can be applied to sparks to change a spark's behavior.<BR>Dominant<DIV>The spark will now pull any mana from nearby non-augmented sparks' pools into its own, until it's completely full.<BR>Recessive<DIV>The spark will output all of the mana in its pool to any nearby sparks' pools, until its pool is empty.<BR>Isolated<DIV>Will prevent the spark from interacting with any dominant or recessive sparks, but still allow it to interact with blocks that can receive their mana through spark networks."
+                }
+            ]
+        },
+        {
+        "key": "CAPRICECOCOON",    
+        "name": "Cocoon of caprice",
+        "icons": [ "botania:cocoon"],
+        "category": "DRUIDIC_ARTS", "location": [ 9,16 ], 
+        "parents": [ "ALFHEIMINGEDIENTS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I could use a more portable method of conjuring creatures.",
+                    "required_knowledge" : ["THEORY;ALCHEMY;1"]
+                },
+                {
+                    "text": "This cocoon, when placed, will eventually spawn a creature. Almost always it will be a farm animal, but it can occasionally spawn horses or wolves.<BR>I wonder if I can influence the spawn with items the creature is known for...",
+                    "recipes": ["thaumcraft:bc6"]
+                }
+            ]
+        },
+        {
+        "key": "CRAFTYCRATE",    
+        "name": "Crafty Crate",
+        "icons": [ "botania:opencrate;1;1"],
+        "category": "DRUIDIC_ARTS", "location": [ 10,16 ], 
+        "parents": [ "ALFHEIMINGEDIENTS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The §lCrafty Crate§r will let me automatically assemble mundane crafting recipes.<BR>Insert items into the top.<BR>The slots will get filled left to right, top to bottom.<BR>§lCrafting Placeholders§r can be made to act as empty slots.<BR>Alternatively, you can augment the crate with §lCrafting Patterns§r, which will lock out the use of certain slots.",
+                    "recipes": ["thaumcraft:bwba"]
+                }
+            ]
+        },
+        {
+        "key": "ELEMENTIUMEQUIPMENT",    
+        "name": "Elementium Equipment",
+        "icons": [ "botania:elementiumpick"],
+        "category": "DRUIDIC_ARTS", "location": [ 11,16 ], 
+        "parents": [ "ALFHEIMINGEDIENTS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Elementium Armor<DIV>When hit, there is a chance to spawn a pixie which will assist in combat, the more pieces equipped, the higher the chance.<BR>Pickaxe<DIV>Will destroy and cobblestone, dirt, netherrack, and other mundane materials you mine with it. You can craft a Terra Shatterer with it to get this effect on the Terra Shatterer.<BR>Shovel<DIV>If the blocks it is digging are affected by gravity, it will remove all the blocks above and below the one you dug.<BR>Axe<DIV>Landing a killing blow on mobs gives a chance for them to drop their heads.<BR>Shears<DIV>Hold it back like a bow to shear any nearby sheep.<BR>Sword<DIV>Has a chance to spawn a pixie when striking an enemy."
+                }
+            ]
+        },
+        {
+        "key": "CRYSTALBOW",    
+        "name": "Crystal Bow",
+        "icons": [ "botania:crystalbow"],
+        "category": "DRUIDIC_ARTS", "location": [ 12,16 ], 
+        "parents": [ "ALFHEIMINGEDIENTS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Like the livingwood bow, it will repair itself using mana. However, carrying arrows is not required, as it will conjure arrows using mana. It will also fire arrows much faster than normal bows.",
+                    "recipes": ["thaumcraft:bwb13"]
+                }
+            ]
+        },
+        {
+        "key": "BOTANIAWORLDSEED",    
+        "name": "World Seed",
+        "icons": [ "botania:worldseed"],
+        "category": "DRUIDIC_ARTS", "location": [ 13,16 ], 
+        "parents": [ "ALFHEIMINGEDIENTS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "This one-time-use seed lets me travel back to world spawn upon consuming it.",
+                    "recipes": ["thaumcraft:bif"]
+                }
+            ]
+        },
+        {
+        "key": "BOTANIASLIMEBOTTLE",    
+        "name": "Slime in a Bottle",
+        "icons": [ "botania:slimebottle"],
+        "category": "DRUIDIC_ARTS", "location": [ 14,16 ], 
+        "parents": [ "ALFHEIMINGEDIENTS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "This bottle will allow me to detect regions that can conjure slimes. When I am in such a region. The piece of slime in the jar will bounce up and down.",
+                    "recipes": ["thaumcraft:bwb14"]
+                }
+            ]
+        }
+    ]
+}

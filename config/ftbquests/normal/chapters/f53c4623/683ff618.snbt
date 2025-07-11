@@ -1,0 +1,23 @@
+{
+	title: "Hostile Creature Taming",
+	x: -18.0d,
+	y: 6.6499999999999995d,
+	shape: "heart",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b27f646a",
+		"15bc77d6"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "93b0de5c",
+		type: "item",
+		items: [{
+			item: "minecraft:rabbit_foot"
+		}],
+		count: 8L
+	}]
+}

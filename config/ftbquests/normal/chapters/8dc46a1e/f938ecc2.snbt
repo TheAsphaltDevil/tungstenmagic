@@ -1,0 +1,25 @@
+{
+	title: "Complete Exam III: House Arde",
+	x: 8.5d,
+	y: -6.5d,
+	dependencies: [
+		"0964ad65"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bc57b35b",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ed49bfa6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "juniorFinished"
+	},
+	{
+		uid: "fa5cd6f9",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "ardeJunior"
+	}]
+}

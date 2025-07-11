@@ -1,0 +1,12 @@
+{
+	x: -2.5d,
+	y: -9.0d,
+	description: "Artifice",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4ebc091c",
+		type: "checkmark"
+	}]
+}

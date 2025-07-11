@@ -1,0 +1,28 @@
+{
+	title: "Senior Thesis",
+	x: -11.5d,
+	y: 1.5d,
+	text: [
+		"This is it. The end of your journey through the academy. Your final exam to prove yourself worthy of graduation is up to you. Show us what you have learned!"
+	],
+	dependencies: [
+		"3897b09c"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "676aee2a",
+		type: "checkmark",
+		title: "Begin Senior Thesis",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemknowledgeshare",
+			tag: {
+				astralsorcery: {
+					creativeKnowledge: 1b
+				}
+			}
+		}
+	}]
+}

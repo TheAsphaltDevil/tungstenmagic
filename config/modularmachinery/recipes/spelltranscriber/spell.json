@@ -1,0 +1,34 @@
+{
+    "machine": "spelltranscriber",
+    "registryName": "spell",
+    "recipeTime": 400,
+    "requirements": [
+        {
+            "type" : "item",
+            "io-type" : "input",
+            "item" : "thaumcraft:focus_3",
+            "chance" : 0,
+            "nbt" : {
+                "package" : {
+                    "complexity" : "4",
+                    "nodes" : [
+                        {"type": "MEDIUM", "key": "ROOT"},
+                        {"type": "MEDIUM", "key": "thaumcraft.TOUCH"},
+                        {"setting.duration":"0", "setting.power": "1", "type": "EFFECT", "key": "thaumcraft.FIRE"}
+                    ],
+                    "index": "0"
+                }
+            }
+        },
+        {
+            "type" : "item",
+            "io-type" : "input",
+            "item" : "minecraft:book"  
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ebwizardry:spell_book@2"
+        }
+    ]
+}

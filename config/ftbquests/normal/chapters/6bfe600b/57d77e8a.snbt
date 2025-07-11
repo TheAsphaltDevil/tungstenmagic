@@ -1,0 +1,22 @@
+{
+	title: "F: Swap Item In Hands",
+	x: 3.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "b2f838bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

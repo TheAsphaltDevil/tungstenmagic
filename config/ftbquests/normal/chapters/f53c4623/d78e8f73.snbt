@@ -1,0 +1,36 @@
+{
+	title: "Sophomore Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ebwizardry:charm_haggler"
+	},
+	x: 9.3d,
+	y: -10.4d,
+	description: "Expert Haggler",
+	text: [
+		"With this charm equipped, wizards will have new trades every time you make a trade.",
+		"",
+		"---",
+		"There's just something about you..."
+	],
+	dependencies: [
+		"5b122356"
+	],
+	tasks: [{
+		uid: "ccaca618",
+		type: "gamestage",
+		stage: "imperiaSophomore"
+	}],
+	rewards: [{
+		uid: "58c79f28",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_haggler"
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+    "machine": "combiner",
+    "registryName": "dracoC",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "mythus",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "desiderium",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "draco",
+            "amount": 2
+        }
+    ]
+}

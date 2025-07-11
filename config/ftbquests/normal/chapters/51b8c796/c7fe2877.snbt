@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 14.5d,
+	shape: "square",
+	tasks: [{
+		uid: "d206d102",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:waterlogged"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

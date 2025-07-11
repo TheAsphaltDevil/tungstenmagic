@@ -1,0 +1,38 @@
+{
+	title: "Junior Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:missilerod"
+	},
+	x: 3.0d,
+	y: -10.0d,
+	description: "Monster Cleansing",
+	text: [
+		"With a flick of the wrist, this wand sends a flurry of crystalline homing missiles to all hostile creatures in the vicinity.",
+		"",
+		"Needs a hefty supply of mana",
+		"",
+		"---",
+		"Little do you know..."
+	],
+	dependencies: [
+		"b586227d"
+	],
+	tasks: [{
+		uid: "ecfc26f3",
+		type: "gamestage",
+		stage: "vitaJunior"
+	}],
+	rewards: [{
+		uid: "d8744c69",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:missilerod"
+		}
+	}]
+}

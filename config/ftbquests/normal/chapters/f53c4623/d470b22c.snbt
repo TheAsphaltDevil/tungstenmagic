@@ -1,0 +1,16 @@
+{
+	x: -10.5d,
+	y: 4.0d,
+	shape: "gear",
+	hide_dependency_lines: true,
+	dependencies: [
+		"01175291"
+	],
+	tasks: [{
+		uid: "a1731499",
+		type: "item",
+		items: [{
+			item: "embers:wildfire_core"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Gold to Silver",
+	x: 5.5d,
+	y: -5.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "ec51d4a0",
+		type: "item",
+		items: [{
+			item: "treasure2:gold_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "01199ed5",
+		type: "item",
+		team_reward: false,
+		item: "treasure2:silver_coin",
+		count: 10
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Crystal Cell Upgrade",
+	icon: "embers:crystal_ember",
+	disable_toast: true,
+	x: 25.5d,
+	y: 2.0d,
+	text: [
+		"Feed these items into a crystal cell to increase its maximum capacity."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "5d807f62",
+		type: "item",
+		items: [{
+			item: "treasure2:gold_coin"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "f3e39fbf",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 16
+	}]
+}

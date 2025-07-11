@@ -1,0 +1,27 @@
+{
+	title: "ARTIFICE",
+	x: -2.5d,
+	y: 2.0d,
+	shape: "gear",
+	description: "Magical Machinery",
+	text: [
+		"With artifice, you can create a wide variety of magical machines than can solve a wide variety of problems."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9fbbe405"
+	],
+	hide: true,
+	tasks: [{
+		uid: "82277ed7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

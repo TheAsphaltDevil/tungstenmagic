@@ -1,0 +1,23 @@
+{
+	title: "Apprentice Spells",
+	x: -8.5d,
+	y: 11.5d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"744b7352",
+		"58bae2b8"
+	],
+	tasks: [{
+		uid: "eddd3913",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:arcane_tome",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

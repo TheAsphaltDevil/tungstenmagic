@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_ignis",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "ignis",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_ignis",
+            "amount": 10
+        }
+    ]
+}

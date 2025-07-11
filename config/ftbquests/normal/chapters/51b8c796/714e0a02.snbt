@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: 15.5d,
+	tasks: [{
+		uid: "2030ad43",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_growth"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

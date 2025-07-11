@@ -1,0 +1,23 @@
+{
+	title: "Dreadful Peat Mummy",
+	x: 3.5d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"335453cd"
+	],
+	tasks: [{
+		uid: "369c2297",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_summoning"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

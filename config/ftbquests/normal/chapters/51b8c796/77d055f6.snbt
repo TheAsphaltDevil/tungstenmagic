@@ -1,0 +1,17 @@
+{
+	x: -5.5d,
+	y: 15.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "0d2b540c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:verdant_charm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

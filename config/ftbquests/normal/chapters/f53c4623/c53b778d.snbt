@@ -1,0 +1,68 @@
+{
+	title: "Freshman Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:golden_sword",
+		tag: {
+			"Quark:RuneColor": 5,
+			ench: [{
+				lvl: 20s,
+				id: 21
+			},
+			{
+				lvl: 32767s,
+				id: 34
+			}],
+			RepairCost: 0,
+			display: {
+				Name: "Murphy's Bane"
+			},
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 5.5d,
+	y: -14.5d,
+	description: "Looting XX Sword",
+	text: [
+		"With this sword, your prey are practically guaranteed to drop the right item.",
+		"",
+		"---",
+		"Try making THIS go wrong."
+	],
+	dependencies: [
+		"060c96e0"
+	],
+	tasks: [{
+		uid: "2e35a7ba",
+		type: "gamestage",
+		stage: "ardeFreshman"
+	}],
+	rewards: [{
+		uid: "6336a4d5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:golden_sword",
+			tag: {
+				"Quark:RuneColor": 5,
+				ench: [{
+					lvl: 20s,
+					id: 21
+				},
+				{
+					lvl: 32767s,
+					id: 34
+				}],
+				RepairCost: 0,
+				display: {
+					Name: "Murphy's Bane"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		}
+	}]
+}

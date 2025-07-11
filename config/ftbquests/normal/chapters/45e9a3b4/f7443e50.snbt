@@ -1,0 +1,58 @@
+{
+	title: "Ritual Pedestal",
+	x: 19.0d,
+	y: 2.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "c55bd191",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "c63d5211",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Ritual Pedestal",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 828,
+					Y: 14,
+					Z: 118
+				},
+				itemcountmap: [{
+					item: 8067,
+					meta: 4,
+					count: 1
+				},
+				{
+					item: 8067,
+					meta: 3,
+					count: 20
+				},
+				{
+					item: 8067,
+					meta: 1,
+					count: 24
+				},
+				{
+					item: 8067,
+					meta: 0,
+					count: 12
+				}],
+				endPos: {
+					X: 820,
+					Y: 14,
+					Z: 126
+				}
+			}
+		}
+	}]
+}

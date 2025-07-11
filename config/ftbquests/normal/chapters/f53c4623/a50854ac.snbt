@@ -1,0 +1,26 @@
+{
+	title: "Advanced Spells",
+	x: -9.5d,
+	y: 9.7d,
+	shape: "rsquare",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b27f646a",
+		"83b3a16c"
+	],
+	tasks: [{
+		uid: "0fb1c4e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:arcane_tome",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

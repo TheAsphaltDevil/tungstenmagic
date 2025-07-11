@@ -1,0 +1,21 @@
+{
+	x: -14.0d,
+	y: 7.5d,
+	text: [
+		"When sneaking, all nearby dropped items will glow.",
+		"",
+		"When holding an item, all nearby inventories with the item will glow. This includes player and villager inventories."
+	],
+	tasks: [{
+		uid: "d7489d7d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:itemfinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "House Chosen!",
+	x: 49.0d,
+	y: -8.0d,
+	text: [
+		"Congratulations on choosing a house!",
+		"",
+		"You have now unlocked the main academic compass. Progression will take place there from now on."
+	],
+	dependencies: [
+		"57bb2868"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "128b7b0f",
+		type: "gamestage",
+		stage: "armara"
+	},
+	{
+		uid: "d01e270f",
+		type: "gamestage",
+		stage: "evorsio"
+	},
+	{
+		uid: "4ecabe4a",
+		type: "gamestage",
+		stage: "discidia"
+	},
+	{
+		uid: "79584dec",
+		type: "gamestage",
+		stage: "vicio"
+	},
+	{
+		uid: "015d5e10",
+		type: "gamestage",
+		stage: "aevitas"
+	}]
+}

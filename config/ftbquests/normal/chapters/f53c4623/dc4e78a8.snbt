@@ -1,0 +1,45 @@
+{
+	title: "Exam III",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemknowledgeshare",
+		tag: {
+			astralsorcery: {
+				creativeKnowledge: 1b
+			}
+		}
+	},
+	x: -12.5d,
+	y: -0.5d,
+	text: [
+		"Exam III will have you conquering two more alternate dimensions:",
+		"",
+		"The End: An empty void, ruled by a lone dragon.",
+		"",
+		"The Betweenlands: An eternal swamp hidden somewhere deep beneath Terra. It is overcome with a curse: conventional weapons, armor, and food will not work here."
+	],
+	dependencies: [
+		"b27f646a"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "f42403d1",
+		type: "checkmark",
+		title: "Begin Exam III"
+	}],
+	rewards: [{
+		uid: "1cef9e39",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "thebetweenlands:swamp_talisman"
+		}
+	}]
+}

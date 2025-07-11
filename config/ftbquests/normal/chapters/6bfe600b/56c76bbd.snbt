@@ -1,0 +1,14 @@
+{
+	title: "S: Brake",
+	icon: "minecraft:stained_glass_pane 1 8",
+	x: -5.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "274aff81",
+		type: "checkmark",
+		title: "S: Reverse"
+	}]
+}

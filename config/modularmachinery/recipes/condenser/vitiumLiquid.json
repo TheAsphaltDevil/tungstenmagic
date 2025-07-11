@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_vitium",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "vitium",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_vitium",
+            "amount": 10
+        }
+    ]
+}

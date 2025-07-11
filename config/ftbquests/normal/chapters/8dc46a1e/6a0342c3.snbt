@@ -1,0 +1,25 @@
+{
+	title: "Complete Exam III: House Imperia",
+	x: 8.5d,
+	y: -5.5d,
+	dependencies: [
+		"0964ad65"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f377886e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "f9024a1b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "juniorFinished"
+	},
+	{
+		uid: "a36e43e5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "imperiaJunior"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "T: Talk",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:writable_book"
+	},
+	x: 4.0d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c79b7596",
+		type: "item",
+		title: "T in JEI: Request Item",
+		items: [{
+			item: "botania:corporeaindex"
+		}]
+	},
+	{
+		uid: "e2192bf1",
+		type: "checkmark"
+	}]
+}

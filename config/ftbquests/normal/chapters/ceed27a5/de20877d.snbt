@@ -1,0 +1,28 @@
+{
+	x: 31.0d,
+	y: -8.0d,
+	text: [
+		"This device has two main functions: ",
+		"",
+		"1) It lets you view the amount of good magical energy (vis), and bad magical energy (flux) that is present in the atmosphere (the aura).",
+		"",
+		"2) When you scan things, it will occasionally grant §lOBSERVATONS§r, which are points used for researches. The observations you get seem to depend on what you scan.",
+		"",
+		"§lSome things, when scanned, will yield new secret research entries.§r"
+	],
+	dependencies: [
+		"652112a8"
+	],
+	tasks: [{
+		uid: "987ad210",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

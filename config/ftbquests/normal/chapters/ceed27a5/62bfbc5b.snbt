@@ -1,0 +1,38 @@
+{
+	title: "Celestian Academy",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemknowledgeshare",
+		tag: {
+			astralsorcery: {
+				creativeKnowledge: 1b
+			}
+		}
+	},
+	disable_toast: true,
+	x: 21.0d,
+	y: -8.0d,
+	shape: "circle",
+	description: "Have fun with the pack!",
+	text: [
+		"Congratulations!",
+		"",
+		"You have been accepted into the Celestian Academy. Contrary to popular belief, magic is not innate, but learned. You expressed the strongest",
+		"desire to learn, and learn you shall! With our teachings, you shall become a worthy wizard.",
+		"",
+		"Although tuition is free, we do require one thing of all students: their help.",
+		"",
+		"Not too long ago, hostile creatures started dotting the landscape out of seemingly nowhere. We aren't entirely sure of their origins, but they must be",
+		"stopped. In exchange for our teachings, you shall wear the mantle of the stars; a cape symbolizing your sworn duty to protect this realm."
+	],
+	dependencies: [
+		"351a7317"
+	],
+	tasks: [{
+		uid: "4e1b6583",
+		type: "checkmark",
+		title: "OK"
+	}]
+}

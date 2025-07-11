@@ -1,0 +1,27 @@
+{
+	x: -20.3d,
+	y: 2.5d,
+	text: [
+		"These boots will enable you to walk much faster, and jump much higher."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c6ac4469",
+		"744b7352"
+	],
+	tasks: [{
+		uid: "8e3bb65c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:traveller_boots",
+			tag: {
+				tc.charge: 22
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

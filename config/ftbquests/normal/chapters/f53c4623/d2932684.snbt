@@ -1,0 +1,29 @@
+{
+	title: "Essentia Smelting Systems",
+	x: -16.7d,
+	y: 11.5d,
+	shape: "octagon",
+	description: "Elemental Storage",
+	text: [
+		"Essentia smelting systems provide a way to capture the essentia within a container, transport it, and store it in jars for later use in alchemy and infusion."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"cc99b428",
+		"744b7352"
+	],
+	tasks: [{
+		uid: "6f902eae",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	},
+	{
+		uid: "6ab9dd11",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -8.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "cea8226e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:waterring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

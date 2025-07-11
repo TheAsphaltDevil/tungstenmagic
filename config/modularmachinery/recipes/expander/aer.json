@@ -1,0 +1,21 @@
+{
+    "machine": "expander",
+    "registryName": "aer",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "aer",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_aer",
+            "amount": 10
+        }
+    ]
+}
+
+

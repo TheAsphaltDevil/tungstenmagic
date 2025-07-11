@@ -1,0 +1,14 @@
+{
+	title: "Scroll Up",
+	icon: "minecraft:stained_glass_pane 1 8",
+	x: 12.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "59e29087",
+		type: "checkmark"
+	}]
+}

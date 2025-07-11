@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "aversio",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "aversio",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_aversio",
+            "amount": 10
+        }
+    ]
+}

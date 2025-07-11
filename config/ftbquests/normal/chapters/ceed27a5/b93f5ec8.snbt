@@ -1,0 +1,26 @@
+{
+	x: 37.0d,
+	y: -8.0d,
+	text: [
+		"The Astral Tome is the final book you will need at the academy.",
+		"",
+		"Once you attune to the stars, you can use it to level yourself up through its perk tree.",
+		"",
+		"It also contains information on astrological devices, but you should not look at it; the thaumonomicon has updated information on astrology."
+	],
+	dependencies: [
+		"cb30bef4"
+	],
+	tasks: [{
+		uid: "18d39679",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

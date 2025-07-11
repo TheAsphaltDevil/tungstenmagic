@@ -1,0 +1,19 @@
+{
+	x: 10.5d,
+	y: -9.5d,
+	dependencies: [
+		"b8fcfd4b"
+	],
+	tasks: [{
+		uid: "61860b3d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:lamp_of_cinders"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

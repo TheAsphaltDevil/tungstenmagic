@@ -1,0 +1,39 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	shape: "octagon",
+	can_repeat: true,
+	tasks: [{
+		uid: "dbb2930e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8122bc34",
+		type: "item",
+		item: "treasure2:gold_coin"
+	},
+	{
+		uid: "d151fc05",
+		type: "item",
+		item: "treasure2:silver_coin",
+		count: 2
+	}]
+}

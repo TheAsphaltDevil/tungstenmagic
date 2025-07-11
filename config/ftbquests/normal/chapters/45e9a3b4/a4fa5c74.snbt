@@ -1,0 +1,19 @@
+{
+	x: 6.5d,
+	y: 4.0d,
+	shape: "octagon",
+	can_repeat: true,
+	tasks: [{
+		uid: "573c4e37",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "06476f40",
+		type: "item",
+		item: "treasure2:silver_coin",
+		count: 3
+	}]
+}

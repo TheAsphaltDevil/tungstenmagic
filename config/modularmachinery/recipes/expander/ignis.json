@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "ignis",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "ignis",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_ignis",
+            "amount": 10
+        }
+    ]
+}

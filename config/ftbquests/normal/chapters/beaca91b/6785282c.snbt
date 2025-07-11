@@ -1,0 +1,29 @@
+{
+	title: "Complete Exam I: House Mus",
+	x: 9.0d,
+	y: -2.5d,
+	text: [
+		"Well done!"
+	],
+	dependencies: [
+		"68919249",
+		"99e9f4fe"
+	],
+	hide: true,
+	tasks: [{
+		uid: "84208590",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "e1875854",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "freshmanFinished"
+	},
+	{
+		uid: "f5accfa2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "musFreshman"
+	}]
+}

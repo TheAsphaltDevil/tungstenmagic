@@ -1,0 +1,45 @@
+{
+	title: "Crimson Praetor",
+	x: 11.0d,
+	y: 2.0d,
+	shape: "octagon",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "053a9f2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_praetor_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "28915623",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_praetor_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff6da253",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:crimson_praetor_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

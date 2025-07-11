@@ -1,0 +1,25 @@
+{
+	title: "BIBLIOMANCY",
+	x: -3.15d,
+	y: 8.0d,
+	shape: "diamond",
+	description: "Magic Writing",
+	text: [
+		"Bibliomancy is the art of writing in books to carry out all sorts of complex magics.",
+		"",
+		"Common books include enchanting mundane weaponry, atlases that write themselves, and lists that track your items."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9fbbe405"
+	],
+	hide: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "5fb82a3d",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}]
+}

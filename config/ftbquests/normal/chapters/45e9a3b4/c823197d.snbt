@@ -1,0 +1,18 @@
+{
+	x: 5.5d,
+	y: 4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "28bb4397",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "03aa2cdc",
+		type: "item",
+		item: "treasure2:silver_coin",
+		count: 3
+	}]
+}

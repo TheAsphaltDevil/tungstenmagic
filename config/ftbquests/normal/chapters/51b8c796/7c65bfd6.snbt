@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "9a29e425",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfspellpack:ring_twilight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

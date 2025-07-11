@@ -1,0 +1,16 @@
+{
+	x: -7.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "7279629d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:pixiering"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

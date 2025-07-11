@@ -1,0 +1,35 @@
+{
+	title: "Docile Creature Taming",
+	x: -19.95d,
+	y: 7.35d,
+	shape: "heart",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"567fc497",
+		"744b7352"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "7c771e44",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9fa11182",
+		type: "item",
+		items: [{
+			item: "minecraft:sponge"
+		}],
+		count: 12L
+	}]
+}

@@ -1,0 +1,268 @@
+{
+    "entries" :[
+        {
+        "key": "THENULL",    
+        "name": "The Null",
+        "icons": [ "dimdoors:fabric;1;15"],
+        "category": "THENULL", "location": [ 2,0 ], 
+        "parents": [ "!FabricOfReality" ],        
+        "meta": ["ROUND", "HIDDEN"],        
+        "stages": [
+                {
+                    "text": "As mentioned in my entry 'Eldrtich Epiphany', I vowed to not let the eldritch take control of my reality. I decided to explore the emptiness, in hopes of stumbling upon a means to stop them once and for all. \n \n In doing so, I quickly realized I had wrongly assumed that the emptiness was the lowest level of reality-the final stop. It certainly wasn't a baseless assumption, with it being the 'root' of all other realms. However, I should have realized earlier that the existence of beings, structures, and vegitation, although more primal, were proof it could get worse. Much worse. \n \n It turns out even the emptiness can fracture apart, and upon entering this fracture, I was greeted with something that I can only describe as out of a nightmare. Inside this rift is what I could only describe as the very fabric of our univserse, and accompanying this fabric were 'snippets' of other realms: Statues. Traps. Mazes. Puzzles. I am at the very fringes of reality, yet its contents seem so... purposeful. It is for this reason that I find it far more terrifying than the emptiness despite the lack of deadly creatures, as I can only come to one harrowing conclusion: \n \n  Someone is watching. A being above all else, made directly of the primordial forces themselves and not their derivatives. Responsible for the creation and preservation of Gaia. \n \n I feel like the fabric of reality that I came across would provide some insight, but it is sadly too dense to examine... \n \n Every bone in my body is screaming to leave this place, but I most continue to venture deeper into these endless snippets in the name of stopping the eldritch. I must. \n \n I should bring a method to return home in the event of getting lost, and I should only bring with what I am willing to lose forever. \n \n From now on, I will refer to this place as 'The Null'."
+                }
+            ]
+        },
+        {
+        "key": "THELIMBO",    
+        "name": "Limbo",
+        "icons": [ "dimdoors:fabric;1;15"],
+        "category": "THENULL", "location": [ 4,0 ], 
+        "parents": [ "!UnraveledFabric" ],        
+        "meta": ["ROUND", "HIDDEN"],        
+        "stages": [
+                {
+                    "text": "I didn't think it was possible, but I breached the fabric and entered what must be the origin of everything; Gaia in its most primordial form. The fabric here is more unraveled, and upon looking closely at it, the very quarks that comprise gaia were visible to my own eyes. \n \n Keeping me company are terrifying, invincible monoliths with a singular eyeball, watching me. Teleporting me. Why are these here?! HOW are these here?! \n \n After observing the unraveled fabric for long enough, I think I have understood how the fabric works. But first, I need to get out of here immediately and never come back. Then, I need to return to the null to find a more usable fabric."
+                }
+            ]
+        },
+        {
+        "key": "THEWORLDTHREAD",    
+        "name": "World Thread",
+        "icons": [ "dimdoors:world_thread"],
+        "category": "THENULL", "location": [ 6,0 ], 
+        "parents": [ "!WorldThread"],        
+        "meta": ["ROUND", "HIDDEN"],        
+        "stages": [
+                {
+                    "text": "After venturing some more in this wretched place, I found some fabric of reality, and the threads that comrpise it. With it I have gained immense understanding into the very makeup of our world. \n \n Though the layering of the primordial forces makes magic more accessible, part of the power is lost as a result. Some abilities are only feasible through direct manipulation of gaia, which would explain why the primordial pearl is so capable despite being comprised of only primal aspects. As I theorized, it was a remnant from the dawn of reality, from elemantary magics before they mingled and merged, and thus cannot be understood with conventional magic knowledge. But I understand it now. \n \n I'm also beginning to realize that perhaps impetus isn't a substance, but a lack of it; a lack of gaia. It's no wonder why it can tear through just about anything."
+                }
+            ]
+        },
+        {
+        "key": "GAIAMANCY",    
+        "name": "Gaiamancy",
+        "icons": [ "botania:manaresource;1;5"],
+        "category": "THENULL", "location": [ 8,0 ], 
+        "parents": [ "THEWORLDTHREAD" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "If I am going to stop the eldritch for good, It might be good to demonstrate mastery over gaia directly, and the best way to do that would be to summon the entity in control. The pylons I created proved quite effective for creating a link to alfheim. If I infuse these pylons with some fabric, I can create a ritual which can summon the entity. If I kill it, I can proclaim myself as the one in control. I should expect an extremely difficult fight. \n \n First, I place a beacon. Then, I place four gaia pylons, each on the fourth block away from the corner diagonally, and one block above, the beacon. I will most likely need a strong druidic resource to be placed on the beacon to summon this entity. The entity should then be called forth.",
+                    "required_item": ["botania:manaresource;1;5"]
+                },
+                {
+                    "text": "I now possess the very soul of the creature that governs this universe. My head is already spinning with the possibilities..."
+                }
+            ]
+        },
+        {
+        "key": "LIFEMANIPULATION",    
+        "name": "Gola Manipulation",
+        "icons": [ "botania:divacharm", "botania:spawnermover"],
+        "category": "THENULL", "location": [ 10,-2 ], 
+        "parents": [ "GAIAMANCY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "With direct access to the gola force, I can now accomplish two great feats: \n \n Firstly, I can create a charm which can allow me to convert any creature to my side by simply hitting them a few times. \n \n Secondly, I can now pick up the entities that were creating the creatures, and relocate them to my liking."
+                }
+            ]
+        },
+        {
+        "key": "AURAMANIPULATIONENDGAME",    
+        "name": "Aura Manipulation",
+        "icons": [ "botania:superlavapendant"],
+        "category": "THENULL", "location": [ 12,-2 ], 
+        "parents": [ "GAIAMANCY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "CRIMSON PENDANT <DIV> This upgrade to the pyroclast pendant grants total immunity to fire damage. \n \n GLOBETROTTER SASH <DIV> This belt allows me to walk incredibly fast. \n \n NIMBUS AMULET <DIV> This amulet allows me to triple jump."
+                }
+            ]
+        },
+        {
+        "key": "ALCHEMIAMANIPULATION",    
+        "name": "Alchemia Manipulation",
+        "icons": [ "botania:astrolabe"],
+        "category": "THENULL", "location": [ 14,-2 ], 
+        "parents": [ "GAIAMANCY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "MANASTORM CHARGE <DIV> This bomb will unleash a torrent of mana burst, which will each explode. Just one of these can wreak havoc on a base. \n \n SHARD OF LAPUTA <DIV> This item, when used on the ground, will lift the vicinity up into the sky. You can craft it with more gaia spirits to increase its power. \n \n WORLDSHAPER'S ASTROLABE <DIV> Allows me to summon large amounts of blocks. Sneak right click the air to change the radius. Sneak right click a block to change the block you will be placing. Will pull from your inventory, or from the rods that conjure blocks, such as rod of the depths, or from black hole talismans. \n \n  BLACK HOLE TALISMAN <DIV> This item allows me to store practically infinite amount of blocks. First I sneak right click a block to set the talisman to that block. Then I sneak right click the air with the talisman to activate it. When activated, it will absorb all instances of said block from my inventory. I can right click a block with the talisman to place one of these absorbed blocks."
+                }
+            ]
+        },
+        {
+        "key": "WORLDWRITING",    
+        "name": "Portal Writing",
+        "icons": [ "mystcraft:vial", "mystcraft:blockinkmixer"],
+        "category": "THENULL", "location": [ 10,2 ], 
+        "parents": [ "WISHMAKER", "ANTIQUEATLAS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Craft world thread into ink. Use that ink in the ink mixer to make link panel pages, the gateway to other worlds. \n \n Place ink and paper on the left. Empty bottles and link panel pages will come out on the right. \n \n While there is ink in the inkwell, you can toss in other items, and there is a chance they may be mixed to produce link panel pages with unique properties. \n \n \n Some items to try: \n Mushroom stew \n Feather \n Gunpowder \n Clay \n Ender Pearl \n Bottle o' Enchanting \n Fire Charge \n Black Dye \n Metal Sand"
+                }
+            ]
+        },
+        {
+        "key": "LINKINGBOOKS",    
+        "name": "Linking Books",
+        "icons": [ "mystcraft:unlinkedbook"],
+        "category": "THENULL", "location": [ 10,4 ], 
+        "parents": [ "WORLDWRITING"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Linking books are single use teleportations. Right clinking with an unlinked book will link it to the spot you were standing in when writing. Once you are in another dimension, you can use the book to come back. \n \n When visiting new worlds I write, having a means of return to earth such as these books is imperative to my survival."
+                }
+            ]
+        },
+        {
+        "key": "WISHMAKER",    
+        "name": "The Wishmaker",
+        "icons": [ "devmenu:wishmaker.png"],
+        "category": "THENULL", "location": [ 6,2 ], 
+        "parents": [ "THEWORLDTHREAD"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The glyphs within these pages shall indicate how worlds will be formed. I can obtain these pages using a Wishmaker."
+                }
+            ]
+        },
+        {
+        "key": "NULLADVANTAGE",    
+        "name": "Pocket Dimensions",
+        "icons": [ "dimdoors:quartz_dimensional_door"],
+        "category": "THENULL", "location": [ 8,4 ], 
+        "parents": [ "LINKINGBOOKS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Since I now understand the innerworkings of this very universe, I can use it to my advantage. Using the materials I found in the null, I can combine them with a quartz door to create my own personal segment of the null. When walking through this door, I will be met with a rift to call my own. I will enter the same rift no matter which of these doors I use. I will exit to the last door I used. \n \n Think of these like ender chests; different instances lead to the same place, and lead to a different location for each person. \n \n Upon exiting the null, or breaking my door, I may see a rift start to form. I can fix this with a rift remover."
+                }
+            ]
+        },
+        {
+        "key": "WAYSTONE",    
+        "name": "Waystone Replication",
+        "icons": [ "waystones:waystone"],
+        "category": "THENULL", "location": [ 12,4 ], 
+        "parents": [ "LINKINGBOOKS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "NOW I understand how waystones work!"
+                }
+            ]
+        },
+        {
+        "key": "DIMENSIONWRITING",    
+        "name": "World Writing",
+        "icons": [ "mystcraft:page"],
+        "category": "THENULL", "location": [ 6,4 ], 
+        "parents": [ "NULLADVANTAGE", "WISHMAKER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "With a firm understanding of world links as well as conjuration. Maybe I can now begin to make my very own worlds, too. "
+                }
+            ]
+        },
+        {
+        "key": "WRITINGDESK",    
+        "name": "Writing Desk",
+        "icons": [ "mystcraft:writingdesk"],
+        "category": "THENULL", "location": [ 4,4 ], 
+        "parents": [ "DIMENSIONWRITING"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Worlds are the most delicate form of bibliomancy, so a printing press probably will not suffice. I will need to hand-trace my existing pages if I want to make copies. A nice writing desk should come in handy for this. \n \n  The desk has 25 slots, in each slot, I can put one of the following: \n \n §lWorld Pages §r <DIV> Placing in a world page will allow me to copy it. <BR> §lCollation Folders §r <DIV> A collection of pages. <BR> §lSymbol Portfolios §r <DIV> A collection of pages, which can also sort themselves. <BR> <BR> Once I have my source materials in the slots, the writing desk can pull from these sources to create a list of all pages. From this list, I can create copies of pages I already have. <BR> To Copy a page, I first need to supply the desk with paper and ink via the top slots. Then, I right click a page in the list."
+                }
+            ]
+        },
+        {
+        "key": "BOOKBINDER",    
+        "name": "Entering My World",
+        "icons": [ "mystcraft:blockbookbinder"],
+        "category": "THENULL", "location": [ 4,8 ], 
+        "parents": [ "WRITINGDESK"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Now that I have the pages which contain the traits I'd like to see in my world, I'm ready to form them into a book. A rudimentary book binder should do the trick. <BR> I will first give my world a name (top area), then supply the binder with leather for a cover (left slot), then add in my desired pages (bottom area). With this, I will make a book to my world! <PAGE> §lI should first make sure I have a linking book or some other teleportation means that will bring me back here, so I'm not §ostranded in an alternate reality with §nno way to return.§r"
+                }
+            ]
+        },
+        {
+        "key": "BOOKSTORAGE",    
+        "name": "Book Storage",
+        "icons": [ "mystcraft:blockbookstand", "mystcraft:blocklectern", "mystcraft:blockcrystal"],
+        "category": "THENULL", "location": [ 10,8 ], 
+        "parents": [ "BOOKBINDER", "LINKINGBOOKS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "When I travel to a world through a book, the book just gets left on the ground, and I'm not sure I want to know what happens if I'm in a world the book is referencing while it is destroyed. <BR> Thankfully, some simple protective measures will prevent this from ever being a concern. I have created some blueprints for bookstands and lecterns that will keep books safe. If linking books are placed on these stands, they can be used more than once. <BR> I have also created a type of portal which can lead to a book. I simply make a portal out of these crystals, place a book receptacle on the portal, and place the book inside. <BR> §lUnlike other portals, however, this portal will not spawn another portal on the other side, so I will still need to take protective measures."
+                }
+            ]
+        },
+        {
+        "key": "GRAMMAR",    
+        "name": "Formatting Worlds",
+        "icons": [ "astralsorcery:itemknowledgeshare"],
+        "category": "THENULL", "location": [ 4,10 ], 
+        "parents": [ "BOOKBINDER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "After much experimentation, there are a few grammatical rules that I should follow if I want my world to have a certain trait. <BR> The general grammar is as follows: <BR> §o Mod + Feature§r <BR>For example, Red + Sky Color would give my world a red sky. Some feature pages require more than one modifier, and some that require none. I can use my 'world features' page for reference. <BR>§lCombined Modifier Pages§r  <LINE> Some modifiers can be combined, when this is done, the two modifiers are averaged to create a custom modifier. The modifiers are averaged from left to right."
+                }
+            ]
+        },
+        {
+        "key": "MYSTGUIDES",    
+        "name": "World Features",
+        "icons": [ "minecraft:grass"],
+        "category": "THENULL", "location": [ 2,6 ], 
+        "parents": [ "GRAMMAR"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Each + Represents a required modifier. You can add more. The word next to the + sign notes what type of modifier page you need.<PAGE>§lBiome Distributions §r<LINE>{+++biome} Huge <BR> {+++biome} Large <BR> {+++biome} Medium <BR> {+++biome} Small <BR> {+++biome} Tiny <BR> {++biome} Tiled <BR> {++biome} Grid-form <BR> {+biome} Single <BR> Native <BR> <PAGE>§lWorld Landscapes§r<LINE> {+terBlock +seaBlock} Cave <BR> {+terBlock +seaBlock} Island <BR>{+terBlock +seaBlock} Standard <BR>{+terBlock +seaBlock} Amplified <BR>{+terBlock +seaBlock} Flat <BR> Void <PAGE> §lLarge World Features§r<LINE> {+biome +strBlock} Floating Islands <BR> {+strBlock} Tendrils <BR> Skylands <BR> Caves <BR> Dense Ores <BR> Lacking Large Features <PAGE> §lMedium World Features§r <LINE> Nether Fortress <BR> Village <BR> Stronghold <BR> Mineshaft <BR> Ravine <BR> {+strBlock} Spheres <BR> Dungeon <BR> {+strBlock} Spikes <BR> Lacking Medium Features <PAGE> §lSmall World Features§r <LINE> Star Fissure <BR> {+strBlock} Obelisk <BR> {+fluBlock} Surface Lakes <BR> {+fluBlock} Deep Lakes <BR> {+cryBlock} Crystalline Formations <BR> Lacking Small Features <PAGE> §lWeather§r <LINE> Eternal Snow <BR> Eternal Rain <BR> Eternal Storm <BR> Eternal Weather <BR> Fast Weather <BR> Normal Weather <BR> Slow Weather <BR> No Weather <BR> Overcast <PAGE> §lMoon§r <LINE> {+set +len +dir +pha} Normal <BR> Dark <PAGE> §lSun§r<LINE> {+set +len +dir +pha} Normal <BR> Dark <PAGE> §lStars§r <LINE> {+gra +len +dir} Normal <BR> {+gradient} Ender Starfield <BR> {+gra +len +dir} Twinkling <BR> Dark <PAGE> §lLighting§r <LINE> Bright <BR> Normal <BR> Dark <PAGE> §lVisuals§r <LINE> {+color} Foliage Color <BR> Natural Foliage Color <BR> {+color} Grass Color <BR> Natural Grass Color <BR> {+color} Water Color <BR> Natural Water Color <BR> Boundless Sky <BR> {+gradient} Night Sky Color <BR> {+gradient} Sky Color <BR> Natural Sky Color <BR> {+gradient} Cloud Color <BR> Natural Cloud Color <BR> {+gradient} Fog Color <BR> Natural Fog Color <BR> {+Direction} Rainbow <PAGE> §lEffects§r <LINE> Accelerated <BR> Lightning <BR> Meteors <BR> Scorched Surface <BR> Spontaneous Explosions <PAGE> §lMiscellaneous§r <LINE> Anti-PVP <BR> {+optional} Clear Modifiers (You can add as few or as many modifiers as you would like)."
+                }
+            ]
+        },
+        {
+        "key": "MYSTGUIDESMODIFIERS",    
+        "name": "Modifiers",
+        "icons": [ "thaumicaugmentation:material;1;2"],
+        "category": "THENULL", "location": [ 0,8 ], 
+        "parents": [ "MYSTGUIDES"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "§lPhase§r <LINE> Rising <BR> Zenith <BR> Setting <BR> Nadir <PAGE> §lLength§r <LINE> Double <BR> Full <BR> Half <BR> Zero <PAGE> §lDirection§r <LINE> North <BR> South <BR> East <BR> West <PAGE> §lColors§r <LINE> Red <BR> Maroon <BR> Yellow <BR> Olive <BR> Green <BR> Dark Green <BR> Cyan <BR> Teal <BR> Blue <BR> Navy <BR> Purple <BR> Magenta <BR> White <BR> Gray <BR> Silver <BR> Black <PAGE> §lGradients§r <LINE>{+color +length} Gradient <BR> {+gradient} Sunset Color <PAGE> §lTerrain (terBlock)§r <LINE> Packed Ice <BR> Obsidian <BR> Dirt <BR> Sandstone <BR> Any Stone <BR> Any Polished Stone <BR> Netherrack <BR> End Stone <PAGE> §lCrystalline (cryBlock)§r <LINE> Ice <BR> Packed Ice <BR> Snow <BR> Glass <BR> Crystal <BR> Nether Quartz Ore <BR> Glowstone <BR> Obsidian <PAGE> §lBiome§r <LINE> All Vanilla Biomes <BR> All Mod Biomes <PAGE> §lSea (seaBlock)§l <LINE> Lava <BR> Water <BR> Ice <BR> Packed Ice <BR> No Seas <BR> Black Ink <BR> All Mod Fluids <PAGE> §lFluid (fluBlock)§r <LINE> Lava <BR> Water <BR> Black Ink <BR> Ice <BR> Packed Ice <BR> All Mod Fluids <PAGE> §lStructures (strBlock)§r <LINE> Ice <BR> Packed Ice <BR> Obsidian <BR> Dirt <BR> Sandstone <BR> Any Stone <BR> Any Polished Stone <BR> Netherrack <BR> End Stone <BR> Snow <BR> Glass <BR> Crystal <BR> Nether Brick <BR> Glowstone <BR> Any Ore <BR> Any Wood."
+                }
+            ]
+        },
+        {
+        "key": "MYSTWORLDSTABILITY",    
+        "name": "Stability",
+        "icons": [ "soot:scale"],
+        "category": "THENULL", "location": [ 2,12 ], 
+        "parents": [ "!Decay"],        
+        "meta": ["ROUND", "HIDDEN"],        
+        "stages": [
+                {
+                    "text": "With every good thing in life comes a bad thing. A Yin for every Yang. When something sounds too good to be true, that's likely because it is. <BR> This is just how reality is, unfortunately, and I was foolish to not think my custom made realities would be exempt. <BR> It turns out that realities need hazards to remain stable. When I add a good thing to my world, I'll need something to balance it, lest it decay before my eyes. Some safety hazards should do the trick. The more good things I have, the more bad things I will need. <BR> <BR> <BR> ...Wait a minute. If suffering is needed in a reality to stabilize it, then... <BR> No. This isn't right. It can't be. I should consult with my fellow mages who are as far along as me to see what they think."
+                }
+            ]
+        }
+    ]
+}

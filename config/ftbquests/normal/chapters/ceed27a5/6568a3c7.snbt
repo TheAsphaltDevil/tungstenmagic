@@ -1,0 +1,28 @@
+{
+	title: "Forget what you know",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:enchanted_placeholder"
+	},
+	x: 11.5d,
+	y: -7.0d,
+	text: [
+		"Try your best to forget the notion of things being grouped by mod. Things in this modpack are instead grouped by topic.",
+		"",
+		"That tends to end up mostly grouping things by mod, but not always!",
+		"",
+		"",
+		"For example, ",
+		"The routing nodes from blood magic are grouped with artifice (the machine category), and they no longer require progressing through blood magic to make them."
+	],
+	dependencies: [
+		"6374e44d"
+	],
+	tasks: [{
+		uid: "b7617770",
+		type: "checkmark",
+		title: "ok"
+	}]
+}

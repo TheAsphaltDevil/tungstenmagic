@@ -1,0 +1,33 @@
+{
+	title: "The Celestian Trials",
+	x: -6.0d,
+	y: -12.5d,
+	description: "Proceed if you dare!",
+	text: [
+		"Thank you so much for playing through my modpack. I hope you enjoyed it.",
+		"",
+		"You now have access to several more optional challenges. These challenges are designed to test your knowledge, your grit, and your patience. Be warned, they are not for the faint of heart.",
+		"",
+		"One's capabilities as a modpack maker are limited, so these challenges unfortunately often rely on the honor system."
+	],
+	tasks: [{
+		uid: "1ea4eabf",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:sanity_checker"
+		}
+	}],
+	rewards: [{
+		uid: "0e201b2d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:sanity_checker"
+		}
+	}]
+}

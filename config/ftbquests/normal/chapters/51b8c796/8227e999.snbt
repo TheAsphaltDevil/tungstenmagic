@@ -1,0 +1,45 @@
+{
+	title: "Thaumaturge Robes",
+	x: 10.0d,
+	y: -1.0d,
+	shape: "octagon",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c9d1a22c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:cloth_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "55779cd0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:cloth_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "088cb850",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:cloth_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

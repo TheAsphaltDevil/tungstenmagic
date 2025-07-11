@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 9.5d,
+	shape: "square",
+	tasks: [{
+		uid: "46334319",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aether_legacy:aether_tune"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

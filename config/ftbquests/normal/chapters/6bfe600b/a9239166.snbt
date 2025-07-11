@@ -1,0 +1,17 @@
+{
+	title: "Y: Disconnect Rope",
+	x: 5.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "a7064517",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:caving_rope"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "praemunio",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "praemunio",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_praemunio",
+            "amount": 10
+        }
+    ]
+}

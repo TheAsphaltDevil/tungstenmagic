@@ -1,0 +1,16 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:lurker_skin_pouch",
+		tag: {}
+	},
+	x: 8.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "a0c75156",
+		type: "checkmark",
+		title: "Comma: Equipment Menu"
+	}]
+}

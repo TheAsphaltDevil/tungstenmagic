@@ -1,0 +1,29 @@
+{
+	title: "Spirit Tree",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:spirit_tree_face_large_mask"
+	},
+	x: 3.5d,
+	y: -5.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"335453cd"
+	],
+	tasks: [{
+		uid: "048538a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:bark_amulet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

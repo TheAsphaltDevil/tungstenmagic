@@ -1,0 +1,248 @@
+{
+	title: "A formal invitation",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemcape",
+		tag: {
+			"Quark:RuneColor": 0,
+			ench: [{
+				lvl: 1s,
+				id: 74
+			},
+			{
+				lvl: 3s,
+				id: 34
+			},
+			{
+				lvl: 1s,
+				id: 70
+			},
+			{
+				lvl: 4s,
+				id: 0
+			}],
+			RepairCost: 7,
+			astralsorcery: {
+				constellationName: "astralsorcery.constellation.horologium"
+			},
+			display: {
+				Name: "Mantle of the Stars: Celestia"
+			},
+			mahoujin_projector: {
+				IMAGE_LOAD: 14,
+				CIRCLE_PITCH: 90.0f,
+				CIRCLE_SHOW_R: 0b,
+				ForgeData: {},
+				CIRCLE_A: 200,
+				CIRCLE_B: 255,
+				CIRCLE_SHOW_C: 1b,
+				CIRCLE_G: 255,
+				CIRCLE_SIZE: 1.9f,
+				id: "mahoutsukai:mahoujin_projector",
+				RUNES_LOAD: -1,
+				CIRCLE_SPEED: 0.0f,
+				CIRCLE_YAW: 0.0f,
+				CIRCLE_RING_ANGLE: 0.0f,
+				RING_HEIGHT: 0.125f,
+				CIRCLE_SPEED_YAW: 0.0f,
+				CIRCLE_R: 255,
+				ROTATION_OFFSET: 0.0f,
+				x: 322,
+				y: 4,
+				CIRCLE_SPEED_PITCH: 0.0f,
+				z: 707,
+				CIRCLE_ROTATION: 0.0f,
+				CIRCLE_Y: 1.4f,
+				CIRCLE_Z: -0.6f,
+				CIRCLE_X: 0.15f
+			},
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -4.5d,
+	y: -8.5d,
+	text: [
+		"You have accomplished great feats! In the celestian academy, the few seniors who go above and beyond will be set loose with our blessing: A cape with a bespoke enchantment: Those who hurt you in any way, to any degree, shall be met with a torrent of raw celestian magic, freezing them not through ice, but through the halting of time. This display of power shall show them what you're made of! Oh, and of course, it just looks really cool."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d17f35ee",
+		"dbd2a840",
+		"e1f70632",
+		"a4c19897",
+		"4b7c215b",
+		"c8aafcbd",
+		"80de9b92"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cc853907",
+		type: "checkmark",
+		title: "WOW"
+	}],
+	rewards: [{
+		uid: "dc1d2f54",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcape",
+			tag: {
+				"Quark:RuneColor": 0,
+				ench: [{
+					lvl: 32767s,
+					id: 34
+				},
+				{
+					lvl: 1s,
+					id: 74
+				}],
+				RepairCost: 0,
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.horologium"
+				},
+				display: {
+					Name: "Mantle of Stars: Celestia"
+				},
+				"Quark:RuneAttached": 1b,
+				mahoujin_projector: {
+					IMAGE_LOAD: 5,
+					CIRCLE_PITCH: 90.0f,
+					CIRCLE_SHOW_R: 0b,
+					ForgeData: {},
+					CIRCLE_A: 200,
+					CIRCLE_B: 255,
+					CIRCLE_SHOW_C: 1b,
+					CIRCLE_G: 255,
+					CIRCLE_SIZE: 1.6f,
+					id: "mahoutsukai:mahoujin_projector",
+					RUNES_LOAD: -1,
+					CIRCLE_SPEED: 0.0f,
+					CIRCLE_YAW: 0.0f,
+					CIRCLE_RING_ANGLE: 0.0f,
+					RING_HEIGHT: 0.125f,
+					CIRCLE_SPEED_YAW: 0.0f,
+					CIRCLE_R: 255,
+					ROTATION_OFFSET: 0.0f,
+					x: -603,
+					y: 4,
+					CIRCLE_SPEED_PITCH: 0.0f,
+					z: -316,
+					CIRCLE_ROTATION: 0.0f,
+					CIRCLE_Y: 0.8f,
+					CIRCLE_Z: -0.5f,
+					CIRCLE_X: 0.1f
+				}
+			}
+		}
+	},
+	{
+		uid: "9ca0d8b7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manasteellegs",
+			tag: {
+				ench: [{
+					lvl: 32767s,
+					id: 34
+				},
+				{
+					lvl: 1s,
+					id: 74
+				}],
+				RepairCost: 0,
+				phantomInk: 1b,
+				display: {
+					Name: "Minutes..."
+				},
+				mahoujin_projector: {
+					IMAGE_LOAD: 7,
+					CIRCLE_PITCH: 90.0f,
+					CIRCLE_SHOW_R: 0b,
+					ForgeData: {},
+					CIRCLE_A: 200,
+					CIRCLE_B: 255,
+					CIRCLE_SHOW_C: 1b,
+					CIRCLE_G: 255,
+					CIRCLE_SIZE: 1.1f,
+					id: "mahoutsukai:mahoujin_projector",
+					RUNES_LOAD: -1,
+					CIRCLE_SPEED: 3.0f,
+					CIRCLE_YAW: 0.0f,
+					CIRCLE_RING_ANGLE: 0.0f,
+					RING_HEIGHT: 0.125f,
+					CIRCLE_SPEED_YAW: 0.0f,
+					CIRCLE_R: 255,
+					ROTATION_OFFSET: 0.0f,
+					x: -603,
+					y: 4,
+					CIRCLE_SPEED_PITCH: 0.0f,
+					z: -320,
+					CIRCLE_ROTATION: 274.0f,
+					CIRCLE_Y: 0.87f,
+					CIRCLE_Z: -0.6f,
+					CIRCLE_X: 0.0f
+				}
+			}
+		}
+	},
+	{
+		uid: "29c60f4c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manasteelboots",
+			tag: {
+				ench: [{
+					lvl: 32767s,
+					id: 34
+				},
+				{
+					lvl: 1s,
+					id: 74
+				}],
+				RepairCost: 0,
+				phantomInk: 1b,
+				display: {
+					Name: "Hours..."
+				},
+				mahoujin_projector: {
+					IMAGE_LOAD: 6,
+					CIRCLE_PITCH: 90.0f,
+					CIRCLE_SHOW_R: 0b,
+					ForgeData: {},
+					CIRCLE_A: 200,
+					CIRCLE_B: 255,
+					CIRCLE_SHOW_C: 1b,
+					CIRCLE_G: 255,
+					CIRCLE_SIZE: 1.1f,
+					id: "mahoutsukai:mahoujin_projector",
+					RUNES_LOAD: -1,
+					CIRCLE_SPEED: 1.0f,
+					CIRCLE_YAW: 0.0f,
+					CIRCLE_RING_ANGLE: 0.0f,
+					RING_HEIGHT: 0.125f,
+					CIRCLE_SPEED_YAW: 0.0f,
+					CIRCLE_R: 255,
+					ROTATION_OFFSET: 0.0f,
+					x: -603,
+					y: 4,
+					CIRCLE_SPEED_PITCH: 0.0f,
+					z: -318,
+					CIRCLE_ROTATION: 79.0f,
+					CIRCLE_Y: 0.87f,
+					CIRCLE_Z: -0.57f,
+					CIRCLE_X: 0.0f
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Taking the World Back",
+	icon: "botania:gaiahead",
+	x: 12.5d,
+	y: -3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"38d7911a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "644f7a8c",
+		type: "kill",
+		entity: "botania:doppleganger",
+		value: 1L
+	}]
+}

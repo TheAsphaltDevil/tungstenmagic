@@ -1,0 +1,632 @@
+{
+	title: "Your New Utility Wands!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "morphtool:tool",
+		tag: {
+			"morphtool:is_morphing": 1b,
+			"morphtool:data": {
+				botania: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {
+							AS_Amulet_HolderLeast: -6604899539562883411L,
+							AS_Amulet_HolderMost: -4554225877018588837L
+						}
+					},
+					id: "botania:twigwand",
+					Count: 1b,
+					tag: {
+						color1: 0,
+						"morphtool:is_morphing": 1b,
+						color2: 0,
+						display: {
+							Name: "§rMorphing Tool (§aWand of the Forest§r)"
+						},
+						boundTileZ: 0,
+						boundTileX: 0,
+						"morphtool:displayName": "Wand of the Forest",
+						boundTileY: -1,
+						bindMode: 1b
+					},
+					Damage: 0s
+				},
+				astralsorcery: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {
+							AS_Amulet_HolderLeast: -6604899539562883411L,
+							AS_Amulet_HolderMost: -4554225877018588837L
+						}
+					},
+					id: "astralsorcery:itemwand",
+					Count: 1b,
+					tag: {
+						"morphtool:is_morphing": 1b,
+						astralsorcery: {},
+						display: {
+							Name: "§rMorphing Tool (§aResonating Wand§r)"
+						},
+						"morphtool:displayName": "Resonating Wand"
+					},
+					Damage: 0s
+				},
+				bloodmagic: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {
+							AS_Amulet_HolderLeast: -6604899539562883411L,
+							AS_Amulet_HolderMost: -4554225877018588837L
+						}
+					},
+					id: "bloodmagic:ritual_reader",
+					Count: 1b,
+					tag: {
+						"morphtool:is_morphing": 1b,
+						display: {
+							Name: "§rMorphing Tool (§aRitual Tinkerer§r)"
+						},
+						"morphtool:displayName": "Ritual Tinkerer"
+					},
+					Damage: 0s
+				},
+				embers: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {
+							AS_Amulet_HolderLeast: -6604899539562883411L,
+							AS_Amulet_HolderMost: -4554225877018588837L
+						}
+					},
+					id: "embers:tinker_hammer",
+					Count: 1b,
+					tag: {
+						"morphtool:is_morphing": 1b,
+						display: {
+							Name: "§rMorphing Tool (§aTinker's Hammer§r)"
+						},
+						"morphtool:displayName": "Tinker's Hammer"
+					},
+					Damage: 0s
+				}
+			}
+		}
+	},
+	x: 23.0d,
+	y: -8.0d,
+	text: [
+		"As a celestian, you will be gifted several wands, each with a unique purpose.",
+		"",
+		"§lWand of revealing§r: Reveals additional information about what you're inspecting.",
+		"",
+		"§lWand of linking§r: Link together various things, often for transferring energy or items.",
+		"",
+		"§lWand of commanding§r: For activating various crafts, or manipulating or commanding things.",
+		"",
+		"§lWand of building§r: Use it to make most multiblocks in the modpack, as well as several other useful spells for building. Blueprints for multiblocks can be found in the shop.",
+		"",
+		"Simply mouse over an item or block from a particular field of study, and the wand will automatically convert itself to be compatible. However, if you want to force it to a particular magic, sneak and scroll.",
+		"",
+		"=========",
+		"",
+		"Note from the modpack maker: ",
+		"",
+		"Unfortunately there was no way to name or color each of the wands in their default state, as the morphing tool resets its name and texture when you switch back to it. You'll just have to know which is which. Sorry!"
+	],
+	dependencies: [
+		"62bfbc5b"
+	],
+	tasks: [{
+		uid: "d57f187a",
+		type: "checkmark",
+		title: "OK"
+	}],
+	rewards: [{
+		uid: "a02ebff4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "morphtool:tool",
+			tag: {
+				"morphtool:is_morphing": 1b,
+				"morphtool:data": {
+					thaumcraft: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "thaumcraft:resonator",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aEssentia Resonator§r)"
+							},
+							"morphtool:displayName": "Essentia Resonator"
+						},
+						Damage: 0s
+					},
+					theoneprobe: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "theoneprobe:probe",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aThe One Probe§r)"
+							},
+							"morphtool:displayName": "The One Probe"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "astralsorcery:itemskyresonator",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							astralsorcery: {
+								enhanced: 1b,
+								selected_upgrade: 2,
+								upgrades: [
+									0,
+									1,
+									2
+								]
+							},
+							display: {
+								Name: "§rMorphing Tool (§aFosic Resonator§r)"
+							},
+							"morphtool:displayName": "Fosic Resonator"
+						},
+						Damage: 0s
+					},
+					arcanearchives: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "arcanearchives:scepter_revelation",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aScepter of Revelation§r)"
+							},
+							"morphtool:displayName": "Scepter of Revelation"
+						},
+						Damage: 0s
+					},
+					embers: {
+						id: "embers:tinker_lens",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aTinker's Lens§r)"
+							},
+							"morphtool:displayName": "Tinker's Lens"
+						},
+						Damage: 0s
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "e3028f7e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "morphtool:tool",
+			tag: {
+				"morphtool:is_morphing": 1b,
+				"morphtool:data": {
+					botania: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "botania:twigwand",
+						Count: 1b,
+						tag: {
+							color1: 0,
+							"morphtool:is_morphing": 1b,
+							color2: 0,
+							display: {
+								Name: "§rMorphing Tool (§aWand of the Forest§r)"
+							},
+							boundTileZ: 0,
+							boundTileX: 0,
+							"morphtool:displayName": "Wand of the Forest",
+							boundTileY: -1,
+							bindMode: 0b
+						},
+						Damage: 0s
+					},
+					thaumcraft: {
+						ForgeCaps: {
+							Parent: {}
+						},
+						id: "thaumicaugmentation:impetus_linker",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aImpetus Resonator§r)"
+							},
+							"morphtool:displayName": "Impetus Resonator"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "astralsorcery:itemlinkingtool",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aLinking Tool§r)"
+							},
+							"morphtool:displayName": "Linking Tool"
+						},
+						Damage: 0s
+					},
+					bloodmagic: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "bloodmagic:node_router",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							yCoord: 0,
+							xCoord: 0,
+							display: {
+								Name: "§rMorphing Tool (§aNode Router§r)"
+							},
+							zCoord: 0,
+							"morphtool:displayName": "Node Router"
+						},
+						Damage: 0s
+					},
+					embers: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "embers:tinker_hammer",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aTinker's Hammer§r)"
+							},
+							"morphtool:displayName": "Tinker's Hammer"
+						},
+						Damage: 0s
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "2e6b4689",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "morphtool:tool",
+			tag: {
+				"morphtool:is_morphing": 1b,
+				"morphtool:data": {
+					thaumcraft: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "thaumcraft:golem_bell",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aGolemancer's Bell§r)"
+							},
+							"morphtool:displayName": "Golemancer's Bell"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "astralsorcery:itemwand",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							astralsorcery: {},
+							display: {
+								Name: "§rMorphing Tool (§aResonating Wand§r)"
+							},
+							"morphtool:displayName": "Resonating Wand"
+						},
+						Damage: 0s
+					},
+					bloodmagic: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "bloodmagic:ritual_reader",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							ritualReaderState: 0,
+							display: {
+								Name: "§rMorphing Tool (§aRitual Tinkerer§r)"
+							},
+							"morphtool:displayName": "Ritual Tinkerer"
+						},
+						Damage: 0s
+					},
+					arcanearchives: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "arcanearchives:scepter_manipulation",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aScepter of Manipulation§r)"
+							},
+							"morphtool:displayName": "Scepter of Manipulation"
+						},
+						Damage: 0s
+					},
+					iceandfire: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "iceandfire:dragon_stick",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aDragon Command Staff§r)"
+							},
+							"morphtool:displayName": "Dragon Command Staff"
+						},
+						Damage: 0s
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "3fb8e8c6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "morphtool:tool",
+			tag: {
+				"morphtool:is_morphing": 1b,
+				"morphtool:data": {
+					botania: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "botania:sextant",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aWorldshaper's Sextant§r)"
+							},
+							"morphtool:displayName": "Worldshaper's Sextant"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "astralsorcery:itemexchangewand",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							astralsorcery: {},
+							display: {
+								Name: "§rMorphing Tool (§aConversion Wand§r)"
+							},
+							"morphtool:displayName": "Conversion Wand"
+						},
+						Damage: 0s
+					},
+					bibliocraft: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "bibliocraft:handdrill",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aHand Drill§r)"
+							},
+							"morphtool:displayName": "Hand Drill"
+						},
+						Damage: 0s
+					},
+					bloodmagic: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "bloodmagic:ritual_diviner",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aRitual Diviner [Dusk]§r)"
+							},
+							"morphtool:displayName": "Ritual Diviner [Dusk]"
+						},
+						Damage: 1s
+					},
+					buildinggadgets: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "buildinggadgets:copypastetool",
+						Count: 1b,
+						tag: {
+							mode: "Copy",
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aCopy-Paste Gadget§r)"
+							},
+							"morphtool:displayName": "Copy-Paste Gadget"
+						},
+						Damage: 0s
+					},
+					chiselsandbits: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "chiselsandbits:chisel_diamond",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							ench: [{
+								lvl: 32767s,
+								id: 34L
+							}],
+							RepairCost: 1L,
+							display: {
+								Name: "§rMorphing Tool (§aDiamond Chisel§r)"
+							},
+							"morphtool:displayName": "Diamond Chisel"
+						},
+						Damage: 0s
+					},
+					betterbuilderswands: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "betterbuilderswands:wandunbreakable",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aUnbreakable Wand§r)"
+							},
+							"morphtool:displayName": "Unbreakable Wand"
+						},
+						Damage: 14s
+					},
+					chisel: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "chisel:chisel_hitech",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							ench: [{
+								lvl: 32767s,
+								id: 34L
+							}],
+							RepairCost: 1L,
+							chiseldata: {},
+							display: {
+								Name: "§rMorphing Tool (§aiChisel§r)"
+							},
+							"morphtool:displayName": "iChisel"
+						},
+						Damage: 0s
+					}
+				}
+			}
+		}
+	}]
+}

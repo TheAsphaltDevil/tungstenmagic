@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "motus",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "motus",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_motus",
+            "amount": 10
+        }
+    ]
+}

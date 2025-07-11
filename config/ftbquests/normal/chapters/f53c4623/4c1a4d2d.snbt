@@ -1,0 +1,29 @@
+{
+	title: "Tier IV Dark Arts",
+	x: -12.5d,
+	y: 10.5d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"50f44fc0",
+		"b27f646a"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "17785a23",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:master"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

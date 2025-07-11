@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_cognitio",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "cognitio",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_cognitio",
+            "amount": 10
+        }
+    ]
+}

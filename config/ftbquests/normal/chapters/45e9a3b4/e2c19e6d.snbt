@@ -1,0 +1,23 @@
+{
+	title: "Silver to Gold",
+	x: 6.5d,
+	y: -5.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "1bac804e",
+		type: "item",
+		items: [{
+			item: "treasure2:silver_coin"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "78d0165d",
+		type: "item",
+		team_reward: false,
+		item: "treasure2:gold_coin"
+	}]
+}

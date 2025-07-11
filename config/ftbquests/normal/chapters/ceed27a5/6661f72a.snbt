@@ -1,0 +1,29 @@
+{
+	title: "\"Holy cow! This is a lot to take in...\"",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:sanity_checker"
+	},
+	x: 9.5d,
+	y: -6.0d,
+	text: [
+		"It is! But do not worry.",
+		"",
+		"",
+		"-Some modpacks assume the player's familiarity with its mods. Not this one! There are guides that will tell you everything.",
+		"",
+		"-The guidebook is very visual, and reveals information at your own pace instead of all at once.",
+		"",
+		"A lot of modpacks have a guidebook for every mod. This one uses just two: this one, and another you will get shortly."
+	],
+	dependencies: [
+		"cc6f0cc3"
+	],
+	tasks: [{
+		uid: "bddd5d97",
+		type: "checkmark",
+		title: "ok"
+	}]
+}

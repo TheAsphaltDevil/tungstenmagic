@@ -1,0 +1,29 @@
+{
+	title: "Tier III Dark Arts",
+	x: -12.5d,
+	y: 12.55d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"744b7352",
+		"80f2c37c"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "4945f744",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:magician"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

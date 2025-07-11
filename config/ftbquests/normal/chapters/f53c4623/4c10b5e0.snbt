@@ -1,0 +1,21 @@
+{
+	icon: "thaumicaugmentation:celestial_observer_placer",
+	x: 6.5d,
+	y: 4.5d,
+	text: [
+		"In this page, you may turn in your notes of the stars and the moon in exchange for even more of our teachings.",
+		"",
+		"For notes of the stars, we will grant you teachings of the fundamental magics.",
+		"",
+		"Notes of the moon may grant you teachings for more niche magics."
+	],
+	dependencies: [
+		"30f97c6e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "716517ba",
+		type: "checkmark",
+		title: "Studying"
+	}]
+}

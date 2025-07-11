@@ -1,0 +1,18 @@
+{
+	title: "Graduate: House Frigidus",
+	x: 21.0d,
+	y: -2.0d,
+	dependencies: [
+		"bc165b0f"
+	],
+	tasks: [{
+		uid: "dbd59079",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b915dc7b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "frigidusGrad"
+	}]
+}

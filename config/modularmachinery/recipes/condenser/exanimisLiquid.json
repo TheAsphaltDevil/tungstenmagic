@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_exanimis",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "exanimis",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_exanimis",
+            "amount": 10
+        }
+    ]
+}

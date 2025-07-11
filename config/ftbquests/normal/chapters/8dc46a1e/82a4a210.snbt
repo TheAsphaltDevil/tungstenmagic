@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: -3.5d,
+	text: [
+		"Use the swamp talisman on a sapling to spawn a magic tree, which will grant access to the betweenlands."
+	],
+	dependencies: [
+		"dc4e78a8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "75108c57",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "treeSapling",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any treeSapling"
+				}
+			}
+		}]
+	}]
+}

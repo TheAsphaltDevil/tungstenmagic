@@ -1,0 +1,45 @@
+{
+	title: "Shooting Stars",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:enchanted_placeholder"
+	},
+	x: 11.0d,
+	y: 6.0d,
+	text: [
+		"The celestian academy will occasionally drop shooting stars onto the land. When chasing it down, you will find one of our casings inside. You may do one of three things with the casing:",
+		"",
+		"",
+		"Turn it in here to receive knowledge that will prove very useful in your journey through THAUMATURGY.",
+		"",
+		"Open it with ones hands to receive knowledge that will prove very useful in your journey through ASTROLOGY.",
+		"",
+		"Place down the casing in a crafting grid to receive a care package of loot that will prove quite difficult to obtain otherwise."
+	],
+	can_repeat: true,
+	dependencies: [
+		"4c10b5e0"
+	],
+	tasks: [{
+		uid: "093116e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemfragmentcapsule"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "90c3a9a6",
+		type: "random",
+		table: 1
+	}]
+}

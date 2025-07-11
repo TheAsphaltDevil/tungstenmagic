@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "mortuus",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "mortuus",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_mortuus",
+            "amount": 10
+        }
+    ]
+}

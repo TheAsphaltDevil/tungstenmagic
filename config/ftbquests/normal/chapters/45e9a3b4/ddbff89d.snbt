@@ -1,0 +1,31 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	shape: "pentagon",
+	can_repeat: true,
+	tasks: [{
+		uid: "4e6aa3b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5d08e38c",
+		type: "item",
+		item: "treasure2:gold_coin"
+	},
+	{
+		uid: "9f164bd0",
+		type: "item",
+		item: "treasure2:silver_coin",
+		count: 5
+	}]
+}

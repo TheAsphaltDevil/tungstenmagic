@@ -1,0 +1,50 @@
+{
+	title: "Meta Botanist",
+	icon: "thaumcraft:seal 1 7",
+	x: -6.0d,
+	y: -9.5d,
+	shape: "hexagon",
+	description: "Druidic Arts",
+	text: [
+		"A creator tends to favor its own creations, whether they know it or not.",
+		"---",
+		"",
+		"Get an SS rank Terra Shatterer."
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "a24d3445",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:terrapick",
+			tag: {
+				mana: 2147483646
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "3fe53b20",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "botania:terrapick",
+			tag: {
+				mana: 2147483646,
+				tipped: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}

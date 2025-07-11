@@ -1,0 +1,25 @@
+{
+    "machine": "combiner",
+    "registryName": "vitreusC",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "aer",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "terra",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "vitreus",
+            "amount": 2
+        }
+    ]
+}

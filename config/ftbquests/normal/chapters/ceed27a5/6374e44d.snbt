@@ -1,0 +1,25 @@
+{
+	title: "I am familiar with modded minecraft",
+	icon: "embers:winding_gears",
+	x: 7.5d,
+	y: -7.0d,
+	text: [
+		"Choose this tutorial if:",
+		"",
+		"-You know about JEI (The search bar in the inventory).",
+		"",
+		"-You have played through some \"here's a bunch of mods\" type packs, or played through mods not tweaked by the modpack.",
+		"",
+		"-You can and will look up information about how to do something or how something is used.",
+		"",
+		"-You may or may not feel a little lost from the modpack's custom changes."
+	],
+	dependencies: [
+		"d054b718"
+	],
+	tasks: [{
+		uid: "679cacd0",
+		type: "checkmark",
+		title: "I am somewhat familiar with modded minecraft"
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "Evershifting Fountain",
+	x: 15.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "ef8f964f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "2cb5d66e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Evershifting Fountain",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 904,
+					Y: 18,
+					Z: 91
+				},
+				itemcountmap: [{
+					item: 8068,
+					meta: 0,
+					count: 4
+				},
+				{
+					item: 8067,
+					meta: 2,
+					count: 16
+				},
+				{
+					item: 8067,
+					meta: 6,
+					count: 20
+				}],
+				endPos: {
+					X: 896,
+					Y: 14,
+					Z: 99
+				}
+			}
+		}
+	}]
+}

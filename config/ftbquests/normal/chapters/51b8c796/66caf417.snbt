@@ -1,0 +1,16 @@
+{
+	x: -7.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "66bb70a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:knockbackbelt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

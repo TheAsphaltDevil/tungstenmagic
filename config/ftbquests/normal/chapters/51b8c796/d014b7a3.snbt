@@ -1,0 +1,27 @@
+{
+	x: -13.0d,
+	y: 4.0d,
+	dependencies: [
+		"bc165b0f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f7956bf0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:flugeleye",
+			tag: {
+				x: -597,
+				y: 3,
+				dim: 0,
+				z: -359,
+				soulbindUUID: "c0cc23b1-b56a-495b-a456-aedcef3696ad"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

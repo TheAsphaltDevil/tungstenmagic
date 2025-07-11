@@ -1,0 +1,107 @@
+{
+	title: "Check Keybinds Tab",
+	icon: "davincisvessels:marker",
+	x: -4.5d,
+	y: -1.5d,
+	description: "Piloting Airship/Riding Dragon:",
+	text: [
+		"The below keybinds are for riding a dragon or piloting an airship."
+	],
+	size: 2.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "71e2745a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_red"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d51dcb8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_green"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8a249c9b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_bronze"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d634b26a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_gray"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ffba2912",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_blue"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "60a732c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_white"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4656752a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_sapphire"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7149c7ff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_silver"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2f2e9a2c",
+		type: "item",
+		items: [{
+			item: "davincisvessels:marker"
+		}]
+	}]
+}

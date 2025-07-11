@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "alienis",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "alienis",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_alienis",
+            "amount": 10
+        }
+    ]
+}

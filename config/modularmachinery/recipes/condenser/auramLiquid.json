@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_auram",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "auram",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_auram",
+            "amount": 10
+        }
+    ]
+}

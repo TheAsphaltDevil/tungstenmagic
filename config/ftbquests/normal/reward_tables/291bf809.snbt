@@ -1,0 +1,24 @@
+{
+	title: "Curiosities",
+	loot_size: 1,
+	rewards: [{
+		item: "thaumcraft:curio 1 1",
+		count: 20
+	},
+	{
+		item: "thaumcraft:curio 1 2",
+		count: 20
+	},
+	{
+		item: "thaumcraft:curio",
+		count: 20
+	},
+	{
+		item: "thaumcraft:curio 1 4",
+		count: 20
+	},
+	{
+		item: "thaumcraft:curio 1 5",
+		count: 20
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "bf427e40",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_extraction"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

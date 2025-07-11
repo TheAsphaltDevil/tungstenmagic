@@ -1,0 +1,23 @@
+{
+	title: "Recipe Changes",
+	icon: "minecraft:crafting_table",
+	x: 17.5d,
+	y: -7.0d,
+	text: [
+		"This pack features a lot of recipe changes, and some changes to mechanics.",
+		"",
+		"Do not worry, the changes are explained in the guidebook and aren't too crazy.",
+		"",
+		"If it seems unclear how to get an item, check JEI.",
+		"",
+		"If JEI does nothing, the item is likely obtained through some kind of in-world interaction such as killing a boss, or throwing an item into a fluid."
+	],
+	dependencies: [
+		"07284687"
+	],
+	tasks: [{
+		uid: "2578f8d1",
+		type: "checkmark",
+		title: "ok"
+	}]
+}

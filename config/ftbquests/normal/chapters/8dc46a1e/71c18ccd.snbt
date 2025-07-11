@@ -1,0 +1,23 @@
+{
+	title: "Barrishee",
+	x: -1.5d,
+	y: -5.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b065757a"
+	],
+	tasks: [{
+		uid: "0109d83b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:rune_door_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

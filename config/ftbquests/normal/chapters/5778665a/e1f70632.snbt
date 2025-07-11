@@ -1,0 +1,26 @@
+{
+	title: "Magic MacGyver",
+	icon: "thaumcraft:seal 1 14",
+	x: -5.5d,
+	y: -6.5d,
+	shape: "octagon",
+	description: "Alchemy",
+	text: [
+		" You tire of the teachers not understanding your needs. You tire of them telling you something won't work, or that it's not \"best practice\", yet their recommendations end up even less functional. You tire of them improving projects to death.",
+		"",
+		"While they tried to make it §ofuture-proof§r, you tried to make it §owork§r. ",
+		"---",
+		"",
+		"Successfully automate a thaumatorium without the use of transfusers or golems. It must:",
+		"",
+		"1) Smelt items with an essentia smeltery,",
+		"2) Have a thaumatorium on the same tube network,",
+		"3) Create items with said thaumatorium without clogging the tubes.",
+		"4) There cannot be any essentia valves."
+	],
+	tasks: [{
+		uid: "19b9ba87",
+		type: "checkmark",
+		title: "Automate a thaumatorium."
+	}]
+}

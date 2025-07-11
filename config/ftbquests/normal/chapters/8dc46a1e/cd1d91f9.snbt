@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	dependencies: [
+		"b065757a"
+	],
+	tasks: [{
+		uid: "3dda67b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:chirobarb_erupter",
+			tag: {
+				rotation: 0,
+				shooting: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

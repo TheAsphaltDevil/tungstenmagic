@@ -1,0 +1,92 @@
+{
+	title: "Crystals",
+	x: 25.0d,
+	y: -8.0d,
+	text: [
+		"To start your journey, you will need to find crystals, which are located in caves and occasionally on mountains.",
+		"",
+		"You technically only need 3 unique types to begin, though we recommend getting some of each type."
+	],
+	dependencies: [
+		"d10525ae"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "a51361cf",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "46563be5",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "943ec8b9",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "bf95ed5b",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "54bb9a69",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "779caec9",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+    "registryname": "condenser",
+    "localizedname": "Essentia Condenser",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": "modularmachinery:blockfluidoutputhatch@2"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "modularmagic:blockaspectproviderinput@0"
+        }
+    ]}

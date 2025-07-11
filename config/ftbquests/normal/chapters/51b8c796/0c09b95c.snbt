@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: 13.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "45a31895",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:charm_undying"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

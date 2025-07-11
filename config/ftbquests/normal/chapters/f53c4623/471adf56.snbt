@@ -1,0 +1,16 @@
+{
+	x: -11.4d,
+	y: 6.3d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"7d574377"
+	],
+	tasks: [{
+		uid: "10c3d262",
+		type: "item",
+		items: [{
+			item: "ebwizardry:astral_diamond"
+		}]
+	}]
+}

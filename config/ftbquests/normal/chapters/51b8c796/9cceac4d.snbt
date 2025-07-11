@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "8923e483",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

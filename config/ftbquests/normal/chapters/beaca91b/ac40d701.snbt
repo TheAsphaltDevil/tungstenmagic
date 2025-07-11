@@ -1,0 +1,29 @@
+{
+	title: "Complete Exam I: House Imperia",
+	x: 9.0d,
+	y: -3.5d,
+	text: [
+		"Well done!"
+	],
+	dependencies: [
+		"16eb0dda",
+		"99e9f4fe"
+	],
+	hide: true,
+	tasks: [{
+		uid: "68a3fbb8",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "92149444",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "freshmanFinished"
+	},
+	{
+		uid: "a7d6d7c3",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "imperiaFreshman"
+	}]
+}

@@ -1,0 +1,8 @@
+{
+	"name" : "tungsten:rooms",
+	"rooms" : [
+		{"level" : 2, "type" : "reward", "name" : "REWARD", "weight" : 40},
+		{"level" : 3, "type" : "reward", "name" : "REWARD", "weight" : 40},
+		{"level" : 4, "type" : "reward", "name" : "REWARD", "weight" : 40}
+	]
+}

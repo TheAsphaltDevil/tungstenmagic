@@ -1,0 +1,24 @@
+{
+	icon: "thaumicaugmentation:material 1 2",
+	x: 7.5d,
+	y: -8.0d,
+	text: [
+		"Choose this tutorial if:",
+		"",
+		"-You know about land claiming and teams.",
+		"",
+		"-You know how to find recipes.",
+		"",
+		"-You have played through mods that are complex and/or tweaked by the modpack.",
+		"",
+		"-You are confident in your ability to find out how to do something or how something is used, even when this modpack changes lots of such things."
+	],
+	dependencies: [
+		"d054b718"
+	],
+	tasks: [{
+		uid: "f0edf9dd",
+		type: "checkmark",
+		title: "I am very familiar with modded minecraft."
+	}]
+}

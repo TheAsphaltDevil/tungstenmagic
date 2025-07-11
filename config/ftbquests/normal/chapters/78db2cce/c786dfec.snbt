@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: -6.5d,
+	text: [
+		"Where did these notes come from?"
+	],
+	dependencies: [
+		"770201e3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b27a7173",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}],
+		count: 10L
+	}]
+}

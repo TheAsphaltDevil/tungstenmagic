@@ -1,0 +1,18 @@
+{
+	title: "Graduate: House Imperia",
+	x: 21.0d,
+	y: -4.0d,
+	dependencies: [
+		"bc165b0f"
+	],
+	tasks: [{
+		uid: "a780bca1",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "5ae04fcc",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "imperiaGrad"
+	}]
+}

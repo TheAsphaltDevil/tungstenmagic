@@ -1,0 +1,37 @@
+{
+	title: "Twilight Catalyst",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "contenttweaker:twilight_activator"
+	},
+	disable_toast: true,
+	x: 24.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"bb4694c4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "addc7fae",
+		type: "item",
+		items: [{
+			item: "treasure2:gold_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "2565a8b1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:twilight_activator"
+		}
+	}]
+}

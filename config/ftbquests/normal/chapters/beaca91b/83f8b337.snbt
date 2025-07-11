@@ -1,0 +1,29 @@
+{
+	title: "Complete Exam I: House Frigidus",
+	x: 9.0d,
+	y: -1.5d,
+	text: [
+		"Well done!"
+	],
+	dependencies: [
+		"c736431f",
+		"99e9f4fe"
+	],
+	hide: true,
+	tasks: [{
+		uid: "255b3160",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "7f179f3b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "freshmanFinished"
+	},
+	{
+		uid: "6bd2e48c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "frigidusFreshman"
+	}]
+}

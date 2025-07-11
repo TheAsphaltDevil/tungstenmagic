@@ -1,0 +1,7 @@
+{
+	title: "Exam III",
+	icon: "arcanearchives:letter_invitation",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

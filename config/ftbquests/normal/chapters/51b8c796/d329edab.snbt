@@ -1,0 +1,60 @@
+{
+	title: "Void Thaumaturge",
+	x: 11.0d,
+	y: 0.5d,
+	shape: "octagon",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1638813f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_robe_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "429a66e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_robe_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8fdf2968",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_robe_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "073cd0f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:void_boots",
+			tag: {
+				color: 6961280
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 0.5d,
+	shape: "heart",
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "c955d1a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:cockatrice_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

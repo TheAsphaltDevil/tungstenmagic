@@ -1,0 +1,173 @@
+{
+	title: "Sneak + Right Click",
+	x: 13.0d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "665cbedb",
+		type: "item",
+		title: "Sneak + RMB: Open, Seak+Scroll: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_holding"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b879aac6",
+		type: "item",
+		title: "Sneak+RMB: Mode/Bind",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6367c9b5",
+		type: "checkmark"
+	},
+	{
+		uid: "0fd67cd9",
+		type: "item",
+		title: "Sneak + RMB: Open",
+		items: [{
+			ForgeCaps: {
+				Parent: [],
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "mahoutsukai:mystic_code_first_sorcery",
+			tag: {
+				color: 3,
+				slot_selected: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "742b6143",
+		type: "item",
+		title: "Sneak+RMB: Input coordinates",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bibliocraft:compass"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fe5fa2e6",
+		type: "item",
+		title: "Sneak + RMB: Store Constellation Paper",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5db91a3f",
+		type: "item",
+		title: "Sneak+RMB: Break warded entity",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "497487e3",
+		type: "item",
+		title: "Sneak+RMB: Ward Block",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemilluminationwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a1964110",
+		type: "item",
+		title: "Sneak+RMB: Unlink all links",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0896e1c9",
+		type: "item",
+		title: "Sneak+RMB: Add block to palette",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemexchangewand",
+			tag: {
+				astralsorcery: {
+					storedStates: [{
+						registryName: "minecraft:grass",
+						properties: [{
+							property: "snowy",
+							value: "false"
+						}]
+					}]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

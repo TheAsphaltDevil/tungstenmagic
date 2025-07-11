@@ -1,0 +1,17 @@
+{
+	x: -7.5d,
+	y: 13.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "efdd3a16",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicwonders:cleansing_charm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

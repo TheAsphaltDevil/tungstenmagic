@@ -1,0 +1,25 @@
+{
+	title: "Centrifuging",
+	x: -6.7d,
+	y: 3.0d,
+	shape: "gear",
+	description: "Automate Alloys, new upgrades and weapons",
+	text: [
+		"The centrifuge is a way to automate the alloying of metals. It is also the only way to craft dawnstone: a material used to upgrade various pieces of",
+		"your assembly lines, and used in the creation of unbreakable, ember-fueled weaponry.",
+		"",
+		"It also grants access to essentia combining."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b27f646a",
+		"ebc1d422"
+	],
+	tasks: [{
+		uid: "ba964402",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}]
+}

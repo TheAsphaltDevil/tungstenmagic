@@ -1,0 +1,124 @@
+{
+	title: "Graduate Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "dimdoors:rift_blade",
+		tag: {
+			"Quark:RuneColor": 9,
+			ench: [{
+				lvl: 32767s,
+				id: 34
+			}],
+			RepairCost: 0,
+			display: {
+				Name: "Slice of Solitude"
+			},
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 5.0d,
+	y: -8.5d,
+	description: "Your own personal spacetime",
+	text: [
+		"Congratulations on graduating!",
+		"",
+		"Your final gift is one of great power.",
+		"",
+		"Ever want to just escape from the real world? With this sword, you can!",
+		"",
+		"Dotted around the land are dimensional rifts left by founding members of house frigidus, exclusive to those who wield this mythical sword.",
+		"",
+		"One swing of the weapon near a rift will bring you into your own personal area of space in the ender realm. All rifts will lead to this same area, much like ender chests. Just be sure not to sleep here!",
+		"",
+		"---",
+		"Finally, some peace and quiet."
+	],
+	dependencies: [
+		"7102a51e"
+	],
+	tasks: [{
+		uid: "8716d901",
+		type: "gamestage",
+		stage: "frigidusGrad"
+	}],
+	rewards: [{
+		uid: "b2152a3a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manasteelhelmreveal",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 1s,
+					id: 74
+				}],
+				RepairCost: 1,
+				phantomInk: 1b,
+				display: {
+					Name: "Celestian Graduate Halo: Frigidus"
+				},
+				mahoujin_projector: {
+					IMAGE_LOAD: 10,
+					CIRCLE_PITCH: 350.0f,
+					CIRCLE_SHOW_R: 0b,
+					ForgeData: {},
+					CIRCLE_A: 200,
+					CIRCLE_B: 255,
+					CIRCLE_SHOW_C: 1b,
+					CIRCLE_G: 255,
+					CIRCLE_SIZE: 1.2f,
+					id: "mahoutsukai:mahoujin_projector",
+					RUNES_LOAD: -1,
+					CIRCLE_SPEED: 0.6f,
+					CIRCLE_YAW: 30.0f,
+					CIRCLE_RING_ANGLE: 0.0f,
+					RING_HEIGHT: 0.125f,
+					CIRCLE_SPEED_YAW: 0.0f,
+					CIRCLE_R: 0,
+					ROTATION_OFFSET: 0.0f,
+					x: 322,
+					y: 4,
+					CIRCLE_SPEED_PITCH: 0.0f,
+					z: 707,
+					CIRCLE_ROTATION: 14.00914f,
+					CIRCLE_Y: 2.0f,
+					CIRCLE_Z: -0.03f,
+					CIRCLE_X: -0.085f
+				}
+			}
+		}
+	},
+	{
+		uid: "874fbfdd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "dimdoors:rift_blade",
+			tag: {
+				"Quark:RuneColor": 0,
+				ench: [{
+					lvl: 32767s,
+					id: 34
+				}],
+				RepairCost: 0,
+				display: {
+					Name: "Slice of Heaven"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		}
+	}]
+}

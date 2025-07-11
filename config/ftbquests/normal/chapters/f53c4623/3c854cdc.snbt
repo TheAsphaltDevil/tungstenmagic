@@ -1,0 +1,49 @@
+{
+	title: "Thaumium Fortress Armor",
+	x: -18.3d,
+	y: 3.05d,
+	text: [
+		"This armor shall keep you protected from most threats."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b27f646a",
+		"bac76728"
+	],
+	tasks: [{
+		uid: "58fe24d0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:fortress_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8ebe60fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:fortress_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7ebd3ee8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:fortress_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_herba",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "herba",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_herba",
+            "amount": 10
+        }
+    ]
+}

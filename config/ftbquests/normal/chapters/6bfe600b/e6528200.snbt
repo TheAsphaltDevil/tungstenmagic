@@ -1,0 +1,30 @@
+{
+	title: "Check Keybinds Tab",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ebwizardry:master_wand"
+	},
+	x: -11.0d,
+	y: -1.5d,
+	description: "Spell Combat Keybinds",
+	text: [
+		"When holding a wand, hold shift then press a key to instantly switch to a spell, allowing for fast paced combat if you get good with the keys.",
+		"",
+		"Alternatively, to CYCLE spells, you can use X and C, or Sneak + Mousewheel."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "8c28b219",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:magic_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

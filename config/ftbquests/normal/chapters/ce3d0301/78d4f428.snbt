@@ -1,0 +1,39 @@
+{
+	title: "Exam II Items",
+	x: 12.0d,
+	y: -11.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"bb4694c4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a1a1ed95",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "aether_legacy:dungeon_key",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "47c9573a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:lamp_of_cinders"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

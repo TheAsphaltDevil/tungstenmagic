@@ -1,0 +1,19 @@
+{
+	icon: "thaumcraft:loot_bag 1 2",
+	disable_toast: true,
+	x: 29.5d,
+	y: -4.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "f91eae45",
+		type: "item",
+		items: [{
+			item: "treasure2:gold_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "56b42de1",
+		type: "item",
+		item: "thaumcraft:loot_bag 1 2"
+	}]
+}

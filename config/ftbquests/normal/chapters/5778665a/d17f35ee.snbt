@@ -1,0 +1,26 @@
+{
+	title: "Wyvern Whisperer",
+	icon: "thaumcraft:seal 1 17",
+	x: -6.0d,
+	y: -7.5d,
+	shape: "heart",
+	description: "Beast Taming",
+	text: [
+		"Through degradation and denial,",
+		"Judgement and jest,",
+		"You realize that beasts",
+		"are nicer than the rest.",
+		"",
+		"The village didn't embrace you,",
+		"and so you'll burn it down to feel its warmth.",
+		"---",
+		"",
+		"Raise your dragon to stage 5."
+	],
+	hide: true,
+	tasks: [{
+		uid: "d9239e49",
+		type: "checkmark",
+		title: "Raise your dragon to stage 5."
+	}]
+}

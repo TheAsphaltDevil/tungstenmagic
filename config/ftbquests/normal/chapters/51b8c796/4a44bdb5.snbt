@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "e44af706",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfspellpack:amulet_carminite"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

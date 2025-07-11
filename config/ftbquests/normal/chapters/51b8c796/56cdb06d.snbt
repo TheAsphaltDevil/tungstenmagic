@@ -1,0 +1,17 @@
+{
+	x: -7.5d,
+	y: 14.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "b949c3ef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicperiphery:vis_phylactery"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

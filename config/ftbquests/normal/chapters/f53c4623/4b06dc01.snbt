@@ -1,0 +1,48 @@
+{
+	title: "Click here to reset your perk tree",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemshiftingstar",
+		tag: {
+			astralsorcery: {
+				starAttunement: "astralsorcery.constellation.armara"
+			}
+		}
+	},
+	x: 13.5d,
+	y: -7.5d,
+	text: [
+		"Don't like the way you progressed through the perk tree?",
+		"",
+		"This item, when charged like a bow, will reset your perks.",
+		"",
+		"You will not lose your perk points."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c736431f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "81bbd094",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8043c07c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.armara"
+				}
+			}
+		}
+	}]
+}

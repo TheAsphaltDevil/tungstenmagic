@@ -1,0 +1,56 @@
+{
+	title: "Tier IV Blood Altar",
+	x: 18.0d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "4e4d3706",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "ed7d81c7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Tier IV Blood Altar",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 813,
+					Y: 17,
+					Z: 160
+				},
+				itemcountmap: [{
+					item: 5522,
+					meta: 0,
+					count: 28
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 16
+				},
+				{
+					item: 5533,
+					meta: 1,
+					count: 4
+				}],
+				endPos: {
+					X: 803,
+					Y: 12,
+					Z: 150
+				}
+			}
+		}
+	}]
+}

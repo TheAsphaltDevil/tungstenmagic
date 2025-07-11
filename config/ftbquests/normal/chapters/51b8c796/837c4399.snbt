@@ -1,0 +1,20 @@
+{
+	x: -13.5d,
+	y: 6.5d,
+	shape: "rsquare",
+	text: [
+		"50 percent chance to negate fall damage."
+	],
+	tasks: [{
+		uid: "ac297dd6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:amulet_glide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

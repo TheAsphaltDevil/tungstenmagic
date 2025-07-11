@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "1796c7d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfspellpack:amulet_steeleaf"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

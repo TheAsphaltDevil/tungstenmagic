@@ -1,0 +1,1083 @@
+{
+    "entries" :[
+        {
+            "key": "MOTIVECORES",    
+            "name": "Ancient Motive Cores",
+            "icons": ["embers:ancient_motive_core"],
+            "category": "ARTIFICEEXPANSION", "location": [ 2,-6 ], 
+            "parents": [ "!AncientMotiveCore", "UNLOCKARTIFICE" ],        
+            "meta": ["ROUND", "HIDDEN"],        
+            "stages": [
+                    {
+                        "text": "I've always wondered how the ancient golems roaming these lands functioned. I knew it couldn't be a brain in a jar, as that is my creation. This mysterious item dropped by the one I killed appears to be its 'heart' for lack of a better term. Perhaps if I study it some more, I can learn the secrets long kept by the golems and use them to my advantage.",
+                        "required_knowledge":["THEORY;ARTIFICE;1"],
+                        "required_item":["embers:ancient_motive_core"]
+                    },
+                    {
+                        "text": "I've always wondered how the ancient golems roaming these lands functioned. I knew it couldn't be a brain in a jar, as that is my creation. This mysterious item dropped by the one I killed appears to be its 'heart' for lack of a better term. Perhaps if I study it some more, I can learn the secrets long kept by the golems and use them to my advantage. <PAGE> After further study, I have realized that these golems are harnessing §lEmber§r, the plasma state of magic matter. These golems have been going nonstop for god knows how long, so ember must be a pretty efficient fuel for machinery. This warrants further study..."
+                    }
+                ]
+        },
+        {
+            "key": "CAMINITE",    
+            "name": "Caminite Blend",
+            "icons": [ "embers:blend_caminite"],
+            "category": "ARTIFICEEXPANSION", "location": [ 4,-6 ], 
+            "parents": [ "MOTIVECORES" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Clay seems like a good material. I just need to slightly refine it somehow.",
+                        "required_knowledge":["THEORY;ARTIFICE;1"],
+                        "required_item":["minecraft:clay_ball"]
+                    },
+                    {
+                        "text":"When infusiung clay with machina essentia, I get a much stronger blend that I will call caminite. I can then heat treat this material, and it becomes incredibly strong and heat resistant. It will be a perfect fit for machines that use ember.",
+                        "recipes":["thaumcraft:caminite"]
+                    }
+                ]
+        },
+        {
+        "key": "MECHANICALCORE",    
+        "name": "Machine Input and Output",
+        "icons": ["embers:mech_core"],
+        "category": "ARTIFICEEXPANSION", "location": [ 4,-8 ], 
+        "parents": [ "MOTIVECORES" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "If I'm investing a bunch of time creating machinery, it might make the most sense to first make a machine that can interface with other machines.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text":"I have devised two things for interfacing with future machinery. \n \n TINKER LENS <DIV> Each machine I create will have a list of inputs (things the machine needs in order to run) and outputs (things the machine will produce). I constructed them in such a way that they can be read by my wand of revealing via the 'TINKER LENS' protocol. If I simply hover the wand over certain parts of a machine, it will list its inputs and outputs. This part of the machine will be referred to as its §lport§r from now on. <PAGE> MECHANICAL CORE <DIV> Mechanical cores can be attached to a machine's port, to act as an extension of the port. This allows you to have more than one means of item transport attached to it. <BR> Mechanical cores, if set up right, will then interface with the wand of revealing, whose readings will reflect that of the machine it's attached to.<PAGE>MACHINE ACCESSOR<DIV>This device attaches to mechanical cores. It acts as an extension of the mechanical core, so you can attach even more pipes. <BR>This block can be rotated with the wand of linking set to 'tinker's hammer'.",
+                    "recipes":["thaumcraft:mechanicalCore"]
+                }
+            ]
+        },
+        {
+            "key": "EMBERBORE",    
+            "name": "Gathering Ember",
+            "icons": ["embers:ember_bore"],
+            "category": "ARTIFICEEXPANSION", "location": [ 8,-6 ], 
+            "parents": [ "ITEMFLUIDPIPES" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I have all the introductory steps completed, but I'm clueless on how to actually get my hands on ember. What I do know, however, is that Terra gets hotter the further down you dig. Perhaps digging beneath bedrock might be a good place to start.",
+                        "required_knowledge":["THEORY;ARTIFICE;1"]
+                    },
+                    {
+                        "text": "I have all the introductory steps completed, but I'm clueless on how to actually get my hands on ember. What I do know, however, is that Terra gets hotter the further down you dig. Perhaps digging beneath bedrock might be a good place to start. <PAGE> I've done it. I created a machine called the ember bore. It must be placed §lnear§r the bottom of the earth, and be supplied with furnace fuels. When this is done, the machine's blades will scoop up... well, I'm not sure yet. I will leave it running and see what happens.",
+                        "recipes": ["thaumcraft:emberBore"]
+                    }
+                ]
+        },
+        {
+            "key": "ITEMFLUIDPIPES",    
+            "name": "Item and Fluid Pipes",
+            "icons": ["embers:item_pump", "embers:item_pipe", "embers:pump", "embers:pipe"],
+            "category": "ARTIFICEEXPANSION", "location": [ 6,-4 ], 
+            "parents": [ "CAMINITE", "MECHANICALCORE"  ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Now that I have an interface for machines, and the materials required to make them, I need an effective way to get items to and from the machines I will make. The essentia tubes I created were quite effective. Perhaps with some tinkering, I can repurpose them to transport items and mundane fluids.",
+                        "required_knowledge":["THEORY;ARTIFICE;1"],
+                        "required_item" : ["thaumcraft:tube"]
+                    },
+                    {
+                        "text": "I have created item pipes, item extractors, fluid pipes, and fluid extractors. \n \n I shall place an extractor on the source of the contents, and a trail of pipes to its destination(s). Extractors need a redstone signal. \n \n Pipes will prioritize the farthest destination. If two destinations are equally far away, the contents will get split amongst them evenly. <BR> With my wand of linking set to 'tinker hammer' mode, I can disconnect/reconnect a pipe.",
+                        "recipes" : ["thaumcraft:fluidPipe", "thaumcraft:fluidExtractor", "thaumcraft:itemPipe", "thaumcraft:itemExtractor"]
+                    }
+                ]
+        },
+        {
+            "key": "EMBERACTIVATOR",    
+            "name": "Activating Ember Crystals",
+            "icons": ["embers:ember_activator"],
+            "category": "ARTIFICEEXPANSION", "location": [ 8,-8 ], 
+            "parents": [ "EMBERBORE" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "After returning to my machine, I find that it has scooped up some crystals. How curious. <BR> They seem to be ember that has cooled off and accumulated on the underside of the bedrock. I bet that if I simply reheat them, I can harness raw ember the way the golems do.",
+                        "required_knowledge":["THEORY;ARTIFICE;1"],
+                        "required_item" : ["minecraft:furnace"]
+                    },
+                    {
+                        "text": "After returning to my machine, I find that it has scooped up some crystals. How curious. <BR> They seem to be ember that has cooled off and accumulated on the underside of the bedrock. I bet that if I simply reheat them, I can harness raw ember the way the golems do. <PAGE> I have created a machine for activating the ember, which I will simply call the §lEmber Activator§r. \n \nI load the crystallized ember into any side of the bottom, and the ember will be contained in the top.",
+                        "recipes": ["thaumcraft:emberActivator"]
+                    }
+                ]
+        },
+        {
+            "key": "MINIBOILER",    
+            "name": "Boiling Liuids",
+            "icons": ["embers:mini_boiler"],
+            "category": "ARTIFICEEXPANSION", "location": [ 10,-10 ], 
+            "parents": [ "EMBERACTIVATOR" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "My machines are producing a lot of heat. I have created a simple device called the §lMini Boiler§r. It is placed next to an ember consuming/producing device. <BR>When that machine activates, it will turn water within it into steam for other purposes. <BR>It can also turn dwarven oil into dwarven fuel gas, which enables the steam engine to run a little faster than it would on steam. <BR>I need to vent these gases somewhere else, or else the boiler will rupture.",
+                        "recipes": ["thaumcraft:miniBoiler"]
+                    }
+                ],
+                "addenda": [    
+                {
+                    "text": "It turns out I can also use the boiler to boil dwarven oil into dwarven fuel gas. This gas should be a bit more efficient in the steam engine.", 
+                    "required_research":["DWARVENOIL"]
+                }
+            ]
+                
+        },
+        {
+            "key": "EMBERSDROPPERS",    
+            "name": "Pipe Dropper",
+            "icons": ["embers:item_dropper"],
+            "category": "ARTIFICEEXPANSION", "location": [ 6,-2 ], 
+            "parents": [ "ITEMFLUIDPIPES" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Placing these simple devices at the end of a pipe will result in the pipe spitting out its contents. They must be attached to the bottom of the pipe. <BR> Fluid droppers must be placed above fluid storage.",
+                        "recipes": ["thaumcraft:fluidDropper", "thaumcraft:itemDropper"]
+                    }
+                ]
+        },
+        {
+            "key": "BIN",    
+            "name": "Bin",
+            "icons": ["embers:bin"],
+            "category": "ARTIFICEEXPANSION", "location": [ 8,-2 ], 
+            "parents": [ "ITEMFLUIDPIPES" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "This simple device holds a stack of items, which can be inserted either via item transport or by dropping them in. <BR> Automatically collects outputs from certain machines when placed underneath.",
+                        "recipes": ["thaumcraft:embersBin"]
+                    }
+                ]
+        },
+        {
+            "key": "ITEMFLUIDTRANSFER",    
+            "name": "Filtering Pipes",
+            "icons": ["embers:fluid_transfer", "embers:item_transfer"],
+            "category": "ARTIFICEEXPANSION", "location": [ 10,-2 ], 
+            "parents": [ "ITEMFLUIDPIPES" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "My pipes get the job of transferring items and fluids done well. There is just one problem: they cannot filter or route items. I will need a new set of devices that can handle this.",
+                        "required_knowledge":["THEORY;ARTIFICE;1"]
+                    },
+                    {
+                        "text": "My pipes get the job of transferring items and fluids done well. There is just one problem: they cannot filter or route items. I will need a new set of devices that can handle this. <PAGE> I have finally created devices for filtering and routing contents of pipes. I will call these the §lFluid Transfer§r and the §lItem Transfer§r.<BR>They are placed along pipes and can have pipes attached at its front or its back. Arrows indicate the direction of flow. <BR>The transfers have several properties that make them invaluable. <BR>ONE WAY VALVE<DIV> Contents of pipes can only flow in the direction of the arrows on the transfer. <BR> PRIORITIZAITON<DIV> Normally, the section of pipe farthest from the source container is what gets prioritized. However, if a transfer is placed along this route, it will take priority. <BR> FILTERING<DIV> If you right click a transfer with an item or with a bucket of fluid, the transfer will only accept said item or fluid.",
+                        "recipes": ["thaumcraft:fluidTransfer", "thaumcraft:itemTransfer"]
+                    }
+                ]
+        },
+        {
+            "key": "PRESSUREREFINERY",    
+            "name": "Upgrading Ember Production",
+            "icons": ["embers:boiler"],
+            "category": "ARTIFICEEXPANSION", "location": [ 8,-10 ], 
+            "parents": [ "EMBERACTIVATOR" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "My method of ember activation has left more to be desired. Perhaps there is a better solution.",
+                        "required_knowledge":["THEORY;ARTIFICE;1"]
+                    },
+                    {
+                        "text": "I don't know how I didn't think of this sooner. It is well known that heating things up is faster when done via liquid instead of the air. So, I simply incorporated this into my design, which I will call the §lPressure Refinery§r. <PAGE>PRESSURE REFINERY<DIV>This refinery requires a bit of setup: First, I must place a metal block underneath it to conduct heat, with gold being the best conductor. Then, I place lava on each side of the metal block to supply heat. <BR>I then pump water and the crystalline ember into the base of the refinery. The water will heat it up much quicker than air, and will yield much more raw ember. <BR>§lFrom now on, I will not list the inputs and outputs of each machine in this book and where they go§r, since I can simply view them with the wand of revealing. I will hopefully remember this, and If I don't, I reserve the right to call my future self a dingus.",
+                        "recipes": ["thaumcraft:pressureRefinery"]
+                    }
+                ]
+        },
+        {
+            "key": "ITEMVACUUM",    
+            "name": "Item Vacuum",
+            "icons": ["embers:vacuum"],
+            "category": "ARTIFICEEXPANSION", "location": [ 12,-2 ], 
+            "parents": [ "ITEMFLUIDPIPES" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Hoppers are great for collecting items, but their range and orientation are rather limited. Perhaps I can improve the design with a bit of studying.",
+                        "required_item":["minecraft:hopper"]
+                    },
+                    {
+                        "text": "I have created an improvement to the hopper I will call the item vacuum. When given a redstone signal, the vacuum will pull items in a large radius towards it, and into any attached inventories.",
+                        "recipes": ["thaumcraft:itemVacuum"]
+                    }
+                ]
+        },
+        {
+            "key": "FLUIDVESSEL",    
+            "name": "Fluid Vessel",
+            "icons": ["embers:block_tank"],
+            "category": "ARTIFICEEXPANSION", "location": [ 14,-4 ], 
+            "parents": [ "ITEMFLUIDPIPES" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "I will need a device that is a capable of storing any fluid.",
+                        "required_knowledge":["OBSERVATION;ARTIFICE;1"]
+                    },
+                    {
+                        "text": "I have created a simple device for storing fluid. It can receive and emit fluid via pipes.",
+                        "recipes": ["thaumcraft:fluidVessel"]
+                    }
+                ]
+        },
+        {
+        "key": "RESERVOIR",    
+        "name": "Reservoir",
+        "icons": ["embers:large_tank"],
+        "category": "ARTIFICEEXPANSION", "location": [ 14,-2 ], 
+        "parents": [ "FLUIDVESSEL" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The fluid vessel is great, but can only store so much. I need something large and expandable.",
+                    "required_knowledge":["OBSERVATION;ARTIFICE;1"]
+                },
+                {
+                    "text": "I have created a device called a reservoir. This device comes in three parts. <BR>First, the base, which is simply called 'reservoir' <BR>Next, caminite rings, which can be placed in the middle of the base to create additional capacity. <BR>Last, caminite valves, an alternative to the rings that enables fluid input/output.",
+                    "recipes": ["thaumcraft:reservoir"]
+                }
+            ]
+        },
+        {
+        "key": "EMBERTRANSFER",    
+        "name": "Ember Transfer",
+        "icons": ["embers:ember_receiver"],
+        "category": "ARTIFICEEXPANSION", "location": [ 10,-8 ], 
+        "parents": [ "EMBERACTIVATOR" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Now that I can harness ember I will need a way to send it to my machines. <BR>I noticed the golems were quite good at throwing controlled bursts over a long distance. Perhaps I can start there.",
+                    "required_knowledge":["THEORY;ARTIFICE;2"]
+                },
+                {
+                    "text":"I have created devices called the §lEmber Emitter§r and the §lEmber Receptor§r. <BR>First, I place the emitter on the ember-producing machine, and place the receptor on the mahcine I want to power. I need to pay attention to my wand of revealing to indicate where to place the receptor and emitter. <BR>To get the ember to go where I want it to, I first set my wand of linking to 'tinker's hammer'. Then, I sneak-right click the desired receptor with my wand of linking, and then right click the desired emitter. The emitter needs a redstone signal. \n \nThere is also the ember relay, which functions as a range extender. It can be bound as a receptor and as an emitter.",
+                    "recipes":["thaumcraft:emberEmitter", "thaumcraft:emberReceptor"]
+                }
+            ]
+        },
+        {
+            "key": "COPPERCELL",    
+            "name": "Copper Cell",
+            "icons": ["embers:copper_cell"],
+            "category": "ARTIFICEEXPANSION", "location": [ 18,-9 ], 
+            "parents": [ "EMBERTRANSFER" ],        
+            "meta": ["ROUND"],        
+            "stages": [
+                    {
+                        "text": "Now that I can transfer ember, I need something to store it in.",
+                        "required_knowledge":["OBSERVATION;ARTIFICE;2"]
+                    },
+                    {
+                        "text":"I have created a device called the copper cell. I simply need to place a receptor on it, and it will store a large amount of ember. I can then use this with emitters placed on the cell.",
+                        "recipes": ["thaumcraft:copperCell"]
+                    }
+                ]
+            },
+        {
+        "key": "MELTER",    
+        "name": "Melting Metals",
+        "icons": ["embers:block_furnace"],
+        "category": "ARTIFICEEXPANSION", "location": [ 14,-10 ], 
+        "parents": [ "EMBERTRANSFER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The furnace is great for refining ore into ingots, but it wastes a lot of material. Perhaps there is a better way.",
+                    "required_knowledge":["OBSERVATION;ARTIFICE;1"],
+                    "required_item":["minecraft:furnace"]
+                },
+                {
+                    "text":"I have created a device called the §lMelter§r. Ores and metals placed into this machine will be turned molten, which can then be piped out to be used in other machines, or for bulk storage. <BR>This machine is much more efficient than standard smelting and even the infernal furnace, yielding 2 ingots of material for each ore.",
+                    "recipes": ["thaumcraft:melter"]
+                }
+            ]
+        },
+        {
+        "key": "STAMPER",    
+        "name": "Liquid Metal to Solid",
+        "icons": ["embers:stamper_base", "embers:stamper"],
+        "category": "ARTIFICEEXPANSION", "location": [ 12,-12 ], 
+        "parents": [ "MELTER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Now that I have a means of converting metals into a liquid form, I need a method to convert it back.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text":"I have created a device that I will call the §lStamper§r. I will need a stamp base at the bottom, a 1 block space above it, and then the stamper directly above that. <BR>I then attach a stamp to the stamper (either a plate, nugget, or ingot stamp). <BR>When the machine is powered, the base is full, and a stamp is attached, the machine will stamp the molten metal back into the solid form I chose. <BR>By default, the item will fly off the stamper, but I can attach a bin underneath the stamp base.",
+                    "recipes": ["thaumcraft:stamper"]
+                }
+            ]
+        },
+        {
+        "key": "GEOLOGICSEPARATOR",    
+        "name": "Getting Additional Metals From Ores",
+        "icons": ["embers:geo_separator"],
+        "category": "ARTIFICEEXPANSION", "location": [ 14,-12 ], 
+        "parents": [ "MELTER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text":"Ores and minerals naturally contain many impurities in them. This simple device, called a §lGeologic Separator§r, can separate them out when they'd otherwise be lost. \n \nI shall place it next to the bottom half of the melter, with the tap facing toward the melter. \n \nNow, when I melt ores, the impurities will be separated."
+                }
+            ]
+        },
+        {
+        "key": "MIXERCENTRIFUGE",    
+        "name": "Making Metal Alloys",
+        "icons": ["embers:mixer"],
+        "category": "ARTIFICEEXPANSION", "location": [ 16,-10 ], 
+        "parents": [ "MELTER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The metals I have been working with leave something to be desired. Perhaps there is a way to create alloys, which would theoretically give me the best of both worlds.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text":"I have created a device that I will call the §lMixer Centrifuge§r. This device will take molten metals, and, if a meaningful alloy can be made, it will mix them into said alloy. <BR>(Recipes for this machine can be viewed in JEI)",
+                    "recipes": ["thaumcraft:mixerCentrifuge"]
+                }
+            ]
+        },
+        {
+        "key": "DAWNSTONE",    
+        "name": "Dawnstone",
+        "icons": ["embers:ingot_dawnstone"],
+        "category": "ARTIFICEEXPANSION", "location": [ 16,-12 ], 
+        "parents": [ "MIXERCENTRIFUGE" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have found that mixing copper and gold yeilds a material I will call dawnstone. This material should prove very useful in future creations."
+                }
+            ]
+        },
+        {
+        "key": "DAWNSTONEMAIL",    
+        "name": "Dawnstone Mail",
+        "icons": ["embers:dawnstone_mail"],
+        "category": "ARTIFICEEXPANSION", "location": [ 14,-14 ], 
+        "parents": [ "DAWNSTONE" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "By using several dawnstone plates I have created a mundane piece of armor that will prevent me from getting knockback."
+                }
+            ]
+        },
+        {
+        "key": "REACTIONCHAMBER",    
+        "name": "Converting Steam Back to Water",
+        "icons": ["embers:reaction_chamber"],
+        "category": "ARTIFICEEXPANSION", "location": [ 10,-12 ], 
+        "parents": [ "MINIBOILER", "STAMPER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I need a way to convert my excess steam back to water.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text":"I have created a device that I will call the reaction chamber. This device will simply convert steam to water. \n \n Steam can be piped in from the bottom, and water can be piped out from any other side.",
+                    "recipes": ["thaumcraft:reactionChamber"]
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "Dwarven fuel gas can be put in the reaction chamber to create large amounts of steam. <BR>1Mb of gas = 5Mb of steam", 
+                    "required_research":["DWARVENOIL"]
+                }
+            ]
+        },
+        {
+        "key": "STEAMENGINE",    
+        "name": "Creating Mechanical Energy",
+        "icons": ["embers:steam_engine", "embers:mech_actuator_single"],
+        "category": "ARTIFICEEXPANSION", "location": [ 8,-12 ], 
+        "parents": [ "MINIBOILER" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have noticed that many of my machines require rotational energy. Turning heat straight into rotational energy is quite inefficient. <BR>Now that I have steam, a §lSteam Engine§r should be a great source of rotational energy.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text":"I've done it! This §lSteam Engine§r, when supplied with steam, can create rotational energy. <BR>If a machine can be improved by rotational energy, using the wand of revealing in tinker lens mode will list the phrase 'actuator slot'. <BR>This actuator slot can be utilized by my other new invention: the §lActuator§r. I simply place the metallic side next to the machine, and insert a gear into the opposite side.",
+                    "recipes": ["thaumcraft:steamEngine"]
+                }
+            ],
+            "addenda": [    
+                {
+                    "text": "Dwarven oil, after boiled into gas via the mini boiler, is a much more potent fuel for the steam engine than steam. <BR>1 Mb of steam produces 40R of power for 1 tick, whereas 1 Mb of dwarven fuel gas produces 50R of power for 5 ticks.", 
+                    "required_research":["DWARVENOIL"]
+                }
+            ]
+        },
+        {
+        "key": "DWARVENOIL",    
+        "name": "Dwarven Oil",
+        "icons": ["forge:bucketfilled"],
+        "category": "ARTIFICEEXPANSION", "location": [ 15,-9 ], 
+        "parents": [ "MIXERCENTRIFUGE"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "This mixture of steam and soul crude should make some of my machines a bit more efficient."
+                }
+            ]
+        },
+        {
+        "key": "MECHPUMP",    
+        "name": "Mechanical Pump",
+        "icons": ["embers:mechanical_pump"],
+        "category": "ARTIFICEEXPANSION", "location": [ 6,-10 ], 
+        "parents": [ "PRESSUREREFINERY"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Now that my ember production requires water, I should make a machine that gathers water.",
+                    "required_knowledge":["OBSERVATION;ARTIFICE;2"]
+                },
+                {
+                    "text":"I have created a device I will simply call the §lMechanical Pump§r. I simply place the pump directly above a water source block. <BR>The pump accepts either ember or mechanical energy, though it works significantly better with mechanical energy.",
+                    "recipes": ["thaumcraft:mechanicalPump"]
+                }
+            ]
+        },
+        {
+        "key": "HEARTHCOIL",    
+        "name": "Bulk Smelting",
+        "icons": ["embers:heat_coil"],
+        "category": "ARTIFICEEXPANSION", "location": [ 12,-7 ], 
+        "parents": [ "EMBERTRANSFER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Furnaces have become rather slow and cumbersome to me. I need a better design.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"],
+                    "required_item":["minecraft:furnace"]
+                },
+                {
+                    "text":"I have created a device that I will call the §lHearth Coil§r. I simply supply it with ember, and drop items on the top. The items will then be smelted and put into the mechanical core.",
+                    "recipes": ["thaumcraft:hearthCoil"]
+                }
+            ],
+                "addenda": [    
+                {
+                    "text": "Ash turned out to be a good insulator. I whipped up a simple design, simply called §lHeat Insulation§r to be wrapped around the hearth coil. I simply place it on the side of the hearth coil, with the nickel plate facing away. Each insulation piece will dramatically increase both the cooldown time and maximum heat of the hearth coil.", 
+                    "required_research":["CINDERPLINTH"]
+                }
+            ]
+        },
+        {
+        "key": "CRYSTALCELL",    
+        "name": "Mass Ember Storage",
+        "icons": ["embers:crystal_cell"],
+        "category": "ARTIFICEEXPANSION", "location": [ 18,-11 ], 
+        "parents": [ "DAWNSTONE", "COPPERCELL"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Now that I have dawnstone, perhaps I can upgrade my copper cell.",
+                    "required_item":["embers:ingot_dawnstone", "embers:copper_cell"]
+                },
+                {
+                    "text":"I have created a device that I will call the §lCrystal Cell§r. This device can store and emit ember through the bottom. <BR>To increase the cell's capacity, I can feed it crystallized ember through this slot. I can obtain this ember in the shop. <PAGE>This cell can be miles better than the copper one, with a fully upgraded one being able to hold around a million ember.",
+                    "recipes": ["thaumcraft:crystalCell"]
+                }
+            ]
+        },
+        {
+        "key": "ADVANCEDEMBERTRANSFER",    
+        "name": "Advanced Ember Transfer",
+        "icons": ["embers:ember_funnel", "embers:ember_pulser"],
+        "category": "ARTIFICEEXPANSION", "location": [ 17,-10 ], 
+        "parents": [ "DAWNSTONE", "EMBERTRANSFER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Now that I have dawnstone, perhaps I can upgrade my ember transferring devices.",
+                    "required_item":["embers:ingot_dawnstone", "embers:ember_receiver", "embers:ember_emitter"]
+                },
+                {
+                    "text":"I have created upgrades to the ember emitter and receptor, called the §lEmber Ejector§r and the §lEmber Funnel§r respectively. <BR>They serve the same purpose as those devices, but are able to transfer much more ember per fireball.",
+                    "recipes": ["thaumcraft:emberEjector","thaumcraft:emberFunnel"]
+                }
+            ]
+        },
+        {
+        "key": "BEAMSPLITTER",    
+        "name": "Beam Splitter",
+        "icons": ["embers:beam_splitter"],
+        "category": "ARTIFICEEXPANSION", "location": [ 17,-2 ], 
+        "parents": [ "EMBERTRANSFER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "When transferring ember, I have noticed that each emitter/ejector can only transfer ember to just one machine. I would like to change that.",
+                    "required_item":["embers:ingot_dawnstone", "embers:ember_receiver", "embers:ember_emitter"]
+                },
+                {
+                    "text":"I have created a device that splits ember beams, aptly called the §lBeam Splitter§r. <BR>Ember is fed into the small ports, and is emitted through the large ports. Each port can be bound independently.",
+                    "recipes": ["thaumcraft:beamSplitter"]
+                }
+            ]
+        },
+        {
+        "key": "MANTLECONTAINERS",    
+        "name": "Mantle Containers",
+        "icons": ["embers:ember_cartridge", "embers:ember_jar", "embers:charger"],
+        "category": "ARTIFICEEXPANSION", "location": [ 18,-14 ], 
+        "parents": [ "CLOCKWORKTOOLS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Everything in life comes with a catch. <BR> Although my tools are unbreakable, they do require ember as fuel. <BR>I have designed two basic containers, the §lMantle Jar§r and the §lMantle Cartridge§r. Their purpose is to simply store ember for my tools. <BR> The mantle jar can be placed anywhere in my inventory. The mantle cartridge holds much more ember, but must be held in my offhand for my tools to work. <BR>To fill these containers, I have created a simple device called the §lCopper Charger§r. I simply give it ember, and then place the container inside."
+                }
+            ]
+        },
+        {
+        "key": "CLOCKWORKTOOLS",    
+        "name": "Clockwork Tools",
+        "icons": ["embers:staff_ember", "embers:ignition_cannon", "embers:pickaxe_clockwork", "embers:axe_clockwork"],
+        "category": "ARTIFICEEXPANSION", "location": [ 20,-14 ], 
+        "parents": [ "DAWNSTONE"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Through building machinery, I have realized that dawnstone is nearly indestructible. I could use it to create some of the most durable tools the world has ever seen.",
+                    "required_knowledge":["THEORY;ARTIFICE;2"]
+                },
+                {
+                    "text": "I have created a set of unbreakable tools, which I will dub the §lClockwork Tools§r. <PAGE>CLOCKWORK PICKAXE<DIV> This pickaxe also doubles as a shovel. <BR>It is also a weapon, so it can receive both tool and weapon enchantments. <PAGE>CLOCKWORK BATTLEAXE<DIV>The axe of the toolset. Also does a decent amount of damage. <BR>It can also be enchanted with both tool and weapon enchantments. <PAGE>GRANDHAMMER<DIV>The melee weapon of the toolset. A nice change of pace from a sword, and it does a healthy 11 damage. <BR>This weapon also functions as a pickaxe and shovel, but it will not drop any blocks when mining. <BR> It can also accept both weapon and tool enchantments, except fortune and silk touch. <PAGE>CINDER STAFF <DIV>This staff can charge up and cast ember projectiles, with the largest one dealing almost enough damage to kill a typical monster.",
+                    "recipes": ["thaumcraft:axeClockwork","thaumcraft:pickaxeClockwork","thaumcraft:grandhammer","thaumcraft:cinderStaff","thaumcraft:blazingRay"]
+                }
+            ]
+        },
+        {
+        "key": "EXCHANGETABLET",    
+        "name": "Exchange Tablet",
+        "icons": ["embers:alchemy_tablet"],
+        "category": "ARTIFICEEXPANSION", "location": [ 20,-7 ], 
+        "parents": [ "EMBERSASH"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I need a way to control what the ash will create.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text": "Eureka! I have created the §lExchange Tablet§r. I can put 5 things on top of the tablet. The slot an item will go into on the tablet depends on which side of the tablet I right click on. <BR>This tablet will be the thing I activate with ember.",
+                    "recipes": ["thaumcraft:exchangeTablet"]
+                }
+            ]
+        },
+        {
+        "key": "BEAMCANNON",    
+        "name": "Beam Cannon",
+        "icons": ["embers:beam_cannon"],
+        "category": "ARTIFICEEXPANSION", "location": [ 22,-9 ], 
+        "parents": [ "EMBERSASH"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I need a way to activate the ashes.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text": "I've done it. I have created a device that I will call the §lBeam Cannon§r. This device will activate the ashes and begin the process. <BR>To point the beam cannon, I set my wand of linking to 'tinker hammer', sneak right click my desired destination block (presumably the surface in which I activate the exchange), then right click the beam cannon. <BR>I then simply charge it with ember, and then apply a redstone signal to activate the alchemical exchange.",
+                    "recipes": ["thaumcraft:beamCannon"]
+                }
+            ]
+        },
+        {
+        "key": "CINDERPLINTH",    
+        "name": "Cinder Plinth",
+        "icons": ["embers:cinder_plinth"],
+        "category": "ARTIFICEEXPANSION", "location": [ 20,-12 ], 
+        "parents": [ "DAWNSTONE"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I seem to have come to an impass in my research. I have harnessed ember, created lots of useful machinery with it, and created dawnstone. <BR> But I cannot shake the feeling that there is more. I just don't know what. <BR>What I do know is that If I just throw things at the wall, something might stick. <BR>I have created a device I will call the §lCinder Plinth§r. It's purpose? Get really, really, really hot. I'll then set something in it and just... see what happens."
+                }
+            ]
+        },
+        {
+            "key": "EMBERSASH",    
+            "name": "Ashes",
+            "icons": ["embers:dust_ash"],
+            "category": "ARTIFICEEXPANSION", "location": [ 20,-10 ], 
+            "parents": [ "!AshPile", "CINDERPLINTH" ],        
+            "meta": ["ROUND", "HIDDEN"],        
+            "stages": [
+                    {
+                        "text": "It just yielded ash. <BR>What's strange, however, is that I get this same substance no matter what I put in the Cinder Plinth. <BR>It stands to reason that if anything can turn into ash, then ash can turn into anything. This warrants further study...",
+                        "required_knowledge":["THEORY;ARTIFICE;2"]
+                    },
+                    {
+                        "text": "It just yielded ash. <BR>What's strange, however, is that I get this same substance no matter what I put in the Cinder Plinth. <BR>It stands to reason that if anything can turn into ash, then ash can turn into anything. This warrants further study... <PAGE>I've done it, I think I might be onto something with this. The next few entries will detail the pieces I need to perform what I will call §lAshen Alchemy§r: The process of turning ash into other items."
+                    }
+                ]
+        },
+        {
+        "key": "ASHENAMULET",    
+        "name": "Ashen Amulet",
+        "icons": ["embers:ashen_amulet"],
+        "category": "ARTIFICEEXPANSION", "location": [ 19,-8 ], 
+        "parents": [ "EMBERSASH"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created an amulet that will allow me to turn any creature to ash if I kill them."
+                }
+            ]
+        },
+        {
+        "key": "ALCHEMYPEDESTAL",    
+        "name": "Alchemy Pedestal",
+        "icons": ["embers:alchemy_pedestal"],
+        "category": "ARTIFICEEXPANSION", "location": [ 20,-5 ], 
+        "parents": [ "EXCHANGETABLET"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Now that I have ash, I need a device that can transfer the ash into the exchange tablet. ",
+                    "required_knowledge":["OBSERVATION;ARTIFICE;1"]
+                },
+                {
+                    "text": "I have created a simple pedestal for storing ash. I simply need to have it placed near the exchange tablet, both vertically and horizontally. <BR>From there, I need to fill it up with ash (right click the pedestal with ash).",
+                    "recipes": ["thaumcraft:alchemyPedestal"]
+                }
+            ]
+        },
+        {
+        "key": "METALASPECTI",    
+        "name": "Metal Aspecti",
+        "icons": ["embers:aspectus_dawnstone", "embers:aspectus_silver", "embers:aspectus_lead", "embers:aspectus_copper", "embers:aspectus_iron"],
+        "category": "ARTIFICEEXPANSION", "location": [ 22,-5 ], 
+        "parents": [ "ALCHEMYPEDESTAL"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Simply throwing ember at some piles of ash will probably yield nothing. I need a way to dictate what traits the ash will have; a way to define what the ash is for.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text": "I have created a simple trinket called an §lAspectus§r. The aspectus is placed in a pedestal along with the ash, which will attune the ash to the aspect of essentia that the aspectus contains. I simply need six, one for each of the primal aspects. With this, I should be able to recreate any substance.",
+                    "recipes": ["thaumcraft:alchemyPedestal","thaumcraft:aeraspectus","thaumcraft:ignisaspectus","thaumcraft:perditioaspectus","thaumcraft:ordoaspectus","thaumcraft:aquaaspectus","thaumcraft:terraaspectus"]
+                }
+            ]
+        },
+        {
+        "key": "EMBERSALCHEMY",    
+        "name": "Performing Ashen Alchemy",
+        "icons": ["minecraft:potion"],
+        "category": "ARTIFICEEXPANSION", "location": [ 22,-7 ], 
+        "parents": [ "METALASPECTI", "BEAMCANNON", "EXCHANGETABLET"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Okay, I have all the pieces in place. It's now to time to begin the procedure. <BR>First, I need to place the aspecti that I need on the pedestals. For each aspecti, two numbers are given: a minimum amount of ash, and a maximum. I will take a guess at how much ash I need. \n \n Second, I place the ingredients on the exchange tablet as shown on the recipe. \n \n Third, I fire the beam cannon. \n \n What will most likely happen is I will get alchemical waste. Mousing over it will tell me how much ash I was off by for each aspectus."
+                }
+            ]
+        },
+        {
+        "key": "DAWNSTONEANVIL",    
+        "name": "Dawnstone Anvil",
+        "icons": ["embers:dawnstone_anvil"],
+        "category": "ARTIFICEEXPANSION", "location": [ 16,-15 ], 
+        "parents": [ "DAWNSTONE"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Using dawnstone, I created a simple replacement for a standard iron anvil. This anvil is indestrubtible. \n \n Usage is a bit different. I first place the tool on the anvil, then place the repair material on top of it. I then give it a handful of whacks with my hammer, and the tool shall eventually be repaired. I cannot apply enchanted books with this anvil."
+                }
+            ]
+        },
+        {
+        "key": "AUTOHAMMER",    
+        "name": "Automatic Hammer",
+        "icons": ["embers:auto_hammer"],
+        "category": "ARTIFICEEXPANSION", "location": [ 16,-17 ], 
+        "parents": [ "DAWNSTONEANVIL"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Using simple mechanisms I have designed an automatic hammer. This acts as an automated alternative to using the tinker hammer on the dawnstone anvil. <BR>To work, it needs a supply of ember, and a redstone signal to activate it. <BR>It may take a few seconds for the hammer to activate."
+                }
+            ]
+        },
+        {
+        "key": "CATALYTICPLUG",    
+        "name": "Catalytic Plug",
+        "icons": ["embers:catalytic_plug"],
+        "category": "ARTIFICEEXPANSION", "location": [ 32,-9 ], 
+        "parents": [ "EMBERSALCHEMY"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created a device called the catalytic plug, which should be placed next to a machine. When supplied with alchemical slurry, the plug will double the speed of the machine it is attached to. <BR>I can attach up to two plugs to a machine, for quadruple speed."
+                }
+            ]
+        },
+        {
+        "key": "ASHENCLOTH",    
+        "name": "Ashen Robes",
+        "icons": ["embers:ashen_cloth"],
+        "category": "ARTIFICEEXPANSION", "location": [ 26,-5 ], 
+        "parents": [ "EMBERSALCHEMY"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created a very strong fabric which I will call ashen fabric. I can make armor out of this that is just as strong as others, but much lighter. Finally, some breathing room when I'm travelling!"
+                }
+            ]
+        },
+        {
+        "key": "INFLICTORGEMS",    
+        "name": "Inflictor Gems",
+        "icons": ["embers:inflictor_gem"],
+        "category": "ARTIFICEEXPANSION", "location": [ 26,-3 ], 
+        "parents": [ "ASHENCLOTH"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created the inflictor gem, which will grant me reduced damage from certain damage sources. If I hold it in my hand and then take the type of damage I want to reduce, it will attune the gem to reduce that type of damage. <BR>Then, I can sew the gem into an ashen cloak, by putting the gem, the cloak, and a piece of string in the crafting grid. I can sew in up to 7 gems. <BR>The gems can be removed by placing the cloak in a crafting grid by itself."
+                }
+            ]
+        },
+        {
+        "key": "ISOLATEDMATERIA",    
+        "name": "Isolated Materia",
+        "icons": ["embers:isolated_materia"],
+        "category": "ARTIFICEEXPANSION", "location": [ 28,-5 ], 
+        "parents": [ "EMBERSALCHEMY"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created what I will call Isolated Materia. This material can repair any tool when used on the dawnstone anvil."
+                }
+            ]
+        },
+        {
+        "key": "ITEMREQUISITION",    
+        "name": "Item Requisition",
+        "icons": ["embers:item_request"],
+        "category": "ARTIFICEEXPANSION", "location": [ 30,-9 ], 
+        "parents": [ "EMBERSALCHEMY"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created an item requisition which acts as an advanced filter for items. <BR>I place the item requisition on a destination inventory. I then right click it with an item I want it to request. The amount of the item I click with changes the amount it will request. <BR>I then place some pipes from the requisition to a source inventory. <BR>Lastly, I link the source inventory to the requisition by setting my linking wand to tinker hammer, sneak right clicking the item extractor of the source inventory, then right clicking the item requisition. <BR>If done correctly, the item requisition will automatically pull items from that inventory as needed. <BR>I should NOT give the item extractor a redstone signal if it leads to an item requisition."
+                }
+            ]
+        },
+        {
+        "key": "CRYTSTALCLUSTER",    
+        "name": "Ember Crystal Clusters",
+        "icons": ["embers:ember_cluster"],
+        "category": "ARTIFICEEXPANSION", "location": [ 24,-1 ], 
+        "parents": [ "EMBERSALCHEMY"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created the ember crystal cluster, which should produce a lot more ember than my current solutions."
+                }
+            ]
+        },
+        {
+        "key": "EMBERJEWELRY",    
+        "name": "Ember Jewelry",
+        "icons": ["embers:ember_belt", "embers:ember_ring", "embers:ember_amulet"],
+        "category": "ARTIFICEEXPANSION", "location": [ 26,1 ], 
+        "parents": [ "CRYTSTALCLUSTER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created a design for several pieces of jewelry: the ember belt, the ember ring, and the ember amulet. When worn, they will each reduce the cost of using ember tools."
+                }
+            ]
+        },
+        {
+        "key": "EXPLOSIONCHARM",    
+        "name": "Explosion Charm",
+        "icons": ["embers:explosion_charm"],
+        "category": "ARTIFICEEXPANSION", "location": [ 24, 1 ], 
+        "parents": [ "CRYTSTALCLUSTER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created a device that, when worn, will suppress any explosions in the vicinity. I can also use an alchemy pedestal to convert it to an §lExplosion Charm Pedestal§r, which will block explosions that occur near the pedestal."
+                }
+            ]
+        },
+        {
+        "key": "EMBERSPREADBURST",    
+        "name": "Ember Spread Burst",
+        "icons": ["soot:ember_burst"],
+        "category": "ARTIFICEEXPANSION", "location": [ 22,-3 ], 
+        "parents": [ "BEAMSPLITTER", "CRYTSTALCLUSTER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created the spread burst, which splits ember into many more directions than the beam splitter."
+                }
+            ]
+        },
+        {
+        "key": "GLIMMERSHARD",    
+        "name": "Glimmer Crystal",
+        "icons": ["embers:glimmer_shard"],
+        "category": "ARTIFICEEXPANSION", "location": [ 30,-5 ], 
+        "parents": [ "EMBERSALCHEMY"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created an item called the glimmer crystal. When I right click, the crystal will drop a powerful light source."
+                }
+            ]
+        },
+        {
+        "key": "GLIMMERLAMP",    
+        "name": "Glimmer Lamp",
+        "icons": ["embers:glimmer_lamp"],
+        "category": "ARTIFICEEXPANSION", "location": [ 30,-3 ], 
+        "parents": [ "GLIMMERSHARD"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created a refined version of the glimmer crystal called the glimmer lamp. I can now throw light sources, as well as hold an increased amount of light."
+                }
+            ]
+        },
+        {
+        "key": "CRYSTALSEEDS",    
+        "name": "Growing Metals",
+        "icons": ["embers:seed_tin", "embers:seed_nickel", "embers:seed_aluminum", "embers:seed_dawnstone", "embers:seed_lead", "embers:seed_silver", "embers:seed_copper", "embers:seed_gold", "embers:seed_iron"],
+        "category": "ARTIFICEEXPANSION", "location": [ 36,-11 ], 
+        "parents": [ "EMBERSALCHEMY"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "When fed with ember, these seeds will occasionally shed metal of their type. If I keep feeding it with ember, It will get more pure over time, allowing it to shed even more metal. There's just one problem. I'm not sure how to feed them with ember!"
+                }
+            ]
+        },
+        {
+        "key": "EMBERINJECTOR",    
+        "name": "Ember Injector",
+        "icons": ["embers:ember_injector"],
+        "category": "ARTIFICEEXPANSION", "location": [ 31,-11 ], 
+        "parents": [ "WILDFIRECORE", "CRYSTALSEEDS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I need a way to feed ember to my metallic crystals.",
+                    "required_knowledge":["THEORY;ARTIFICE;2"]
+                },
+                {
+                    "text": "I have created a device that feeds my crystals, called the §lEmber Injector§r. I simply need to have it face the crystal, and then provide ember to the device. The device will then feed the crystal with ember.",
+                    "recipes": ["thaumcraft:emberInjector"]
+                }
+            ]
+        },
+        {
+        "key": "METALLURGICDUST",    
+        "name": "Metallurgic Dust",
+        "icons": ["embers:dust_metallurgic"],
+        "category": "ARTIFICEEXPANSION", "location": [ 36,-13 ], 
+        "parents": [ "CRYSTALSEEDS"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "When used on an ore, this dust will transmute it into another ore. It also has a chance to simply return stone, so I should use it sparingly."
+                }
+            ]
+        },
+        {
+        "key": "ASHSCALES",    
+        "name": "Scales",
+        "icons": ["soot:scale"],
+        "category": "ARTIFICEEXPANSION", "location": [ 4,-4 ], 
+        "parents": [ "CAMINITE"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created a simple scale that utilizes redstone. <BR>I first must attach two containers to the top half of the scale. <BR>Then, the bottom will emit a signal counterclockwise to the container with more ash, or both sides if they are equal."
+                }
+            ]
+        },
+        {
+        "key": "EMBERHEDGEALCHEMY",    
+        "name": "Embers Hedge Alchemy",
+        "icons": ["embers:ancient_motive_core", "embers:archaic_brick", "embers:adhesive"],
+        "category": "ARTIFICEEXPANSION", "location": [ 34,-9 ], 
+        "parents": [ "EMBERSALCHEMY"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Through embers alchemy, I have managed to create a substitue for slime, which I will call §lAdhesive§r, as well as artificially recreate the materials dropped from golems."
+                }
+            ]
+        },
+        {
+        "key": "RECOMBULATOR",    
+        "name": "Transmutation with Embers",
+        "icons": ["soot:alchemy_globe"],
+        "category": "ARTIFICEEXPANSION", "location": [ 32,-5 ], 
+        "parents": [ "EMBERSALCHEMY"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created a device which I will call the §lAlchemical Recombulator§r. \n \nFirst I must place it on the top half of a mixer centrifuge. As per usual, input liquids get piped into the bottom, and output liquids get piped out of the top. \n \nThen, I place pedestals near the device such that either block of the pedestal is at the same height as the device. I then fill the pedestals with ash and aspecti as per usual. <BR>Then, I right click the device to begin the process. <BR>(recipes for this can be viewed in JEI via the mixer centrifuge, under the 'Alchemical Mixer Recipe' tab)"
+                }
+            ]
+        },
+        {
+        "key": "ANTIMONY",    
+        "name": "Antimony",
+        "icons": ["soot:ingot_antimony"],
+        "category": "ARTIFICEEXPANSION", "location": [ 32,-3 ], 
+        "parents": [ "RECOMBULATOR"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Through the Alchemical Recombulator, I have created a metal called §lAntimony§r. It has two uses. <BR>SIGNET OF ANTIMONY <DIV>This can be substituted for emeralds when trading with villagers. <BR>EITR<DIV>When striking an enemy, half the damage will be converted into durability damage towards the enemy's armor."
+                }
+            ]
+        },
+        {
+        "key": "FIELDCHART",    
+        "name": "Field Chart",
+        "icons": ["embers:field_chart"],
+        "category": "ARTIFICEEXPANSION", "location": [ 22,1 ], 
+        "parents": [ "CRYTSTALCLUSTER"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "My thaumic dioptra is great at measuring vis and flux in the aura. Perhaps I can tune it to other energies.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"],
+                    "required_item":["thaumcraft:dioptra"]
+                },
+                {
+                    "text": "By infusing the thaumic dioptra with an ember crystal cluster, I have created what I will call the field chart. This device can measure ember in the nearby area.",
+                    "recipes": ["thaumcraft:fieldChart"]
+                }
+            ]
+        },
+        {
+        "key": "WILDFIRECORE",    
+        "name": "Wildfire Core",
+        "icons": ["embers:wildfire_core"],
+        "category": "ARTIFICEEXPANSION", "location": [ 24,-11 ], 
+        "parents": [ "EMBERSALCHEMY"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The wildfire core is a high tier ingredient in many items in emberturgy."
+                }
+            ]
+        },
+        {
+        "key": "IGNEMREACTOR",    
+        "name": "Endgame Ember Production",
+        "icons": ["embers:reactor"],
+        "category": "ARTIFICEEXPANSION", "location": [ 26,-9 ], 
+        "parents": [ "WILDFIRECORE"],        
+        "meta": ["ROUND"],        
+        "stages": [ 
+                {
+                    "text": "My machines have grown too numerous. I will need a new ember producing device to sustain them all.",
+                    "required_craft": ["embers:combustor", "embers:catalyzer"],
+                    "required_knowledge":["THEORY;ARTIFICE;2"]
+                },
+                {
+                    "text": "I have created a device I will call the §lIgnem Reactor§r. <BR>I must attach the §lCombustion Chamber§r and the §lCatalyzation Chamber§r to it, such that the ignem reactor is adjacent to the top half of both chambers. <BR>From least to most powerful, the Combustion Chamber takes coal, nether brick, or blaze powder. <PAGE>From least to most powerful, the Catalysis Chamber takes redstone dust, gunpowder, or glowstone dust. <BR>The more powerful items you use, the more ember you will produce. You cannot pair a least and most powerful item. <BR>The Reactor itself takes crystalline ember. When all three chambers have their required items, the reactor will activate. <PAGE>Not even ember ejectors and funnels can keep up with the reactor. To solve this, I have designed the §lVolatile Ember Conduit§r. This conduit can attach to reactors and crystal cells. To get ember to flow, I provide a redstone signal to the source conduit. <BR>If two ember packets collide, the conduit will explode, so I need to keep the ember going somewhere. It might be a good idea to send it to machines that constantly need ember, such as the hearth coil.",
+                    "recipes": ["thaumcraft:ignemReactor"]
+                }
+            ]
+        },
+        {
+        "key": "INFERNOFORGE",    
+        "name": "Ignem Enchanting",
+        "icons": ["embers:inferno_forge"],
+        "category": "ARTIFICEEXPANSION", "location": [ 24,-15 ], 
+        "parents": [ "WILDFIRECORE", "DAWNSTONEANVIL"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "With the help of some of the best bibliomancers, I have gained the ability to enchant with Ember, through a device I will call the §lInferno Forge§r. <PAGE>Step 1<DIV> The first step of enchanting is to imbue an enchantable item (Weapon, tool, armor piece) with an ancient motive core with the dawnstone anvil. <BR>This will attune the piece of armor to ember energy (gaining a heat bar in the tooltip). <BR>You only do this step once. <PAGE>Step 2<DIV>Using this item for its intended purpose will increase the meter, and it will play a chime when its meter is full. <BR>Once the item's heat meter is full, place the item and around 16 ember crystals in the top hatch of the Inferno Forge, then close the hatch. <BR>If the craft is successful, the ember will apply to the item to increase its max level by 1. <BR>With each level, you can apply one new augment. You can apply up to 5. <PAGE>Step 3<DIV> The last step is to apply the augment you want. <BR>Simply craft the augment you like and apply it to the item via the Dawnstone Anvil. <BR>The strength of some augments increases if you apply them multiple times.<BR>The augments are described in the adjacent entries."
+                }
+            ]
+        },
+        {
+        "key": "RAYAUGMENTS",    
+        "name": "Projectile Augments",
+        "icons": ["soot:witch_fire", "embers:focal_lens", "embers:diffraction_barrel"],
+        "category": "ARTIFICEEXPANSION", "location": [ 28,-17 ], 
+        "parents": [ "INFERNOFORGE"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "BELTAINE BRAZIER<DIV>Gives ember projectiles a special burning effect, which prevents healing. <BR>FOCAL LENS<DIV> When put on a weapon that shoots ember packets, they will become homing. When put on a ray-emitting weapon, the ray becomes piercing. <BR>DIFFRACTION BARREL<DIV>Turns the weapon into a shotgun."
+                }
+            ]
+        },
+        {
+        "key": "ARMORAUGMENTS",    
+        "name": "Armor Augments",
+        "icons": ["embers:shifting_scales", "embers:tinker_lens", "embers:flame_barrier", "embers:jet_augment", "embers:intelligent_apparatus", "embers:eldritch_insignia", "embers:winding_gears", "embers:blasting_core"],
+        "category": "ARTIFICEEXPANSION", "location": [ 26,-17 ], 
+        "parents": [ "INFERNOFORGE"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "SCALES<DIV>Grants extra health. Regenerates when standing still<BR>TINKER LENS<DIV> Benefits of the lens without having to hold it. Applies to helmets.<BR>FLAME BARRIER<DIV> Enemies that hit you will be engulfed in flames.<BR>CINDER JET<DIV> When initiating a sprint, the jet will push you forward.<BR>INTELLIGENT APPARATUS<DIV>Boosts xp when killing creatures<BR>ELDRITCH INSIGNIA<DIV>Certain creatures will become afraid of you.<BR>WINDING GEARS<DIV>Applied to boots, but you must also augment a tool with this. Wind up the gears with the tool by right clicking. You will then absorb fall damage and jump farther when sprinting."
+                }
+            ]
+        },
+        {
+        "key": "TOOLAUGMENTS",    
+        "name": "Tool Augments",
+        "icons": ["embers:superheater", "embers:caster_orb", "embers:resonating_bell", "soot:mundane_stone", "embers:winding_gears", "embers:blasting_core"],
+        "category": "ARTIFICEEXPANSION", "location": [ 24,-17 ], 
+        "parents": [ "INFERNOFORGE"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "SUPERHEATER<DIV>Automatically smelt mined ores. Fire Aspect.<BR>CASTER ORB<DIV>When a tool with this augment is swung, the tool will shoot an ember projectile.<BR>RESONATING BELL<DIV>Right click on a block to view other blocks of the same type nearby.<PAGE>MUNDANE STONE<DIV>Tools that aren't meant to be weapons now deal as much damage as the weapon of the same type.<BR>WINDING GEARS<DIV>Wind the tool up, and release to have the tool swing itself at maxmimum speed."
+                }
+            ]
+        },
+        {
+        "key": "STIRLING",    
+        "name": "Wildfire Stirling",
+        "icons": ["embers:stirling"],
+        "category": "ARTIFICEEXPANSION", "location": [ 28,-9 ], 
+        "parents": [ "WILDFIRECORE"],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have created a device which I will call the wildfire stirling. When attached to another machine, the stirling will reduce its ember cost by half. Two stirlings will reduce the cost by half again."
+                }
+            ]
+        }
+    ]
+}
+

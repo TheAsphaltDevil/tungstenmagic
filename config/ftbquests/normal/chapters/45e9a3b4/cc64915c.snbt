@@ -1,0 +1,23 @@
+{
+	x: 5.5d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "7e0c189d",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_ice_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "313019e0",
+		type: "item",
+		item: "treasure2:gold_coin"
+	},
+	{
+		uid: "9f523d71",
+		type: "item",
+		item: "treasure2:silver_coin",
+		count: 6
+	}]
+}

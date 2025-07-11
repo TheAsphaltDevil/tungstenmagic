@@ -1,0 +1,28 @@
+{
+	x: -6.5d,
+	y: -6.5d,
+	description: "What to write...",
+	text: [
+		"Apparently, the senior year exam is to complete your own thesis on some area of magic.",
+		"",
+		"To be perfectly honest, I'm not sure what to study, but I have noticed that the following things tend to be quite insightful:",
+		"=====",
+		"",
+		"-Scanning beings and items with the thaumometer can often provide insight unattainable otherwise.",
+		"",
+		"-Though it unfortunately brings a bit of shame, making mistakes can often be more fruitful than succeeding.",
+		"",
+		"=====",
+		"",
+		"Good ideas tend to come naturally to me if I wait and experiment long enough, so I should remember these things and routinely practice them as diligently as I possibly can. My efforts should be rewarded at some point..."
+	],
+	dependencies: [
+		"14c2c189"
+	],
+	hide: true,
+	tasks: [{
+		uid: "adbc476c",
+		type: "checkmark",
+		title: "Personal Findings"
+	}]
+}

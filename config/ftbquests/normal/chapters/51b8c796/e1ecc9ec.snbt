@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 8.5d,
+	tasks: [{
+		uid: "55122214",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_arcane_frost"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

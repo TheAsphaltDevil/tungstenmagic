@@ -1,0 +1,12 @@
+{
+	icon: "minecraft:stained_glass_pane 1 8",
+	x: 0.5d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "891bed54",
+		type: "checkmark",
+		title: "A"
+	}]
+}

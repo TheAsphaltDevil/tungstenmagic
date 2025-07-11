@@ -1,0 +1,14 @@
+{
+	title: "A: Left",
+	icon: "minecraft:stained_glass_pane 1 8",
+	x: -6.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "bcd3a3c4",
+		type: "checkmark",
+		title: "A: LEFT"
+	}]
+}

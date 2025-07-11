@@ -1,0 +1,20 @@
+{
+	title: "O: Tinkers Chestplate",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:iron_chestplate"
+	},
+	x: 8.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "c7f50bc1",
+		type: "checkmark"
+	}]
+}

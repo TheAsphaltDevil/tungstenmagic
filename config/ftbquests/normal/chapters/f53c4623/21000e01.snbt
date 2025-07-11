@@ -1,0 +1,30 @@
+{
+	title: "Junior Gifts",
+	icon: "ebwizardry:spell_book 1 37",
+	x: 5.5d,
+	y: -12.0d,
+	description: "An Eternal Companion",
+	text: [
+		"A beast tamer of all people knows the pain of losing a pet.",
+		"",
+		"With this spell, you shall never again feel it.",
+		"",
+		"A flick of the wrist will bring forth a wolf that never dies. If they take damage or get lost, you can simply resummon them.",
+		"",
+		"---",
+		"Till death do us nothing."
+	],
+	dependencies: [
+		"21c91886"
+	],
+	tasks: [{
+		uid: "897c2838",
+		type: "gamestage",
+		stage: "ardeJunior"
+	}],
+	rewards: [{
+		uid: "b806af1a",
+		type: "item",
+		item: "ebwizardry:spell_book 1 37"
+	}]
+}

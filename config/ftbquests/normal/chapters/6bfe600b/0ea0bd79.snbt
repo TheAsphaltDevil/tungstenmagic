@@ -1,0 +1,15 @@
+{
+	title: "X: Spell 6, Spell cycle reverse, Misc Caster Toggle",
+	icon: "ebwizardry:spell_book 1 17",
+	x: -10.5d,
+	y: 2.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f418b7cb",
+		type: "checkmark",
+		title: "Spell 6"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -7.5d,
+	y: 15.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "39b8e679",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicperiphery:magic_quiver"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

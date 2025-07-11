@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: -0.5d,
+	dependencies: [
+		"f9be3a64"
+	],
+	tasks: [{
+		uid: "e00b6bb7",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}],
+		count: 3L
+	},
+	{
+		uid: "d7f68629",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}],
+		count: 4L
+	}]
+}

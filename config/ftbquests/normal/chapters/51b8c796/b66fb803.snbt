@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: 7.5d,
+	shape: "gear",
+	tasks: [{
+		uid: "56ee4da3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:explosion_charm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

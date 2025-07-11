@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: -9.5d,
+	dependencies: [
+		"ddd22570"
+	],
+	tasks: [{
+		uid: "1b9d2400",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 1"
+		}]
+	}]
+}

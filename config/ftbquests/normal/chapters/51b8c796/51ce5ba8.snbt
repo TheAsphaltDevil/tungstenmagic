@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 14.5d,
+	tasks: [{
+		uid: "76f86b29",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:amulet_absorption"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

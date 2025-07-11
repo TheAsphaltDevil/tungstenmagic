@@ -1,0 +1,71 @@
+{
+	title: "Iridescent Altar",
+	x: 12.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "b852e1d7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "91b6e65e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Iridescent Altar",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 826,
+					Y: 16,
+					Z: 83
+				},
+				itemcountmap: [{
+					item: 8068,
+					meta: 0,
+					count: 49
+				},
+				{
+					item: 8067,
+					meta: 6,
+					count: 4
+				},
+				{
+					item: 8067,
+					meta: 4,
+					count: 4
+				},
+				{
+					item: 8067,
+					meta: 2,
+					count: 8
+				},
+				{
+					item: 8067,
+					meta: 1,
+					count: 68
+				},
+				{
+					item: 8067,
+					meta: 0,
+					count: 12
+				}],
+				endPos: {
+					X: 816,
+					Y: 11,
+					Z: 93
+				}
+			}
+		}
+	}]
+}

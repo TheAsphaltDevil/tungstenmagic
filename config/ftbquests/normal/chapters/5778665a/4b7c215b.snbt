@@ -1,0 +1,31 @@
+{
+	title: "Shadow Tycoon",
+	icon: "thaumcraft:seal 1 12",
+	x: -6.5d,
+	y: -8.5d,
+	description: "Infusion",
+	text: [
+		"Between the veils of realities lies abominations incomprehensible to us in the same way that we are incomprehensible to lowly grubs. But you. You rose up against the odds, comprehending the incomprehensible, spitting in the ever-morphing faces of the old ones, all to serve the one true, penultimate meaning of life:",
+		"",
+		"Money.",
+		"---",
+		"",
+		"Construct machinery such that it can passively produce void metal ingots.",
+		"",
+		"Passive meaning the machinery can theoretically produce ingots forever."
+	],
+	hide: true,
+	tasks: [{
+		uid: "694a6289",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}],
+		count: 405L
+	},
+	{
+		uid: "7cab3f9f",
+		type: "checkmark",
+		title: "Passive Voidmetal Production"
+	}]
+}

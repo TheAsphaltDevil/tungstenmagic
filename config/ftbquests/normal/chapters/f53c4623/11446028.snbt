@@ -1,0 +1,28 @@
+{
+	title: "Freshman Gifts",
+	icon: "ebwizardry:spell_book 1 44",
+	x: 2.0d,
+	y: -5.5d,
+	description: "Shield Bubble",
+	text: [
+		"Combat these days is carried out through slinging spells at each other, and nothing says defense like a spell that negates all of it.",
+		"",
+		"Cast this to summon a shield bubble that will deflect most projectiles and enemies for quite a long time.",
+		"",
+		"---",
+		"You shall not pass."
+	],
+	dependencies: [
+		"c736431f"
+	],
+	tasks: [{
+		uid: "46f56306",
+		type: "gamestage",
+		stage: "frigidusFreshman"
+	}],
+	rewards: [{
+		uid: "5dbf6472",
+		type: "item",
+		item: "ebwizardry:spell_book 1 88"
+	}]
+}

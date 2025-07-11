@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "95060e46",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_mana_return"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

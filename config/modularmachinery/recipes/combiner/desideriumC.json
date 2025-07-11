@@ -1,0 +1,25 @@
+{
+    "machine": "combiner",
+    "registryName": "desideriumC",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "vacuos",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "spiritus",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "desiderium",
+            "amount": 2
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+	title: "Starter Kit: Bibliomancy",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ebwizardry:wizard_handbook"
+	},
+	disable_toast: true,
+	x: 24.0d,
+	y: 3.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "755f3742",
+		type: "item",
+		items: [{
+			item: "treasure2:gold_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "e622fbd8",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "lux"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 8
+	},
+	{
+		uid: "a36f6fbb",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "praecantatio"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 8
+	},
+	{
+		uid: "e43d1dfb",
+		type: "item",
+		item: "minecraft:dye 1 4",
+		count: 64
+	},
+	{
+		uid: "161d8e89",
+		type: "item",
+		item: "minecraft:dye",
+		count: 64
+	},
+	{
+		uid: "fa944250",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "bibliocraft:bigbook"
+		}
+	},
+	{
+		uid: "97df746b",
+		type: "item",
+		item: "minecraft:reeds",
+		count: 3
+	}]
+}

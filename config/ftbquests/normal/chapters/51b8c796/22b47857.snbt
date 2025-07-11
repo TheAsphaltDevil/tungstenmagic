@@ -1,0 +1,12 @@
+{
+	x: 4.5d,
+	y: -2.5d,
+	shape: "heart",
+	tasks: [{
+		uid: "c656b8cf",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 4"
+		}]
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "Alfheim Portal",
+	x: 11.0d,
+	y: 5.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "2d11a6c1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "ad858f71",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Alfheim Portal",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 782,
+					Y: 24,
+					Z: 125
+				},
+				itemcountmap: [{
+					item: 5892,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 5892,
+					meta: 5,
+					count: 3
+				}],
+				endPos: {
+					X: 786,
+					Y: 20,
+					Z: 125
+				}
+			}
+		}
+	}]
+}

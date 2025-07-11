@@ -1,0 +1,144 @@
+{
+	title: "Wand of Linking",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemlinkingtool"
+	},
+	x: 14.5d,
+	y: -4.5d,
+	description: "Channel various energies from place to place.",
+	text: [
+		"Wand of the forest: For druidic arts.",
+		"",
+		"Linking Tool: For astrology.",
+		"",
+		"Node Router: For dark arts.",
+		"",
+		"Tinker's Hammer: For artifice."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "6889f2ee",
+		type: "item",
+		items: [{
+			item: "treasure2:silver_coin"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "66f9fdf6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "morphtool:tool",
+			tag: {
+				"morphtool:is_morphing": 1b,
+				"morphtool:data": {
+					botania: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "botania:twigwand",
+						Count: 1b,
+						tag: {
+							color1: 0,
+							"morphtool:is_morphing": 1b,
+							color2: 0,
+							display: {
+								Name: "§rMorphing Tool (§aWand of the Forest§r)"
+							},
+							boundTileZ: 0,
+							boundTileX: 0,
+							"morphtool:displayName": "Wand of the Forest",
+							boundTileY: -1,
+							bindMode: 0b
+						},
+						Damage: 0s
+					},
+					thaumcraft: {
+						ForgeCaps: {
+							Parent: {}
+						},
+						id: "thaumicaugmentation:impetus_linker",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aImpetus Resonator§r)"
+							},
+							"morphtool:displayName": "Impetus Resonator"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "astralsorcery:itemlinkingtool",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aLinking Tool§r)"
+							},
+							"morphtool:displayName": "Linking Tool"
+						},
+						Damage: 0s
+					},
+					bloodmagic: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "bloodmagic:node_router",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							yCoord: 0,
+							xCoord: 0,
+							display: {
+								Name: "§rMorphing Tool (§aNode Router§r)"
+							},
+							zCoord: 0,
+							"morphtool:displayName": "Node Router"
+						},
+						Damage: 0s
+					},
+					embers: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "embers:tinker_hammer",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aTinker's Hammer§r)"
+							},
+							"morphtool:displayName": "Tinker's Hammer"
+						},
+						Damage: 0s
+					}
+				}
+			}
+		}
+	}]
+}

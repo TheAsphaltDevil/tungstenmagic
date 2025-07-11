@@ -1,0 +1,29 @@
+{
+	title: "Enchantment Replication",
+	x: -8.75d,
+	y: 5.94d,
+	shape: "diamond",
+	text: [
+		"This printing press will allow you to copy enchanted books."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"300ad41d",
+		"3897b09c"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "d28725f0",
+		type: "item",
+		items: [{
+			item: "bibliocraft:typesettingtable"
+		}]
+	},
+	{
+		uid: "d90b5899",
+		type: "item",
+		items: [{
+			item: "bibliocraft:printingpress"
+		}]
+	}]
+}

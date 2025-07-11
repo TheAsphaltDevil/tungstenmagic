@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "tenebrae",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "tenebrae",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_tenebrae",
+            "amount": 10
+        }
+    ]
+}

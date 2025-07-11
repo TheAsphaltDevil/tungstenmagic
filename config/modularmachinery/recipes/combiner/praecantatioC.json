@@ -1,0 +1,25 @@
+{
+    "machine": "combiner",
+    "registryName": "praecantatioC",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "potentia",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "aer",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "praecantatio",
+            "amount": 2
+        }
+    ]
+}

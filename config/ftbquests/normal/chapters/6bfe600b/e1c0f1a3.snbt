@@ -1,0 +1,14 @@
+{
+	title: "R: Descend",
+	icon: "davincisvessels:balloon 1 15",
+	x: -3.5d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "3805ad54",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,286 @@
+{
+	title: "Academic Compasses",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "bibliocraft:compass"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 6.5d,
+		y: 4.5d,
+		width: 9.0d,
+		height: 9.0d,
+		rotation: 0.0d,
+		image: "devmenu:ring.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.5d,
+		y: 4.5d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "devmenu:ring.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 5.5d,
+		y: -9.5d,
+		width: 12.0d,
+		height: 12.0d,
+		rotation: 0.0d,
+		image: "devmenu:ring.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 5.5d,
+		y: -9.5d,
+		width: 9.0d,
+		height: 9.0d,
+		rotation: 0.0d,
+		image: "devmenu:ring.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 5.5d,
+		y: -9.5d,
+		width: 6.0d,
+		height: 6.0d,
+		rotation: 0.0d,
+		image: "devmenu:ring.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 5.5d,
+		y: -9.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "devmenu:ring.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.0d,
+		y: -18.0d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "devmenu:iceandfirecrazy.png",
+		hover: [
+			"House Arde"
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: -12.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "devmenu:vita.png",
+		hover: [
+			"House Vita"
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: 11.0d,
+		y: -3.5d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: -90.0d,
+		image: "devmenu:mus.png",
+		hover: [
+			"House Mus"
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: 13.5d,
+		y: -12.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "devmenu:imperia.png",
+		hover: [
+			"House Imperia"
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: -3.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "devmenu:frigidus.png",
+		hover: [
+			"House Frigidus"
+		],
+		click: "",
+		dev: false
+	},
+	{
+		x: -12.5d,
+		y: 4.5d,
+		width: 19.0d,
+		height: 19.0d,
+		rotation: 0.0d,
+		image: "devmenu:ring.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -12.5d,
+		y: 4.5d,
+		width: 14.0d,
+		height: 14.0d,
+		rotation: 0.0d,
+		image: "devmenu:ring.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -12.5d,
+		y: 4.5d,
+		width: 9.5d,
+		height: 9.5d,
+		rotation: 0.0d,
+		image: "devmenu:ring.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -12.5d,
+		y: 4.5d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "devmenu:ring.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -12.5d,
+		y: 4.5d,
+		width: 23.5d,
+		height: 23.5d,
+		rotation: 0.0d,
+		image: "devmenu:ring.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -9.0d,
+		y: -5.25d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 3.0d,
+		image: "devmenu:freshman2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -9.6d,
+		y: -3.5d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 4.0d,
+		image: "devmenu:sophomore2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -10.2d,
+		y: -1.5d,
+		width: 3.0d,
+		height: 1.5d,
+		rotation: 6.0d,
+		image: "devmenu:junior2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -11.0d,
+		y: 0.5d,
+		width: 3.0d,
+		height: 1.5d,
+		rotation: 0.0d,
+		image: "devmenu:senior2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 8.75d,
+		y: -13.75d,
+		width: 3.0d,
+		height: 1.5d,
+		rotation: 23.0d,
+		image: "devmenu:freshman2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.75d,
+		y: -10.5d,
+		width: 2.0d,
+		height: 1.0d,
+		rotation: 22.0d,
+		image: "devmenu:senior2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 7.5d,
+		y: -11.75d,
+		width: 2.0d,
+		height: 1.0d,
+		rotation: 25.0d,
+		image: "devmenu:junior2.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 8.0d,
+		y: -12.75d,
+		width: 3.0d,
+		height: 1.5d,
+		rotation: 22.0d,
+		image: "devmenu:sophomore2.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

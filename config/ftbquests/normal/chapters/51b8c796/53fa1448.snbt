@@ -1,0 +1,19 @@
+{
+	x: -13.0d,
+	y: 7.5d,
+	text: [
+		"Increase your reach by several blocks."
+	],
+	tasks: [{
+		uid: "584e4de0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:reachring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

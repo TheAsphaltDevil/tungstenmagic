@@ -1,0 +1,38 @@
+{
+	x: -14.5d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		"Increases Enchantment Levels on currently worn gear."
+	],
+	tasks: [{
+		uid: "6f7b4e48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemenchantmentamulet",
+			tag: {
+				astralsorcery: {
+					amuletEnchantments: [{
+						ench: "minecraft:frost_walker",
+						level: 2,
+						type: 1
+					},
+					{
+						ench: "minecraft:protection",
+						level: 1,
+						type: 1
+					}],
+					amuletColor: -11673089
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

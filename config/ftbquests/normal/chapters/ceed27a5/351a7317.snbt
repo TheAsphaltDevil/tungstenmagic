@@ -1,0 +1,29 @@
+{
+	title: "Everything is explained",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "bibliocraft:bigbook"
+	},
+	x: 19.0d,
+	y: -8.0d,
+	description: "Everything!",
+	text: [
+		"Seriously! Everything!",
+		"",
+		"Any sort of information you might want to know should be explained in the books somewhere.",
+		"",
+		"If you are absolutely sure something isn't explained, let me know, I'll adjust the book."
+	],
+	dependencies: [
+		"22e37ecb",
+		"5a00639e"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "d41a4fb1",
+		type: "checkmark",
+		title: "ALRIGHT! GOSH! LET ME PLAY!"
+	}]
+}

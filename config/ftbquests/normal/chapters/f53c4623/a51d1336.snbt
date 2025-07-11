@@ -1,0 +1,38 @@
+{
+	title: "Sophomore Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ebwizardry:charm_minion_health"
+	},
+	x: 8.0d,
+	y: -6.5d,
+	description: "Stronger Summons",
+	text: [
+		"Wearing this charm will increase the strength of your summons by 25%.",
+		"",
+		"It might not sound like much, but consider how much you'll be summoning!",
+		"",
+		"---",
+		"Strength in numbers."
+	],
+	dependencies: [
+		"8150b6ac"
+	],
+	tasks: [{
+		uid: "044c24e2",
+		type: "gamestage",
+		stage: "musSophomore"
+	}],
+	rewards: [{
+		uid: "912fcdd4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_minion_health"
+		}
+	}]
+}

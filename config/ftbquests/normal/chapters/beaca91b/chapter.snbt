@@ -1,0 +1,18 @@
+{
+	title: "Exam I",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {
+				AS_Amulet_HolderLeast: -6604899539562883411L,
+				AS_Amulet_HolderMost: -4554225877018588837L
+			}
+		},
+		id: "astralsorcery:itemknowledgeshare",
+		tag: {
+			astralsorcery: {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

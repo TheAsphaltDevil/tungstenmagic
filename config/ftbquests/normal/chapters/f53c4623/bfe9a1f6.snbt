@@ -1,0 +1,87 @@
+{
+	title: "Graduate Gifts",
+	icon: "iceandfire:creative_dragon_meal",
+	x: 5.5d,
+	y: -10.5d,
+	description: "Instantly tame dragons",
+	text: [
+		"Congratulations on graduating!",
+		"",
+		"Your final gift is one of great power.",
+		"",
+		"Wizards can spend their entire lifetime looking for a dragon, making sure it's female, slaying it, catching the egg, and making sure it's their desired element. But with an affinity for taming, what would take them a lifetime will take you just a few attempts at the most.",
+		"",
+		"---",
+		"Now THIS is the power of friendship."
+	],
+	dependencies: [
+		"21000e01"
+	],
+	tasks: [{
+		uid: "9d50ad8a",
+		type: "gamestage",
+		stage: "ardeGrad"
+	}],
+	rewards: [{
+		uid: "0a427cf7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "botania:manasteelhelmreveal",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 1s,
+					id: 74
+				}],
+				RepairCost: 1,
+				phantomInk: 1b,
+				display: {
+					Name: "Celestian Graduate Halo: Arde"
+				},
+				mahoujin_projector: {
+					IMAGE_LOAD: 10,
+					CIRCLE_PITCH: 350.0f,
+					CIRCLE_SHOW_R: 0b,
+					ForgeData: {},
+					CIRCLE_A: 200,
+					CIRCLE_B: 0,
+					CIRCLE_SHOW_C: 1b,
+					CIRCLE_G: 180,
+					CIRCLE_SIZE: 1.2f,
+					id: "mahoutsukai:mahoujin_projector",
+					RUNES_LOAD: -1,
+					CIRCLE_SPEED: 0.6f,
+					CIRCLE_YAW: 30.0f,
+					CIRCLE_RING_ANGLE: 0.0f,
+					RING_HEIGHT: 0.125f,
+					CIRCLE_SPEED_YAW: 0.0f,
+					CIRCLE_R: 255,
+					ROTATION_OFFSET: 0.0f,
+					x: 322,
+					y: 4,
+					CIRCLE_SPEED_PITCH: 0.0f,
+					z: 707,
+					CIRCLE_ROTATION: 200.20404f,
+					CIRCLE_Y: 2.0f,
+					CIRCLE_Z: -0.03f,
+					CIRCLE_X: -0.085f
+				}
+			}
+		}
+	},
+	{
+		uid: "23df0ad9",
+		type: "item",
+		item: "iceandfire:creative_dragon_meal",
+		count: 2
+	}]
+}

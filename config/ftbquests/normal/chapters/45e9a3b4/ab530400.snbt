@@ -1,0 +1,138 @@
+{
+	title: "Wand of Revealing",
+	icon: "embers:tinker_lens",
+	x: 13.0d,
+	y: -4.5d,
+	description: "Reveals additional information about what you're inspecting.",
+	text: [
+		"Essentia Resonator: View information on essentia tubes when clicking them.",
+		"",
+		"Tinker Lens: View information on artifice equipment.",
+		"",
+		"The One Probe: View a block/entity name, and additional attributes such as health, energy, and contents of a container.",
+		"",
+		"Scepter of Revelation: View info on storage containers when clicking them.",
+		"",
+		"Fosic Resonator: View info related to astrology."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "cbdc169e",
+		type: "item",
+		items: [{
+			item: "treasure2:silver_coin"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "77c64155",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "morphtool:tool",
+			tag: {
+				"morphtool:is_morphing": 1b,
+				"morphtool:data": {
+					thaumcraft: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "thaumcraft:resonator",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aEssentia Resonator§r)"
+							},
+							"morphtool:displayName": "Essentia Resonator"
+						},
+						Damage: 0s
+					},
+					theoneprobe: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "theoneprobe:probe",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aThe One Probe§r)"
+							},
+							"morphtool:displayName": "The One Probe"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "astralsorcery:itemskyresonator",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							astralsorcery: {
+								enhanced: 1b,
+								selected_upgrade: 0,
+								upgrades: [
+									0,
+									1,
+									2
+								]
+							},
+							display: {
+								Name: "§rMorphing Tool (§aFosic Resonator§r)"
+							},
+							"morphtool:displayName": "Fosic Resonator"
+						},
+						Damage: 0s
+					},
+					arcanearchives: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "arcanearchives:scepter_revelation",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aScepter of Revelation§r)"
+							},
+							"morphtool:displayName": "Scepter of Revelation"
+						},
+						Damage: 0s
+					},
+					embers: {
+						id: "embers:tinker_lens",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aTinker's Lens§r)"
+							},
+							"morphtool:displayName": "Tinker's Lens"
+						},
+						Damage: 0s
+					}
+				}
+			}
+		}
+	}]
+}

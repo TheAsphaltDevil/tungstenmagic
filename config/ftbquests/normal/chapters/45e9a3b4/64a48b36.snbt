@@ -1,0 +1,53 @@
+{
+	title: "Catalyzation Chamber",
+	x: 13.0d,
+	y: 5.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "fbe197e9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "3491b352",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Catalyzation Chamber",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 798,
+					Y: 6,
+					Z: 108
+				},
+				itemcountmap: [{
+					item: 101,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 49,
+					meta: 0,
+					count: 12
+				},
+				{
+					item: 4479,
+					meta: 0,
+					count: 12
+				}],
+				endPos: {
+					X: 796,
+					Y: 4,
+					Z: 106
+				}
+			}
+		}
+	}]
+}

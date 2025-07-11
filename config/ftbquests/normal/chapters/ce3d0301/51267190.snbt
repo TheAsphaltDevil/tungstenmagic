@@ -1,0 +1,26 @@
+{
+	title: "Twilight Catalyst",
+	x: -1.0d,
+	y: -9.5d,
+	text: [
+		"Dig a 2x2 hole in the groud, and surround it with flowers. Then, fill the hole with water.",
+		"",
+		"Drop this item into the the water hole to gain access to the twilight forest."
+	],
+	dependencies: [
+		"bb4694c4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3cce8cc8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:twilight_activator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

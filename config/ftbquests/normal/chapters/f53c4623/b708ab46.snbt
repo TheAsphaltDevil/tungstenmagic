@@ -1,0 +1,16 @@
+{
+	x: -13.7d,
+	y: 6.3d,
+	shape: "octagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c3087145"
+	],
+	tasks: [{
+		uid: "e334b278",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bottle_taint"
+		}]
+	}]
+}

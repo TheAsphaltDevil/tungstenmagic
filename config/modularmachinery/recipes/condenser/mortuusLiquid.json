@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_mortuus",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "mortuus",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_mortuus",
+            "amount": 10
+        }
+    ]
+}

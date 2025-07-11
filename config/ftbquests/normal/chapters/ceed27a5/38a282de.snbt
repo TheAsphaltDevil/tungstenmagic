@@ -1,0 +1,21 @@
+{
+	title: "Keybinds",
+	x: 2.0d,
+	y: -7.0d,
+	description: "Please do not change your keybinds.",
+	text: [
+		"The pack has its keybinds carefully configured by default for the best experience.",
+		"",
+		"The game also automatically tells you the keybinds for an item when you unlock it.",
+		"",
+		"You may reconfigure the keybinds if you insist, but know that you will be losing these two features, and the spell combat keybinds."
+	],
+	dependencies: [
+		"1dbe6801"
+	],
+	tasks: [{
+		uid: "da25a1bc",
+		type: "checkmark",
+		title: "ok"
+	}]
+}

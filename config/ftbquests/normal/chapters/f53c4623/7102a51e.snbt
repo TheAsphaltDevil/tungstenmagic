@@ -1,0 +1,38 @@
+{
+	title: "Junior Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ebwizardry:charm_stop_time"
+	},
+	x: 4.0d,
+	y: -7.5d,
+	description: "Stop Time",
+	text: [
+		"If you have the slow time spell, this pocketwatch will make time stand still instead.",
+		"",
+		"You can defend yourself from what the world throws at you, but now you can defend yourself from the world.",
+		"",
+		"---",
+		"ZA WARUDO!"
+	],
+	dependencies: [
+		"92112023"
+	],
+	tasks: [{
+		uid: "e57e4167",
+		type: "gamestage",
+		stage: "frigidusJunior"
+	}],
+	rewards: [{
+		uid: "db2c8d0b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_stop_time"
+		}
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Packet Savior",
+	icon: "thaumcraft:seal 1 15",
+	x: -3.0d,
+	y: -7.5d,
+	shape: "diamond",
+	description: "Bibliomancy",
+	text: [
+		"I tire of your layered recipes!",
+		"",
+		"---",
+		"",
+		"Successfully autocraft 5 complex arcane mechanisms in one corporea request, without any pre-existing ingredients."
+	],
+	tasks: [{
+		uid: "1771630f",
+		type: "checkmark",
+		title: "Successfully autocraft 5 complex arcane mechanisms in one corporea request."
+	}]
+}

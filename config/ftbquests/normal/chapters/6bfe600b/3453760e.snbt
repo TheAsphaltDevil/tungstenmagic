@@ -1,0 +1,46 @@
+{
+	title: "E: Inventory",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "arcanearchives:manifest"
+	},
+	x: 2.0d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "07d4607a",
+		type: "item",
+		title: "Ctrl + E: Manifest",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "arcanearchives:manifest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "98ff7214",
+		type: "checkmark"
+	},
+	{
+		uid: "469e78a2",
+		type: "item",
+		title: "Alt+E: Open",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:lurker_skin_pouch",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

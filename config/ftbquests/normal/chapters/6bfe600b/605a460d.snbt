@@ -1,0 +1,21 @@
+{
+	title: "B: Belt, Shift+B: Belt Slot",
+	x: 5.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a34a74bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "toolbelt:belt",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

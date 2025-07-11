@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_lux",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "lux",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_lux",
+            "amount": 10
+        }
+    ]
+}

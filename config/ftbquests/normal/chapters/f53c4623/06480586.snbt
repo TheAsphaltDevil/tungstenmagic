@@ -1,0 +1,24 @@
+{
+	title: "Southern Quadrant",
+	x: 6.5d,
+	y: 6.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"4c10b5e0"
+	],
+	tasks: [{
+		uid: "f4c7420d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "f3cc6191",
+		type: "item",
+		item: "thaumcraft:curio 1 4"
+	}]
+}

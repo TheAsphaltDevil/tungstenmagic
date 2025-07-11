@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "de2bd953",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfspellpack:ring_stealth_attack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

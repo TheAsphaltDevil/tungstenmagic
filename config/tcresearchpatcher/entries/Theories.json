@@ -1,0 +1,561 @@
+{
+    "entries" :[
+        {
+        "key": "BIBLIOMANCY",    
+        "name": "Bibliomancy",
+        "icons": [ "minecraft:book"],
+        "category": "INFUSIONEXPANSION", "location": [ 10,0 ], 
+        "parents": [ "THEORYRESEARCH" ],        
+        "meta": ["ROUND", "HIDDEN"],
+        "reward_item": [ "minecraft:enchanting_table" ],
+        "stages": [
+                {
+                    "text": "Bibliomancy is the study of storing and manipulating large amounts of items and information, and the study of writing in books to create . In this section, I can learn how to improve theorycrafting, copy enchanted books, store and access large amounts of items, and set up systems to automate the production of items."
+                }
+            ]
+        },
+        {
+        "key": "CORPOREA",    
+        "name": "Corporea",
+        "icons": [ "botania:corporeaspark"],
+        "category": "INFUSIONEXPANSION", "location": [ 14,0 ], 
+        "parents": [ "BIBLIOMANCY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "While relaying information about chests has proven useful, what I would really like is to be able to transfer the items themselves. Ender chests have proven useful, but I still have to be the one to sort through the inventories. I need an automated item return system. Perhaps my magic mirrors and radiant quartz can provide some insight.",
+                    "required_item": ["thaumcraft:mirror", "arcanearchives:raw_quartz"]
+                },
+                {
+                    "text": "I have an idea. If I modify the sparks from the druids that are typically used to transfer mana, they could be used to transfer items. \n \n I simply sneak right click an inventory with one, and it will become a part of the corporea network. \n \n I have found that each network will require one master corporea spark. I simply infuse a regular corporea spark with some cognitio essentia. \n \n I can have multiple networks through the use of floral powder. I simply apply some to a corporea spark to change it's network.",
+                    "recipes": ["thaumcraft:bca","thaumcraft:bcb"]
+                }
+            ]
+        },
+        {
+        "key": "CORPOREACUBE",    
+        "name": "Item monitoring",
+        "icons": [ "botania:corporeacrystalcube"],
+        "category": "INFUSIONEXPANSION", "location": [ 16,0 ], 
+        "parents": [ "CORPOREA" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Troves are great for storing information, quartz is great for relaying information, and corporea sparks are good for transferring items. Perhaps I can come up with something to tie them all together.",
+                    "required_item": ["arcanearchives:radiant_trove"]
+                },
+                {
+                    "text": "I have created a device called the corporea crystal cube. It relays the amount of a particular item in my corporea network. I first right click the item I want the cube to observe. From there, I can left click or sneak+left click to take items.",
+                    "recipes": ["thaumcraft:bwb18"]
+                }
+            ]
+        },
+        {
+        "key": "CORPOREAINDEX",    
+        "name": "Item Requesting",
+        "icons": [ "botania:corporeaindex"],
+        "category": "INFUSIONEXPANSION", "location": [ 18,0 ], 
+        "parents": [ "CORPOREACUBE" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The crystal cubes have been very handy in pulling items from my network, but what if I could request any item from my network?",
+                    "required_knowledge": ["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text": "I have created a device called the corporea index. If I stand near it, I can request any item by typing its exact name, or abbreviate the name by putting an ellipse at the end. For example: Iron Ingot, or Iron... \n \n I can also ask for a specific amount by putting a number beforehand. For example: 12 Iron Ingot \n \n I can also use the prefix 'stack'. For example: stack Iron Ingot, or 2 stack Iron Ingot.",
+                    "recipes": ["thaumcraft:bwb17"]
+                }
+            ]
+        },
+        {
+        "key": "CORPOREAAUTOCRAFTING",    
+        "name": "Item Autocrafting",
+        "icons": [ "botania:corporeafunnel"],
+        "category": "INFUSIONEXPANSION", "location": [ 20,0 ], 
+        "parents": [ "CORPOREAINDEX" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I often times find myself requesting items that I don't have. Perhaps I can create devices that will connect corporea to my machines, so that I can have them craft items for me in the event that I don't have it already.",
+                    "required_knowledge": ["THEORY;ARTIFICE;2"]
+                },
+                {
+                    "text": "I have created three devices to assist in autocrafting. The first two will need a corporea spark. \n \n The first is the corporea funnel. Upon getting a redstone signal, it will request an item from the network. The item in question is specified by placing an item frame with an item on it. The rotation of the item indicates how many of the item it will pull (1,2,4,8,16,32,48,64). If the funnel has multiple item frames on it, one of the items will be selected at random, even if the item chosen is not the one I requested. \n \n The next item is the corporea interceptor. If I request an item that I don't have, the interceptor will emit a redstone signal. The item that an interceptor looks for can also be specified with item frames. \n \n The last item is the corporea retainer. It does not need a corporea spark, unlike the first two. It should be placed adjacent to a corporea interceptor. When the interceptor is triggered, the retainer will retain which corporea object initiated the request, and the contents of said request. Once it gets a redstone signal, it will have the original requester make the exact same request. \n \n Example of usage: you request wooden planks when you don't have any. The signal gets passed to the retainer, and to the funnel bound to logs. The machine the funnel is hooked to crafts the planks. A chest with a corporea spark is placed at the end to collect the planks. Redstone is used to scan the chest for items. The redstone signal gets sent to the retainer, which will pull the plank from the network and give it to me! ",
+                    "recipes": ["thaumcraft:corporeafunnel","thaumcraft:corporeainterceptor","thaumcraft:corporearetainer"]
+                }
+            ]
+        },
+        {
+        "key": "BOOKWORK",    
+        "name": "Book Manipulation",
+        "icons": [ "minecraft:book"],
+        "category": "INFUSIONEXPANSION", "location": [ 10,-10 ], 
+        "parents": [ "BIBLIOMANCY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "This section will cover my discoveries in books that possess mystical properties."
+                }
+            ]
+        },
+        {
+        "key": "EXTRACURIOSITIES",    
+        "name": "Curiosities",
+        "icons": [ "thaumcraft:curio;1;2", "thaumcraft:curio;1;5"],
+        "category": "INFUSIONEXPANSION", "location": [ 10,6 ], 
+        "parents": [ "BIBLIOMANCY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "When theorycrafting becomes cumbersome, I have found that studying several curiosities can get me inspired. As it stands, I can only find two curiosities: the ones from amber ore tend to assist with alchemy, and the tablets from pechs help with infusion. Perhaps I could create some more for the other fields of study.",
+                    "required_knowledge": ["THEORY;GOLEMANCY;1", "THEORY;AUROMANCY;1", "THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text": "I can indeed create several other curiosities. \n \n Pumpkins tend to have odd properties of imbuing sentience into mundane ojbects. Imbuing one with cognitio essence results in a violenct reaction, leaving only a shriveled up substance. This material has proven very insightful for golemancy. \n \n Essentia tubes are one of the most important creations of artificers. After imbuing one with some vacuos essentia, what results is a curious little self-contained nugget of spacetime that has proven quite insightful for artifice. \n \n For reference, I can find other curiosities too. \n Arcane Curiosities can be obtained from cleansing myself of warp. \n Illuminating Curiosities can be obtained from trading with pechs. \n Preserved Curiosities can occasionally drop from amber ore. \n Thnere might be others, but I'm not sure...",
+                    "recipes": ["thaumcraft:ancientCuriosity", "thaumcraft:twistedCuriosity"]
+                }
+            ]
+        },
+        {
+        "key": "USINGENCHANTING",    
+        "name": "Enchanting Equipment",
+        "icons": [ "minecraft:enchanting_table"],
+        "category": "INFUSIONEXPANSION", "location": [ 12,-10 ], 
+        "parents": [ "BOOKWORK" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "When I view the enchantment table these days, I find it foreign and complex. I swear it used to be simpler! After studying it a bit, though, it is coming back to me. I simply place lapis in the designated slot, then an item in the slot above it. From there, I can add levels with the '+' button. \n \n Upon doing this, I will see oddly shaped tiles appear on the right. I can pick up these tiles, and place them onto the grid. Right clicking with a tile will turn it. I can upgrade enchantments by merging tiles with the same enchantment. It will take the shape of the tile placed down first. \n \n I will receive all enchantments that are able to fit in the grid."
+                }
+            ]
+        },
+        {
+        "key": "SALISCANDLES",    
+        "name": "Candles",
+        "icons": [ "quark:candle"],
+        "category": "INFUSIONEXPANSION", "location": [ 14,-10 ], 
+        "parents": [ "USINGENCHANTING" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Candles tend to be used for two things: stabilizing infusions, and influencing what enchantments you get in the enchantment table. To toggle the candle's functionality between these two states, I can sprinkle the candle with salis mundus. Thaumic candles are used for infusions, and non-thaumic candles are used for enchanting."
+                }
+            ]
+        },
+        {
+        "key": "ANTIQUEATLAS",    
+        "name": "Antique Atlas",
+        "icons": [ "antiqueatlas:empty_antique_atlas"],
+        "category": "INFUSIONEXPANSION", "location": [ 10,-14 ], 
+        "parents": [ "BOOKWORK" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Cartography is quite cumbersome. If I have to draw maps myself, I see hardly any point in using them! Perhaps there is a better, more dynamic solution. \n \n After some more theorycrafting, I have discovered a device I will call the Antique Atlas. After infusing a book with some sensus essentia to give the book a sense of perception, as well as a map, the antique atlas' ink will dynamically shift, based on the surrounding landscape. No more making maps myself!",
+                    "recipes": ["thaumcraft:antiqueatlas"]
+                }
+            ]
+        },
+        {
+        "key": "STOCKROOMCATALOG",    
+        "name": "Stockroom Catalog",
+        "icons": [ "bibliocraft:stockroomcatalog"],
+        "category": "INFUSIONEXPANSION", "location": [ 12,-14 ], 
+        "parents": [ "ANTIQUEATLAS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "After some deliberation, I realized that I could imbue other items into these 'sentient' books. Perhaps I ought to try a storage solution? \n \n It turns out that imbuing a living book with chests instead of maps, I created a book which can automatically keep track of all of my items. If I interact (sneak right click) with a container, it and its contents will be automatically be added to the catalog. I wonder if I can take this further...",
+                    "recipes": ["thaumcraft:stockroom"]
+                }
+            ]
+        },
+        {
+        "key": "EBWIZLECTERN",    
+        "name": "Arcane Archiving",
+        "icons": [ "ebwizardry:birch_lectern"],
+        "category": "INFUSIONEXPANSION", "location": [ 8,-14 ], 
+        "parents": [ "ANTIQUEATLAS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "After some deliberation, I realized that I could imbue other items into these 'sentient' books. Perhaps I ought to try a solution to manage my ever-growing collection of spell books?",
+                    "required_knowledge": ["THEORY;AUROMANCY;1"]
+                },
+                {
+                    "text": "After some deliberation, I realized that I could imbue other items into these 'sentient' books. Perhaps I ought to try a solution to manage my ever-growing collection of spell books? \n \n It turns out that imbuing a living book with praecantatio essentia, I received a book which can automatically keep track of all of my spell books. Placing this book on a lectern should have it tune in to all of the nearby spell books. in my collection. Now I just need to create a better container for the spell books themeselves.",
+                    "required_knowledge" : ["THEORY;AUROMANCY;1"]
+                },
+                {
+                    "text": "After some deliberation, I realized that I could imbue other items into these 'sentient' books. Perhaps I ought to try a solution to manage my ever-growing collection of spell books? \n \n It turns out that imbuing a living book with praecantatio essentia, I received a book which can automatically keep track of all of my spell books. Placing this book on a lectern should have it tune in to all of the nearby spell books. in my collection. Now I just need to create a better container for the spell books themeselves. \n \n I have created a set of bookshelves that can store the spell books. The lectern I created will now automatically catalog the books. I can view the effects of all the spellbooks from the lectern without having to find the book itself. Though, if I still wish to do that, I can request the lectern to highlight the shelf that contains a particular book.",
+                    "recipes": ["thaumcraft:ebwizworkbench1","thaumcraft:ebwizworkbench2","thaumcraft:ebwizworkbench3","thaumcraft:ebwizworkbench4","thaumcraft:ebwizworkbench5","thaumcraft:ebwizworkbench6","thaumcraft:ebwizworkbench7","thaumcraft:ebwizworkbench8","thaumcraft:ebwizworkbench9","thaumcraft:ebwizworkbencha","thaumcraft:ebwizworkbenchb","thaumcraft:ebwizworkbenchc","thaumcraft:ebwizworkbenchd","thaumcraft:ebwizworkbenche"]
+                }
+            ]
+        },
+        {
+        "key": "RAWRADIANTQUARTZ",    
+        "name": "Raw Radiant Quartz",
+        "icons": [ "arcanearchives:raw_quartz"],
+        "category": "INFUSIONEXPANSION", "location": [ 14,-14 ], 
+        "parents": [ "STOCKROOMCATALOG" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The structure of quarts is quite uniform. It would be good for storing information, if I could somehow imbue it with that.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text":"Some praecantatio essentia seemed to do the trick. It resulted in a substance I will dub 'radiant quartz'. From there, the substance can be infused into typical storage devices.",
+                    "recipes":["thaumcraft:radiantquartz"]
+                }
+            ]
+        },
+        {
+        "key": "GEMCUTTERTABLE",    
+        "name": "Gem Cutter's Table",
+        "icons": [ "arcanearchives:gemcutters_table"],
+        "category": "INFUSIONEXPANSION", "location": [ 14,-18 ], 
+        "parents": [ "RAWRADIANTQUARTZ" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Though the radiant chest has proven to be very useful, I could some more forms of storage. Something to store liquids, and something to store items would be great.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text": "Though the radiant chest has proven to be very useful, I could some more forms of storage. Something to store liquids, and something to store items would be great. \n \n Though I could have created such devices through thaumaturgy, I saw it fit to simply create one device, then create the rest from there. Storage devices are rather simple, anyway. The gem cutter's table will allow me to shape components and pieces such that they form the storage devices I need.",
+                    "recipes": ["thaumcraft:gemTable"]
+                }
+            ]
+        },
+        {
+        "key": "RADIANTMANIP",    
+        "name": "Remote Access",
+        "icons": [ "arcanearchives:radiant_amphora", "arcanearchives:brazier_of_hoarding"],
+        "category": "INFUSIONEXPANSION", "location": [ 18,-16 ], 
+        "parents": [ "GEMCUTTERTABLE" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "While organizing my items is great, what would be even greater is if I could access this system remotely. Ender chests have historically been good for this. Perhaps I should refresh my memory with some.",
+                    "required_item":["enderstorage:ender_storage", "enderstorage:ender_storage;1;1"]
+                },
+                {
+                    "text": "While organizing my items is great, what would be even greater is if I could access this system remotely. Ender chests have historically been good for this. Perhaps I should refresh my memory with some. \n \n I have created two devices, one for liquids, and one for solids. \n \n The radiant amphora can both place liquid into, and remove liquid from a tank from anywhere in the world! \n \n The brazier of hoarding allows easy depositing into the network."
+                }
+            ]
+        },
+        {
+        "key": "RADIANTUPGRADES",    
+        "name": "Upgrades",
+        "icons": [ "arcanearchives:scepter_manipulation", "arcanearchives:devouring_charm", "arcanearchives:containment_field", "arcanearchives:matrix_brace", "arcanearchives:material_interface", "arcanearchives:storage_shaped_quartz"],
+        "category": "INFUSIONEXPANSION", "location": [ 20,-16 ], 
+        "parents": [ "GEMCUTTERTABLE" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "My item collection is growing rather large. Perhaps I can come up with some upgrades.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text": "I have managed to create some upgrade parts for my storage. I can use the scepter of manipulation to apply the upgrades. \n \n The devouring charm will void excess items that enter the containers. \n \n The matrix brace is the first tier upgrade for tanks and troves. \n \n For second tier upgrades, I use the containment field on tanks, and the material interface for troves. \n \n The shaped radiant quartz block is used as a third tier upgrade for tanks and troves."
+                }
+            ]
+        },
+        {
+        "key": "RADIANTKEY",    
+        "name": "Radiant Key",
+        "icons": [ "arcanearchives:radiant_key"],
+        "category": "INFUSIONEXPANSION", "location": [ 24,-16 ], 
+        "parents": [ "GEMCUTTERTABLE" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I noticed that radiant quartz has interesting interactions with redstone. Perhaps I could use this to my advantage.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text": "I noticed that radiant quartz has interesting interactions with redstone. Perhaps I could use this to my advantage. \n \n Indeed I can! This simple key will allow me to safely open trapped chests."
+                }
+            ]
+        },
+        {
+        "key": "RADIANTLETTERS",    
+        "name": "Letters",
+        "icons": [ "arcanearchives:letter_invitation"],
+        "category": "INFUSIONEXPANSION", "location": [ 22,-16 ], 
+        "parents": [ "GEMCUTTERTABLE" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "In the event I want to join a storage network, leave a network, or banish someone from mine, I whipped up several binding contracts. \n \n The letter of invitation lets someone join my network. \n \n The letter of resignation lets me leave a network. \n \n The writ of expulsion will banish someone from my network in the event that they become problematic."
+                }
+            ]
+        },
+        {
+        "key": "RADIANTSTORAGESPECIALIZED",    
+        "name": "Spcialized Storage",
+        "icons": [ "arcanearchives:radiant_trove", "arcanearchives:radiant_tank"],
+        "category": "INFUSIONEXPANSION", "location": [ 16,-16 ], 
+        "parents": [ "GEMCUTTERTABLE" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "As predicted, the forms of specialized storage were trivial to make. \n \n The radiant trove stores large amounts of a single item. \n \n The radiant tank can store liquids. \n \n Such manufacturing turned out to be so easy, in fact, that I can simply place a monitoring crystal on the front of a mundane chest to attach it to the network."
+                }
+            ]
+        },
+        {
+        "key": "RADIANTCHEST",    
+        "name": "Radiant Storage",
+        "icons": [ "arcanearchives:radiant_chest"],
+        "category": "INFUSIONEXPANSION", "location": [ 16,-14 ], 
+        "parents": [ "RAWRADIANTQUARTZ" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The most obvious use for this substance would be a chest. Upon combining the two items, I get a chest that will not only store much more items, but relay the information. I now need a method to harness this information in a way that is useful to me. Perhaps the stockroom catalog will provide some insight.",
+                    "required_knowledge":["THEORY;ARTIFICE;1"]
+                },
+                {
+                    "text": "The most obvious use for this substance would be a chest. Upon combining the two items, I get a chest that will not only store much more items, but relay the information. I now need a method to harness this information in a way that is useful to me. Perhaps the stockroom catalog will provide some insight.\n \n After hooking up some radiant quartz to the stockroom catalog, I can now digest the information in a simple scroll that will reveal all items in the network. I can access this manifest by right clicking with it, or by pressing alt+e in my inventory. I have also created a scepter which can reveal the amount that a radiant chest is filled."
+                }
+            ]
+        },
+        {
+        "key": "COPYINGBOOKS",    
+        "name": "Copying Enchanted Books",
+        "icons": [ "bibliocraft:typesettingtable", "bibliocraft:printingpress"],
+        "category": "INFUSIONEXPANSION", "location": [ 8,-10 ], 
+        "parents": [ "BOOKWORK" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Particular enchantments are hard to come by. I should invest in a method to copy them that doesn't require me to write the book verbatim, glyph by glyph. Printing presses are quite nice. \n \n I came up with a device I will call a print press chase. I first place the enchanted book on the typesetting table, in the bottom left compartment. Then, I place the chase in the top compartment. The chase will then absorb (sneak right click the book) into itself, in a convenient plate to use in a printing press. Each book will require XP to ber absorbed, with more powerful books requiring more XP. I can use reading glasses to observe the amount of XP needed. \n \n To use the printing press, I first place ink on the top plate in the back. I then place some empty books on the shelf at the front. Lastly, I will place the enchanted plate in the slot in the middle. The press should then begin copying! Each enchanted plate is good for three copies."
+                }
+            ]
+        },
+        {
+        "key": "RESEARCHAIDS",    
+        "name": "Research Aids",
+        "icons": [ "thaumcraft:scribing_tools"],
+        "category": "INFUSIONEXPANSION", "location": [ 0,0 ], 
+        "parents": [ "BIBLIOMANCY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Theory crafting can be a pain in my neck. That being said, it would still be worth it to write down things that can tremendously aid the research process. \n \n One of the bigger nuisances of theorycrafting is constantly running around and fetching different items. If I have a set of every item I could see myself using, right next to my research table, that should help tremendously. I should obtain a full set of vis crystals, and phials, as well as some machines for artifice. \n \n Another nuisance is constantly having to refill my paper and my ink. I should set up a way to automate the production of paper, and, if I feel like it, connect my research table with some means of item transport. For ink, I found some handy shrubs in the nether, whose seeds yield ink when cooked! A small plot of these plants should be plenty. \n \n The other main nuisance is constantly losing focus, or losing my train of thought entirely. To alleviate this, I can place what I will call 'research aids' near my table. These will be good sources of motivation to keep my thoughts headed in the right direction. To properly use a research aid, I just place a certain block near my table. Before beginning a theory, I can choose which research aids will benefit me throughout the process. The ones I select will give certain draws (papers) each time, at some point during theorycrafting. The other entries in this list will cover which blocks I can use, and the draws they will grant."
+                }
+            ]
+        },
+        {
+        "key": "PARTICULARHELPERS",    
+        "name": "Specific Research Aids",
+        "icons": [ "thaumcraft:focus_3"],
+        "category": "INFUSIONEXPANSION", "location": [ -6,0 ], 
+        "parents": [ "RESEARCHAIDS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Placing the following blocks near my table will give me additional draws in a particular category."
+                }
+            ]
+        },
+        {
+        "key": "RESEARCHMANIPULATOR",    
+        "name": "Focal Manipulator Draws",
+        "icons": [ "thaumcraft:wand_workbench"],
+        "category": "INFUSIONEXPANSION", "location": [ -6,2 ], 
+        "parents": [ "PARTICULARHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The Focal Manipulator will grant three auromancy draws per theory."
+                }
+            ]
+        },
+        {
+        "key": "RESEARCHGOLEMPRESS",    
+        "name": "Golem Press Draws",
+        "icons": [ "thaumcraft:golem_builder"],
+        "category": "INFUSIONEXPANSION", "location": [ -6,-2 ], 
+        "parents": [ "PARTICULARHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The Golem Press will grant three golemancy draws per theory."
+                }
+            ]
+        },
+        {
+        "key": "RESEARCHWORKBENCH",    
+        "name": "Arcane Workbench Draws",
+        "icons": [ "thaumcraft:arcane_workbench"],
+        "category": "INFUSIONEXPANSION", "location": [ -8,0 ], 
+        "parents": [ "PARTICULARHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The Arcane Workbench will grant three artifice draws per theory."
+                }
+            ]
+        },
+        {
+        "key": "RESEARCHCRUCIBLE",    
+        "name": "Crucible Draws",
+        "icons": [ "thaumcraft:crucible"],
+        "category": "INFUSIONEXPANSION", "location": [ -8,2 ], 
+        "parents": [ "PARTICULARHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The Crucible will grant three alchemy draws per theory."
+                }
+            ]
+        },
+        {
+        "key": "RESEARCHMATRIX",    
+        "name": "Runic Matrix Draws",
+        "icons": [ "thaumcraft:infusion_matrix"],
+        "category": "INFUSIONEXPANSION", "location": [ -8,-2 ], 
+        "parents": [ "PARTICULARHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The Runic Matrix will grant three infusion draws per theory."
+                }
+            ]
+        },
+        {
+        "key": "GENERALHELPERS",    
+        "name": "Generalized Helpers",
+        "icons": [ "minecraft:book"],
+        "category": "INFUSIONEXPANSION", "location": [ 0,6 ], 
+        "parents": [ "RESEARCHAIDS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "These research aids will grant bonuses that aren't towards one category in particular."
+                }
+            ]
+        },
+        {
+        "key": "THEORYINSPIRATIONENGINE",    
+        "name": "Inspiration Engine",
+        "icons": [ "thaumicwonders:inspiration_engine"],
+        "category": "INFUSIONEXPANSION", "location": [ -2,8 ], 
+        "parents": [ "GENERALHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The inspiration engine will grant draws in random categories when fed with cognitio essentia. For more information, I should consult the 'thaumic wonders' tab."
+                }
+            ]
+        },
+        {
+        "key": "THEORYBEACON",    
+        "name": "Beacons",
+        "icons": [ "minecraft:beacon"],
+        "category": "INFUSIONEXPANSION", "location": [ -2,6 ], 
+        "parents": [ "GENERALHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Beacons grant the 'Aural Influence' draw. Upon successful completion of a theory, I will get an additional bonus theory in a random category."
+                }
+            ]
+        },
+        {
+        "key": "THEORYBOOKSHELF",    
+        "name": "Bookshelves",
+        "icons": [ "minecraft:bookshelf"],
+        "category": "INFUSIONEXPANSION", "location": [ 2,6 ], 
+        "parents": [ "GENERALHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Bookshelves grant 3 'study' draws, and 2 'notation' draws. \n \n The study draw gives you progress in a random category. The 'notation' draw will give the option of moving progress in one category to another random category."
+                }
+            ]
+        },
+        {
+        "key": "THEORYENCHANTING",    
+        "name": "Enchantment Table",
+        "icons": [ "minecraft:enchanting_table"],
+        "category": "INFUSIONEXPANSION", "location": [ 0,8 ], 
+        "parents": [ "GENERALHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Enchantment tables will grant the draw 'study enchantment'. \n \n This draw gives you progress in both infusion and auromancy."
+                }
+            ]
+        },
+        {
+        "key": "ELDRITCHHELPERS",    
+        "name": "Eldritch Helpers",
+        "icons": [ "embers:eldritch_insignia"],
+        "category": "INFUSIONEXPANSION", "location": [ 0,-6 ], 
+        "parents": [ "RESEARCHAIDS", "UNLOCKELDRITCH" ],        
+        "meta": ["ROUND", "HIDDEN"],        
+        "stages": [
+                {
+                    "text": "These research aids will grant bonuses for eldritch. Unlike the other specialized helpers, eldritch helpers each grant only one additional draw instead of three. I will need a lot!"
+                }
+            ]
+        },
+        {
+        "key": "THEORYGLYPHEDSTONE",    
+        "name": "Gylphed Stone",
+        "icons": [ "thaumcraft:stone_ancient_glyphed"],
+        "category": "INFUSIONEXPANSION", "location": [ 0,-8 ], 
+        "parents": [ "ELDRITCHHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "This stone will grant the 'study glyphs' draw, which grants progress in both eldritch and some other random category."
+                }
+            ]
+        },
+        {
+        "key": "THEORYBRAININAJAR",    
+        "name": "Brain In a Jar",
+        "icons": [ "thaumcraft:jar_brain"],
+        "category": "INFUSIONEXPANSION", "location": [ 2,-6 ], 
+        "parents": [ "ELDRITCHHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "This brain will grant the 'dark whispers' draw, which grants eldritch progress based on current XP."
+                }
+            ]
+        },
+        {
+        "key": "THEORYPORTALS",    
+        "name": "Nether and End Portals",
+        "icons": [ "twilightforest:miniature_structure"],
+        "category": "INFUSIONEXPANSION", "location": [ -2,-6 ], 
+        "parents": [ "ELDRITCHHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "Placing my research station near a nether portal or an end portal will grant the 'voices from beyond' draw, which grants additional eldritch progress."
+                }
+            ]
+        },
+        {
+        "key": "THEORYMADNESSENGINE",    
+        "name": "Madness Engine",
+        "icons": [ "thaumicwonders:madness_engine"],
+        "category": "INFUSIONEXPANSION", "location": [ -2,-8 ], 
+        "parents": [ "ELDRITCHHELPERS" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The madness engine will grant eldritch draws when fed with alienis essentia. For more information, I should consult the 'thaumic wonders' tab."
+                }
+            ]
+        }
+    ]
+}

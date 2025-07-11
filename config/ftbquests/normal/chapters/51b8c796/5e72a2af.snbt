@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "38c3c306",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_earth_melee"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 5.5d,
+	y: 2.0d,
+	shape: "square",
+	can_repeat: true,
+	tasks: [{
+		uid: "03bcc65f",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "7ae263dc",
+		type: "item",
+		item: "treasure2:silver_coin",
+		count: 4
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Master Spells",
+	x: -10.5d,
+	y: 8.0d,
+	shape: "rsquare",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a50854ac",
+		"3897b09c"
+	],
+	tasks: [{
+		uid: "47971590",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:arcane_tome",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

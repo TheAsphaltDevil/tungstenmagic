@@ -1,0 +1,37 @@
+{
+	title: "The Core Studies",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ebwizardry:wizard_handbook"
+	},
+	x: 25.0d,
+	y: -9.5d,
+	description: "Mousewheel to scroll",
+	text: [
+		"In this reality, there are four primordial forces:",
+		"",
+		"§l-Gola: The Life force.§r",
+		"Imbues objects (of both flesh and fabrication) with sentience.",
+		"",
+		"-§lAura: The Magic force.§r",
+		"Imbues this world with magic, both good (vis) and bad (flux).",
+		"",
+		"§l-Infusia: The Meaning force.§r",
+		"Gives meaning to the aspects. It's what makes ignis hot, and gelum cold.",
+		"",
+		"§l-Alchemia: The Element force.§r",
+		"Allows vis and flux to take the form of aspects of essentia to permeate all things.",
+		"",
+		"Together, these forces are known as GAIA, and they shape reality as we know it."
+	],
+	dependencies: [
+		"d10525ae"
+	],
+	tasks: [{
+		uid: "6d20c4cb",
+		type: "checkmark",
+		title: "OK"
+	}]
+}

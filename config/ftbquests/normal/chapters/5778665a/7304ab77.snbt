@@ -1,0 +1,13 @@
+{
+	x: -3.5d,
+	y: -10.0d,
+	description: "Arcane Smithing",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "3226177c",
+		type: "checkmark",
+		title: "Arcane Smithing"
+	}]
+}

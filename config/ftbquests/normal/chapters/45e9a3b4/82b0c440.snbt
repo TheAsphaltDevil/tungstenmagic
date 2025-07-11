@@ -1,0 +1,19 @@
+{
+	x: 6.5d,
+	y: 2.0d,
+	shape: "gear",
+	can_repeat: true,
+	tasks: [{
+		uid: "35dddf32",
+		type: "item",
+		items: [{
+			item: "embers:ingot_electrum"
+		}]
+	}],
+	rewards: [{
+		uid: "ee238309",
+		type: "item",
+		item: "treasure2:silver_coin",
+		count: 4
+	}]
+}

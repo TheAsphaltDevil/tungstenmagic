@@ -1,0 +1,13 @@
+{
+	title: "Choose a Tutorial",
+	x: 6.0d,
+	y: -7.0d,
+	dependencies: [
+		"5a52ed5a"
+	],
+	tasks: [{
+		uid: "b61da763",
+		type: "checkmark",
+		title: "ok"
+	}]
+}

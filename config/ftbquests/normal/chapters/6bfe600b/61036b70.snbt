@@ -1,0 +1,10 @@
+{
+	icon: "minecraft:stained_glass_pane 1 8",
+	x: -5.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "a50489bc",
+		type: "checkmark",
+		title: "W: Forward"
+	}]
+}

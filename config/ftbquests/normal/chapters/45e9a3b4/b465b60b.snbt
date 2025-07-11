@@ -1,0 +1,103 @@
+{
+	title: "Wand of Commanding",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:golem_bell"
+	},
+	x: 16.0d,
+	y: -4.5d,
+	description: "For dictating behaviors of various things, or activating crafts",
+	text: [
+		"Golemancer's Bell: For controlling golems.",
+		"",
+		"Resonating Wand: For activating altars",
+		"",
+		"Ritual Tinkerer: For changing the behavior of rituals.",
+		"",
+		"Arcane archives: tweak your storage containers by clicking on them.",
+		"",
+		"Dragon Command Staff: For dragons"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "f67fd0dc",
+		type: "item",
+		items: [{
+			item: "treasure2:silver_coin"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "69061a1d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "morphtool:tool",
+			tag: {
+				"morphtool:is_morphing": 1b,
+				"morphtool:data": {
+					thaumcraft: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "thaumcraft:golem_bell",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aGolemancer's Bell§r)"
+							},
+							"morphtool:displayName": "Golemancer's Bell"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						id: "astralsorcery:itemwand",
+						Count: 1b,
+						tag: {
+							astralsorcery: {}
+						},
+						Damage: 0s
+					},
+					bloodmagic: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						id: "bloodmagic:ritual_reader",
+						Count: 1b,
+						tag: {
+							ritualReaderState: 0
+						},
+						Damage: 0s
+					},
+					arcanearchives: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						id: "arcanearchives:scepter_manipulation",
+						Count: 1b,
+						Damage: 0s
+					},
+					iceandfire: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						id: "iceandfire:dragon_stick",
+						Count: 1b,
+						Damage: 0s
+					}
+				}
+			}
+		}
+	}]
+}

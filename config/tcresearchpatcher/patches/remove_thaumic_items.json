@@ -1,0 +1,62 @@
+[
+    {
+        "key": "TWOND_VOID_FORTRESS_ARMOR",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/"
+            }
+        ]
+    },
+    {
+        "key": "TWOND_VOID_BEACON",
+        "ops": [
+            {
+                "op": "replace",
+                "path": "parents/",
+                "value": ["TWOND_VOID_PORTAL", "~VOIDSIPHON"]
+            }
+        ]
+    },
+    {
+        "key": "PAULDRONREPULSION",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/"
+            }
+        ]
+    },
+    {
+        "key": "THAUMOSTATIC_GIRDLE",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/"
+            }
+        ]
+    },
+    {
+        "key": "TWOND_ALIENIST_STONE",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/"
+            }
+        ]
+    },
+    {
+        "key": "FOCUS_SHIELD",
+        "ops": [
+            {
+                "op": "remove",
+                "path": "stages/"
+            }
+        ]
+    }
+]
+
+
+
+
+

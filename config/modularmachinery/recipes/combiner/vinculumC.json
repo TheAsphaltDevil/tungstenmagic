@@ -1,0 +1,25 @@
+{
+    "machine": "combiner",
+    "registryName": "vinculumC",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "motus",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "perditio",
+            "amount": 1
+        },
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "vinculum",
+            "amount": 2
+        }
+    ]
+}

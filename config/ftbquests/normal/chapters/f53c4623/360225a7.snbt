@@ -1,0 +1,24 @@
+{
+	title: "Solar",
+	x: 8.0d,
+	y: 9.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"4c10b5e0"
+	],
+	tasks: [{
+		uid: "210293e9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes"
+		}]
+	}],
+	rewards: [{
+		uid: "a674de50",
+		type: "item",
+		item: "thaumcraft:curio 1 2"
+	}]
+}

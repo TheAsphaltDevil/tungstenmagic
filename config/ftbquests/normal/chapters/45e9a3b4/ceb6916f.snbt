@@ -1,0 +1,58 @@
+{
+	title: "Primordial Acceleration Chamber",
+	x: 14.0d,
+	y: 5.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "2fafb2d8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "853e1fb5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Primordial Accretion Chamber",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 809,
+					Y: 6,
+					Z: 118
+				},
+				itemcountmap: [{
+					item: 101,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 4533,
+					meta: 0,
+					count: 10
+				},
+				{
+					item: 4536,
+					meta: 0,
+					count: 6
+				},
+				{
+					item: 4534,
+					meta: 0,
+					count: 8
+				}],
+				endPos: {
+					X: 811,
+					Y: 4,
+					Z: 116
+				}
+			}
+		}
+	}]
+}

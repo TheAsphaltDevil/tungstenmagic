@@ -1,0 +1,26 @@
+{
+	title: "Complete Exam II: House Vita",
+	x: 15.5d,
+	y: -9.5d,
+	dependencies: [
+		"78d4f428",
+		"ca7b25fc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "00158048",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8a243a00",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "sophomoreFinished"
+	},
+	{
+		uid: "2c4a1c7f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "vitaSophomore"
+	}]
+}

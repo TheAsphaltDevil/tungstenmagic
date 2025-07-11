@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: 12.5d,
+	shape: "square",
+	tasks: [{
+		uid: "910d10be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:lonely_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

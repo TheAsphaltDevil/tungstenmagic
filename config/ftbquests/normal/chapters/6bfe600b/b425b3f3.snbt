@@ -1,0 +1,15 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "extrabitmanipulation:bit_wrench"
+	},
+	x: -2.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "fe8d23b1",
+		type: "checkmark",
+		title: "\\ Dissassemble ship"
+	}]
+}

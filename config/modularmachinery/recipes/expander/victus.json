@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "victus",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "victus",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_victus",
+            "amount": 10
+        }
+    ]
+}

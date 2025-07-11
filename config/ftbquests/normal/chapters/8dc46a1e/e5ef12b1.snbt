@@ -1,0 +1,25 @@
+{
+	title: "Complete Exam III: House Mus",
+	x: 8.5d,
+	y: -4.5d,
+	dependencies: [
+		"0964ad65"
+	],
+	hide: true,
+	tasks: [{
+		uid: "df9904a6",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "add8265b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "juniorFinished"
+	},
+	{
+		uid: "c96a2167",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "musJunior"
+	}]
+}

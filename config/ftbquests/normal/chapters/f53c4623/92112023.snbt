@@ -1,0 +1,57 @@
+{
+	title: "Sophomore Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:baubles",
+		tag: {
+			RepairCost: 0,
+			display: {
+				Name: "Belt of Fortification"
+			},
+			TC.RUNIC: 6b
+		},
+		Damage: 6s
+	},
+	x: 3.0d,
+	y: -6.5d,
+	description: "Runic Shielding Belt",
+	text: [
+		"Runic shielding gets exponentially more expensive the more of it you would like.",
+		"",
+		"This belt contains levels of runic shielding previously unseen.",
+		"",
+		"---",
+		"Impossible..."
+	],
+	dependencies: [
+		"11446028"
+	],
+	tasks: [{
+		uid: "8cd35694",
+		type: "gamestage",
+		stage: "frigidusSophomore"
+	}],
+	rewards: [{
+		uid: "a4d3c341",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "thaumcraft:baubles",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "Belt of Fortification"
+				},
+				TC.RUNIC: 6b
+			},
+			Damage: 6s
+		}
+	}]
+}

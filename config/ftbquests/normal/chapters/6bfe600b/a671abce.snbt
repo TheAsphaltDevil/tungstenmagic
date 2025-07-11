@@ -1,0 +1,42 @@
+{
+	title: "C: Spell 7, Spell Cycle, CHANGE",
+	x: -9.5d,
+	y: 2.5d,
+	shape: "square",
+	text: [
+		"The C key is for CHANGE, and so the gauntlet also uses this keybind to change spell."
+	],
+	tasks: [{
+		uid: "c574d49c",
+		type: "item",
+		title: "C: Change Spell, Shift+C: Remove Spell",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "66fc21cd",
+		type: "item",
+		title: "X: 'Plan' mode change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0989e00b",
+		type: "checkmark"
+	}]
+}

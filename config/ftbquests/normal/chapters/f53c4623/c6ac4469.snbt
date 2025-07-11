@@ -1,0 +1,21 @@
+{
+	title: "ARCANE INFUSION",
+	x: -22.5d,
+	y: 2.0d,
+	description: "Magic Gadgets",
+	text: [
+		"With arcane infusion, you can take essentia obtained via alchemy, and infuse them with items to form new mystical trinkets and gadgets to become stronger."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9fbbe405"
+	],
+	hide: true,
+	tasks: [{
+		uid: "21c65ca6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}]
+}

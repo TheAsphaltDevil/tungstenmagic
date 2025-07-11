@@ -1,0 +1,27 @@
+{
+	title: "Corporea",
+	x: -6.9d,
+	y: 6.59d,
+	shape: "diamond",
+	description: "On demand items",
+	text: [
+		"Corporea is an alteration of sparks, which transfer items instead of mana. ",
+		"",
+		"Wizards can hook up their storage and equipment to a corporea network to request items with their voice.",
+		"",
+		"Corporea can also be configured to hook up to machines, allowing wizards to create items they don't even have."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"438c8884",
+		"b27f646a"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "640cff02",
+		type: "item",
+		items: [{
+			item: "botania:corporeaspark"
+		}]
+	}]
+}

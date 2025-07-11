@@ -1,0 +1,17 @@
+{
+	title: "Phase II Bosses",
+	x: 0.5d,
+	y: -3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"71c18ccd",
+		"cd1d91f9"
+	],
+	tasks: [{
+		uid: "856a90c2",
+		type: "checkmark",
+		title: "Begin"
+	}]
+}

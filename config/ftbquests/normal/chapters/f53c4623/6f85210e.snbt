@@ -1,0 +1,100 @@
+{
+	title: "Junior Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemchargedcrystalsword",
+		tag: {
+			"Quark:RuneColor": 9,
+			ench: [{
+				lvl: 32767s,
+				id: 34
+			}],
+			RepairCost: 0,
+			astralsorcery: {
+				size: 1800L,
+				fract: 0L,
+				purity: 100L,
+				sizeOverride: -1L,
+				collect: 100L
+			},
+			display: {
+				Name: "Classic Failure"
+			},
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 8.0d,
+	y: -10.0d,
+	description: "Weapons of the best",
+	text: [
+		"It was an honor serving with you all."
+	],
+	dependencies: [
+		"d78e8f73"
+	],
+	tasks: [{
+		uid: "9fa93894",
+		type: "gamestage",
+		stage: "imperiaJunior"
+	}],
+	rewards: [{
+		uid: "1459a006",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemchargedcrystalsword",
+			tag: {
+				"Quark:RuneColor": 9,
+				ench: [{
+					lvl: 32767s,
+					id: 34
+				}],
+				RepairCost: 0,
+				astralsorcery: {
+					size: 1800L,
+					fract: 0L,
+					purity: 100L,
+					sizeOverride: -1L,
+					collect: 100L
+				},
+				display: {
+					Name: "Classic Failure"
+				},
+				"Quark:RuneAttached": 1b
+			}
+		}
+	},
+	{
+		uid: "bcd5024d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemchargedcrystalaxe",
+			tag: {
+				RepairCost: 0,
+				astralsorcery: {
+					size: 2700,
+					fract: 0,
+					purity: 100,
+					sizeOverride: -1,
+					collect: 100
+				},
+				display: {
+					Name: "Lord XCVIII"
+				}
+			}
+		}
+	}]
+}

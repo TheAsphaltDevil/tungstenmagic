@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "ba613dd3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_mount_teleporting"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

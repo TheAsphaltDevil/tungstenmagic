@@ -1,0 +1,26 @@
+{
+	title: "Complete Exam II: House Mus",
+	x: 15.5d,
+	y: -11.5d,
+	dependencies: [
+		"78d4f428",
+		"c736431f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9ce3801f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ed73f12e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "sophomoreFinished"
+	},
+	{
+		uid: "387cd78c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "musSophomore"
+	}]
+}

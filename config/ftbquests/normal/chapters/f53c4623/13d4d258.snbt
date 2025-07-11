@@ -1,0 +1,32 @@
+{
+	title: "Tier V Dark Arts",
+	x: -12.5d,
+	y: 8.5d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4c1a4d2d",
+		"3897b09c"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "c1ef57bc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

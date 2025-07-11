@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_victus",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "victus",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_victus",
+            "amount": 10
+        }
+    ]
+}

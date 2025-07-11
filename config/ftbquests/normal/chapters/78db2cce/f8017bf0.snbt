@@ -1,0 +1,18 @@
+{
+	title: "Graduate: House Mus",
+	x: 21.0d,
+	y: -3.0d,
+	dependencies: [
+		"bc165b0f"
+	],
+	tasks: [{
+		uid: "824c80bb",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "4d9deb74",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "musGrad"
+	}]
+}

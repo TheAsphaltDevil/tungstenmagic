@@ -1,0 +1,19 @@
+{
+	x: -8.5d,
+	y: 14.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "4bb56f9b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "thaumcraft:amulet_vis"
+		}],
+		ignore_nbt: 1b
+	}]
+}

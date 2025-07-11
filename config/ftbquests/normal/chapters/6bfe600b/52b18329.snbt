@@ -1,0 +1,13 @@
+{
+	title: "Space: Ascend",
+	icon: "davincisvessels:balloon",
+	x: -4.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ccf4464f",
+		type: "checkmark"
+	}]
+}

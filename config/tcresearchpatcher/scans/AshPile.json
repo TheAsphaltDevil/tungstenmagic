@@ -1,0 +1,9 @@
+[
+    {
+	"key": "!AshPile",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "embers:dust_ash"
+		}
+	}
+]

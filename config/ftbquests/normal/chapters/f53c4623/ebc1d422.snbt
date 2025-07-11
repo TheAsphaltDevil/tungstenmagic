@@ -1,0 +1,23 @@
+{
+	x: -4.7d,
+	y: 2.5d,
+	shape: "gear",
+	description: "Advanced Artifice",
+	text: [
+		"The ancient motive core is dropped by ancient golems, and is your ticket into more advanced artifice.",
+		"",
+		"In this year, you gain the ability to create basic assembly lines with the power of ember (the plasma form of magic)."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"744b7352",
+		"a8358efe"
+	],
+	tasks: [{
+		uid: "45bc3ef9",
+		type: "item",
+		items: [{
+			item: "embers:ancient_motive_core"
+		}]
+	}]
+}

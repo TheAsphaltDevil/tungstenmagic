@@ -1,0 +1,51 @@
+{
+	title: "Tier V Blood Altar",
+	x: 19.0d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "3b93e34e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "e494c6eb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Tier V Blood Altar",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 772,
+					Y: 12,
+					Z: 163
+				},
+				itemcountmap: [{
+					item: 42,
+					meta: 0,
+					count: 36
+				},
+				{
+					item: 5522,
+					meta: 0,
+					count: 52
+				}],
+				endPos: {
+					X: 754,
+					Y: 11,
+					Z: 145
+				}
+			}
+		}
+	}]
+}

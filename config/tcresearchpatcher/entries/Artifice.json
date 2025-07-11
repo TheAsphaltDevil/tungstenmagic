@@ -1,0 +1,76 @@
+{
+    "entries" :[
+        {
+        "key": "METALLICALCHEMY",    
+        "name": "Metallic Hedge Alchemy",
+        "icons": [ "minecraft:gold_ingot","minecraft:iron_ingot","embers:ingot_lead"],
+        "category": "ALCHEMY_EXPANSION", "location": [ -2,1 ], 
+        "parents": [ "UNLOCKALCHEMY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I can't help but notice the resemblance in both shape and composition between clay and certain metals. They'd probably lend themselves well to hedge alchemy",
+                    "required_knowledge":["OBSERVATION;ALCHEMY;2"],
+                    "required_item":["minecraft:gold_ingot","minecraft:iron_ingot","embers:ingot_lead"]
+                },
+                {
+                    "text":"I have created several recipes for metallic hedge alchemy.",
+                    "recipes":["thaumcraft:gold", "thaumcraft:iron", "thaumcraft:ingotLead"]
+                }
+            ]
+        },
+        {
+        "key": "MODULARIUM",    
+        "name": "Modularium",
+        "icons": ["modularmachinery:itemmodularium"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 0,2 ], 
+        "parents": [ "UNLOCKALCHEMY" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "The molecular structure of aluminium is quite intriguing. If I infuse it with certain types of essentia, I should most likely be rewarded with machines that are incredibly useful.",
+                    "required_knowledge":["THEORY;ARTIFICE;2"]
+                },
+                {
+                    "text":"I have designed a material that I will call modularium. This should allow me to make various machines that can handle essentia, including ones that can condense essentia to/from a liquid form, an essentia combiner (the reverse of a centrifuge).",
+                    "recipes":["thaumcraft:modularium"]
+                }
+            ]
+        },
+        {
+        "key": "ESSENTIAVATS",    
+        "name": "Bulk Essentia Storage",
+        "icons": ["thaumcraft:jar_normal"],
+        "category": "ALCHEMY_EXPANSION", "location": [ -2,4 ], 
+        "parents": [ "MODULARIUM", "ITEMFLUIDPIPES" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "I have several different devices for storing huge amounts of fluid. <BR> There is just one problem, though. Essentia is no ordinary fluid! It can travel through the air and permeate most objects with ease. If I want to store it in more mundane containers, I will have to 'calm down' the essentia first.",
+                    "required_knowledge":["THEORY;ARTIFICE;2"]
+                },
+                {
+                    "text": "I have created two machines: \n \n The first is the essentia condenser, which can 'calm down' the essentia and make it usable in more mundane fluid containers. \n \n The second is the essentia expander, which reverts the essentia back to its usual form. \n \n A side effect of essentia in this calmed state is that they will not react with each other. I therefore cannot use essentia in this form for anything, except storage. \n \n (The blueprints for these machines can be found in JEI)"
+                }
+            ]
+        },
+        {
+        "key": "ESSENTIACOMBINERCUSTOM",    
+        "name": "Essentia Combiner",
+        "icons": ["thaumcraft:jar_normal"],
+        "category": "ALCHEMY_EXPANSION", "location": [ 0,4 ], 
+        "parents": [ "MODULARIUM" ],        
+        "meta": ["ROUND"],        
+        "stages": [
+                {
+                    "text": "After creating an essentia centrifuge: one question has been on my mind: the reverse-combining essentia-should be possible too.",
+                    "required_knowledge":["THEORY;ARTIFICE;2"]
+                },
+                {
+                    "text": "I have created the essentia combiner! I simply put one essentia type on each end of the machine, and the resulting essentia will come out the top. (The blueprints for this machine can be found in JEI)"
+                }
+            ]
+        }
+    ]
+}
+

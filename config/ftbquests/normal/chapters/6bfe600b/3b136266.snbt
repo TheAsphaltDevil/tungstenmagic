@@ -1,0 +1,20 @@
+{
+	title: "P: Tinkers Pants",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:iron_leggings"
+	},
+	x: 9.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "22784dbb",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	title: "V: Spell 8",
+	icon: "ebwizardry:spell_book 1 14",
+	x: -8.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c70cc5e8",
+		type: "checkmark",
+		title: "Spell 8"
+	}]
+}

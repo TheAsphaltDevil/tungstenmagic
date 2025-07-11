@@ -1,0 +1,9 @@
+[
+    {
+	"key": "!Decay",
+	"type": "thaumcraft:block",
+	"object": {
+	    "name": "mystcraft:blockdecay"
+		}
+	}
+]

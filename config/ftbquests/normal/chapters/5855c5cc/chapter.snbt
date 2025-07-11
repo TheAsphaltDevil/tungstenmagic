@@ -1,0 +1,7 @@
+{
+	title: "Fields of Study",
+	icon: "ebwizardry:wizard_handbook",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

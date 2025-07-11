@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "potentia",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "potentia",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_potentia",
+            "amount": 10
+        }
+    ]
+}

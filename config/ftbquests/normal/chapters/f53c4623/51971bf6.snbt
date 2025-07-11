@@ -1,0 +1,23 @@
+{
+	title: "DRUIDIC ARTS",
+	x: -18.1d,
+	y: -3.85d,
+	shape: "hexagon",
+	description: "Protecting the Earth",
+	text: [
+		"With druidic arts, you can create plants to aid in the restoration of the earth's magic, and to create various powerful artifacts."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9fbbe405"
+	],
+	hide: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "bf56e7cf",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}]
+	}]
+}

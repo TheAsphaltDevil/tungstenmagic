@@ -1,0 +1,39 @@
+{
+	title: "Sophomore Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ebwizardry:ring_condensing"
+	},
+	x: 1.7999999999999998d,
+	y: -10.45d,
+	description: "Passive mana regen",
+	text: [
+		"With its efforts in understanding natural energies, House Vita developed rings to passively regenerate mana for your wands.",
+		"",
+		"--",
+		"Arcane workbench? What's that?"
+	],
+	dependencies: [
+		"ed437c70"
+	],
+	tasks: [{
+		uid: "72b9ad58",
+		type: "gamestage",
+		stage: "vitaSophomore"
+	}],
+	rewards: [{
+		uid: "07326999",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "ebwizardry:ring_condensing"
+		}
+	}]
+}

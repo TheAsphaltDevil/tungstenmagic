@@ -1,0 +1,21 @@
+{
+    "machine": "condenser",
+    "registryName": "aer_liquid",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "aer",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_aer",
+            "amount": 10
+        }
+    ]
+}
+
+

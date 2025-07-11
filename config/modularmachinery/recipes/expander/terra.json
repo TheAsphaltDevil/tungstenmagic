@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "terra",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "terra",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_terra",
+            "amount": 10
+        }
+    ]
+}

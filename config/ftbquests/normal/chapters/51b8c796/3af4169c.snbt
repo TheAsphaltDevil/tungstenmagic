@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: 8.5d,
+	shape: "gear",
+	tasks: [{
+		uid: "a7a06755",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:ember_ring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

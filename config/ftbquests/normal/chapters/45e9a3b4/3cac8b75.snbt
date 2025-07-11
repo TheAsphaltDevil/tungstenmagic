@@ -1,0 +1,66 @@
+{
+	title: "Attunement Altar",
+	x: 13.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "ceb52a39",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "d1345dcc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Attunement Altar",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 853,
+					Y: 16,
+					Z: 79
+				},
+				itemcountmap: [{
+					item: 8067,
+					meta: 4,
+					count: 4
+				},
+				{
+					item: 8067,
+					meta: 3,
+					count: 80
+				},
+				{
+					item: 8068,
+					meta: 0,
+					count: 225
+				},
+				{
+					item: 8067,
+					meta: 2,
+					count: 12
+				},
+				{
+					item: 8067,
+					meta: 6,
+					count: 4
+				}],
+				endPos: {
+					X: 835,
+					Y: 11,
+					Z: 97
+				}
+			}
+		}
+	}]
+}

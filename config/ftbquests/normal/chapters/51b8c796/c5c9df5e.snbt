@@ -1,0 +1,17 @@
+{
+	x: -8.0d,
+	y: 7.5d,
+	shape: "gear",
+	tasks: [{
+		uid: "c36ec2b7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:dawnstone_mail"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

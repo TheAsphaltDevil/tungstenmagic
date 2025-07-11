@@ -1,0 +1,17 @@
+{
+	x: -11.2d,
+	y: 2.8d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"b785f970"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "ee2edb0a",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 2"
+		}]
+	}]
+}

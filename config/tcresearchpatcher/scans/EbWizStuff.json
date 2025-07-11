@@ -1,0 +1,30 @@
+[
+    {
+	"key": "!ImbuementAltar",
+	"type": "thaumcraft:block",
+	"object": {
+	    "name": "ebwizardry:imbuement_altar"
+		}
+	},
+	{
+	"key": "!RuinedBook",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "ebwizardry:ruined_spell_book"
+		}
+	},
+	{
+	"key": "!TomeArcana",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "ebwizardry:arcane_tome"
+		}
+	},
+	{
+	"key": "!Remnant",
+	"type": "thaumcraft:entity",
+	"object": {
+	    "name": "ebwizardry:remnant"
+		}
+	}
+]

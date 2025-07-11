@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 13.5d,
+	tasks: [{
+		uid: "cacd910b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:ring_earth_biome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

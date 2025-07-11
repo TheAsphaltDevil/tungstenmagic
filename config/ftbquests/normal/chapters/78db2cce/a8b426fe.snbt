@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: -5.0d,
+	text: [
+		"Surely the council knew of this..."
+	],
+	dependencies: [
+		"c8b98820"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f0b1f401",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "thaumicaugmentation:research_notes"
+		}],
+		ignore_nbt: 1b
+	}]
+}

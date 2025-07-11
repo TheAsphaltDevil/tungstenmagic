@@ -1,0 +1,23 @@
+{
+	title: "Sludge Menace",
+	x: 3.5d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"335453cd"
+	],
+	tasks: [{
+		uid: "7cc69581",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_dispersion"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

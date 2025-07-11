@@ -1,0 +1,23 @@
+{
+	title: "Ashen Alchemy",
+	x: -8.7d,
+	y: 3.5d,
+	shape: "gear",
+	text: [
+		"Ashen alchemy is the act of using ash to transmute items into powerful substances, and to transmute metals.",
+		"",
+		"It grants access to the most powerful machines, and a new enchantment system exclusive to ashen alchemy."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"dd0cb33f",
+		"3897b09c"
+	],
+	tasks: [{
+		uid: "d9d2d80b",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_tablet"
+		}]
+	}]
+}

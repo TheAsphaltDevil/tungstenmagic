@@ -1,0 +1,41 @@
+{
+	title: "Exam I",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemknowledgeshare",
+		tag: {
+			astralsorcery: {
+				creativeKnowledge: 1b
+			}
+		}
+	},
+	x: -12.5d,
+	y: -4.5d,
+	text: [
+		"To advance to the next year in the academy, you will need to complete an exam.",
+		"",
+		"These exams consist of:",
+		"-Performing tasks",
+		"-Gathering mystical items",
+		"-Slaying creatures ",
+		"",
+		"If you have traveled to such lands before and tire of them, you may instead replicate their drops with arcane infusion.",
+		"",
+		"Upon beginning an exam, a new tab will open up for it, which can be completed at your own pace.",
+		"",
+		"=======",
+		"",
+		"Exam 1 will have you slaying several beasts both in the overworld and the nether: a hot, unforgiving landscape."
+	],
+	dependencies: [
+		"9fbbe405"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "b72784f9",
+		type: "checkmark",
+		title: "Begin Exam I"
+	}]
+}

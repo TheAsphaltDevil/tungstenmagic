@@ -1,0 +1,22 @@
+{
+	title: "Tier III Tools",
+	x: -8.75d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"You now gain access to ardite, one of the most powerful materials for smithing."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b27f646a",
+		"1195d1b3"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "c6f2890a",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,55 @@
+{
+	title: "Starter Kit: Arcane Smithing",
+	icon: "tconstruct:smeltery_controller",
+	disable_toast: true,
+	x: 25.0d,
+	y: 3.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "a49de01f",
+		type: "item",
+		items: [{
+			item: "treasure2:gold_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "4b9f08a3",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "fabrico"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 8
+	},
+	{
+		uid: "fbee6310",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "perditio"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 8
+	},
+	{
+		uid: "607f20a9",
+		type: "item",
+		item: "minecraft:clay",
+		count: 32
+	}]
+}

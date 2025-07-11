@@ -1,0 +1,14 @@
+{
+	title: "PLEASE READ EVERY QUEST",
+	x: -2.0d,
+	y: -7.0d,
+	description: "PLEASE READ EVERY QUEST INCLUDING THIS ONE",
+	text: [
+		"Please read every quest. Important information is contained within each entry."
+	],
+	tasks: [{
+		uid: "5986afbc",
+		type: "checkmark",
+		title: "PLEASE READ EVERY QUEST"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Land Claiming",
+	icon: "minecraft:fence",
+	x: 15.5d,
+	y: -7.0d,
+	text: [
+		"The 'claimed chunks' menu allows you to claim land for your team. It is below the teams menu.",
+		"",
+		"Click and drag to claim.",
+		"",
+		"Right click and drag to unclaim.",
+		"",
+		"Shift+Left click to forceload a chunk. This keeps it loaded when no players are nearby. Useful for keeping machines or farms running!",
+		"",
+		"In the teams settings, you can grant players (members, allies, and outsiders) various privileges when they are on your land."
+	],
+	dependencies: [
+		"5a1538a0",
+		"6568a3c7"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "937b0805",
+		type: "checkmark",
+		title: "ok"
+	}]
+}

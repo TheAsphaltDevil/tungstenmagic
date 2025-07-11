@@ -1,0 +1,17 @@
+{
+	x: -5.5d,
+	y: 14.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "3f825fc3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:baubles",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

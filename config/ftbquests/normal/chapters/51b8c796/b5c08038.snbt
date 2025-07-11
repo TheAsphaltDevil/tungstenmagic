@@ -1,0 +1,22 @@
+{
+	x: -13.5d,
+	y: 2.5d,
+	shape: "diamond",
+	text: [
+		"Allows you to insert various gems into the socket, each with their own abilities.",
+		"",
+		"Use the gem cutter's table to make them."
+	],
+	tasks: [{
+		uid: "4e065c06",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "arcanearchives:gemsocket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

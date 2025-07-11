@@ -1,0 +1,252 @@
+{
+	title: "C: CHANGE",
+	icon: "mystgears:gear_wood",
+	x: 3.0d,
+	y: 2.5d,
+	shape: "square",
+	text: [
+		"This keybind is used for most mode-changing items in the pack. They are listed here, and in the spell combat bindings."
+	],
+	tasks: [{
+		uid: "6021dd4e",
+		type: "item",
+		title: "C: Change Mode",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chiselsandbits:chisel_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dc9a04e8",
+		type: "item",
+		title: "C: Change Mode",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chiselsandbits:chisel_iron",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6a7baa53",
+		type: "item",
+		title: "C: Change Mode",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chiselsandbits:chisel_gold",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ec9ab9dd",
+		type: "item",
+		title: "C: Change Mode",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chiselsandbits:chisel_diamond",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "80779a40",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:bit_wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "71b913fa",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:sculpting_loop"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d3a21b7",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:sculpting_square"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f2f09ba",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:sculpting_spade_curved"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d7672218",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:sculpting_spade_squared"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "04ae057e",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:modeling_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ed0b8cee",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:chiseled_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e264b5e8",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:chiseled_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "65489171",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:chiseled_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5c6ffc42",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:chiseled_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8deced9e",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:chiseled_helmet_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11fba088",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:chiseled_chestplate_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bc0e225c",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:chiseled_leggings_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d7505ff1",
+		type: "item",
+		title: "C: Change",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabitmanipulation:chiseled_boots_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f5449f9",
+		type: "checkmark"
+	}]
+}

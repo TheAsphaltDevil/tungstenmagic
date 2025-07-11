@@ -1,0 +1,13 @@
+{
+	x: 3.5d,
+	y: -1.5d,
+	shape: "heart",
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "994ec5c2",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}]
+	}]
+}

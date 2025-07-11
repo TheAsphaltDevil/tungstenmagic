@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: -7.0d,
+	dependencies: [
+		"a7246690"
+	],
+	tasks: [{
+		uid: "16251ed1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:elytra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

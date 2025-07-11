@@ -1,0 +1,20 @@
+{
+	title: "K: Rotation Lock",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "bibliocraft:bibliocreativelock"
+	},
+	x: 7.5d,
+	y: 1.5d,
+	text: [
+		"Using this to place an inventory with items in it is not recommended!"
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "658deb63",
+		type: "checkmark"
+	}]
+}

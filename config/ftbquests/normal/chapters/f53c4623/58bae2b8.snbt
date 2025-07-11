@@ -1,0 +1,22 @@
+{
+	title: "AUROMANCY",
+	x: -7.5d,
+	y: 13.3d,
+	shape: "rsquare",
+	description: "Cast Spells",
+	text: [
+		"With auromancy, you can create your own spells!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9fbbe405"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d01ac58c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:wand_workbench"
+		}]
+	}]
+}

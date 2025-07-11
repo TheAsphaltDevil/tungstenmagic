@@ -1,0 +1,23 @@
+{
+	title: "ARCANE SMITHING",
+	x: -5.95d,
+	y: -3.15d,
+	shape: "square",
+	description: "Custom Tools",
+	text: [
+		"Create your own custom tools and weapons with their own enchantments and powers."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9fbbe405"
+	],
+	hide: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "4b993b35",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	}]
+}

@@ -1,0 +1,83 @@
+{
+	title: "Starter Kit: Dark Arts",
+	icon: "minecraft:apple",
+	disable_toast: true,
+	x: 25.5d,
+	y: 4.5d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "16dc0183",
+		type: "item",
+		items: [{
+			item: "treasure2:gold_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "1b3324c6",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "exanimis"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 6
+	},
+	{
+		uid: "ac60e83b",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "mortuus"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 6
+	},
+	{
+		uid: "dbdb5378",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "alienis"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 6
+	},
+	{
+		uid: "41ecb9ed",
+		type: "item",
+		item: "minecraft:string",
+		count: 64
+	},
+	{
+		uid: "973ccdad",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {
+				sacrifice: 0b
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 43.0d,
+	y: -8.0d,
+	text: [
+		"We have thrown a lot at you. Let's do a brief recap.",
+		"",
+		"The §lQuest book§r (this book) shows overall progression, and the shop. It shows WHAT to do.",
+		"",
+		"The §lThaumonomicon§r is your guide to everything magic. It shows HOW to do things.",
+		"",
+		"The §lAstral Tome§r is your skill tree.",
+		"",
+		"Your wands will do various things as described in their entry.",
+		"",
+		"Don't forget how to use JEI/land claiming, and don't forget to scan things with your Thaumometer!"
+	],
+	dependencies: [
+		"c2d53cfe"
+	],
+	tasks: [{
+		uid: "d1a6bda9",
+		type: "checkmark",
+		title: "Recap"
+	}]
+}

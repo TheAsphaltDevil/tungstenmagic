@@ -1,0 +1,140 @@
+[
+    {
+        "key": "AUROMANCYEXPANSION",
+        "requirement": "UNLOCKAUROMANCY",
+        "aspects": {
+            "aqua": 10,
+            "ignis": 10,
+            "terra":10,
+            "aer":10,
+            "vitium":10,
+            "ordo":10,
+            "perditio":10,
+            "praecantatio":10
+
+        },
+        "icon": "thaumcraft:textures/research/cat_auromancy.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_6.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "ALCHEMY_EXPANSION",
+        "requirement": "UNLOCKALCHEMY",
+        "aspects": {
+            "alkimia": 10,
+            "praecantatio":10
+        },
+        "icon": "thaumcraft:textures/research/cat_alchemy.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_3.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "ARTIFICEEXPANSION",
+        "requirement": "UNLOCKARTIFICE",
+        "aspects": {
+            "metallum": 10,
+            "machina": 15,
+            "terra":10,
+            "praecantatio":10
+        },
+        "icon": "thaumcraft:textures/research/cat_artifice.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_2.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "ASTRALSORCERY",
+        "requirement": "CELESTIALSCANNING",
+        "aspects": {
+            "alienis": 30,
+            "lux": 30
+        },
+        "icon": "thaumcraft:textures/research/r_celestial.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_6.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "THENULL",
+        "requirement": "ELDRITCH_EPIPHANY",
+        "aspects": {
+            "vacuos": 10
+        },
+        "icon": "thaumcraft:textures/research/r_outer.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_2.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "PERIODICTABLE",
+        "requirement": "UNLOCKALCHEMY",
+        "aspects": {
+            "terra": 10,
+            "aer": 10,
+            "aqua": 10,
+            "perditio": 10,
+            "ordo" : 10,
+            "ignis": 10
+        },
+        "icon": "thaumcraft:textures/aspects/aer.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_2.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "BESTIARY",
+        "requirement": "UNLOCKGOLEMANCY",
+        "aspects": {
+            "herba": 10,
+            "mythus": 30,
+            "draco":50,
+            "bestia": 30
+        },
+        "icon": "iceandfire:textures/items/bestiary.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_3.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "CATEGORY_KEY",
+        "requirement": "!CrimsonCultist",
+        "aspects": {
+            "mortuus": 10,
+            "vitium": 15,
+            "victus": 10
+        },
+        "icon": "minecraft:textures/items/apple.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_5.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "DRUIDIC_ARTS",
+        "requirement": "PLANTS",
+        "aspects": {
+            "terra": 10,
+            "herba": 15,
+            "praecantatio":10
+        },
+        "icon": "botania:textures/items/lexicon_default.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_3.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "INFUSIONEXPANSION",
+        "requirement": "THEORYRESEARCH",
+        "aspects": {
+            "cognitio": 10
+        },
+        "icon": "arcanearchives:textures/items/item_tomeofarcana.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_7.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "TICONSTRUCT",
+        "requirement": "UNLOCKARTIFICE",
+        "aspects": {
+            "fabrico": 10
+        },
+        "icon": "tconstruct:textures/blocks/smeltery/smeltery_inactive.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_2.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    }
+]
+
+
+

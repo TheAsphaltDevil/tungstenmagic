@@ -1,0 +1,38 @@
+{
+	title: "Senior Year",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar",
+		Damage: 3s
+	},
+	x: -12.5d,
+	y: 0.5d,
+	description: "Preparing for Graduation",
+	text: [
+		""
+	],
+	dependencies: [
+		"dc4e78a8"
+	],
+	tasks: [{
+		uid: "bc649b42",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fbd8e3a5",
+		type: "gamestage",
+		title: "Senior Year",
+		auto: "no_toast",
+		stage: "senior"
+	}]
+}

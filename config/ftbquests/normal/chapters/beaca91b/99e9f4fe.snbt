@@ -1,0 +1,31 @@
+{
+	title: "Exam I Items",
+	x: 5.0d,
+	y: -2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"54c469f2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3f5263de",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:wrought_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f7b36431",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}]
+}

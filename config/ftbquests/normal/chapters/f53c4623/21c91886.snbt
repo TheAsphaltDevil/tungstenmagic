@@ -1,0 +1,64 @@
+{
+	title: "Sophomore Gifts",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "twilightforest:seeker_bow",
+		tag: {
+			"Quark:RuneColor": 2,
+			ench: [{
+				lvl: 32767s,
+				id: 34L
+			},
+			{
+				lvl: 1s,
+				id: 51L
+			}],
+			RepairCost: 3L,
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 5.5d,
+	y: -13.2d,
+	description: "Bow with homing arrows",
+	text: [
+		"This bow fires homing arrows; perfect for taming amphitheres.",
+		"",
+		"Although it has infinity, you will need some arrows on your person for it to work.",
+		"",
+		"---",
+		"Dodge THIS."
+	],
+	dependencies: [
+		"c53b778d"
+	],
+	tasks: [{
+		uid: "502660cf",
+		type: "gamestage",
+		stage: "ardeSophomore"
+	}],
+	rewards: [{
+		uid: "6188e864",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:seeker_bow",
+			tag: {
+				"Quark:RuneColor": 2,
+				ench: [{
+					lvl: 32767s,
+					id: 34L
+				},
+				{
+					lvl: 1s,
+					id: 51L
+				}],
+				RepairCost: 3L,
+				"Quark:RuneAttached": 1b
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 33.0d,
+	y: -8.0d,
+	text: [
+		"Used in theorycrafting and celestial note-taking."
+	],
+	dependencies: [
+		"de20877d"
+	],
+	tasks: [{
+		uid: "be264df9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

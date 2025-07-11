@@ -1,0 +1,23 @@
+{
+	title: "Primordial Malevolence",
+	x: 3.5d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"335453cd"
+	],
+	tasks: [{
+		uid: "530e4582",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ring_of_recruitment"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "DARK ARTS",
+	x: -12.5d,
+	y: 14.4d,
+	shape: "pentagon",
+	description: "Forbidden Magics",
+	text: [
+		"Dark Arts involves using Gola belonging to other creatures to the perpetrator's benefit.",
+		"",
+		"For the purposes of education, we shall allow this practice on hostile creatures only."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9fbbe405"
+	],
+	hide: true,
+	size: 0.7d,
+	tasks: [{
+		uid: "4d4430da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:apprentice"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

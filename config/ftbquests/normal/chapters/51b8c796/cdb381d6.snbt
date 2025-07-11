@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 9.5d,
+	shape: "square",
+	tasks: [{
+		uid: "bebeb1c6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aether_legacy:ascending_dawn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

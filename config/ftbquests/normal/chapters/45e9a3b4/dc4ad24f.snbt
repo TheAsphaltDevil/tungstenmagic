@@ -1,0 +1,110 @@
+{
+	title: "Starter Kit: Beast Taming",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "iceandfire:bestiary",
+		tag: {
+			Pages: [I;
+				0
+			]
+		}
+	},
+	disable_toast: true,
+	x: 24.5d,
+	y: 4.5d,
+	shape: "heart",
+	text: [
+		"Note from the modpack maker:",
+		"",
+		"If using the OTG world type, the biome name for magical forests is \"greatwood\"."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "4c1db4a2",
+		type: "item",
+		items: [{
+			item: "treasure2:gold_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "d4b0d042",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:fishing_rod"
+		}
+	},
+	{
+		uid: "f9eaaddc",
+		type: "item",
+		item: {
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}
+	},
+	{
+		uid: "33f0b211",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "bestia"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 10
+	},
+	{
+		uid: "bff4b2d7",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "praecantatio"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 10
+	},
+	{
+		uid: "0f2814a1",
+		type: "item",
+		item: {
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "desiderium"
+				}]
+			},
+			Damage: 1s
+		},
+		count: 2
+	},
+	{
+		uid: "7c5ff452",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:boat"
+		}
+	},
+	{
+		uid: "30702151",
+		type: "item",
+		item: "minecraft:lead",
+		count: 8
+	}]
+}

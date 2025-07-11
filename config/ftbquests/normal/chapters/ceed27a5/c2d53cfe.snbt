@@ -1,0 +1,42 @@
+{
+	title: "Find a constellation",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemhandtelescope"
+	},
+	x: 41.0d,
+	y: -8.0d,
+	text: [
+		"The looking glass can be made in the luminous crafting table.",
+		"",
+		"---",
+		"",
+		"When peering through the device, take a look around for the biggest and brightest stars.",
+		"",
+		"If the stars' pattern seems to match a constellation paper, try tracing the constellation by holding the sneak or shift key, and then dragging your mouse."
+	],
+	dependencies: [
+		"0d7c9a25",
+		"a3fb2075"
+	],
+	tasks: [{
+		uid: "40fb869f",
+		type: "advancement",
+		advancement: "astralsorcery:find_constellation",
+		criterion: ""
+	},
+	{
+		uid: "075dc182",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemhandtelescope"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

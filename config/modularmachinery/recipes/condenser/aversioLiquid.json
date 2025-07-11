@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_aversio",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "aversio",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_aversio",
+            "amount": 10
+        }
+    ]
+}

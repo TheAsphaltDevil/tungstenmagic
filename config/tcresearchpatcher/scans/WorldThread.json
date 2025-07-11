@@ -1,0 +1,9 @@
+[
+    {
+	"key": "!WorldThread",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "dimdoors:world_thread"
+		}
+	}
+]

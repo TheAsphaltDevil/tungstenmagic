@@ -1,0 +1,81 @@
+{
+	title: "House Arde",
+	x: 5.5d,
+	y: -15.5d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a7dde72e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f8017e70",
+		type: "gamestage",
+		title: "Join House Arde",
+		stage: "vicio"
+	}],
+	rewards: [{
+		uid: "de454988",
+		type: "command",
+		auto: "enabled",
+		command: "/astralsorcery attune @s astralsorcery.constellation.vicio"
+	},
+	{
+		uid: "423a2bf1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "astralsorcery:itemcape",
+			tag: {
+				"Quark:RuneColor": 1,
+				ench: [{
+					lvl: 32767s,
+					id: 34
+				},
+				{
+					lvl: 1s,
+					id: 74
+				}],
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.fornax"
+				},
+				"Quark:RuneAttached": 1b,
+				mahoujin_projector: {
+					IMAGE_LOAD: 0,
+					CIRCLE_PITCH: 90.0f,
+					CIRCLE_SHOW_R: 0b,
+					ForgeData: {},
+					CIRCLE_A: 200,
+					CIRCLE_B: 0,
+					CIRCLE_SHOW_C: 1b,
+					CIRCLE_G: 150,
+					CIRCLE_SIZE: 1.1f,
+					id: "mahoutsukai:mahoujin_projector",
+					RUNES_LOAD: -1,
+					CIRCLE_SPEED: 1.0f,
+					CIRCLE_YAW: 0.0f,
+					CIRCLE_RING_ANGLE: 0.0f,
+					RING_HEIGHT: 0.125f,
+					CIRCLE_SPEED_YAW: 0.0f,
+					CIRCLE_R: 255,
+					ROTATION_OFFSET: 0.0f,
+					x: -603,
+					y: 4,
+					CIRCLE_SPEED_PITCH: 0.0f,
+					z: -306,
+					CIRCLE_ROTATION: 306.0f,
+					CIRCLE_Y: 1.0f,
+					CIRCLE_Z: -0.6f,
+					CIRCLE_X: 0.0f
+				}
+			}
+		}
+	}]
+}

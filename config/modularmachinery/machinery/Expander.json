@@ -1,0 +1,21 @@
+{
+    "registryname": "expander",
+    "localizedname": "Essentia Expander",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmagic:blockaspectprovideroutput@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        }
+    ]}

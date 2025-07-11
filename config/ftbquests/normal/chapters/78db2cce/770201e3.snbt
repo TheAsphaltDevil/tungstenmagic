@@ -1,0 +1,18 @@
+{
+	x: -4.0d,
+	y: -6.5d,
+	text: [
+		"What a... strange... object."
+	],
+	dependencies: [
+		"a56e807c"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "13ff9efb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}]
+	}]
+}

@@ -1,0 +1,214 @@
+{
+	title: "Wand of Building",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemexchangewand",
+		tag: {
+			astralsorcery: {}
+		}
+	},
+	x: 17.5d,
+	y: -4.5d,
+	description: "Contains various useful spells for building.",
+	text: [
+		"Worldshaper's Sextant: Draw circles out of blocks for tracing.",
+		"",
+		"Hand Drill: Transform various furniture pieces into one larger piece.",
+		"",
+		"Conversion Wand: Exchange blocks for others.",
+		"",
+		"Copy-Paste Gadget: Used for placing multiblock structures.",
+		"",
+		"Diamond Chisel: Used for sculpting your own blocks and armor.",
+		"",
+		"Unbreakable Wand: Extend walls and floors instantly.",
+		"",
+		"iChisel: Change the textures of various blocks."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "5c3d713a",
+		type: "item",
+		items: [{
+			item: "treasure2:silver_coin"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "49942cbf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "morphtool:tool",
+			tag: {
+				"morphtool:is_morphing": 1b,
+				"morphtool:data": {
+					botania: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "botania:sextant",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aWorldshaper's Sextant§r)"
+							},
+							"morphtool:displayName": "Worldshaper's Sextant"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "astralsorcery:itemexchangewand",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							astralsorcery: {},
+							display: {
+								Name: "§rMorphing Tool (§aConversion Wand§r)"
+							},
+							"morphtool:displayName": "Conversion Wand"
+						},
+						Damage: 0s
+					},
+					bibliocraft: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "bibliocraft:handdrill",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aHand Drill§r)"
+							},
+							"morphtool:displayName": "Hand Drill"
+						},
+						Damage: 0s
+					},
+					bloodmagic: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "bloodmagic:ritual_diviner",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aRitual Diviner [Dusk]§r)"
+							},
+							"morphtool:displayName": "Ritual Diviner [Dusk]"
+						},
+						Damage: 1s
+					},
+					buildinggadgets: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "buildinggadgets:copypastetool",
+						Count: 1b,
+						tag: {
+							mode: "Copy",
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aCopy-Paste Gadget§r)"
+							},
+							"morphtool:displayName": "Copy-Paste Gadget"
+						},
+						Damage: 0s
+					},
+					chiselsandbits: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "chiselsandbits:chisel_diamond",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							ench: [{
+								lvl: 32767s,
+								id: 34L
+							}],
+							RepairCost: 1L,
+							display: {
+								Name: "§rMorphing Tool (§aDiamond Chisel§r)"
+							},
+							"morphtool:displayName": "Diamond Chisel"
+						},
+						Damage: 0s
+					},
+					betterbuilderswands: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "betterbuilderswands:wandunbreakable",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							display: {
+								Name: "§rMorphing Tool (§aUnbreakable Wand§r)"
+							},
+							"morphtool:displayName": "Unbreakable Wand"
+						},
+						Damage: 14s
+					},
+					chisel: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderLeast: -6604899539562883411L,
+								AS_Amulet_HolderMost: -4554225877018588837L
+							}
+						},
+						id: "chisel:chisel_hitech",
+						Count: 1b,
+						tag: {
+							"morphtool:is_morphing": 1b,
+							ench: [{
+								lvl: 32767s,
+								id: 34L
+							}],
+							RepairCost: 1L,
+							chiseldata: {},
+							display: {
+								Name: "§rMorphing Tool (§aiChisel§r)"
+							},
+							"morphtool:displayName": "iChisel"
+						},
+						Damage: 0s
+					}
+				}
+			}
+		}
+	}]
+}

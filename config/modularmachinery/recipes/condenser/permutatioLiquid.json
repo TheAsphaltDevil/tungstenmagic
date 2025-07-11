@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_permutatio",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "permutatio",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_permutatio",
+            "amount": 10
+        }
+    ]
+}

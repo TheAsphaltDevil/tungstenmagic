@@ -1,0 +1,22 @@
+{
+	title: "Tier IV Tools",
+	x: -10.0d,
+	y: 1.4d,
+	shape: "square",
+	text: [
+		"You now gain access to cobalt, one of the most powerful materials for smithing."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"19e89c54",
+		"3897b09c"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "57e2efa0",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots"
+		}]
+	}]
+}

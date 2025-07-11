@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "praecantatio",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "praecantatio",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_praecantatio",
+            "amount": 10
+        }
+    ]
+}

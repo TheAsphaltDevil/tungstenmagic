@@ -1,0 +1,19 @@
+{
+    "machine": "condenser",
+    "registryName": "liquid_aqua",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "input",
+            "aspect": "aqua",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid_aqua",
+            "amount": 10
+        }
+    ]
+}

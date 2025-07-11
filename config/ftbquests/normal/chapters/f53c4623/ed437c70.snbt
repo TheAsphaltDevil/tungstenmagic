@@ -1,0 +1,36 @@
+{
+	title: "Freshman Gift",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumicperiphery:caster_elementium"
+	},
+	x: 0.5d,
+	y: -11.0d,
+	description: "Liquid Mana Gauntlet",
+	text: [
+		"This gauntlet is tuned to cast your spells using liquid mana instead of vis.",
+		"",
+		"---",
+		"It's cold to the touch..."
+	],
+	dependencies: [
+		"ca7b25fc"
+	],
+	tasks: [{
+		uid: "451e1933",
+		type: "gamestage",
+		stage: "vitaFreshman"
+	}],
+	rewards: [{
+		uid: "df50c792",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicperiphery:caster_elementium"
+		}
+	}]
+}

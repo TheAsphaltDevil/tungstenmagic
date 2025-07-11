@@ -1,0 +1,24 @@
+{
+	title: "Northern Quadrant",
+	x: 6.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"4c10b5e0"
+	],
+	tasks: [{
+		uid: "0380d31d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "ce554b21",
+		type: "item",
+		item: "thaumcraft:curio"
+	}]
+}

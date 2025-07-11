@@ -1,0 +1,9 @@
+[
+    {
+	"key": "!AncientMotiveCore",
+	"type": "thaumcraft:item",
+	"object": {
+	    "name": "embers:ancient_motive_core"
+		}
+	}
+]

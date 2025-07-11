@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "cognitio",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "cognitio",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_cognitio",
+            "amount": 10
+        }
+    ]
+}

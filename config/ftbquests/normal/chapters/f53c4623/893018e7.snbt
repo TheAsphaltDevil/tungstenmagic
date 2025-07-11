@@ -1,0 +1,21 @@
+{
+	title: "Tubeless Essentia",
+	x: -15.7d,
+	y: 9.5d,
+	shape: "octagon",
+	text: [
+		"Essentia transfusers are devices that can transport essnetia through the air. They are also intelligent; they only pull and push the essentia they need or have, and are less prone to clogs."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b27f646a",
+		"d2932684"
+	],
+	tasks: [{
+		uid: "3d6afe41",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_input"
+		}]
+	}]
+}

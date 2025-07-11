@@ -1,0 +1,18 @@
+{
+	title: "Please enable the resource pack",
+	x: 0.0d,
+	y: -7.0d,
+	text: [
+		"If the resource pack \"tungstenized\" is not already enabled, please enable it in options > resource packs",
+		"",
+		"This resource pack changes lots of textures, models, and text to make the experience more immersive."
+	],
+	dependencies: [
+		"f9b903b8"
+	],
+	tasks: [{
+		uid: "51bef99f",
+		type: "checkmark",
+		title: "ok"
+	}]
+}

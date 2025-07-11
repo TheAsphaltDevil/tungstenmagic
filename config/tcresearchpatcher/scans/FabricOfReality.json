@@ -1,0 +1,9 @@
+[
+    {
+	"key": "!FabricOfReality",
+	"type": "thaumcraft:block",
+	"object": {
+	    "name": "dimdoors:fabric;1;15"
+		}
+	}
+]

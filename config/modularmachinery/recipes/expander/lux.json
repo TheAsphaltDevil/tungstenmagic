@@ -1,0 +1,19 @@
+{
+    "machine": "expander",
+    "registryName": "lux",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "aspect",
+            "io-type": "output",
+            "aspect": "lux",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_lux",
+            "amount": 10
+        }
+    ]
+}

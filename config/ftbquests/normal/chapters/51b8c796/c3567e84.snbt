@@ -1,0 +1,18 @@
+{
+	x: 3.5d,
+	y: -0.5d,
+	shape: "heart",
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "11440b5a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:amphithere_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

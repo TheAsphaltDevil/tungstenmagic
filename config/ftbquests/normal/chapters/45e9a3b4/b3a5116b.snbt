@@ -1,0 +1,56 @@
+{
+	title: "Spectral Relay",
+	x: 16.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "886b0d2c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "a2348107",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Spectral Relay",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 889,
+					Y: 15,
+					Z: 92
+				},
+				itemcountmap: [{
+					item: 8067,
+					meta: 4,
+					count: 4
+				},
+				{
+					item: 8067,
+					meta: 3,
+					count: 4
+				},
+				{
+					item: 8068,
+					meta: 0,
+					count: 1
+				}],
+				endPos: {
+					X: 887,
+					Y: 15,
+					Z: 94
+				}
+			}
+		}
+	}]
+}

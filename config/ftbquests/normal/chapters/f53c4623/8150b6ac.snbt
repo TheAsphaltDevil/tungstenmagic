@@ -1,0 +1,33 @@
+{
+	title: "Freshman Gifts",
+	icon: "botania:virus 1 1",
+	x: 9.0d,
+	y: -5.5d,
+	description: "Stronger Horses",
+	text: [
+		"Apply this to your horse to make them become undead.",
+		"",
+		"In this form, your horse's speed is doubled, your horse's jump is increased by 50%, and they no longer take fall damage.",
+		"",
+		"---",
+		"Mancer's best friend."
+	],
+	dependencies: [
+		"68919249"
+	],
+	tasks: [{
+		uid: "5eadc708",
+		type: "gamestage",
+		stage: "musFreshman"
+	}],
+	rewards: [{
+		uid: "1ea30091",
+		type: "item",
+		item: "botania:virus"
+	},
+	{
+		uid: "9c8ac412",
+		type: "item",
+		item: "botania:virus 1 1"
+	}]
+}

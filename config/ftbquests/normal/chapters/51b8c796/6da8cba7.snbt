@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "bf501535",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_sixth_sense"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

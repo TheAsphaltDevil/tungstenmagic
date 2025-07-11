@@ -1,0 +1,14 @@
+{
+	title: "N: Swap Hotbar",
+	icon: "thebetweenlands:octine_ingot",
+	x: 6.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7d7d43ff",
+		type: "checkmark",
+		title: "Y"
+	}]
+}

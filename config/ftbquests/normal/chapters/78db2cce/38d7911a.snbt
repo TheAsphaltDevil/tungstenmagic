@@ -1,0 +1,34 @@
+{
+	title: "Summoning Gaia",
+	x: 14.0d,
+	y: -7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6638ffa8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "180339e7",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "901d9d3e",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	},
+	{
+		uid: "74cf8629",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	}]
+}

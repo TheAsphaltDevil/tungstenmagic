@@ -1,0 +1,21 @@
+{
+	title: "V: Vanity",
+	icon: "minecraft:gold_ingot",
+	x: 4.0d,
+	y: 2.5d,
+	text: [
+		"Used for making cosmetics on your player!"
+	],
+	tasks: [{
+		uid: "e9f1e74e",
+		type: "item",
+		title: "Ctrl+V: Slots, Alt+V: Editor",
+		items: [{
+			item: "extrabitmanipulation:bodypart_template"
+		}]
+	},
+	{
+		uid: "d1eb3b3d",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 6.5d,
+	y: 1.0d,
+	shape: "gear",
+	can_repeat: true,
+	tasks: [{
+		uid: "49f82aac",
+		type: "item",
+		items: [{
+			item: "embers:ingot_dawnstone"
+		}]
+	}],
+	rewards: [{
+		uid: "489e3deb",
+		type: "item",
+		item: "treasure2:silver_coin",
+		count: 5
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 29.0d,
+	y: -8.0d,
+	text: [
+		"Your first step into the world of Thaumaturgy.",
+		" ",
+		"You'll eventually get more advanced tables."
+	],
+	dependencies: [
+		"3bcbeacb"
+	],
+	tasks: [{
+		uid: "1bf46dc2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}]
+}

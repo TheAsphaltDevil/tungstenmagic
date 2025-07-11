@@ -1,0 +1,183 @@
+{
+	title: "Trinkets",
+	icon: "thaumcraft:loot_bag 1 1",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare",
+	images: [{
+		x: -2.0d,
+		y: 5.0d,
+		width: 6.0d,
+		height: 32.0d,
+		rotation: 0.0d,
+		image: "devmenu:scrollone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 4.0d,
+		y: 9.0d,
+		width: 5.0d,
+		height: 15.0d,
+		rotation: 0.0d,
+		image: "devmenu:scrollone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 4.0d,
+		y: -2.0d,
+		width: 5.0d,
+		height: 9.0d,
+		rotation: 0.0d,
+		image: "devmenu:scrollone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 4.5d,
+		y: 3.5d,
+		width: 4.0d,
+		height: 1.5d,
+		rotation: 0.0d,
+		image: "devmenu:discs.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.0d,
+		y: -6.5d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "devmenu:cmana.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.5d,
+		y: -0.5d,
+		width: 6.0d,
+		height: 10.0d,
+		rotation: 0.0d,
+		image: "devmenu:scrollone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.5d,
+		y: -3.0d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "devmenu:lmana.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.5d,
+		y: 7.0d,
+		width: 6.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "devmenu:scrollone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.0d,
+		y: 6.0d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "devmenu:ember.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -13.5d,
+		y: 4.5d,
+		width: 6.0d,
+		height: 10.0d,
+		rotation: 0.0d,
+		image: "devmenu:scrollone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -13.0d,
+		y: 1.5d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "devmenu:legendary.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.5d,
+		y: 13.0d,
+		width: 6.0d,
+		height: 7.0d,
+		rotation: 0.0d,
+		image: "devmenu:scrollone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.0d,
+		y: 11.5d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "devmenu:visbanner.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 4.5d,
+		y: -4.5d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "devmenu:beastbanner.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 9.5d,
+		y: 3.5d,
+		width: 6.0d,
+		height: 17.0d,
+		rotation: 0.0d,
+		image: "devmenu:scrollone.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 10.0d,
+		y: -2.5d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "devmenu:armorbanner.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

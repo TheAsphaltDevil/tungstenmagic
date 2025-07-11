@@ -1,0 +1,71 @@
+{
+	title: "Starlight Infuser",
+	x: 17.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "9aedc846",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "5cd7e511",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Starlight Infuser",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 907,
+					Y: 22,
+					Z: 65
+				},
+				itemcountmap: [{
+					item: 22,
+					meta: 0,
+					count: 1
+				},
+				{
+					item: 8067,
+					meta: 6,
+					count: 12
+				},
+				{
+					item: 8067,
+					meta: 4,
+					count: 4
+				},
+				{
+					item: 8067,
+					meta: 3,
+					count: 40
+				},
+				{
+					item: 8067,
+					meta: 2,
+					count: 8
+				},
+				{
+					item: 8067,
+					meta: 0,
+					count: 12
+				}],
+				endPos: {
+					X: 901,
+					Y: 16,
+					Z: 71
+				}
+			}
+		}
+	}]
+}

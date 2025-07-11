@@ -1,0 +1,56 @@
+{
+	title: "Tier III Blood Altar",
+	x: 17.0d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "0661c151",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "80d2e9ec",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 1,
+				TemplateName: "Tier III Blood Altar",
+				UUID: "9942b65d-08f3-49f8-abc0-4d3ea63a9427",
+				startPos: {
+					X: 802,
+					Y: 14,
+					Z: 155
+				},
+				itemcountmap: [{
+					item: 5522,
+					meta: 0,
+					count: 20
+				},
+				{
+					item: 98,
+					meta: 0,
+					count: 8
+				},
+				{
+					item: 89,
+					meta: 0,
+					count: 4
+				}],
+				endPos: {
+					X: 808,
+					Y: 11,
+					Z: 149
+				}
+			}
+		}
+	}]
+}

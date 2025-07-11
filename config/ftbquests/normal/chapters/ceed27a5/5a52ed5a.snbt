@@ -1,0 +1,30 @@
+{
+	title: "Keybinds II",
+	x: 4.0d,
+	y: -7.0d,
+	text: [
+		"If you get an interactive item, the keybinds for it will most likely pop up in the top right.",
+		"",
+		"As a demonstration, you will now get an item you will need on your journey.",
+		"",
+		"If you missed the message, or would simply like to view all keybinds, check the 'keybinds' tab in this book."
+	],
+	dependencies: [
+		"38a282de"
+	],
+	tasks: [{
+		uid: "d696aa40",
+		type: "checkmark",
+		title: "ok"
+	}],
+	rewards: [{
+		uid: "7f4bc998",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bibliocraft:compass"
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "I am the one who speaks in tongues",
+	icon: "thaumcraft:seal 1 11",
+	x: -3.5d,
+	y: -6.5d,
+	shape: "rsquare",
+	description: "Auromancy",
+	text: [
+		"There comes a time when your oppressor can no longer oppress.",
+		"",
+		"When you rise above them, to a level you thought impossible.",
+		"",
+		"You strike back, the same way they struck you.",
+		"",
+		"Part of you feels bad.",
+		"",
+		"Part of you doesn't.",
+		"---",
+		"",
+		"Defeat the Guardian of Gaia, without wearing armor at any point during the fight."
+	],
+	hide: true,
+	tasks: [{
+		uid: "7ba74061",
+		type: "checkmark",
+		title: "Defeat the gaia guardian with only magic."
+	}]
+}

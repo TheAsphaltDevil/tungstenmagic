@@ -1,0 +1,93 @@
+{
+	title: "Graduate Gifts",
+	icon: "extrautils2:playerchest",
+	x: 6.5d,
+	y: -9.5d,
+	description: "Voodoo Chest",
+	text: [
+		"Congratulations on graduating!",
+		"",
+		"Your final gift is one of great power.",
+		"",
+		"Using some powerful voodoo magic, you will be able to transfer to and from your person through a chest.",
+		"",
+		"It may not initially sound as exciting as the other gifts, but with the creative mind of a merchant and machinist, you shall achieve tremendous feats with this one little box.",
+		"",
+		"---",
+		"There's a reason the weakest but smartest are at the top of the food chain."
+	],
+	dependencies: [
+		"6f85210e"
+	],
+	tasks: [{
+		uid: "8b74fdc6",
+		type: "gamestage",
+		stage: "imperiaGrad"
+	}],
+	rewards: [{
+		uid: "29d7c3ab",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6604899539562883411L,
+					AS_Amulet_HolderMost: -4554225877018588837L
+				}
+			},
+			id: "botania:manasteelhelmreveal",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 1s,
+					id: 74
+				}],
+				RepairCost: 1,
+				phantomInk: 1b,
+				display: {
+					Name: "Celestian Graduate Halo: Imperia"
+				},
+				mahoujin_projector: {
+					IMAGE_LOAD: 10,
+					CIRCLE_PITCH: 350.0f,
+					CIRCLE_SHOW_R: 0b,
+					ForgeData: {},
+					CIRCLE_A: 200,
+					CIRCLE_B: 255,
+					CIRCLE_SHOW_C: 1b,
+					CIRCLE_G: 255,
+					CIRCLE_SIZE: 1.2f,
+					id: "mahoutsukai:mahoujin_projector",
+					RUNES_LOAD: -1,
+					CIRCLE_SPEED: 0.6f,
+					CIRCLE_YAW: 30.0f,
+					CIRCLE_RING_ANGLE: 0.0f,
+					RING_HEIGHT: 0.125f,
+					CIRCLE_SPEED_YAW: 0.0f,
+					CIRCLE_R: 0,
+					ROTATION_OFFSET: 0.0f,
+					x: 322,
+					y: 4,
+					CIRCLE_SPEED_PITCH: 0.0f,
+					z: 707,
+					CIRCLE_ROTATION: 31.419832f,
+					CIRCLE_Y: 2.0f,
+					CIRCLE_Z: -0.03f,
+					CIRCLE_X: -0.085f
+				}
+			}
+		}
+	},
+	{
+		uid: "53d7b382",
+		type: "item",
+		item: "extrautils2:playerchest"
+	},
+	{
+		uid: "d5f31400",
+		type: "item",
+		item: "extrautils2:passivegenerator 1 5"
+	}]
+}
